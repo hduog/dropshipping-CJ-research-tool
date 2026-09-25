@@ -1,0 +1,73 @@
+{
+  "tool": "search_products",
+  "args": {
+    "lv3categoryList": [
+      "2410110341061612000"
+    ],
+    "orderBy": 1,
+    "sort": "desc",
+    "pageSize": 100,
+    "features": [
+      "enable_category",
+      "enable_description",
+      "enable_video",
+      "enable_combine"
+    ]
+  },
+  "rank_by_listedNum": 2,
+  "data": {
+    "id": "1653041912300969984",
+    "nameEn": "Pet Dog Cat Slow Feeder Bowls Anti Choking Slow Feeder Dish Bowl Home Dog Eating Plate Anti Gulping Bowl Supplies",
+    "sku": "CJGY1748465",
+    "isCollect": 0,
+    "listedNum": 3359,
+    "bigImage": "https://cf.cjdropshipping.com/3d15f29e-52f2-4d5f-bfd5-e5eedb851eec.jpg",
+    "sellPrice": "1.29 -- 2.11",
+    "nowPrice": null,
+    "authorityStatus": "1",
+    "addMarkStatus": 0,
+    "isVedio": 1,
+    "productType": "0",
+    "isAut": "0",
+    "categoryId": "2410110341061612000",
+    "threeCategoryName": "Pet Bowls",
+    "twoCategoryId": "2410110337031615300",
+    "twoCategoryName": "Pet Drinking & Feeding",
+    "oneCategoryId": "2409110611570657700",
+    "oneCategoryName": "Pet Supplies",
+    "directMinOrderNum": null,
+    "supplierName": null,
+    "zoneRecommendJson": null,
+    "createAt": null,
+    "setRecommendedTime": null,
+    "autStatus": "1",
+    "isList": 0,
+    "isAd": 0,
+    "activityId": null,
+    "isPersonalized": 0,
+    "saleStatus": "3",
+    "syncListedProductStatus": null,
+    "videoList": [
+      "75dfc7b0f87771ed97720764b3ec0102"
+    ],
+    "deliveryCycle": null,
+    "warehouseInventoryNum": 60972,
+    "discountPrice": null,
+    "discountPriceRate": null,
+    "myProduct": false,
+    "currency": null,
+    "totalVerifiedInventory": 2,
+    "totalUnVerifiedInventory": null,
+    "verifiedWarehouse": 1,
+    "customization": 0,
+    "hasCECertification": 0,
+    "description": "<p><b>Overview:</b></p><p>1.【Slow Feeding】The Slow Feeder Dog Bowl Can Help Your Pet Slow Eating, Anti Gulping Healthy Eating, Interactive Bloat Stop Dog, Choking And Vomiting, Difficulty Recommendations: Bone Type (Difficult)<br>2.【Unique Shape】The Fun-Shaped Slow Feeders In The Bowl Bring Your Dog Feeder Dog Bowl Fun Slow And Even The Fastest Eaters Can Effectively Help Them Slow Eating.<br>3.【Safety Material】The Slow Feed Dog Bowl Is Made Of Environmentally Friendly Materials That Meet Pet Food Safety, High-Temperature Resistance, Strong, And Bite-Resistant, To Ensure Your Pet Safe Use.<b><br></b></p><p><b><br></b></p><p><b>Product Information:</b><br></p><p>Material: PP<br>Specification: Green, Pink, Orange</p><p><br><b>Packing List:</b></p><p>Pet bowl * 1pc<br><img src=\"https://cf.cjdropshipping.com/1d320cc0-82e7-40a8-a4f0-677ec0d56fdf.png\" style=\"max-width:100%;\"><img src=\"https://cf.cjdropshipping.com/82c29ab3-2793-44f3-9d4b-3e4cf1e9b979.jpeg\" style=\"max-width: 100%;\"><img src=\"https://cf.cjdropshipping.com/595d71ea-28aa-4ec0-a1ea-b0e7a5e1ed62.jpeg\" style=\"max-width: 100%;\"><img src=\"https://cf.cjdropshipping.com/bb81a142-a0c0-4bbd-be00-d5bf1767dc57.jpeg\" style=\"max-width: 100%;\"><br></p>",
+    "spu": "CJGY1748465",
+    "inventoryInfo": null,
+    "variantKeyEn": null,
+    "variantInventories": null,
+    "propertyKey": null,
+    "isVideo": 1,
+    "productUrl": "https://www.cjdropshipping.com/product/pet-dog-cat-slow-feeder-bowls-anti-choking-slow-feeder-dish-bowl-home-dog-eating-plate-anti-gulping-bowl-supplies-p-1653041912300969984.html"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "tool": "get_product_reviews",
+  "args": {
+    "pid": "1665981331156774912",
+    "pageSize": 20,
+    "pagesFetched": [
+      1
+    ]
+  },
+  "total": 20,
+  "fetched": 20,
+  "complete": true,
+  "pages": [
+    {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 20,
+      "list": [
+        {
+          "commentId": 1671794870140284928,
+          "pid": "1665981331156774912",
+          "comment": "Article conforme à la description, je suis ravie",
+          "commentUrls": null,
+          "commentUser": "P***t",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2023-06-02T13:01:34+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1671794870157062145,
+          "pid": "1665981331156774912",
+          "comment": "Excelente calidad! Recomiendo este producto.",
+          "commentUrls": null,
+          "commentUser": "P***b",
+          "score": 5,
+          "countryCode": "CL",
+          "commentDate": "2023-06-01T18:00:54+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CL.png"
+        },
+        {
+          "commentId": 1671794870140284929,
+          "pid": "1665981331156774912",
+          "comment": "ayuda a que mi perro coma más lento. muy buen material",
+          "commentUrls": null,
+          "commentUser": "T***c",
+          "score": 5,
+          "countryCode": "MX",
+          "commentDate": "2023-02-24T22:49:12+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/MX.png"
+        },
+        {
+          "commentId": 1671794870144479233,
+          "pid": "1665981331156774912",
+          "comment": "Very nice silicone plate. My puppy first ate a little from it, then took it by the edge, poured out all the food and now plays with it instead of my sandals. Even if he will not eat from it, but will only wear it in his teeth, this is a great thing.  Fast shipping.",
+          "commentUrls": null,
+          "commentUser": "L***c",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2023-02-24T21:27:24+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1671794870161256450,
+          "pid": "1665981331156774912",
+          "comment": "Great!  ",
+          "commentUrls": null,
+          "commentUser": "L***o",
+          "score": 5,
+          "countryCode": "AU",
+          "commentDate": "2023-02-24T21:08:55+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/AU.png"
+        },
+        {
+          "commentId": 1671794870161256451,
+          "pid": "1665981331156774912",
+          "comment": "Parfait",
+          "commentUrls": null,
+          "commentUser": "N***z",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2023-02-24T20:36:35+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1671794870161256448,
+          "pid": "1665981331156774912",
+          "comment": "Esta muy bien ",
+          "commentUrls": null,
+          "commentUser": "M***x",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2023-02-24T19:51:19+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1671794870157062144,
+          "pid": "1665981331156774912",
+          "comment": "Très bon produit pour le moment je suis ravie! Ma petite chatte mange bien moins vite! ",
+          "commentUrls": null,
+          "commentUser": "E***n",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2023-02-24T17:24:48+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1671794870144479234,
+          "pid": "1665981331156774912",
+          "comment": "llego rápido, igual a la foto, mi gato ahora come más lento :)))",
+          "commentUrls": null,
+          "commentUser": "M***a",
+          "score": 5,
+          "countryCode": "CL",
+          "commentDate": "2023-02-24T10:50:59+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CL.png"
+        },
+        {
+          "commentId": 1671794870157062151,
+          "pid": "1665981331156774912",
+          "comment": "cats like it!",
+          "commentUrls": null,
+          "commentUser": "E***b",
+          "score": 5,
+          "countryCode": "CA",
+          "commentDate": "2023-02-24T08:37:50+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CA.png"
+        },
+        {
+          "commentId": 1671794870152867840,
+          "pid": "1665981331156774912",
+          "comment": "Dolphin and crab came with small suction cups to hold to the floor, the paw came regularly flat.. wouldn’t mind either way with or without, recommend seller, was pretty fast comparing to shipping to our region",
+          "commentUrls": null,
+          "commentUser": "P***i",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2023-02-24T07:26:03+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1671794870152867841,
+          "pid": "1665981331156774912",
+          "comment": "wszystko okej . Mata super psy zadowolone.",
+          "commentUrls": null,
+          "commentUser": "Q***d",
+          "score": 5,
+          "countryCode": "PL",
+          "commentDate": "2023-02-24T07:10:39+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/PL.png"
+        },
+        {
+          "commentId": 1671794870144479232,
+          "pid": "1665981331156774912",
+          "comment": "Für Katzen ist es perfekt und für kleine Hunde denke ich auch. Kann ich empfehlen.",
+          "commentUrls": null,
+          "commentUser": "G***m",
+          "score": 5,
+          "countryCode": "DE",
+          "commentDate": "2023-02-24T07:09:44+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/DE.png"
+        },
+        {
+          "commentId": 1671794872732364800,
+          "pid": "1665981331156774912",
+          "comment": "Awesome product use it everyday",
+          "commentUrls": null,
+          "commentUser": "N***v",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2023-02-24T06:54:38+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1671794870157062146,
+          "pid": "1665981331156774912",
+          "comment": "this item is very very useful for feeding our cat",
+          "commentUrls": null,
+          "commentUser": "T***p",
+          "score": 5,
+          "countryCode": "RO",
+          "commentDate": "2023-02-24T06:37:48+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RO.png"
+        },
+        {
+          "commentId": 1671794870157062147,
+          "pid": "1665981331156774912",
+          "comment": "Perfect to make them eat more slowly",
+          "commentUrls": null,
+          "commentUser": "Z***z",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2023-02-24T05:51:29+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1671794870157062150,
+          "pid": "1665981331156774912",
+          "comment": "Súper bonito",
+          "commentUrls": null,
+          "commentUser": "T***s",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2023-02-24T05:23:18+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1671794870161256449,
+          "pid": "1665981331156774912",
+          "comment": "Excelente ",
+          "commentUrls": null,
+          "commentUser": "R***j",
+          "score": 5,
+          "countryCode": "US",
+          "commentDate": "2023-02-24T05:13:12+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+        },
+        {
+          "commentId": 1671794870157062149,
+          "pid": "1665981331156774912",
+          "comment": "ок",
+          "commentUrls": null,
+          "commentUser": "M***i",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2023-02-24T03:09:32+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1671794870157062148,
+          "pid": "1665981331156774912",
+          "comment": "superb quality. cat loves to eat from it",
+          "commentUrls": null,
+          "commentUser": "O***z",
+          "score": 5,
+          "countryCode": "SK",
+          "commentDate": "2023-02-24T02:05:17+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/SK.png"
+        }
+      ]
+    }
+  ]
+}

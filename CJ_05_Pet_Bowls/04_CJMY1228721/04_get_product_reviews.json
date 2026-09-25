@@ -1,0 +1,362 @@
+{
+  "tool": "get_product_reviews",
+  "args": {
+    "pid": "1419871243087253504",
+    "pageSize": 20,
+    "pagesFetched": [
+      1,
+      2
+    ]
+  },
+  "total": 28,
+  "fetched": 28,
+  "complete": true,
+  "pages": [
+    {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 28,
+      "list": [
+        {
+          "commentId": 9173662,
+          "pid": "1419871243087253504",
+          "comment": "I had a lot of inclination and that&#39;s why I put a cap on it but it&#39;s product is great",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/9842becb-eb82-421a-a38c-0fd5343f8093.jpg"
+          ],
+          "commentUser": "E***a",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2021-12-21T16:36:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 9173663,
+          "pid": "1419871243087253504",
+          "comment": "My cats are delighted and I arrive much earlier than expected",
+          "commentUrls": null,
+          "commentUser": "E***o",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2021-11-11T18:57:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 9173664,
+          "pid": "1419871243087253504",
+          "comment": "Loved, came perfect flawless.",
+          "commentUrls": null,
+          "commentUser": "X***r",
+          "score": 5,
+          "countryCode": "BR",
+          "commentDate": "2021-10-08T01:41:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/BR.png"
+        },
+        {
+          "commentId": 9173665,
+          "pid": "1419871243087253504",
+          "comment": "Very nice ",
+          "commentUrls": null,
+          "commentUser": "P***t",
+          "score": 5,
+          "countryCode": "US",
+          "commentDate": "2021-09-27T12:01:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+        },
+        {
+          "commentId": 9173667,
+          "pid": "1419871243087253504",
+          "comment": "A single Bowl has too much tilt.",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/f4c9af71-ab33-45f4-8c2c-24fd24bd1d98.jpg"
+          ],
+          "commentUser": "V***r",
+          "score": 5,
+          "countryCode": "RU",
+          "commentDate": "2021-09-26T22:22:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+        },
+        {
+          "commentId": 9173666,
+          "pid": "1419871243087253504",
+          "comment": "Shipping fast. Bowls are large, the cat is happy. I recommend it to everyone.",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/2c9c4afd-18a1-49c4-9978-fa793341c5a4.jpg"
+          ],
+          "commentUser": "V***r",
+          "score": 5,
+          "countryCode": "RU",
+          "commentDate": "2021-09-26T22:22:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+        },
+        {
+          "commentId": 9173668,
+          "pid": "1419871243087253504",
+          "comment": "It&rsquo;s wonderful and my cats love it",
+          "commentUrls": null,
+          "commentUser": "C***a",
+          "score": 5,
+          "countryCode": "US",
+          "commentDate": "2021-09-11T17:05:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+        },
+        {
+          "commentId": 9173669,
+          "pid": "1419871243087253504",
+          "comment": "Parfait. Sauf que mes chats ne veulent pas manger dedans. Ils pr&eacute;f&egrave;rent leur vieilles gamelles.",
+          "commentUrls": null,
+          "commentUser": "F***r",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2021-09-08T23:20:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 9173670,
+          "pid": "1419871243087253504",
+          "comment": "The shipment was very fast. Perfect packing and my cats love it. I recommend it.",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/f648272f-091f-4fae-b701-d59579bdf2f8.jpg"
+          ],
+          "commentUser": "I***z",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2021-09-03T15:56:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 9173671,
+          "pid": "1419871243087253504",
+          "comment": " Ne tiens pas bien ",
+          "commentUrls": null,
+          "commentUser": "M***s",
+          "score": 3,
+          "countryCode": "FR",
+          "commentDate": "2021-08-29T23:17:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 9173672,
+          "pid": "1419871243087253504",
+          "comment": "A bowl came chipped, Despite was well packed. In fact as soon as I removed the casing, fell off the plastic piece broken. I provveduto to paste it with a glue Attack. Hope it is broken during the journey and not that the seller have packed all despite were gia broken. Hope you don&#39;t bust again",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/815f7793-af82-47c6-a0f3-18a7962580cc.jpg"
+          ],
+          "commentUser": "G***O",
+          "score": 4,
+          "countryCode": "IT",
+          "commentDate": "2021-08-25T04:35:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IT.png"
+        },
+        {
+          "commentId": 9173673,
+          "pid": "1419871243087253504",
+          "comment": "This is our second order. Item very well packaged and quick reception. Quality material",
+          "commentUrls": null,
+          "commentUser": "F***r",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2021-08-20T20:15:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 9173674,
+          "pid": "1419871243087253504",
+          "comment": "Smaller than I expected and it took longer to arrive than I put in the follow-up",
+          "commentUrls": null,
+          "commentUser": "M***z",
+          "score": 4,
+          "countryCode": "ES",
+          "commentDate": "2021-08-15T18:06:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 9173675,
+          "pid": "1419871243087253504",
+          "comment": "Conform to the description",
+          "commentUrls": null,
+          "commentUser": "F***r",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2021-08-10T02:05:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 9173676,
+          "pid": "1419871243087253504",
+          "comment": "Prekės negavau grąžino pinigus.",
+          "commentUrls": null,
+          "commentUser": "J***ė",
+          "score": 5,
+          "countryCode": "LT",
+          "commentDate": "2021-08-08T21:57:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/LT.png"
+        },
+        {
+          "commentId": 9173677,
+          "pid": "1419871243087253504",
+          "comment": "Ideal practical product for my cats, fast shipping.",
+          "commentUrls": null,
+          "commentUser": "P***a",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2021-08-05T07:27:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 9173678,
+          "pid": "1419871243087253504",
+          "comment": "geniales, igual que en la foto, han llegado en perfecto estado y a mi gata le han encantado.Ademas al tener la plataforma elevadora, la comida est&aacute; m&aacute;s protegida ya que no est&aacute; tan cerca del suelo.",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/53d26508-6793-46cc-9bc9-35732a7cf5b9.jpg"
+          ],
+          "commentUser": "C***r",
+          "score": 4,
+          "countryCode": "ES",
+          "commentDate": "2021-08-04T05:26:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 9173679,
+          "pid": "1419871243087253504",
+          "comment": "Yes to received by very well-ambaled cat. I give you 5 X. Rewarding the product and seller.",
+          "commentUrls": null,
+          "commentUser": "A***o",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2021-08-01T22:11:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 9173680,
+          "pid": "1419871243087253504",
+          "comment": "so happy from purchase \r\nvery well packaged  \r\nstrong hold so it won&#39;t fall down \r\nmy  verrrry happy",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/8f2e528e-1ea7-49a7-9125-2c66cde5a57c.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/9695d507-b88c-4d28-8691-9e7c2f4905a7.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/d2460a40-7c0b-4b7a-bc01-e0aa5edf3cde.jpg"
+          ],
+          "commentUser": "V***a",
+          "score": 5,
+          "countryCode": "HK",
+          "commentDate": "2021-07-28T14:03:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/HK.png"
+        },
+        {
+          "commentId": 9173681,
+          "pid": "1419871243087253504",
+          "comment": "He arrived perfectly",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/346dc3dc-f7d2-4cb6-bd3c-f232142a357a.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/8e47d0db-dadd-4bdf-84c1-33b425267275.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/557a0b3a-bc31-4fe3-849d-16f33396226c.jpg"
+          ],
+          "commentUser": "J***z",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2021-07-26T02:00:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        }
+      ]
+    },
+    {
+      "pageNum": 2,
+      "pageSize": 20,
+      "total": 28,
+      "list": [
+        {
+          "commentId": 9173682,
+          "pid": "1419871243087253504",
+          "comment": "Complies with the descriptions",
+          "commentUrls": null,
+          "commentUser": "M***a",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2021-07-25T16:48:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 9173683,
+          "pid": "1419871243087253504",
+          "comment": "Conform to the description",
+          "commentUrls": null,
+          "commentUser": "N***o",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2021-07-18T18:32:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 9173684,
+          "pid": "1419871243087253504",
+          "comment": "The order did not arrive, the money, was not refunded and the only answer given is that I contact the delivery company that they cannot do anything else. And they confirmed how I got the order. I won&#39;t buy anymore.",
+          "commentUrls": null,
+          "commentUser": "S***o",
+          "score": 1,
+          "countryCode": "ES",
+          "commentDate": "2021-07-16T20:39:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 9173685,
+          "pid": "1419871243087253504",
+          "comment": "As I expected, very happy both me and my gati, quick hehehe on shipping",
+          "commentUrls": null,
+          "commentUser": "G***z",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2021-07-15T00:55:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 9173686,
+          "pid": "1419871243087253504",
+          "comment": "Good nice and cheap",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/98165537-aa21-42da-b80a-477bd8dd0163.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/a2bf6837-8fca-44b8-a248-6f354d73d387.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2022-01-04/39adb664-e117-41fd-89ce-8ce9b50555c3.jpg"
+          ],
+          "commentUser": "J***s",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2021-07-13T20:33:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 9173687,
+          "pid": "1419871243087253504",
+          "comment": "That&#39;s right.",
+          "commentUrls": null,
+          "commentUser": "R***i",
+          "score": 4,
+          "countryCode": "ES",
+          "commentDate": "2021-07-13T01:26:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 9173688,
+          "pid": "1419871243087253504",
+          "comment": "Muy bueno",
+          "commentUrls": null,
+          "commentUser": "S***r",
+          "score": 5,
+          "countryCode": "US",
+          "commentDate": "2021-07-12T06:13:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+        },
+        {
+          "commentId": 9173689,
+          "pid": "1419871243087253504",
+          "comment": "Beautiful",
+          "commentUrls": null,
+          "commentUser": "L***o",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2021-07-12T00:02:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        }
+      ]
+    }
+  ]
+}

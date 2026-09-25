@@ -1,0 +1,232 @@
+{
+  "tool": "get_product_detail",
+  "args": {
+    "pid": "1653041912300969984",
+    "features": "enable_combine,enable_video"
+  },
+  "prefix_text": "🔍 Product detail loaded.\n\n",
+  "data": {
+    "pid": "1653041912300969984",
+    "productName": "[\"狗狗慢食碗宠物PP材质简约\",\"狗狗慢食碗宠\",\"宠物PP材质简约\"]",
+    "productNameSet": [
+      "狗狗慢食碗宠物PP材质简约",
+      "狗狗慢食碗宠",
+      "宠物PP材质简约"
+    ],
+    "productNameEn": "Pet Dog Cat Slow Feeder Bowls Anti Choking Slow Feeder Dish Bowl Home Dog Eating Plate Anti Gulping Bowl Supplies",
+    "productSku": "CJGY1748465",
+    "bigImage": "https://cf.cjdropshipping.com/3d15f29e-52f2-4d5f-bfd5-e5eedb851eec.jpg",
+    "productImage": "[\"https://cf.cjdropshipping.com/3d15f29e-52f2-4d5f-bfd5-e5eedb851eec.jpg\",\"https://cf.cjdropshipping.com/f49c878f-845e-4c98-a4e9-108c8406179e.jpeg\",\"https://cf.cjdropshipping.com/874ab992-b94e-4ec8-b48d-9f100899cddf.jpg\",\"https://cf.cjdropshipping.com/9c15aae8-2d00-4b68-9264-b8f998457982.jpeg\",\"https://cf.cjdropshipping.com/a4ade007-4239-47f0-a8fc-07676007843e.jpg\",\"https://cf.cjdropshipping.com/3ba2f6bb-b793-4c12-b2bf-5d608f0a159f.jpeg\",\"https://cf.cjdropshipping.com/3f2fd331-bd46-4e91-939b-2fe10bc16685.jpeg\",\"https://cf.cjdropshipping.com/d9f45be0-81b0-485c-a73e-3498828b065a.jpeg\",\"https://cf.cjdropshipping.com/1dbcc4f1-e501-49d0-9e5c-87db96fe6ace.jpeg\",\"https://cf.cjdropshipping.com/3f2fd331-bd46-4e91-939b-2fe10bc16685.jpeg\",\"https://cf.cjdropshipping.com/1dbcc4f1-e501-49d0-9e5c-87db96fe6ace.jpeg\",\"https://cf.cjdropshipping.com/d9f45be0-81b0-485c-a73e-3498828b065a.jpeg\",\"https://oss-cf.cjdropshipping.com/product/2023/10/26/07/f0f25a94-d40c-4d77-880b-aca7d7d40eee.png\",\"https://oss-cf.cjdropshipping.com/product/2023/10/26/07/afbbfb2a-2ded-4970-b2bc-a204d1c3372c.png\"]",
+    "productImageSet": [
+      "https://cf.cjdropshipping.com/3f2fd331-bd46-4e91-939b-2fe10bc16685.jpeg",
+      "https://cf.cjdropshipping.com/9c15aae8-2d00-4b68-9264-b8f998457982.jpeg",
+      "https://cf.cjdropshipping.com/1dbcc4f1-e501-49d0-9e5c-87db96fe6ace.jpeg",
+      "https://cf.cjdropshipping.com/a4ade007-4239-47f0-a8fc-07676007843e.jpg",
+      "https://cf.cjdropshipping.com/3d15f29e-52f2-4d5f-bfd5-e5eedb851eec.jpg",
+      "https://cf.cjdropshipping.com/f49c878f-845e-4c98-a4e9-108c8406179e.jpeg",
+      "https://cf.cjdropshipping.com/3ba2f6bb-b793-4c12-b2bf-5d608f0a159f.jpeg",
+      "https://cf.cjdropshipping.com/d9f45be0-81b0-485c-a73e-3498828b065a.jpeg",
+      "https://oss-cf.cjdropshipping.com/product/2023/10/26/07/f0f25a94-d40c-4d77-880b-aca7d7d40eee.png",
+      "https://cf.cjdropshipping.com/874ab992-b94e-4ec8-b48d-9f100899cddf.jpg",
+      "https://oss-cf.cjdropshipping.com/product/2023/10/26/07/afbbfb2a-2ded-4970-b2bc-a204d1c3372c.png"
+    ],
+    "productWeight": "138.00-277.00",
+    "productUnit": null,
+    "productType": "ORDINARY_PRODUCT",
+    "categoryId": "2410110341061612000",
+    "categoryName": "Pet Supplies > Pet Drinking & Feeding > Pet Bowls",
+    "entryCode": "3926909090",
+    "entryName": "塑料慢食碗",
+    "entryNameEn": "Plastic slow food bowl",
+    "materialName": "[\"塑料\"]",
+    "materialNameSet": [
+      "塑料"
+    ],
+    "materialNameEn": "[\"Plastic\"]",
+    "materialNameEnSet": [
+      "Plastic"
+    ],
+    "materialKey": "[\"PLASTIC\"]",
+    "materialKeySet": [
+      "PLASTIC"
+    ],
+    "packingWeight": "170.00-340.00",
+    "packingName": "[\"塑料袋\"]",
+    "packingNameSet": [
+      "塑料袋"
+    ],
+    "packingNameEn": "[\"Plastic bags\"]",
+    "packingNameEnSet": [
+      "Plastic bags"
+    ],
+    "packingKey": "[\"PLASTIC_BAG\"]",
+    "packingKeySet": [
+      "PLASTIC_BAG"
+    ],
+    "productKey": "[\"颜色\"]",
+    "productKeySet": [
+      "颜色"
+    ],
+    "productKeyEn": "Color",
+    "productKeyEnSet": [
+      "Color"
+    ],
+    "productPro": "[\"普货\",\"抛货\"]",
+    "productProSet": [
+      "普货",
+      "抛货"
+    ],
+    "productProEn": "[\"COMMON\",\"OVERSIZE\"]",
+    "productProEnSet": [
+      "COMMON",
+      "OVERSIZE"
+    ],
+    "sellPrice": "1.29-2.11",
+    "sourceFrom": 2,
+    "description": "<p><b>Overview:</b></p><p>1.【Slow Feeding】The Slow Feeder Dog Bowl Can Help Your Pet Slow Eating, Anti Gulping Healthy Eating, Interactive Bloat Stop Dog, Choking And Vomiting, Difficulty Recommendations: Bone Type (Difficult)<br>2.【Unique Shape】The Fun-Shaped Slow Feeders In The Bowl Bring Your Dog Feeder Dog Bowl Fun Slow And Even The Fastest Eaters Can Effectively Help Them Slow Eating.<br>3.【Safety Material】The Slow Feed Dog Bowl Is Made Of Environmentally Friendly Materials That Meet Pet Food Safety, High-Temperature Resistance, Strong, And Bite-Resistant, To Ensure Your Pet Safe Use.<b><br></b></p><p><b><br></b></p><p><b>Product Information:</b><br></p><p>Material: PP<br>Specification: Green, Pink, Orange</p><p><br><b>Packing List:</b></p><p>Pet bowl * 1pc<br><img src=\"https://cf.cjdropshipping.com/1d320cc0-82e7-40a8-a4f0-677ec0d56fdf.png\" style=\"max-width:100%;\"><img src=\"https://cf.cjdropshipping.com/82c29ab3-2793-44f3-9d4b-3e4cf1e9b979.jpeg\" style=\"max-width: 100%;\"><img src=\"https://cf.cjdropshipping.com/595d71ea-28aa-4ec0-a1ea-b0e7a5e1ed62.jpeg\" style=\"max-width: 100%;\"><img src=\"https://cf.cjdropshipping.com/bb81a142-a0c0-4bbd-be00-d5bf1767dc57.jpeg\" style=\"max-width: 100%;\"><br></p>",
+    "variants": [
+      {
+        "vid": "1653041912363884544",
+        "pid": "1653041912300969984",
+        "variantName": null,
+        "variantNameEn": "Pet Dog Cat Slow Feeder Bowls Anti Choking Slow Feeder Dish Bowl Home Dog Eating Plate Anti Gulping Bowl Supplies Green",
+        "variantImage": "https://cf.cjdropshipping.com/3f2fd331-bd46-4e91-939b-2fe10bc16685.jpeg",
+        "variantSku": "CJGY174846501AZ",
+        "barcode": "1600000683505",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Green",
+        "variantLength": 230,
+        "variantWidth": 230,
+        "variantHeight": 50,
+        "variantVolume": 2645000,
+        "variantWeight": 170.0,
+        "variantSellPrice": 1.29,
+        "createTime": 1682950878000,
+        "variantStandard": "long=230,width=230,height=50",
+        "variantSugSellPrice": 15.73,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "1653041912418410496",
+        "pid": "1653041912300969984",
+        "variantName": null,
+        "variantNameEn": "Pet Dog Cat Slow Feeder Bowls Anti Choking Slow Feeder Dish Bowl Home Dog Eating Plate Anti Gulping Bowl Supplies Pink",
+        "variantImage": "https://cf.cjdropshipping.com/d9f45be0-81b0-485c-a73e-3498828b065a.jpeg",
+        "variantSku": "CJGY174846502BY",
+        "barcode": "1600000683506",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Pink",
+        "variantLength": 230,
+        "variantWidth": 230,
+        "variantHeight": 50,
+        "variantVolume": 2645000,
+        "variantWeight": 170.0,
+        "variantSellPrice": 1.29,
+        "createTime": 1682950878000,
+        "variantStandard": "long=230,width=230,height=50",
+        "variantSugSellPrice": 11.22,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "1653041912468742144",
+        "pid": "1653041912300969984",
+        "variantName": null,
+        "variantNameEn": "Pet Dog Cat Slow Feeder Bowls Anti Choking Slow Feeder Dish Bowl Home Dog Eating Plate Anti Gulping Bowl Supplies Orange",
+        "variantImage": "https://cf.cjdropshipping.com/1dbcc4f1-e501-49d0-9e5c-87db96fe6ace.jpeg",
+        "variantSku": "CJGY174846503CX",
+        "barcode": "1600000683507",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Orange",
+        "variantLength": 230,
+        "variantWidth": 230,
+        "variantHeight": 50,
+        "variantVolume": 2645000,
+        "variantWeight": 170.0,
+        "variantSellPrice": 1.29,
+        "createTime": 1682950878000,
+        "variantStandard": "long=230,width=230,height=50",
+        "variantSugSellPrice": 17.41,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "1717449049042853888",
+        "pid": "1653041912300969984",
+        "variantName": null,
+        "variantNameEn": "Pet Dog Cat Slow Feeder Bowls Anti Choking Slow Feeder Dish Bowl Home Dog Eating Plate Anti Gulping Bowl Supplies Set",
+        "variantImage": "https://oss-cf.cjdropshipping.com/product/2023/10/26/07/f0f25a94-d40c-4d77-880b-aca7d7d40eee.png",
+        "variantSku": "CJGY174846504DW",
+        "barcode": "1600001982661",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Set",
+        "variantLength": 230,
+        "variantWidth": 230,
+        "variantHeight": 100,
+        "variantVolume": 5290000,
+        "variantWeight": 322.0,
+        "variantSellPrice": 2.11,
+        "createTime": 1698306736000,
+        "variantStandard": "long=230,width=230,height=100",
+        "variantSugSellPrice": 18.34,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "1717449049114157056",
+        "pid": "1653041912300969984",
+        "variantName": null,
+        "variantNameEn": "Pet Dog Cat Slow Feeder Bowls Anti Choking Slow Feeder Dish Bowl Home Dog Eating Plate Anti Gulping Bowl Supplies Set1",
+        "variantImage": "https://oss-cf.cjdropshipping.com/product/2023/10/26/07/afbbfb2a-2ded-4970-b2bc-a204d1c3372c.png",
+        "variantSku": "CJGY174846505EV",
+        "barcode": "1600001982662",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Set1",
+        "variantLength": 230,
+        "variantWidth": 230,
+        "variantHeight": 100,
+        "variantVolume": 5290000,
+        "variantWeight": 322.0,
+        "variantSellPrice": 2.11,
+        "createTime": 1698306736000,
+        "variantStandard": "long=230,width=230,height=100",
+        "variantSugSellPrice": 31.96,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      }
+    ],
+    "addMarkStatus": 0,
+    "createrTime": "2023-05-01T14:21:18+08:00",
+    "productVideo": [
+      "75dfc7b0f87771ed97720764b3ec0102"
+    ],
+    "status": "3",
+    "suggestSellPrice": "11.22 - 31.96",
+    "listedNum": 3359,
+    "supplierName": null,
+    "supplierId": null,
+    "customizationVersion": null,
+    "customizationJson1": null,
+    "customizationJson2": null,
+    "customizationJson3": null,
+    "customizationJson4": null,
+    "isTestProduct": false,
+    "productUrl": "https://www.cjdropshipping.com/product/pet-dog-cat-slow-feeder-bowls-anti-choking-slow-feeder-dish-bowl-home-dog-eating-plate-anti-gulping-bowl-supplies-p-1653041912300969984.html"
+  }
+}

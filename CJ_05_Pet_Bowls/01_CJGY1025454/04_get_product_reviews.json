@@ -1,0 +1,787 @@
+{
+  "tool": "get_product_reviews",
+  "args": {
+    "pid": "1366573785234411520",
+    "pageSize": 20,
+    "pagesFetched": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "total": 65,
+  "fetched": 65,
+  "complete": true,
+  "pages": [
+    {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 65,
+      "list": [
+        {
+          "commentId": 1625059765795696641,
+          "pid": "1366573785234411520",
+          "comment": "consegna rapida. ottimo",
+          "commentUrls": null,
+          "commentUser": "E***r",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2023-02-11T16:54:47+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1625061910334943242,
+          "pid": "1366573785234411520",
+          "comment": "très bien",
+          "commentUrls": null,
+          "commentUser": "j***e",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2023-02-11T14:12:12+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1625061910330748928,
+          "pid": "1366573785234411520",
+          "comment": "Fait le job à la perfection . Mes animaux l’ont tout de suite adopté. Très satisfaite de mon achat ",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/e662e4a5-04f3-4321-b960-a81d7d53d563.jpg"
+          ],
+          "commentUser": "M***d",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2023-02-11T08:30:01+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1625061910334943238,
+          "pid": "1366573785234411520",
+          "comment": "Delivered quickly and works as advertised :) Would recommend. ",
+          "commentUrls": null,
+          "commentUser": "B***m",
+          "score": 5,
+          "countryCode": "PL",
+          "commentDate": "2023-02-11T01:06:03+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/PL.png"
+        },
+        {
+          "commentId": 1625061910334943236,
+          "pid": "1366573785234411520",
+          "comment": "aún no lo he probado, pero tiene buena pinta",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/a6153e68-c89b-4b49-ae32-336cf650c897.jpg"
+          ],
+          "commentUser": "P***o",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2023-02-10T11:12:55+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1625059765795696640,
+          "pid": "1366573785234411520",
+          "comment": "All ok ",
+          "commentUrls": null,
+          "commentUser": "A***g",
+          "score": 5,
+          "countryCode": "PT",
+          "commentDate": "2023-02-09T09:35:18+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/PT.png"
+        },
+        {
+          "commentId": 1625061914596356098,
+          "pid": "1366573785234411520",
+          "comment": "Very good quality, fast shipping",
+          "commentUrls": null,
+          "commentUser": "c***c",
+          "score": 5,
+          "countryCode": "BE",
+          "commentDate": "2023-02-09T05:43:30+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/BE.png"
+        },
+        {
+          "commentId": 1625061914600550408,
+          "pid": "1366573785234411520",
+          "comment": "Gran compra 👏👏👏",
+          "commentUrls": null,
+          "commentUser": "V***r",
+          "score": 5,
+          "countryCode": "CL",
+          "commentDate": "2023-02-08T22:03:28+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CL.png"
+        },
+        {
+          "commentId": 1625061910334943239,
+          "pid": "1366573785234411520",
+          "comment": "Fast delivery, very good quality,",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/33f9bd2a-1988-4f32-9a96-791c9abf9622.jpg"
+          ],
+          "commentUser": "J***a",
+          "score": 5,
+          "countryCode": "SK",
+          "commentDate": "2023-02-07T02:08:15+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/SK.png"
+        },
+        {
+          "commentId": 1625061910339137541,
+          "pid": "1366573785234411520",
+          "comment": "Its very help full for my French bulldog thank you!!",
+          "commentUrls": null,
+          "commentUser": "I***l",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2023-02-05T14:07:13+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1625061910339137540,
+          "pid": "1366573785234411520",
+          "comment": "I highly recommend this seller and the product it makes dog face dry after drinking very good .",
+          "commentUrls": null,
+          "commentUser": "D***l",
+          "score": 5,
+          "countryCode": "ID",
+          "commentDate": "2023-02-05T07:23:40+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ID.png"
+        },
+        {
+          "commentId": 1625061914600550413,
+          "pid": "1366573785234411520",
+          "comment": "todo perfecto",
+          "commentUrls": null,
+          "commentUser": "m***d",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2023-02-04T05:05:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1625061914600550407,
+          "pid": "1366573785234411520",
+          "comment": "Tout est ok Merci",
+          "commentUrls": null,
+          "commentUser": "S***U",
+          "score": 5,
+          "countryCode": "FX",
+          "commentDate": "2023-02-03T05:57:44+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FX.png"
+        },
+        {
+          "commentId": 1625061910339137537,
+          "pid": "1366573785234411520",
+          "comment": "Super fonctionne très bien. Mon chien met moins d’eau partout 👍🏻",
+          "commentUrls": null,
+          "commentUser": "J***e",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2023-02-01T14:50:46+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1625061910334943241,
+          "pid": "1366573785234411520",
+          "comment": "Perfect!",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/03df525e-c0bd-4ee4-ab30-31d25ddffc42.jpg"
+          ],
+          "commentUser": "J***n",
+          "score": 5,
+          "countryCode": "FI",
+          "commentDate": "2023-01-28T11:23:17+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FI.png"
+        },
+        {
+          "commentId": 1625061914600550415,
+          "pid": "1366573785234411520",
+          "comment": "parfait",
+          "commentUrls": null,
+          "commentUser": "D***o",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2023-01-27T07:35:14+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1625061910334943240,
+          "pid": "1366573785234411520",
+          "comment": "Bonito duro y grande.",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/4d1d0578-375b-43f4-8ae5-eb172bd88e0c.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/146bfe74-6d98-469b-8730-4ebe86f5dbfa.jpg"
+          ],
+          "commentUser": "E***r",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2023-01-24T14:28:23+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1625061910339137539,
+          "pid": "1366573785234411520",
+          "comment": "Arrive en très bon état bien emballée mon chien adore 😊 pas eu. Soin de communication avec le vendeur ",
+          "commentUrls": null,
+          "commentUser": "N***e",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2023-01-22T17:17:44+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1625061910339137543,
+          "pid": "1366573785234411520",
+          "comment": "It’s PERFECT! And exactly like in the picture! Amazing material/size/quality! 10/10",
+          "commentUrls": null,
+          "commentUser": "R***a",
+          "score": 5,
+          "countryCode": "BR",
+          "commentDate": "2023-01-21T11:31:31+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/BR.png"
+        },
+        {
+          "commentId": 1625061910339137538,
+          "pid": "1366573785234411520",
+          "comment": "trop contente de l'avoir reçu si vite et en parfait état",
+          "commentUrls": null,
+          "commentUser": "A***O",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2023-01-21T10:04:23+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        }
+      ]
+    },
+    {
+      "pageNum": 2,
+      "pageSize": 20,
+      "total": 65,
+      "list": [
+        {
+          "commentId": 1625061914600550404,
+          "pid": "1366573785234411520",
+          "comment": "продавцу спасибо!!!супер!доставка быстрая!!!",
+          "commentUrls": null,
+          "commentUser": "n***a",
+          "score": 5,
+          "countryCode": "US",
+          "commentDate": "2023-01-20T12:01:13+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+        },
+        {
+          "commentId": 1625059765795696642,
+          "pid": "1366573785234411520",
+          "comment": "Precies zoals beschreven en zeer deftig verpakt en vroeger geleverd dan verwacht",
+          "commentUrls": null,
+          "commentUser": "J***r",
+          "score": 5,
+          "countryCode": "BE",
+          "commentDate": "2023-01-18T08:45:22+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/BE.png"
+        },
+        {
+          "commentId": 1625061910334943234,
+          "pid": "1366573785234411520",
+          "comment": "Product as described. Very satisfied with it. Fast delivery - about two weeks to Bulgaria. I recommend!",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/1a195f4c-4b68-4108-a8d2-092f0144e603.jpg"
+          ],
+          "commentUser": "E***a",
+          "score": 5,
+          "countryCode": "BG",
+          "commentDate": "2023-01-17T19:22:14+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/BG.png"
+        },
+        {
+          "commentId": 1625061910339137542,
+          "pid": "1366573785234411520",
+          "comment": "Love it. GREAT product, no more water drops on the floor.",
+          "commentUrls": null,
+          "commentUser": "L***z",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2023-01-16T20:52:40+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1625061914600550400,
+          "pid": "1366573785234411520",
+          "comment": "Très belle qualité, taille assez grande pour un golden retriever",
+          "commentUrls": null,
+          "commentUser": "G***y",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2023-01-11T01:41:33+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1625061910334943233,
+          "pid": "1366573785234411520",
+          "comment": "Le chien a essayé et il ny a plus de l’eau partout… va-t-il l’adopter?",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/0b2c9f42-bb41-4de7-a96f-90b63b90c583.jpg"
+          ],
+          "commentUser": "S***t",
+          "score": 5,
+          "countryCode": "US",
+          "commentDate": "2023-01-10T04:11:33+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+        },
+        {
+          "commentId": 1625061914600550409,
+          "pid": "1366573785234411520",
+          "comment": "Mes chats l'ont directement adopté !",
+          "commentUrls": null,
+          "commentUser": "C***i",
+          "score": 5,
+          "countryCode": "CH",
+          "commentDate": "2023-01-06T03:23:35+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CH.png"
+        },
+        {
+          "commentId": 1625061924255838211,
+          "pid": "1366573785234411520",
+          "comment": "Passt super ",
+          "commentUrls": null,
+          "commentUser": "L***n",
+          "score": 5,
+          "countryCode": "DE",
+          "commentDate": "2023-01-03T18:05:49+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/DE.png"
+        },
+        {
+          "commentId": 1625061924255838222,
+          "pid": "1366573785234411520",
+          "comment": "no funciona tan bien",
+          "commentUrls": null,
+          "commentUser": "s***o",
+          "score": 3,
+          "countryCode": "ES",
+          "commentDate": "2023-01-01T23:32:57+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1625061924255838213,
+          "pid": "1366573785234411520",
+          "comment": "מעולה",
+          "commentUrls": null,
+          "commentUser": "S***r",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2022-12-30T01:39:16+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1625061924255838216,
+          "pid": "1366573785234411520",
+          "comment": "plastic dog bowl, as expected. advertised as suitable for inside car use, but the bowl could have all rubber bottom to avoid slipping (not just 4 tiny rubber points)",
+          "commentUrls": null,
+          "commentUser": "H***q",
+          "score": 4,
+          "countryCode": "CZ",
+          "commentDate": "2022-12-27T00:58:16+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CZ.png"
+        },
+        {
+          "commentId": 1625061914600550401,
+          "pid": "1366573785234411520",
+          "comment": "Миска хороша, якісна, але для нашого песика той-пуделя трохи завелика!",
+          "commentUrls": null,
+          "commentUser": "O***i",
+          "score": 5,
+          "countryCode": "UA",
+          "commentDate": "2022-12-23T20:05:35+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/UA.png"
+        },
+        {
+          "commentId": 1625061914600550406,
+          "pid": "1366573785234411520",
+          "comment": "Received as expected. Thank you.",
+          "commentUrls": null,
+          "commentUser": "R***l",
+          "score": 5,
+          "countryCode": "UK",
+          "commentDate": "2022-12-22T18:46:52+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/UK.png"
+        },
+        {
+          "commentId": 1625061924255838214,
+          "pid": "1366573785234411520",
+          "comment": "Very cool ",
+          "commentUrls": null,
+          "commentUser": "T***i",
+          "score": 5,
+          "countryCode": "NO",
+          "commentDate": "2022-12-22T01:20:17+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/NO.png"
+        },
+        {
+          "commentId": 1625059765795696643,
+          "pid": "1366573785234411520",
+          "comment": "O meu cão gostou muito.",
+          "commentUrls": null,
+          "commentUser": "P***s",
+          "score": 5,
+          "countryCode": "PT",
+          "commentDate": "2022-12-21T16:17:08+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/PT.png"
+        },
+        {
+          "commentId": 1625061914596356097,
+          "pid": "1366573785234411520",
+          "comment": "Produto e ótimo.\nMuito lindo.\nGostei muito.\nVendedor está de parabéns.\nmuito obrigado.",
+          "commentUrls": null,
+          "commentUser": "B***r",
+          "score": 5,
+          "countryCode": "BR",
+          "commentDate": "2022-12-20T18:06:21+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/BR.png"
+        },
+        {
+          "commentId": 1625061910339137536,
+          "pid": "1366573785234411520",
+          "comment": "Dit is reeds de 2de die ik bestel, de 1ste begint te lekken .",
+          "commentUrls": null,
+          "commentUser": "G***o",
+          "score": 5,
+          "countryCode": "BE",
+          "commentDate": "2022-12-17T07:44:52+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/BE.png"
+        },
+        {
+          "commentId": 1625061910334943235,
+          "pid": "1366573785234411520",
+          "comment": "super bueno..lo recomiendo mucho...tenia muchos y mi gato siempre tiraba mucha agua...con ese no",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/d5b6dc38-240f-4937-8294-b3db487349b1.jpg"
+          ],
+          "commentUser": "l***r",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2022-12-16T20:42:33+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1625061924255838221,
+          "pid": "1366573785234411520",
+          "comment": "de blauwe.bak is goed. de.groene.bak was.stuk.jammer.genoeg. met.die wel heel is zijn we.super.tevreden",
+          "commentUrls": null,
+          "commentUser": "M***a",
+          "score": 3,
+          "countryCode": "NL",
+          "commentDate": "2022-12-16T20:19:35+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/NL.png"
+        },
+        {
+          "commentId": 1625061914596356099,
+          "pid": "1366573785234411520",
+          "comment": "The bowl is perfect. Not a single drip on the floor. I wish I knew about this product 9 years ago",
+          "commentUrls": null,
+          "commentUser": "C***i",
+          "score": 5,
+          "countryCode": "MT",
+          "commentDate": "2022-12-16T18:16:41+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/MT.png"
+        }
+      ]
+    },
+    {
+      "pageNum": 3,
+      "pageSize": 20,
+      "total": 65,
+      "list": [
+        {
+          "commentId": 1625061914600550410,
+          "pid": "1366573785234411520",
+          "comment": "Todo bien, y a mi perrito le gusta",
+          "commentUrls": null,
+          "commentUser": "C***z",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2022-12-16T13:13:05+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1625061924255838209,
+          "pid": "1366573785234411520",
+          "comment": "супер",
+          "commentUrls": null,
+          "commentUser": "v***m",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2022-12-11T23:50:31+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1625061927007301633,
+          "pid": "1366573785234411520",
+          "comment": "Perfekt ",
+          "commentUrls": null,
+          "commentUser": "L***n",
+          "score": 5,
+          "countryCode": "DE",
+          "commentDate": "2022-12-07T23:41:32+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/DE.png"
+        },
+        {
+          "commentId": 1625061910334943232,
+          "pid": "1366573785234411520",
+          "comment": "Me encanta! Es de plástico, pero de calidad, justo lo que buscaba, mi amigo bebe mucha agua, siempre tenía que secar las gotas del suelo cada vez que bebía, ya que dejaba un rastro de agua detrás de él. 😅 Entendió enseguida como funciona y no ha caído ni una gotita en el suelo 👏🏼👏🏼 . Mi perro es de tamaño grande, pesa al rededor de 40kg y la capacidad del cuenco para él está muy  bien , cabe 1 litro de agua o incluso un poco más creo, de \ntodas formas me gusta ponerle agua fresca a menudo, así que me es más cómodo si se la acaba toda y yo se la relleno de nuevo con agua reciente. El cuenco no es tan grande como para dejar agua para varios días, de todas maneras no es recomendable dejar agua mucho tiempo porque se van formando bacterias. Para nosotros es perfecto, lo recomiendo al 100% espero que nos dure por mucho tiempo.",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/9e299c67-6694-49ca-8291-4bb756b8e660.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/ed58bdf5-8348-4fce-985b-3e096b03cb5f.jpg"
+          ],
+          "commentUser": "T***o",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2022-12-07T18:30:35+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1625061924255838208,
+          "pid": "1366573785234411520",
+          "comment": "parfait très bonne qualité",
+          "commentUrls": null,
+          "commentUser": "E***t",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2022-12-07T01:07:27+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1625061914600550403,
+          "pid": "1366573785234411520",
+          "comment": "semble de bonne qualité, je mettrais un commentaire quand je l'aurais fait tester au chien",
+          "commentUrls": null,
+          "commentUser": "B***e",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2022-11-27T13:19:35+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1625061914600550414,
+          "pid": "1366573785234411520",
+          "comment": "Producto llegó bien. Cumple su función 👌🏻",
+          "commentUrls": null,
+          "commentUser": "o***r",
+          "score": 5,
+          "countryCode": "CL",
+          "commentDate": "2022-11-27T05:16:11+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CL.png"
+        },
+        {
+          "commentId": 1625061927007301632,
+          "pid": "1366573785234411520",
+          "comment": "perfecto articulo",
+          "commentUrls": null,
+          "commentUser": "J***a",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2022-11-25T19:56:23+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1625061914600550405,
+          "pid": "1366573785234411520",
+          "comment": "perfecto una pasada de articulo",
+          "commentUrls": null,
+          "commentUser": "J***a",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2022-11-25T00:34:39+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1625061924251643904,
+          "pid": "1366573785234411520",
+          "comment": "Conforme bien ",
+          "commentUrls": null,
+          "commentUser": "P***r",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2022-11-22T16:32:37+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1625061914600550411,
+          "pid": "1366573785234411520",
+          "comment": "Ha venido antes de lo que esperaba",
+          "commentUrls": null,
+          "commentUser": "J***Z",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2022-11-18T17:42:09+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1625061914600550412,
+          "pid": "1366573785234411520",
+          "comment": "fast delivery, great product. My dog loves it",
+          "commentUrls": null,
+          "commentUser": "M***c",
+          "score": 5,
+          "countryCode": "HR",
+          "commentDate": "2022-11-17T23:57:28+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/HR.png"
+        },
+        {
+          "commentId": 1625061924255838215,
+          "pid": "1366573785234411520",
+          "comment": "Perfeito ",
+          "commentUrls": null,
+          "commentUser": "D***e",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2022-11-15T02:46:05+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1625061924255838223,
+          "pid": "1366573785234411520",
+          "comment": "The lid on the bowl is too light so it doesn’t sink down enough as the water level lowers to allow enough water to drink unless completely full.",
+          "commentUrls": null,
+          "commentUser": "L***h",
+          "score": 2,
+          "countryCode": "NZ",
+          "commentDate": "2022-10-17T10:10:25+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/NZ.png"
+        },
+        {
+          "commentId": 1625061924255838224,
+          "pid": "1366573785234411520",
+          "comment": "Ce n’est pas miraculeux !!! Toujours des éclaboussures autour de la gamelle",
+          "commentUrls": null,
+          "commentUser": "D***p",
+          "score": 2,
+          "countryCode": "FR",
+          "commentDate": "2022-09-29T05:06:07+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1625061910334943237,
+          "pid": "1366573785234411520",
+          "comment": "אהבתי מאוד ♥️",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/9b76fcdb-0541-46f5-aa47-35c288c35414.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/008339c5-8896-4c46-9546-1b4013061e49.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/f326bebb-1751-4193-9a2f-ebb2630bc192.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/ee44834a-6843-4e6c-b243-18b8c6469597.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2023-02-13/5b74480d-b44f-488e-b719-ec25748e7fc5.jpg"
+          ],
+          "commentUser": "t***r",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2022-09-22T14:53:21+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1625061924255838219,
+          "pid": "1366573785234411520",
+          "comment": "Doesn’t work , still the water spills from the bowls when my pet drinking, ",
+          "commentUrls": null,
+          "commentUser": "I***o",
+          "score": 3,
+          "countryCode": "IL",
+          "commentDate": "2022-09-20T06:59:28+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1625061924255838218,
+          "pid": "1366573785234411520",
+          "comment": "almost no water comes to the top.... somethimg is not working properly with the floater",
+          "commentUrls": null,
+          "commentUser": "d***r",
+          "score": 3,
+          "countryCode": "IL",
+          "commentDate": "2022-09-15T22:48:06+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1625061924255838217,
+          "pid": "1366573785234411520",
+          "comment": "ok",
+          "commentUrls": null,
+          "commentUser": "D***O",
+          "score": 4,
+          "countryCode": "IT",
+          "commentDate": "2022-09-14T05:54:55+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IT.png"
+        },
+        {
+          "commentId": 1625061927003107328,
+          "pid": "1366573785234411520",
+          "comment": "il prodotto si è guastato dopo poco.. ha iniziato a perdere acqua da una crepa",
+          "commentUrls": null,
+          "commentUser": "A***o",
+          "score": 1,
+          "countryCode": "IT",
+          "commentDate": "2022-09-11T01:24:59+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IT.png"
+        }
+      ]
+    },
+    {
+      "pageNum": 4,
+      "pageSize": 20,
+      "total": 65,
+      "list": [
+        {
+          "commentId": 1625061924255838220,
+          "pid": "1366573785234411520",
+          "comment": "Bagna meno ma non fa miracoli, prodotto di buon materiale.",
+          "commentUrls": null,
+          "commentUser": "A***e",
+          "score": 3,
+          "countryCode": "IT",
+          "commentDate": "2022-08-31T14:05:22+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IT.png"
+        },
+        {
+          "commentId": 1625061924255838210,
+          "pid": "1366573785234411520",
+          "comment": "molto bello top",
+          "commentUrls": null,
+          "commentUser": "c***a",
+          "score": 5,
+          "countryCode": "IT",
+          "commentDate": "2022-08-29T21:16:16+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IT.png"
+        },
+        {
+          "commentId": 1625061914600550402,
+          "pid": "1366573785234411520",
+          "comment": "Its pretty, working, but not so well, the flour under it and around it is still wet. But better than with standart bowl.",
+          "commentUrls": null,
+          "commentUser": "N***a",
+          "score": 5,
+          "countryCode": "LV",
+          "commentDate": "2022-08-28T13:54:36+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/LV.png"
+        },
+        {
+          "commentId": 1625061924255838212,
+          "pid": "1366573785234411520",
+          "comment": "Миска отличная, всё норма. ",
+          "commentUrls": null,
+          "commentUser": "f***f",
+          "score": 5,
+          "countryCode": "RU",
+          "commentDate": "2022-08-25T02:17:15+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+        },
+        {
+          "commentId": 1625061914596356096,
+          "pid": "1366573785234411520",
+          "comment": "Миска как в описании. Но вся конструкция держится на частном слове. серый ободок который удерживает основу попловок очень нежный и просто ставится без щелчка. Мой пёсик  разобрал это конструкцию в щитаные секунды. поэтому пользуемся как обычной ёмкостью. с продавцом не общалась.",
+          "commentUrls": null,
+          "commentUser": "V***n",
+          "score": 5,
+          "countryCode": "UA",
+          "commentDate": "2022-08-23T15:19:11+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/UA.png"
+        }
+      ]
+    }
+  ]
+}
