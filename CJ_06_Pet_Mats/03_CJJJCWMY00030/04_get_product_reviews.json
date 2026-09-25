@@ -1,0 +1,272 @@
+{
+  "tool": "get_product_reviews",
+  "args": {
+    "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+    "pageSize": 20,
+    "pagesFetched": [
+      1
+    ]
+  },
+  "total": 20,
+  "fetched": 20,
+  "complete": true,
+  "pages": [
+    {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 20,
+      "list": [
+        {
+          "commentId": 7720136,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "The carpet is a great invention, it&#39;s very hygienic. Mine the carrier bent it and ruined it but the seller has reimbursed my money, 100% trust the seller. Fast shipping, a pity that in transport mine was damaged and completely deformed. But the product itself is a great invention.",
+          "commentUrls": null,
+          "commentUser": "A***r",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2021-06-19T03:34:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 7720137,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "Came mint and does not straighten\r\nVery badly packed\r\nIn general, good, on the sides on Velcro glued two layers, top in such holes\r\nIn the case have not yet tried",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/77d45665-96d4-494f-a242-92b8b97c29a1.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/75224da8-d8c9-48f6-8f3a-9d573ea7fa3f.jpg"
+          ],
+          "commentUser": "A***a",
+          "score": 4,
+          "countryCode": "RU",
+          "commentDate": "2021-06-04T21:41:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+        },
+        {
+          "commentId": 7720138,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "The goods are the same as the description. Seller recommend.",
+          "commentUrls": null,
+          "commentUser": "M***r",
+          "score": 5,
+          "countryCode": "LV",
+          "commentDate": "2021-05-27T19:27:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/LV.png"
+        },
+        {
+          "commentId": 7720139,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "I bought two mats for 2 sandstones and they&#39;re doing great. Only 20/30% of the Stones come out, the rest stay in the mats. They can be disassembled with the belcro they have on both sides.",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/fed100d9-2aab-40ff-a6d7-71deb6cfd483.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/68b8a84d-f492-47f4-b37d-79a5d2a723c5.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/ae9df0a9-cc5b-4593-aa2a-11b2d2eda532.jpg"
+          ],
+          "commentUser": "L***B",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2021-05-25T21:07:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 7720140,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "It came in time, well packed. It&#39;s a very nice color and good material, now to try it out.",
+          "commentUrls": null,
+          "commentUser": "E***e",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2021-05-25T03:37:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 7720141,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "The only mistake was the size .. for us it turned out to be small",
+          "commentUrls": null,
+          "commentUser": "S***n",
+          "score": 5,
+          "countryCode": "AZ",
+          "commentDate": "2021-05-24T22:24:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/AZ.png"
+        },
+        {
+          "commentId": 7720142,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "pas assez imperm&eacute;able.",
+          "commentUrls": null,
+          "commentUser": "J***D",
+          "score": 3,
+          "countryCode": "BE",
+          "commentDate": "2021-05-20T22:32:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/BE.png"
+        },
+        {
+          "commentId": 7720143,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "thank you.",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/faf2179d-31b0-4516-9dd0-ffd387d1843f.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/c64047b9-477c-4df7-a749-4740789a3fa0.jpg"
+          ],
+          "commentUser": "L***b",
+          "score": 5,
+          "countryCode": "LV",
+          "commentDate": "2021-05-20T16:08:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/LV.png"
+        },
+        {
+          "commentId": 7720144,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "Хороший коврик, надеюсь кошка оценит. поверхность слегка шипованная и сам коврик не такой уж и тонкий! Но в целом надеюсь что очень полезная вещь  ",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/ad56bd2c-0a62-4c37-97d0-0349e1377558.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/e8f829b3-a309-4148-8164-4dfce018971b.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/276389d3-7bae-4d83-9ee5-f188c168f046.jpg"
+          ],
+          "commentUser": "A***k",
+          "score": 5,
+          "countryCode": "RU",
+          "commentDate": "2021-05-18T16:54:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+        },
+        {
+          "commentId": 7720145,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "The mat is made of dense material, fastened with Velcro on two sides. Holes are large 3 &times; 5mm. The color is nice. I hope the cat likes it.",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/726eb0b7-3a0b-4b0c-bf00-e8b89e0cb9ee.jpg"
+          ],
+          "commentUser": "S***b",
+          "score": 5,
+          "countryCode": "KZ",
+          "commentDate": "2021-05-05T16:04:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/KZ.png"
+        },
+        {
+          "commentId": 7720146,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "I am happy with the packing and delivery to the house. The mat was bent and now snugly against the floor. Until I realized whether the purchase is convenient, only in use you can see the impact of the idea",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/add6dd13-f58f-4641-bd6e-e9c9f921e6ae.jpg"
+          ],
+          "commentUser": "0***r",
+          "score": 5,
+          "countryCode": "RU",
+          "commentDate": "2021-04-28T15:45:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+        },
+        {
+          "commentId": 7720147,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "Thank you! Fully corresponds to the description.",
+          "commentUrls": null,
+          "commentUser": "K***k",
+          "score": 5,
+          "countryCode": "RO",
+          "commentDate": "2021-04-19T02:50:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RO.png"
+        },
+        {
+          "commentId": 7720148,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "Super fast and product functional",
+          "commentUrls": null,
+          "commentUser": "G***i",
+          "score": 5,
+          "countryCode": "IT",
+          "commentDate": "2021-04-11T22:42:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IT.png"
+        },
+        {
+          "commentId": 7720149,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "Excellent goods",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/a21715d1-e841-4734-987c-aa9e28e3cc30.jpg"
+          ],
+          "commentUser": "R***k",
+          "score": 5,
+          "countryCode": "RU",
+          "commentDate": "2021-04-10T14:50:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+        },
+        {
+          "commentId": 7720150,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "This is very good, but very expensive for what you get. Very good though!!!",
+          "commentUrls": null,
+          "commentUser": "A***l",
+          "score": 5,
+          "countryCode": "IE",
+          "commentDate": "2021-04-09T20:32:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IE.png"
+        },
+        {
+          "commentId": 7720151,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "Добротный коврик, но если у вас большой лоток и при этом он стоит на части ковра, то он (ковёр) не справляется с наполнителем на 100%. Его нужно класть рядом с лотком. Этого я не учитывал перед покупкой.",
+          "commentUrls": null,
+          "commentUser": "S***k",
+          "score": 5,
+          "countryCode": "RU",
+          "commentDate": "2021-03-10T23:06:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+        },
+        {
+          "commentId": 7720152,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": " Excellent quality. Thank you!",
+          "commentUrls": null,
+          "commentUser": "P***i",
+          "score": 5,
+          "countryCode": "FI",
+          "commentDate": "2021-02-26T17:20:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FI.png"
+        },
+        {
+          "commentId": 7720153,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "Fast shipment, only 19 days!!\r\nIt works! Retains all residue litter",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/5012a255-6140-46f5-b33f-0075db8f89f1.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/c5b7b965-afc8-4207-bd84-a991d68855bf.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/e9e333db-17b0-46fd-9e91-dc4049bd83fb.jpg"
+          ],
+          "commentUser": "N***u",
+          "score": 5,
+          "countryCode": "IT",
+          "commentDate": "2021-02-24T23:41:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IT.png"
+        },
+        {
+          "commentId": 7720154,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "looks nice still havnt use",
+          "commentUrls": null,
+          "commentUser": "N***g",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2021-02-23T00:42:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 7720155,
+          "pid": "0128A917-A355-4D8D-AA59-4FAA4F0013AD",
+          "comment": "Some garbage bag came in. Sewn on three sides. How to wash it? Does not correspond to the declared on the seller&#39;s website! Opened a dispute. I do not need such goods!",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/fcd086b1-be27-4cee-8d06-c2cd5863f647.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/2f913c2f-2b8c-4e9d-a7a9-3b755d172ff0.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/795d61fa-cdf0-4ed8-bb3c-e1334ee72301.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/8aa53ce2-3dfd-4bb7-8864-16865240a56a.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2021-08-02/3db1566d-73b2-4a8f-aaa9-34ecafd6d221.jpg"
+          ],
+          "commentUser": "S***a",
+          "score": 1,
+          "countryCode": "BY",
+          "commentDate": "2021-02-10T21:52:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/BY.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "tool": "get_product_reviews",
+  "args": {
+    "pid": "2EC85C14-D684-4845-8917-AB9D4E5CE301",
+    "pageSize": 20,
+    "pagesFetched": [
+      1
+    ]
+  },
+  "total": 5,
+  "fetched": 5,
+  "complete": true,
+  "pages": [
+    {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 5,
+      "list": [
+        {
+          "commentId": 1790638858594422784,
+          "pid": "2EC85C14-D684-4845-8917-AB9D4E5CE301",
+          "comment": "дякую за килимок,  дійсно є легкий холодок. якщо прикласти долоню) \nприйшло швидше за встановлений термін.",
+          "commentUrls": null,
+          "commentUser": "M***k",
+          "score": 5,
+          "countryCode": "UA",
+          "commentDate": "2024-05-15T16:33:36+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/UA.png"
+        },
+        {
+          "commentId": 1790638858598617088,
+          "pid": "2EC85C14-D684-4845-8917-AB9D4E5CE301",
+          "comment": "Está muy bien en tamaño ",
+          "commentUrls": null,
+          "commentUser": "V***r",
+          "score": 5,
+          "countryCode": "MX",
+          "commentDate": "2024-05-09T14:59:46+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/MX.png"
+        },
+        {
+          "commentId": 1790638858602811393,
+          "pid": "2EC85C14-D684-4845-8917-AB9D4E5CE301",
+          "comment": "A mis gatitos les encantaron, la tela de los tapetes está muy fresca y para estos calores les quedan muy bien a las mascotas",
+          "commentUrls": null,
+          "commentUser": "Z***c",
+          "score": 5,
+          "countryCode": "MX",
+          "commentDate": "2024-05-05T19:34:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/MX.png"
+        },
+        {
+          "commentId": 1790638858602811392,
+          "pid": "2EC85C14-D684-4845-8917-AB9D4E5CE301",
+          "comment": "Крутий охолоджуючий коврик. Рекомендую ",
+          "commentUrls": null,
+          "commentUser": "X***n",
+          "score": 5,
+          "countryCode": "UA",
+          "commentDate": "2024-04-26T16:40:50+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/UA.png"
+        },
+        {
+          "commentId": 1790638858590228480,
+          "pid": "2EC85C14-D684-4845-8917-AB9D4E5CE301",
+          "comment": "chegou, realmente é refrescante. obrigado",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2024-05-15/bc35dd01-d84e-4a76-8c23-2752d5323ab1.jpg"
+          ],
+          "commentUser": "N***h",
+          "score": 5,
+          "countryCode": "BR",
+          "commentDate": "2023-12-20T16:47:18+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/BR.png"
+        }
+      ]
+    }
+  ]
+}
