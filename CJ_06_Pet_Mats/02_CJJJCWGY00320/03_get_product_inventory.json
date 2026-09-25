@@ -1,0 +1,1546 @@
+{
+  "tool": "get_product_inventory",
+  "args": {
+    "pid": "2EC85C14-D684-4845-8917-AB9D4E5CE301"
+  },
+  "prefix_text": "✅ 商品库存查询成功。\n【如何选择正确的 stockId 传给 get_storage_info】:\n  - 优先选 cjInventory > 0 的 stock 条目的 stockId（CJ自有仓）\n  - 若只有 factoryInventory > 0 的条目，也可使用其 stockId（工厂仓）\n  - 本工具返回的 stockId 已去掉花括号；get_storage_info 对带/不带花括号两种形态都接受，原样传入即可\n    （注：query_cj_inventory 返回的是带花括号的形态，同样可原样传入）\n\n",
+  "data": {
+    "inventories": [
+      {
+        "areaEn": "China Warehouse",
+        "areaId": 1,
+        "countryCode": "CN",
+        "totalInventoryNum": 273137,
+        "cjInventoryNum": 288,
+        "factoryInventoryNum": 272849,
+        "countryNameEn": "China Warehouse",
+        "stock": null
+      },
+      {
+        "areaEn": "US Warehouse",
+        "areaId": 2,
+        "countryCode": "US",
+        "totalInventoryNum": 66,
+        "cjInventoryNum": 66,
+        "factoryInventoryNum": 0,
+        "countryNameEn": "US Warehouse",
+        "stock": null
+      }
+    ],
+    "variantInventories": [
+      {
+        "vid": "24303262-3BAA-4915-BFF8-A4096A499455",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1381883301542891520",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          },
+          {
+            "countryCode": "US",
+            "totalInventory": 10,
+            "cjInventory": 10,
+            "factoryInventory": 0,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "5dd41881363849beb155d0900a36e18e",
+                "inventory": 10,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1381883301974904832",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4025,
+            "cjInventory": 25,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "62cfedee247c4be1a0d497bfd2cf65ae",
+                "inventory": 25,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "5615D6B7-EEC6-418D-8778-7C741AB05846",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          },
+          {
+            "countryCode": "US",
+            "totalInventory": 15,
+            "cjInventory": 15,
+            "factoryInventory": 0,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "5dd41881363849beb155d0900a36e18e",
+                "inventory": 15,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817571602300",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 5515,
+            "cjInventory": 0,
+            "factoryInventory": 5515,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 5515
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817571600400",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 7283,
+            "cjInventory": 0,
+            "factoryInventory": 7283,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 7283
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817571600000",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 7881,
+            "cjInventory": 0,
+            "factoryInventory": 7881,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 7881
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "EFD49CFA-4B44-46CA-92BA-E34620CBF6DA",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1381883302159454208",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4070,
+            "cjInventory": 70,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "62cfedee247c4be1a0d497bfd2cf65ae",
+                "inventory": 70,
+                "factoryInventory": 0
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "DD050CF2-3D99-47BF-AB06-05A33221949C",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817571600600",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 5516,
+            "cjInventory": 0,
+            "factoryInventory": 5516,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 5516
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817571600800",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 6748,
+            "cjInventory": 0,
+            "factoryInventory": 6748,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 6748
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2FE4AF12-F964-482D-B206-733CCFD51D53",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4071,
+            "cjInventory": 71,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "62cfedee247c4be1a0d497bfd2cf65ae",
+                "inventory": 71,
+                "factoryInventory": 0
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "55108CAF-96DA-4314-8105-7232C3C82073",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          },
+          {
+            "countryCode": "US",
+            "totalInventory": 14,
+            "cjInventory": 14,
+            "factoryInventory": 0,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "5dd41881363849beb155d0900a36e18e",
+                "inventory": 14,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "B49D4377-9D27-4917-9C02-FFFFE9D743FD",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1381883301882630144",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1381883302121705472",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817561609800",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 7724,
+            "cjInventory": 0,
+            "factoryInventory": 7724,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 7724
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "15A5AB72-3878-4FEA-82EA-84628B869750",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817561609600",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 7771,
+            "cjInventory": 0,
+            "factoryInventory": 7771,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 7771
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2E299749-C1C0-426F-91F3-FB8F11FD4266",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4012,
+            "cjInventory": 12,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "7a169e1a92ee4c719cfaedd837c6e46e",
+                "inventory": 3,
+                "factoryInventory": 0
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "2991a224-737b-42a3-a1d9-8ccd2936b341",
+                "inventory": 4,
+                "factoryInventory": 0
+              },
+              {
+                "stockId": "62cfedee247c4be1a0d497bfd2cf65ae",
+                "inventory": 5,
+                "factoryInventory": 0
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1381883301756801024",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817561609400",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 8217,
+            "cjInventory": 0,
+            "factoryInventory": 8217,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 8217
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "A664E1FA-2364-4B74-B028-BB7B03360A3C",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1381883302025236480",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4072,
+            "cjInventory": 72,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "62cfedee247c4be1a0d497bfd2cf65ae",
+                "inventory": 72,
+                "factoryInventory": 0
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817571600300",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 7991,
+            "cjInventory": 0,
+            "factoryInventory": 7991,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 7991
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2607030509481612400",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 5721,
+            "cjInventory": 0,
+            "factoryInventory": 5721,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 5721
+              }
+            ]
+          },
+          {
+            "countryCode": "US",
+            "totalInventory": 5,
+            "cjInventory": 5,
+            "factoryInventory": 0,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "5dd41881363849beb155d0900a36e18e",
+                "inventory": 5,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817561608900",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 6138,
+            "cjInventory": 0,
+            "factoryInventory": 6138,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 6138
+              }
+            ]
+          },
+          {
+            "countryCode": "US",
+            "totalInventory": 15,
+            "cjInventory": 15,
+            "factoryInventory": 0,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "5dd41881363849beb155d0900a36e18e",
+                "inventory": 15,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817571602000",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 6025,
+            "cjInventory": 0,
+            "factoryInventory": 6025,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 6025
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817561608700",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 8296,
+            "cjInventory": 0,
+            "factoryInventory": 8296,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 8296
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817571602200",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 8165,
+            "cjInventory": 0,
+            "factoryInventory": 8165,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 8165
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817561608500",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 5829,
+            "cjInventory": 0,
+            "factoryInventory": 5829,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 5829
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1381883302075568128",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "05C49FCD-CAB2-47F3-A6A7-027C3699C82C",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "4BB4243A-3644-4AB0-8E45-28BBB0EE329A",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817571601200",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 5141,
+            "cjInventory": 0,
+            "factoryInventory": 5141,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 5141
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1381883301714857984",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817571601400",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 6124,
+            "cjInventory": 0,
+            "factoryInventory": 6124,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 6124
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817571601000",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 6465,
+            "cjInventory": 0,
+            "factoryInventory": 6465,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 6465
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817571601600",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 5091,
+            "cjInventory": 0,
+            "factoryInventory": 5091,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 5091
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817571601800",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 9381,
+            "cjInventory": 0,
+            "factoryInventory": 9381,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 9381
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "DCAFB2F0-3C89-4483-9B6E-ED92DE7438E1",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1381883301932961792",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4038,
+            "cjInventory": 38,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "62cfedee247c4be1a0d497bfd2cf65ae",
+                "inventory": 38,
+                "factoryInventory": 0
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "82A00BC2-2594-4BA8-8DCB-C1ADF9386C36",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1381883301794549760",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817561609300",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 7644,
+            "cjInventory": 0,
+            "factoryInventory": 7644,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 7644
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "394DB1E3-FA7D-4404-A6F9-B15B2BDED0CA",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2507200817561609100",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 8915,
+            "cjInventory": 0,
+            "factoryInventory": 8915,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 8915
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1381883301672914944",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "2607030509481611800",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 7268,
+            "cjInventory": 0,
+            "factoryInventory": 7268,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 7268
+              }
+            ]
+          },
+          {
+            "countryCode": "US",
+            "totalInventory": 7,
+            "cjInventory": 7,
+            "factoryInventory": 0,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "5dd41881363849beb155d0900a36e18e",
+                "inventory": 7,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1381883301840687104",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 4000,
+            "cjInventory": 0,
+            "factoryInventory": 4000,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 1000
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 1000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
