@@ -1,0 +1,140 @@
+{
+  "tool": "get_product_detail",
+  "params": {
+    "pid": "1561725514673967104",
+    "features": "enable_combine,enable_video"
+  },
+  "_header": "🔍 Product detail loaded.",
+  "data": {
+    "pid": "1561725514673967104",
+    "productName": "[\"Magic Pet Gate\",\"Mesh Dog Gate\",\"Puppy Gates and Baby Gate\",\"Dog Safety Fence\",\"Pet Safety Gate Mesh Fence\"]",
+    "productNameSet": [
+      "Magic Pet Gate",
+      "Mesh Dog Gate",
+      "Puppy Gates and Baby Gate",
+      "Dog Safety Fence",
+      "Pet Safety Gate Mesh Fence"
+    ],
+    "productNameEn": "Pets Dog Cat Baby Safety Gate Mesh Fence Magic Portable Guard Net Stairs Doors",
+    "productSku": "CJGY1548160",
+    "bigImage": "https://cf.cjdropshipping.com/16981056/1716718081591742464.jpg",
+    "productImage": "[\"https://cf.cjdropshipping.com/16981056/1716718081591742464.jpg\",\"https://cf.cjdropshipping.com/16981056/1716718081818234880.jpg\",\"https://cf.cjdropshipping.com/16981056/1716718082015367168.jpg\",\"https://cf.cjdropshipping.com/16981056/1716718082258636800.jpg\",\"https://cf.cjdropshipping.com/16981056/1716718082640318464.jpg\",\"https://cf.cjdropshipping.com/16981056/1716718082980057088.jpg\",\"https://cf.cjdropshipping.com/16981056/1716718083198160896.jpg\",\"https://cf.cjdropshipping.com/16981056/1716718083445624832.jpg\",\"https://cf.cjdropshipping.com/16981056/1716718083672117248.jpg\",\"https://cf.cjdropshipping.com/16981056/1716718083856666624.jpg\",\"https://cf.cjdropshipping.com/16981056/1716718084070576128.jpg\",\"https://cf.cjdropshipping.com/16981056/1716718084351594496.jpg\",\"https://cf.cjdropshipping.com/16981056/1716718084636807168.jpg\",\"https://cf.cjdropshipping.com/17470944/1922115596338860032.jpg\",\"https://cf.cjdropshipping.com/17470944/1922115597513265152.jpg\",\"https://cf.cjdropshipping.com/17562528/1960522874611830784.jpg\",\"https://cf.cjdropshipping.com/17562528/1960522875475857408.jpg\",\"https://cf.cjdropshipping.com/6d8cdeae-359f-44b0-be3b-d96ce7a0277b.jpg\",\"https://cf.cjdropshipping.com/6f05fc2f-4127-490c-97d0-11dc11316668.jpg\"]",
+    "productImageSet": [
+      "https://cf.cjdropshipping.com/6d8cdeae-359f-44b0-be3b-d96ce7a0277b.jpg",
+      "https://cf.cjdropshipping.com/16981056/1716718084636807168.jpg",
+      "https://cf.cjdropshipping.com/16981056/1716718084351594496.jpg",
+      "https://cf.cjdropshipping.com/6f05fc2f-4127-490c-97d0-11dc11316668.jpg",
+      "https://cf.cjdropshipping.com/17562528/1960522875475857408.jpg",
+      "https://cf.cjdropshipping.com/16981056/1716718084070576128.jpg",
+      "https://cf.cjdropshipping.com/16981056/1716718081818234880.jpg",
+      "https://cf.cjdropshipping.com/16981056/1716718082980057088.jpg",
+      "https://cf.cjdropshipping.com/16981056/1716718083445624832.jpg",
+      "https://cf.cjdropshipping.com/17470944/1922115596338860032.jpg",
+      "https://cf.cjdropshipping.com/16981056/1716718082015367168.jpg",
+      "https://cf.cjdropshipping.com/16981056/1716718083672117248.jpg",
+      "https://cf.cjdropshipping.com/17470944/1922115597513265152.jpg",
+      "https://cf.cjdropshipping.com/16981056/1716718081591742464.jpg",
+      "https://cf.cjdropshipping.com/16981056/1716718082258636800.jpg",
+      "https://cf.cjdropshipping.com/16981056/1716718082640318464.jpg",
+      "https://cf.cjdropshipping.com/16981056/1716718083198160896.jpg",
+      "https://cf.cjdropshipping.com/16981056/1716718083856666624.jpg",
+      "https://cf.cjdropshipping.com/17562528/1960522874611830784.jpg"
+    ],
+    "productWeight": "100",
+    "productUnit": null,
+    "productType": "SUPPLIER_SHIPPED_PRODUCT",
+    "categoryId": "2410110340411608400",
+    "categoryName": "Pet Supplies / Pet Toys / Pet Toy Set",
+    "entryCode": "3925900000",
+    "entryName": "宠物围栏",
+    "entryNameEn": "Magic Pet Gate",
+    "materialName": "[\"其他\"]",
+    "materialNameSet": [
+      "其他"
+    ],
+    "materialNameEn": "[\"Others\"]",
+    "materialNameEnSet": [
+      "Others"
+    ],
+    "materialKey": "[\"MATERIAL\"]",
+    "materialKeySet": [
+      "MATERIAL"
+    ],
+    "packingWeight": "100",
+    "packingName": "[\"塑料袋\"]",
+    "packingNameSet": [
+      "塑料袋"
+    ],
+    "packingNameEn": "[\"Plastic bags\"]",
+    "packingNameEnSet": [
+      "Plastic bags"
+    ],
+    "packingKey": "[\"PLASTIC_BAG\"]",
+    "packingKeySet": [
+      "PLASTIC_BAG"
+    ],
+    "productKey": "[\"Size\"]",
+    "productKeySet": [
+      "Size"
+    ],
+    "productKeyEn": "Size",
+    "productKeyEnSet": [
+      "Size"
+    ],
+    "productPro": "[\"普货\"]",
+    "productProSet": [
+      "普货"
+    ],
+    "productProEn": "[\"COMMON\"]",
+    "productProEnSet": [
+      "COMMON"
+    ],
+    "sellPrice": "13.78",
+    "sourceFrom": 0,
+    "description": "<p><font color=\"#c24f4a\" size=\"4\"><b>Our normal delivery time is 1-3 working days, which is not 100% guaranteed. The normal delivery time is about one week. Due to some uncontrollable reasons, if the logistics are not updated in time, please contact us. After the order number is uploaded, we do not accept refunds due to the lack of updates in logistics. If it has not been updated for more than 7 days, you can apply for a dispute. We will deal with it according to the actual situation. We do not accept orders from platforms such as Tiktok shop，TEMU, eBay, etc.</b></font></p><p>This safety gate is the easiest and most discrete way to protect your pets all around the house. It's recommended for small pets and it can be moved from one place to another if needed. When not in use, the gate takes minimal space and blends perfectly with your home and decor with its simple and effective design.<br/><br/>It is pressure-mounted with rubber bumpers so it doesn't damage the walls, and it provides a secure and custom fit in your house. This safety net gate is perfect for doorways, between walls, and stairwells.<br/><br/>The unique woven barrier can easily retract to a fully or partially quick pass-through. It can be assembled immediately without any tools.<br/><br/>It is built with tough partially see-through woven mesh fabric woven to withstand abuse from pets.<br/><br/>Lightweight and portable to meet all your on-the-go needs.<br/><br/>Product Specifications:<br/>Color： Black<br/><br/>Material: Nylon mesh + stainless steel tube<br/><br/>Size:<br/>S： 43’‘X29’‘<br/>M：70.9\"X28.3\"<br/><br/>How to Use:<br/>Unfold the fabric woven<br/><br/>Stretch two metal poles to the max length<br/><br/>Put these two poles into the tunnels on both sides<br/><br/>Fix the sticky hooks where you will install this magic gate<br/><br/>Hang the fabric woven on the four hooks<br/><br/>Package Include:<br/>1 X mesh gate</p><p><br/></p><p><b>Our normal delivery time is 1-3 working days, which is not 100% guaranteed. The normal delivery time is about one week. Due to some uncontrollable reasons, if the logistics are not updated in time, please contact us. After the order number is uploaded, we do not accept refunds due to the lack of updates in logistics. If it has not been updated for more than 7 days, you can apply for a dispute. We will deal with it according to the actual situation. We do not accept orders from platforms such as TEMU, TIKTOK SHOP, SHEIN, Ebay etc.</b></p>",
+    "variants": [
+      {
+        "vid": "1561725514917236737",
+        "pid": "1561725514673967104",
+        "variantName": null,
+        "variantNameEn": "",
+        "variantImage": "https://cf.cjdropshipping.com/6d8cdeae-359f-44b0-be3b-d96ce7a0277b.jpg",
+        "variantSku": "CJGY1548160-M",
+        "barcode": "1598452379772",
+        "variantUnit": null,
+        "variantProperty": null,
+        "variantKey": "M",
+        "variantLength": 1800,
+        "variantWidth": 760,
+        "variantHeight": 10,
+        "variantVolume": 13680000,
+        "variantWeight": 100.0,
+        "variantSellPrice": 13.781,
+        "createTime": 1661126400000,
+        "variantStandard": "long=1800,width=760,height=10",
+        "variantSugSellPrice": 78.01,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      }
+    ],
+    "addMarkStatus": 1,
+    "createrTime": "2022-08-22T14:42:32+08:00",
+    "productVideo": [
+      "70522104a71171efbff95017f0f90102"
+    ],
+    "status": "3",
+    "suggestSellPrice": "67.59 - 78.01",
+    "listedNum": 2867,
+    "supplierName": "Fan Nan",
+    "supplierId": "1384349674504110081",
+    "customizationVersion": null,
+    "customizationJson1": null,
+    "customizationJson2": null,
+    "customizationJson3": null,
+    "customizationJson4": null,
+    "isTestProduct": false,
+    "productUrl": "https://www.cjdropshipping.com/product/pets-dog-cat-baby-safety-gate-mesh-fence-magic-portable-guard-net-stairs-doors-p-1561725514673967104.html"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "tool": "get_product_inventory",
+  "params": {
+    "pid": "BCCB2371-70C9-4C98-AEF6-A71D65DDF2A1"
+  },
+  "_header": "✅ 商品库存查询成功。\n【如何选择正确的 stockId 传给 get_storage_info】:\n  - 优先选 cjInventory > 0 的 stock 条目的 stockId（CJ自有仓）\n  - 若只有 factoryInventory > 0 的条目，也可使用其 stockId（工厂仓）\n  - 本工具返回的 stockId 已去掉花括号；get_storage_info 对带/不带花括号两种形态都接受，原样传入即可\n    （注：query_cj_inventory 返回的是带花括号的形态，同样可原样传入）",
+  "data": {
+    "inventories": [
+      {
+        "areaEn": "China Warehouse",
+        "areaId": 1,
+        "countryCode": "CN",
+        "totalInventoryNum": 116056,
+        "cjInventoryNum": 0,
+        "factoryInventoryNum": 116056,
+        "countryNameEn": "China Warehouse",
+        "stock": null
+      }
+    ],
+    "variantInventories": [
+      {
+        "vid": "84521141-EBF1-495A-8D96-4FA740690999",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 20941,
+            "cjInventory": 0,
+            "factoryInventory": 20941,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "1",
+                "inventory": 0,
+                "factoryInventory": 10853
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 10088
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "DC4F37D3-7BE0-4554-822F-B3ADC8C2D8B4",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 22601,
+            "cjInventory": 0,
+            "factoryInventory": 22601,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "1",
+                "inventory": 0,
+                "factoryInventory": 11677
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 10924
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1F835590-9261-4BE0-8670-4E28D35388B5",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 23180,
+            "cjInventory": 0,
+            "factoryInventory": 23180,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "1",
+                "inventory": 0,
+                "factoryInventory": 10495
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 12685
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "8A3E9820-973A-468F-8EB0-C44157E9669D",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 22872,
+            "cjInventory": 0,
+            "factoryInventory": 22872,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 11397
+              },
+              {
+                "stockId": "1",
+                "inventory": 0,
+                "factoryInventory": 11475
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "713D1881-39E5-46BD-B558-30276F2F2FA1",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 26462,
+            "cjInventory": 0,
+            "factoryInventory": 26462,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "1",
+                "inventory": 0,
+                "factoryInventory": 11948
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 14514
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

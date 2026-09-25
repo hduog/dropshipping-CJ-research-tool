@@ -1,0 +1,87 @@
+{
+  "tool": "cjdropship.get_product_reviews",
+  "params": {
+    "pid": "1713087022329503744",
+    "pageSize": 20
+  },
+  "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+  "total": 3,
+  "pages_fetched": 1,
+  "pages": [
+    {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 3,
+      "list": [
+        {
+          "commentId": 1718878843479527424,
+          "pid": "1713087022329503744",
+          "comment": "my baby cat loved it",
+          "commentUrls": null,
+          "commentUser": "B***p",
+          "score": 5,
+          "countryCode": "US",
+          "commentDate": "2023-10-11T14:33:32+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+        },
+        {
+          "commentId": 1718878988854108160,
+          "pid": "1713087022329503744",
+          "comment": "very cool",
+          "commentUrls": null,
+          "commentUser": "U***y",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2023-10-04T18:38:07+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1718878924949696512,
+          "pid": "1713087022329503744",
+          "comment": "funny toy!",
+          "commentUrls": null,
+          "commentUser": "U***m",
+          "score": 5,
+          "countryCode": "US",
+          "commentDate": "2023-10-01T16:33:47+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+        }
+      ]
+    }
+  ],
+  "all_reviews": [
+    {
+      "commentId": 1718878843479527424,
+      "pid": "1713087022329503744",
+      "comment": "my baby cat loved it",
+      "commentUrls": null,
+      "commentUser": "B***p",
+      "score": 5,
+      "countryCode": "US",
+      "commentDate": "2023-10-11T14:33:32+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+    },
+    {
+      "commentId": 1718878988854108160,
+      "pid": "1713087022329503744",
+      "comment": "very cool",
+      "commentUrls": null,
+      "commentUser": "U***y",
+      "score": 5,
+      "countryCode": "FR",
+      "commentDate": "2023-10-04T18:38:07+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+    },
+    {
+      "commentId": 1718878924949696512,
+      "pid": "1713087022329503744",
+      "comment": "funny toy!",
+      "commentUrls": null,
+      "commentUser": "U***m",
+      "score": 5,
+      "countryCode": "US",
+      "commentDate": "2023-10-01T16:33:47+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "tool": "cjdropship.get_product_detail",
+  "params": {
+    "pid": "1400301617122775040",
+    "features": "enable_combine,enable_video"
+  },
+  "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+  "response_message": "🔍 Product detail loaded.",
+  "response": {
+    "pid": "1400301617122775040",
+    "productName": "[\"宠物用品狗狗飞盘户外互动玩具训练用品 狗狗玩具批发 训练用品\",\"狗狗飞盘\",\"互动玩具训练用品\"]",
+    "productNameSet": [
+      "宠物用品狗狗飞盘户外互动玩具训练用品 狗狗玩具批发 训练用品",
+      "狗狗飞盘",
+      "互动玩具训练用品"
+    ],
+    "productNameEn": "Silicone Flying Saucer Funny Pets Dog Cat Toy Dog Game Flying Discs Resistant Chew Puppy Training Interactive Pet Supplies",
+    "productSku": "CJGY1157230",
+    "bigImage": "https://oss-cf.cjdropshipping.com/product/2025/06/16/06/e656489d-734b-40a9-9d9d-1cd2f2921875.jpg",
+    "productImage": "[\"https://oss-cf.cjdropshipping.com/product/2025/06/16/06/e656489d-734b-40a9-9d9d-1cd2f2921875.jpg\",\"https://cf.cjdropshipping.com/c8b4972e-bb00-4f26-a03a-b155aacfb542.jpg\",\"https://cf.cjdropshipping.com/1622692808909.jpg\",\"https://cf.cjdropshipping.com/1622692808912.jpg\",\"https://cf.cjdropshipping.com/1622692808913.jpg\",\"https://cf.cjdropshipping.com/1622698563718.jpg\",\"https://cf.cjdropshipping.com/1622698567140.jpg\",\"https://oss-cf.cjdropshipping.com/product/2026/03/23/02/a7bbd161-72fd-4e6d-afd7-05c586d4d8c6.jpg\"]",
+    "productImageSet": [
+      "https://cf.cjdropshipping.com/c8b4972e-bb00-4f26-a03a-b155aacfb542.jpg",
+      "https://cf.cjdropshipping.com/1622692808912.jpg",
+      "https://cf.cjdropshipping.com/1622692808909.jpg",
+      "https://cf.cjdropshipping.com/1622698563718.jpg",
+      "https://oss-cf.cjdropshipping.com/product/2025/06/16/06/e656489d-734b-40a9-9d9d-1cd2f2921875.jpg",
+      "https://oss-cf.cjdropshipping.com/product/2026/03/23/02/a7bbd161-72fd-4e6d-afd7-05c586d4d8c6.jpg",
+      "https://cf.cjdropshipping.com/1622692808913.jpg",
+      "https://cf.cjdropshipping.com/1622698567140.jpg"
+    ],
+    "productWeight": "44.00-474.00",
+    "productUnit": null,
+    "productType": "ORDINARY_PRODUCT",
+    "categoryId": "2410110340031614900",
+    "categoryName": "Pet Supplies > Pet Toys > Pet Training and Educational Toys",
+    "entryCode": "9503006000",
+    "entryName": "益智玩具",
+    "entryNameEn": "Brain game",
+    "materialName": "[\"塑料\"]",
+    "materialNameSet": [
+      "塑料"
+    ],
+    "materialNameEn": "[\"Plastic\"]",
+    "materialNameEnSet": [
+      "Plastic"
+    ],
+    "materialKey": "[\"PLASTIC\"]",
+    "materialKeySet": [
+      "PLASTIC"
+    ],
+    "packingWeight": "60.00-504.00",
+    "packingName": "[\"塑料袋\"]",
+    "packingNameSet": [
+      "塑料袋"
+    ],
+    "packingNameEn": "[\"Plastic bags\"]",
+    "packingNameEnSet": [
+      "Plastic bags"
+    ],
+    "packingKey": "[\"PLASTIC_BAG\"]",
+    "packingKeySet": [
+      "PLASTIC_BAG"
+    ],
+    "productKey": "[\"颜色\",\"数量\"]",
+    "productKeySet": [
+      "颜色",
+      "数量"
+    ],
+    "productKeyEn": "Color-quantity",
+    "productKeyEnSet": [
+      "Color",
+      "quantity"
+    ],
+    "productPro": "[\"普货\",\"抛货\"]",
+    "productProSet": [
+      "普货",
+      "抛货"
+    ],
+    "productProEn": "[\"COMMON\",\"OVERSIZE\"]",
+    "productProEnSet": [
+      "COMMON",
+      "OVERSIZE"
+    ],
+    "sellPrice": "0.51-6.57",
+    "sourceFrom": 2,
+    "description": "<p><b>Overview:</b><br/></p><p>1. Available in Assorted colors<br/>2. Competition approved<br/>3. Disc shape designed specificly for dogs<b><br/></b></p><p><br/></p><p><b>Specification:</b></p><p>[Product Name]:&nbsp;<span style=\"font-size: 1em;\">Pet toys</span></p><p>[Product specifications]: diameter 20cm, weight: 40g<br/>[Product material]: environmentally friendly plastic material<br/>【Applicable to】: Dog<br/>[Product color]: yellow/blue/green/pink color shipped randomly<br/>[Product description]:&nbsp;<span style=\"font-size: 1em;\">Pet toys</span><span style=\"font-size: 1em;\">&nbsp;is a good form of fitness for dogs, training the flexibility of the combination of eyes, brain and feet.</span></p><p><br/></p><p><b>Package Content:</b><br/></p><p><span style=\"font-size: 1em;\">Pet toys</span>*1</p><p><br/></p><p><b>Product Image:</b><br/></p><p><img src=\"https://cf.cjdropshipping.com/1622692795786.jpg\" style=\"max-width:100%;\"/><img src=\"https://cf.cjdropshipping.com/1622692795787.jpg?imgInfringementPass=true\" style=\"max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/1622692795776.jpg\" style=\"max-width: 100%;\"/><span style=\"font-size: 1em;\">Pet toys</span><br/></p>",
+    "variants": [
+      {
+        "vid": "1400301618557227008",
+        "pid": "1400301617122775040",
+        "variantName": null,
+        "variantNameEn": "Silicone Flying Saucer Funny Pets Dog Cat Toy Dog Game Flying Discs Resistant Chew Puppy Training Interactive Pet Supplies random color 1PC",
+        "variantImage": "https://cf.cjdropshipping.com/1622692808913.jpg",
+        "variantSku": "CJGY115723001AZ",
+        "barcode": "1598447713638",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "random color-1PC",
+        "variantLength": 220,
+        "variantWidth": 220,
+        "variantHeight": 30,
+        "variantVolume": 1452000,
+        "variantWeight": 60.0,
+        "variantSellPrice": 0.51,
+        "createTime": 1622692896000,
+        "variantStandard": "long=220,width=220,height=30",
+        "variantSugSellPrice": 3.34,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      }
+    ],
+    "addMarkStatus": 0,
+    "createrTime": "2021-06-03T04:01:36+08:00",
+    "productVideo": [
+      "1636607302289600512"
+    ],
+    "status": "3",
+    "suggestSellPrice": "3.34 - 101.09",
+    "listedNum": 3431,
+    "supplierName": null,
+    "supplierId": null,
+    "customizationVersion": null,
+    "customizationJson1": null,
+    "customizationJson2": null,
+    "customizationJson3": null,
+    "customizationJson4": null,
+    "isTestProduct": false,
+    "productUrl": "https://www.cjdropshipping.com/product/silicone-flying-saucer-funny-pets-dog-cat-toy-dog-game-flying-discs-resistant-chew-puppy-training-interactive-pet-supplies-p-1400301617122775040.html"
+  }
+}

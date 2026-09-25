@@ -1,0 +1,92 @@
+{
+  "tool": "cjdropship.get_product_inventory",
+  "params": {
+    "pid": "1400301617122775040"
+  },
+  "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+  "response_message": "✅ 商品库存查询成功。\n【如何选择正确的 stockId 传给 get_storage_info】:\n  - 优先选 cjInventory > 0 的 stock 条目的 stockId（CJ自有仓）\n  - 若只有 factoryInventory > 0 的条目，也可使用其 stockId（工厂仓）\n  - 本工具返回的 stockId 已去掉花括号；get_storage_info 对带/不带花括号两种形态都接受，原样传入即可\n    （注：query_cj_inventory 返回的是带花括号的形态，同样可原样传入）",
+  "response": {
+    "inventories": [
+      {
+        "areaEn": "China Warehouse",
+        "areaId": 1,
+        "countryCode": "CN",
+        "totalInventoryNum": 25349,
+        "cjInventoryNum": 11,
+        "factoryInventoryNum": 25338,
+        "countryNameEn": "China Warehouse",
+        "stock": null
+      },
+      {
+        "areaEn": "US Warehouse",
+        "areaId": 2,
+        "countryCode": "US",
+        "totalInventoryNum": 2,
+        "cjInventoryNum": 2,
+        "factoryInventoryNum": 0,
+        "countryNameEn": "US Warehouse",
+        "stock": null
+      }
+    ],
+    "variantInventories": [
+      {
+        "vid": "1400301618557227008",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 25349,
+            "cjInventory": 11,
+            "factoryInventory": 25338,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "83hrf88jd3f38yf8ue8j8u3jhd3ruerj",
+                "inventory": 0,
+                "factoryInventory": 6517
+              },
+              {
+                "stockId": "62cfedee247c4be1a0d497bfd2cf65ae",
+                "inventory": 1,
+                "factoryInventory": 0
+              },
+              {
+                "stockId": "85742FBC-38D7-4DC4-9496-296186FFEED8",
+                "inventory": 0,
+                "factoryInventory": 6429
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 7328
+              },
+              {
+                "stockId": "7a169e1a92ee4c719cfaedd837c6e46e",
+                "inventory": 10,
+                "factoryInventory": 0
+              },
+              {
+                "stockId": "caece4d5-5f35-487d-b4c7-4137aacb1802",
+                "inventory": 0,
+                "factoryInventory": 5064
+              }
+            ]
+          },
+          {
+            "countryCode": "US",
+            "totalInventory": 2,
+            "cjInventory": 2,
+            "factoryInventory": 0,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "57d5ba2de9904039af38f04948900fea",
+                "inventory": 2,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

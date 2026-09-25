@@ -1,0 +1,454 @@
+{
+  "rank": 2,
+  "pid": "1634099836821712896",
+  "sku": "CJGY1703014",
+  "search_products": {
+    "tool": "cjdropship.search_products",
+    "params": {
+      "lv3categoryList": [
+        "2410110340031614900"
+      ],
+      "orderBy": 1,
+      "sort": "desc",
+      "pageSize": 100,
+      "pageNum": 1,
+      "features": [
+        "enable_category",
+        "enable_description",
+        "enable_video",
+        "enable_combine"
+      ]
+    },
+    "rank_by_listedNum": 2,
+    "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+    "product": {
+      "id": "1634099836821712896",
+      "nameEn": "Dog Chew Toy Dog Bone Type  Dogs Teeth Cleaning Toys Indestructible TPR Bone Chewing Bite Resistant Teething Toys  Pet Products",
+      "sku": "CJGY1703014",
+      "isCollect": 0,
+      "listedNum": 4944,
+      "bigImage": "https://cf.cjdropshipping.com/1a0106dd-29d3-45b1-bb82-32ada5f340d7.jpg",
+      "sellPrice": "1.78 -- 11.23",
+      "nowPrice": null,
+      "authorityStatus": "1",
+      "addMarkStatus": 0,
+      "isVedio": 1,
+      "productType": "0",
+      "isAut": "0",
+      "categoryId": "2410110340031614900",
+      "threeCategoryName": "Pet Training and Educational Toys",
+      "twoCategoryId": "2410110335471602500",
+      "twoCategoryName": "Pet Toys",
+      "oneCategoryId": "2409110611570657700",
+      "oneCategoryName": "Pet Supplies",
+      "directMinOrderNum": null,
+      "supplierName": null,
+      "zoneRecommendJson": null,
+      "createAt": null,
+      "setRecommendedTime": null,
+      "autStatus": "1",
+      "isList": 0,
+      "isAd": 0,
+      "activityId": null,
+      "isPersonalized": 0,
+      "saleStatus": "3",
+      "syncListedProductStatus": null,
+      "videoList": [
+        "93209cc0cc8871ed806e0764a3fd0102"
+      ],
+      "deliveryCycle": null,
+      "warehouseInventoryNum": 44324,
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "myProduct": false,
+      "currency": null,
+      "totalVerifiedInventory": 0,
+      "totalUnVerifiedInventory": null,
+      "verifiedWarehouse": 2,
+      "customization": 0,
+      "hasCECertification": 0,
+      "description": "<p><b>Overview:</b></p><p>High-quality TPR Material, Tough and Durable, Satisfying the Dog's Chewing and Molar Instinct, Dog Bone Shape Design, Unique Shape to Attract Dogs to Play.<br/>Clean the Teeth While the Dog Bites, Massage the Gums to Reduce Tartar Freshen the Breath, Prevent Dental Calculus, Beneficial to the Dog's Oral Health.<br/>Puzzles Improve the Dog's IQ, Relieve Dog Anxiety, Release Stress, Reduce Dog Boredom, Release Excess Energy, and Reduce Pet Damage to Indoor Furniture and Other Behaviors.<br/>Easy to Clean, Can Be Reused After Cleaning, Small and Portable, Easy to Carry, Can Be Used Indoors and Outdoors, Suitable For Various Small and Medium-sized Dogs and Large Breeds, Such as Husky, Shepherd, Samoyed, Shiba Inu, German Shepherd, Labrador.</p><p><b><br/></b></p><p><b>Product information:</b><br/></p><p>Material: TPR<br/>Style: Fashion Simple<br/>Features: Pure color<br/>Color: Gentleman blue, cherry pink, avocado green<br/></p><p><b>Note: The color of the petals is random</b></p><p><b>Size Information:</b><br/><img src=\"https://cf.cjdropshipping.com/f890535a-2996-435d-9abf-9bf155674772.jpg\" style=\"max-width:100%;\" width=\"50%\"/><br/><br/></p><p><b>Packing list:</b></p><p>Toys*1</p><p><br/></p><p><b>Product Image:</b></p><p><img src=\"https://cf.cjdropshipping.com/39d94d9c-4a48-4bd6-9c33-445cd28897a5.jpg\" style=\"max-width:100%;\" width=\"798.5\" height=\"798.5\"/><img src=\"https://cf.cjdropshipping.com/7e6706a8-10d3-4bc8-8436-11814d6d30c8.jpg\" style=\"max-width: 100%;\" width=\"799.5\" height=\"799.5\"/><img src=\"https://cf.cjdropshipping.com/1adf0d9f-e7fa-44fe-af15-0f89140b6a86.jpg\" style=\"max-width: 100%;\" width=\"799.5\" height=\"799.5\"/><img src=\"https://cf.cjdropshipping.com/3be91ea9-118a-45aa-96e8-3b16b994b379.jpg\" width=\"799.5\" height=\"799.5\" style=\"font-size: 1em; max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/671dc9b3-0419-4bc2-b4e6-ac1478edcf4e.jpg\" width=\"799.5\" height=\"799.5\" style=\"font-size: 1em; max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/eebbeb48-78fa-4647-931e-4a660e387500.jpg\" style=\"font-size: 1em; max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/dc35a8d3-bf06-4bab-820a-41f2d07ade7d.jpg\" style=\"font-size: 1em; max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/f99f81f4-c246-493c-90c8-ec8aaf50b331.jpg\" style=\"font-size: 1em; max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/89c77895-2fdd-4bc0-8042-f193d7c83855.jpg\" style=\"font-size: 1em; max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/fb1d2f94-76d7-4d8f-9b71-f86094556a76.jpg\" style=\"font-size: 1em; max-width: 100%;\"/></p>",
+      "spu": "CJGY1703014",
+      "inventoryInfo": null,
+      "variantKeyEn": null,
+      "variantInventories": null,
+      "propertyKey": null,
+      "isVideo": 1,
+      "productUrl": "https://www.cjdropshipping.com/product/dog-chew-toy-dog-bone-type--dogs-teeth-cleaning-toys-indestructible-tpr-bone-chewing-bite-resistant-teething-toys--pet-products-p-1634099836821712896.html"
+    }
+  },
+  "get_product_detail": {
+    "tool": "cjdropship.get_product_detail",
+    "params": {
+      "pid": "1634099836821712896",
+      "features": "enable_combine,enable_video"
+    },
+    "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+    "response_message": "🔍 Product detail loaded.",
+    "response": {
+      "pid": "1634099836821712896",
+      "productName": "[\"宠物玩具狗玩具TPR骨头型多肉片啃咬耐咬磨牙玩具套装\",\"咬耐咬磨牙玩具套装\",\"宠物玩具狗玩具TPR骨头\"]",
+      "productNameSet": [
+        "宠物玩具狗玩具TPR骨头型多肉片啃咬耐咬磨牙玩具套装",
+        "咬耐咬磨牙玩具套装",
+        "宠物玩具狗玩具TPR骨头"
+      ],
+      "productNameEn": "Dog Chew Toy Dog Bone Type  Dogs Teeth Cleaning Toys Indestructible TPR Bone Chewing Bite Resistant Teething Toys  Pet Products",
+      "productSku": "CJGY1703014",
+      "bigImage": "https://cf.cjdropshipping.com/1a0106dd-29d3-45b1-bb82-32ada5f340d7.jpg",
+      "productImage": "[\"https://cf.cjdropshipping.com/1a0106dd-29d3-45b1-bb82-32ada5f340d7.jpg\",\"https://cf.cjdropshipping.com/9d83db5e-7b85-4bdf-9343-ee3cbc69abac.jpg\",\"https://cf.cjdropshipping.com/a956dde5-92fd-4db4-95e1-f2523a6dc0c4.jpg\",\"https://cf.cjdropshipping.com/280db568-6076-40b2-a7b0-b4c7f0cc5d92.jpg\",\"https://cf.cjdropshipping.com/0cdd2089-2622-4412-a474-5287f7dec77a.jpg\",\"https://cf.cjdropshipping.com/4e67f85d-acd4-4676-8c60-5900b9728fdf.jpg\",\"https://cf.cjdropshipping.com/d9927013-8786-4f8c-8589-cbb99402c2c2.jpg\",\"https://cf.cjdropshipping.com/519b00c7-391d-4496-93c3-f2ca8cea894e.jpg\",\"https://cf.cjdropshipping.com/279e7b10-f165-4f13-a296-2906badea6f2.jpg\",\"https://cf.cjdropshipping.com/17133adb-e8cc-49e2-acae-6dee7c84a1a3.jpg\",\"https://cf.cjdropshipping.com/ffaaa574-c5a2-449e-b2d3-bea5ed742ea2.jpg\",\"https://cf.cjdropshipping.com/8eb60202-4f59-4b5c-a438-5e3ee1c69fc8.jpg\",\"https://cf.cjdropshipping.com/15b19dcf-bbcd-467d-b0f0-3e1962882175.jpg\",\"https://oss-cf.cjdropshipping.com/product/2025/04/15/12/4595a05c-d397-4253-a8c0-7bba9952fcde.jpg\"]",
+      "productImageSet": [
+        "https://cf.cjdropshipping.com/519b00c7-391d-4496-93c3-f2ca8cea894e.jpg",
+        "https://cf.cjdropshipping.com/ffaaa574-c5a2-449e-b2d3-bea5ed742ea2.jpg",
+        "https://cf.cjdropshipping.com/0cdd2089-2622-4412-a474-5287f7dec77a.jpg",
+        "https://cf.cjdropshipping.com/8eb60202-4f59-4b5c-a438-5e3ee1c69fc8.jpg",
+        "https://cf.cjdropshipping.com/4e67f85d-acd4-4676-8c60-5900b9728fdf.jpg",
+        "https://cf.cjdropshipping.com/9d83db5e-7b85-4bdf-9343-ee3cbc69abac.jpg",
+        "https://cf.cjdropshipping.com/17133adb-e8cc-49e2-acae-6dee7c84a1a3.jpg",
+        "https://cf.cjdropshipping.com/1a0106dd-29d3-45b1-bb82-32ada5f340d7.jpg",
+        "https://cf.cjdropshipping.com/d9927013-8786-4f8c-8589-cbb99402c2c2.jpg",
+        "https://cf.cjdropshipping.com/280db568-6076-40b2-a7b0-b4c7f0cc5d92.jpg",
+        "https://oss-cf.cjdropshipping.com/product/2025/04/15/12/4595a05c-d397-4253-a8c0-7bba9952fcde.jpg",
+        "https://cf.cjdropshipping.com/a956dde5-92fd-4db4-95e1-f2523a6dc0c4.jpg",
+        "https://cf.cjdropshipping.com/279e7b10-f165-4f13-a296-2906badea6f2.jpg",
+        "https://cf.cjdropshipping.com/15b19dcf-bbcd-467d-b0f0-3e1962882175.jpg"
+      ],
+      "productWeight": "90.00-559.00",
+      "productUnit": null,
+      "productType": "ORDINARY_PRODUCT",
+      "categoryId": "2410110340031614900",
+      "categoryName": "Pet Supplies > Pet Toys > Pet Training and Educational Toys",
+      "entryCode": "3926909090",
+      "entryName": "塑料玩具",
+      "entryNameEn": "Plastic toys",
+      "materialName": "[\"塑料\"]",
+      "materialNameSet": [
+        "塑料"
+      ],
+      "materialNameEn": "[\"Plastic\"]",
+      "materialNameEnSet": [
+        "Plastic"
+      ],
+      "materialKey": "[\"PLASTIC\"]",
+      "materialKeySet": [
+        "PLASTIC"
+      ],
+      "packingWeight": "138.00-589.00",
+      "packingName": "[\"塑料袋\"]",
+      "packingNameSet": [
+        "塑料袋"
+      ],
+      "packingNameEn": "[\"Plastic bags\"]",
+      "packingNameEnSet": [
+        "Plastic bags"
+      ],
+      "packingKey": "[\"PLASTIC_BAG\"]",
+      "packingKeySet": [
+        "PLASTIC_BAG"
+      ],
+      "productKey": "[\"颜色\"]",
+      "productKeySet": [
+        "颜色"
+      ],
+      "productKeyEn": "Color",
+      "productKeyEnSet": [
+        "Color"
+      ],
+      "productPro": "[\"普货\"]",
+      "productProSet": [
+        "普货"
+      ],
+      "productProEn": "[\"COMMON\"]",
+      "productProEnSet": [
+        "COMMON"
+      ],
+      "sellPrice": "1.78-11.23",
+      "sourceFrom": 0,
+      "description": "<p><b>Overview:</b></p><p>High-quality TPR Material, Tough and Durable, Satisfying the Dog's Chewing and Molar Instinct, Dog Bone Shape Design, Unique Shape to Attract Dogs to Play.<br/>Clean the Teeth While the Dog Bites, Massage the Gums to Reduce Tartar Freshen the Breath, Prevent Dental Calculus, Beneficial to the Dog's Oral Health.<br/>Puzzles Improve the Dog's IQ, Relieve Dog Anxiety, Release Stress, Reduce Dog Boredom, Release Excess Energy, and Reduce Pet Damage to Indoor Furniture and Other Behaviors.<br/>Easy to Clean, Can Be Reused After Cleaning, Small and Portable, Easy to Carry, Can Be Used Indoors and Outdoors, Suitable For Various Small and Medium-sized Dogs and Large Breeds, Such as Husky, Shepherd, Samoyed, Shiba Inu, German Shepherd, Labrador.</p><p><b><br/></b></p><p><b>Product information:</b><br/></p><p>Material: TPR<br/>Style: Fashion Simple<br/>Features: Pure color<br/>Color: Gentleman blue, cherry pink, avocado green<br/></p><p><b>Note: The color of the petals is random</b></p><p><b>Size Information:</b><br/><img src=\"https://cf.cjdropshipping.com/f890535a-2996-435d-9abf-9bf155674772.jpg\" style=\"max-width:100%;\" width=\"50%\"/><br/><br/></p><p><b>Packing list:</b></p><p>Toys*1</p><p><br/></p><p><b>Product Image:</b></p><p><img src=\"https://cf.cjdropshipping.com/39d94d9c-4a48-4bd6-9c33-445cd28897a5.jpg\" style=\"max-width:100%;\" width=\"798.5\" height=\"798.5\"/><img src=\"https://cf.cjdropshipping.com/7e6706a8-10d3-4bc8-8436-11814d6d30c8.jpg\" style=\"max-width: 100%;\" width=\"799.5\" height=\"799.5\"/><img src=\"https://cf.cjdropshipping.com/1adf0d9f-e7fa-44fe-af15-0f89140b6a86.jpg\" style=\"max-width: 100%;\" width=\"799.5\" height=\"799.5\"/><img src=\"https://cf.cjdropshipping.com/3be91ea9-118a-45aa-96e8-3b16b994b379.jpg\" width=\"799.5\" height=\"799.5\" style=\"font-size: 1em; max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/671dc9b3-0419-4bc2-b4e6-ac1478edcf4e.jpg\" width=\"799.5\" height=\"799.5\" style=\"font-size: 1em; max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/eebbeb48-78fa-4647-931e-4a660e387500.jpg\" style=\"font-size: 1em; max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/dc35a8d3-bf06-4bab-820a-41f2d07ade7d.jpg\" style=\"font-size: 1em; max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/f99f81f4-c246-493c-90c8-ec8aaf50b331.jpg\" style=\"font-size: 1em; max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/89c77895-2fdd-4bc0-8042-f193d7c83855.jpg\" style=\"font-size: 1em; max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/fb1d2f94-76d7-4d8f-9b71-f86094556a76.jpg\" style=\"font-size: 1em; max-width: 100%;\"/></p>",
+      "variants": [
+        {
+          "vid": "1634099836905598976",
+          "pid": "1634099836821712896",
+          "variantName": null,
+          "variantNameEn": "Dog Chew Toy Dog Bone Type  Dogs Teeth Cleaning Toys Indestructible TPR Bone Chewing Bite Resistant Teething Toys  Pet Products Blue",
+          "variantImage": "https://cf.cjdropshipping.com/8eb60202-4f59-4b5c-a438-5e3ee1c69fc8.jpg",
+          "variantSku": "CJGY170301401AZ",
+          "barcode": "1600000205786",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Blue",
+          "variantLength": 200,
+          "variantWidth": 180,
+          "variantHeight": 50,
+          "variantVolume": 1800000,
+          "variantWeight": 138.0,
+          "variantSellPrice": 1.78,
+          "createTime": 1678434735000,
+          "variantStandard": "long=200,width=180,height=50",
+          "variantSugSellPrice": 11.63,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        },
+        {
+          "vid": "1634099836960124928",
+          "pid": "1634099836821712896",
+          "variantName": null,
+          "variantNameEn": "Dog Chew Toy Dog Bone Type  Dogs Teeth Cleaning Toys Indestructible TPR Bone Chewing Bite Resistant Teething Toys  Pet Products Pink",
+          "variantImage": "https://cf.cjdropshipping.com/ffaaa574-c5a2-449e-b2d3-bea5ed742ea2.jpg",
+          "variantSku": "CJGY170301402BY",
+          "barcode": "1600000205787",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Pink",
+          "variantLength": 200,
+          "variantWidth": 180,
+          "variantHeight": 50,
+          "variantVolume": 1800000,
+          "variantWeight": 138.0,
+          "variantSellPrice": 1.78,
+          "createTime": 1678434735000,
+          "variantStandard": "long=200,width=180,height=50",
+          "variantSugSellPrice": 16.41,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        },
+        {
+          "vid": "1634099837018845184",
+          "pid": "1634099836821712896",
+          "variantName": null,
+          "variantNameEn": "Dog Chew Toy Dog Bone Type  Dogs Teeth Cleaning Toys Indestructible TPR Bone Chewing Bite Resistant Teething Toys  Pet Products Green",
+          "variantImage": "https://cf.cjdropshipping.com/279e7b10-f165-4f13-a296-2906badea6f2.jpg",
+          "variantSku": "CJGY170301403CX",
+          "barcode": "1600000205788",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Green",
+          "variantLength": 200,
+          "variantWidth": 180,
+          "variantHeight": 50,
+          "variantVolume": 1800000,
+          "variantWeight": 138.0,
+          "variantSellPrice": 1.78,
+          "createTime": 1678434735000,
+          "variantStandard": "long=200,width=180,height=50",
+          "variantSugSellPrice": 11.63,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        },
+        {
+          "vid": "2504151243471607700",
+          "pid": "1634099836821712896",
+          "variantName": null,
+          "variantNameEn": "Dog Chew Toy Dog Bone Type  Dogs Teeth Cleaning Toys Indestructible TPR Bone Chewing Bite Resistant Teething Toys  Pet Products Blue set",
+          "variantImage": "https://oss-cf.cjdropshipping.com/product/2025/04/15/12/4595a05c-d397-4253-a8c0-7bba9952fcde.jpg",
+          "variantSku": "CJGY170301404DW",
+          "barcode": "1600006526749",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Blue set",
+          "variantLength": 250,
+          "variantWidth": 180,
+          "variantHeight": 100,
+          "variantVolume": 4500000,
+          "variantWeight": 589.0,
+          "variantSellPrice": 11.23,
+          "createTime": 1744721027000,
+          "variantStandard": "long=250,width=180,height=100",
+          "variantSugSellPrice": 73.34,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        }
+      ],
+      "addMarkStatus": 0,
+      "createrTime": "2023-03-10T07:52:15+08:00",
+      "productVideo": [
+        "1640296985045512192"
+      ],
+      "status": "3",
+      "suggestSellPrice": "11.63 - 73.34",
+      "listedNum": 4944,
+      "supplierName": null,
+      "supplierId": null,
+      "customizationVersion": null,
+      "customizationJson1": null,
+      "customizationJson2": null,
+      "customizationJson3": null,
+      "customizationJson4": null,
+      "isTestProduct": false,
+      "productUrl": "https://www.cjdropshipping.com/product/dog-chew-toy-dog-bone-type--dogs-teeth-cleaning-toys-indestructible-tpr-bone-chewing-bite-resistant-teething-toys--pet-products-p-1634099836821712896.html"
+    }
+  },
+  "get_product_inventory": {
+    "tool": "cjdropship.get_product_inventory",
+    "params": {
+      "pid": "1634099836821712896"
+    },
+    "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+    "response_message": "✅ 商品库存查询成功。\n【如何选择正确的 stockId 传给 get_storage_info】:\n  - 优先选 cjInventory > 0 的 stock 条目的 stockId（CJ自有仓）\n  - 若只有 factoryInventory > 0 的条目，也可使用其 stockId（工厂仓）\n  - 本工具返回的 stockId 已去掉花括号；get_storage_info 对带/不带花括号两种形态都接受，原样传入即可\n    （注：query_cj_inventory 返回的是带花括号的形态，同样可原样传入）",
+    "response": {
+      "inventories": [
+        {
+          "areaEn": "China Warehouse",
+          "areaId": 1,
+          "countryCode": "CN",
+          "totalInventoryNum": 44324,
+          "cjInventoryNum": 0,
+          "factoryInventoryNum": 44324,
+          "countryNameEn": "China Warehouse",
+          "stock": null
+        }
+      ],
+      "variantInventories": [
+        {
+          "vid": "2504151243471607700",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 6983,
+              "cjInventory": 0,
+              "factoryInventory": 6983,
+              "verifiedWarehouse": 2,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 6983
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vid": "1634099836905598976",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 12743,
+              "cjInventory": 0,
+              "factoryInventory": 12743,
+              "verifiedWarehouse": 2,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 12743
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vid": "1634099837018845184",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 13158,
+              "cjInventory": 0,
+              "factoryInventory": 13158,
+              "verifiedWarehouse": 2,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 13158
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vid": "1634099836960124928",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 11440,
+              "cjInventory": 0,
+              "factoryInventory": 11440,
+              "verifiedWarehouse": 2,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 11440
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "get_product_reviews": {
+    "tool": "cjdropship.get_product_reviews",
+    "params": {
+      "pid": "1634099836821712896",
+      "pageSize": 20
+    },
+    "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+    "total": 2,
+    "pages_fetched": 1,
+    "pages": [
+      {
+        "pageNum": 1,
+        "pageSize": 20,
+        "total": 2,
+        "list": [
+          {
+            "commentId": 1640264868328648704,
+            "pid": "1634099836821712896",
+            "comment": "I and my dog are very satisfied",
+            "commentUrls": null,
+            "commentUser": "K***x",
+            "score": 5,
+            "countryCode": "US",
+            "commentDate": "2023-01-16T17:24:15+08:00",
+            "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+          },
+          {
+            "commentId": 1640264765131993090,
+            "pid": "1634099836821712896",
+            "comment": "Très jolie jouet",
+            "commentUrls": null,
+            "commentUser": "E***i",
+            "score": 4,
+            "countryCode": "FR",
+            "commentDate": "2023-01-13T02:28:53+08:00",
+            "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+          }
+        ]
+      }
+    ],
+    "all_reviews": [
+      {
+        "commentId": 1640264868328648704,
+        "pid": "1634099836821712896",
+        "comment": "I and my dog are very satisfied",
+        "commentUrls": null,
+        "commentUser": "K***x",
+        "score": 5,
+        "countryCode": "US",
+        "commentDate": "2023-01-16T17:24:15+08:00",
+        "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+      },
+      {
+        "commentId": 1640264765131993090,
+        "pid": "1634099836821712896",
+        "comment": "Très jolie jouet",
+        "commentUrls": null,
+        "commentUser": "E***i",
+        "score": 4,
+        "countryCode": "FR",
+        "commentDate": "2023-01-13T02:28:53+08:00",
+        "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "tool": "cjdropship.get_product_reviews",
+  "params": {
+    "pid": "1400301617122775040",
+    "pageSize": 20
+  },
+  "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+  "total": 0,
+  "pages_fetched": 1,
+  "pages": [
+    {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 0,
+      "list": []
+    }
+  ],
+  "all_reviews": []
+}

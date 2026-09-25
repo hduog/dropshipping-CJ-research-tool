@@ -1,0 +1,80 @@
+{
+  "tool": "get_product_inventory",
+  "params": {
+    "pid": "1681885622027833344"
+  },
+  "_header": "✅ 商品库存查询成功。\n【如何选择正确的 stockId 传给 get_storage_info】:\n  - 优先选 cjInventory > 0 的 stock 条目的 stockId（CJ自有仓）\n  - 若只有 factoryInventory > 0 的条目，也可使用其 stockId（工厂仓）\n  - 本工具返回的 stockId 已去掉花括号；get_storage_info 对带/不带花括号两种形态都接受，原样传入即可\n    （注：query_cj_inventory 返回的是带花括号的形态，同样可原样传入）",
+  "data": {
+    "inventories": [
+      {
+        "areaEn": "China Warehouse",
+        "areaId": 1,
+        "countryCode": "CN",
+        "totalInventoryNum": 4184,
+        "cjInventoryNum": 4184,
+        "factoryInventoryNum": 0,
+        "countryNameEn": "China Warehouse",
+        "stock": null
+      }
+    ],
+    "variantInventories": [
+      {
+        "vid": "1681885622069776384",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 1339,
+            "cjInventory": 1339,
+            "factoryInventory": 0,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "14461",
+                "inventory": 1339,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1681885622069776385",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 1421,
+            "cjInventory": 1421,
+            "factoryInventory": 0,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "14461",
+                "inventory": 1421,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1681885622069776386",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 1424,
+            "cjInventory": 1424,
+            "factoryInventory": 0,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "14461",
+                "inventory": 1424,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

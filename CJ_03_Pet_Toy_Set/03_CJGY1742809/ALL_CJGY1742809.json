@@ -1,0 +1,322 @@
+{
+  "rank": 3,
+  "sku": "CJGY1742809",
+  "pid": "1650329494391508992",
+  "fetchedAt": "2026-09-25T03:03:52",
+  "search_products": {
+    "tool": "search_products",
+    "params": {
+      "lv3categoryList": [
+        "2410110340411608400"
+      ],
+      "orderBy": 1,
+      "sort": "desc",
+      "pageSize": 100,
+      "features": [
+        "enable_category",
+        "enable_description",
+        "enable_video",
+        "enable_combine"
+      ]
+    },
+    "rank": 3,
+    "data": {
+      "id": "1650329494391508992",
+      "nameEn": "Automatic Explore Retractable Dog Leash Pet Traction Rope 5M Dog Retractable Traction Rope Dog Leash Cat Puppy Harness Belt Automatic Flexible Small Medium Dogs Pet Products",
+      "sku": "CJGY1742809",
+      "isCollect": 0,
+      "listedNum": 2460,
+      "bigImage": "https://cf.cjdropshipping.com/a3c09cca-7a88-4f7f-88bc-7dd486edb786.jpg",
+      "sellPrice": "11.94 -- 15.62",
+      "nowPrice": null,
+      "authorityStatus": "1",
+      "addMarkStatus": 1,
+      "isVedio": 1,
+      "productType": "5",
+      "isAut": "0",
+      "categoryId": "2410110340411608400",
+      "threeCategoryName": "Pet Toy Set",
+      "twoCategoryId": "2410110335471602500",
+      "twoCategoryName": "Pet Toys",
+      "oneCategoryId": "2409110611570657700",
+      "oneCategoryName": "Pet Supplies",
+      "directMinOrderNum": null,
+      "supplierName": null,
+      "zoneRecommendJson": null,
+      "createAt": null,
+      "setRecommendedTime": null,
+      "autStatus": "1",
+      "isList": 0,
+      "isAd": 0,
+      "activityId": null,
+      "isPersonalized": 0,
+      "saleStatus": "3",
+      "syncListedProductStatus": null,
+      "videoList": [
+        "73140d10e24871eda4ed6733a78e0102"
+      ],
+      "deliveryCycle": null,
+      "warehouseInventoryNum": 3143,
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "myProduct": false,
+      "currency": null,
+      "totalVerifiedInventory": 0,
+      "totalUnVerifiedInventory": null,
+      "verifiedWarehouse": 2,
+      "customization": 0,
+      "hasCECertification": 0,
+      "description": "<p>Our Retractable Leash is designed with an ergonomic handle and anti-slip locking button, so you can walk your pup confidently and safely.<br/>Created for pet parents who want to give their furry friend more freedom while maintaining safety and control at all times, from roaming to every outing like a walk in the park.<br/>Equipped with anti-fray and anti-tangle nylon ribbon, automatically adjusts with your dog's movements.<br/>The inner spring mechanism keeps the lead under slight tension for total control.<br/>Precautions: Keep out of reach of small children. Never let anyone play with this leash. Avoid contact with the cord/tape/belt and never let it wrap around any part of your body. To safely operate, you must be able to maintain control of your dog at all times in order to prevent your dog from bolting off or entangling a bystander in the leash tape.</p><p>Specification:<br/><br/>The retractable dog leash can be extended up to 3-5 meters, giving your dog a perfect range and freedom of movement.<br/><br/>The handle part is made of environmentally friendly materials, which will not cause allergies to pets or human skin.<br/><br/>Retractable design, the belt can be automatically retracted.<br/><br/>It's great for walking and training and controls your pet with ease.<br/><br/>Made of high-quality materials, durable and safe.<br/><br/>Product name: retractable pet leash<br/><br/>Material: ABS, PC<br/><br/>Features: Pet Supplies, Durable, Automatic, Retractable, Leash</p>",
+      "spu": "CJGY1742809",
+      "inventoryInfo": null,
+      "variantKeyEn": null,
+      "variantInventories": null,
+      "propertyKey": null,
+      "isVideo": 1,
+      "productUrl": "https://www.cjdropshipping.com/product/automatic-explore-retractable-dog-leash-pet-traction-rope-5m-dog-retractable-traction-rope-dog-leash-cat-puppy-harness-belt-automatic-flexible-small-medium-dogs-pet-products-p-1650329494391508992.html"
+    }
+  },
+  "get_product_detail": {
+    "tool": "get_product_detail",
+    "params": {
+      "pid": "1650329494391508992",
+      "features": "enable_combine,enable_video"
+    },
+    "_header": "🔍 Product detail loaded.",
+    "data": {
+      "pid": "1650329494391508992",
+      "productName": "[\"5M Dog Retractable Traction Rope\",\"Dog Leash Harness Belt\",\"Automatic Explore Retractable Dog Leash\",\"Pet Traction Rope\",\"Walking Training Lead Leas\"]",
+      "productNameSet": [
+        "5M Dog Retractable Traction Rope",
+        "Dog Leash Harness Belt",
+        "Automatic Explore Retractable Dog Leash",
+        "Pet Traction Rope",
+        "Walking Training Lead Leas"
+      ],
+      "productNameEn": "Automatic Explore Retractable Dog Leash Pet Traction Rope 5M Dog Retractable Traction Rope Dog Leash Cat Puppy Harness Belt Automatic Flexible Small Medium Dogs Pet Products",
+      "productSku": "CJGY1742809",
+      "bigImage": "https://cf.cjdropshipping.com/a3c09cca-7a88-4f7f-88bc-7dd486edb786.jpg",
+      "productImage": "[\"https://cf.cjdropshipping.com/a3c09cca-7a88-4f7f-88bc-7dd486edb786.jpg\",\"https://cf.cjdropshipping.com/aa3cd9fa-f989-4afc-97ce-f5246775dc0f.jpg\",\"https://cf.cjdropshipping.com/8e5ad731-0d30-4a20-a5a9-e1d9677d13a6.jpg\",\"https://cf.cjdropshipping.com/aac565c9-1a92-440a-b25a-fbe29aea538b.jpg\",\"https://cf.cjdropshipping.com/2ee18197-9211-4a2c-b7cd-495bfb745e5d.jpg\",\"https://cf.cjdropshipping.com/9d0bff09-b95e-40ea-84d3-7f95ecccbf0d.jpg\",\"https://cf.cjdropshipping.com/a04a3911-7076-4279-992d-ca92415f2c84.jpg\",\"https://cf.cjdropshipping.com/1c6e7858-180e-4887-9a7b-1e5189407638.jpg\"]",
+      "productImageSet": [
+        "https://cf.cjdropshipping.com/a3c09cca-7a88-4f7f-88bc-7dd486edb786.jpg",
+        "https://cf.cjdropshipping.com/a04a3911-7076-4279-992d-ca92415f2c84.jpg",
+        "https://cf.cjdropshipping.com/aa3cd9fa-f989-4afc-97ce-f5246775dc0f.jpg",
+        "https://cf.cjdropshipping.com/1c6e7858-180e-4887-9a7b-1e5189407638.jpg",
+        "https://cf.cjdropshipping.com/8e5ad731-0d30-4a20-a5a9-e1d9677d13a6.jpg",
+        "https://cf.cjdropshipping.com/2ee18197-9211-4a2c-b7cd-495bfb745e5d.jpg",
+        "https://cf.cjdropshipping.com/9d0bff09-b95e-40ea-84d3-7f95ecccbf0d.jpg",
+        "https://cf.cjdropshipping.com/aac565c9-1a92-440a-b25a-fbe29aea538b.jpg"
+      ],
+      "productWeight": "214",
+      "productUnit": null,
+      "productType": "SUPPLIER_SHIPPED_PRODUCT",
+      "categoryId": "2410110340411608400",
+      "categoryName": "Pet Supplies / Pet Toys / Pet Toy Set",
+      "entryCode": "4201000090",
+      "entryName": "狗绳",
+      "entryNameEn": "Dog Leash Harness Belt",
+      "materialName": "[\"塑料\"]",
+      "materialNameSet": [
+        "塑料"
+      ],
+      "materialNameEn": "[\"Plastic\"]",
+      "materialNameEnSet": [
+        "Plastic"
+      ],
+      "materialKey": "[\"PLASTIC\"]",
+      "materialKeySet": [
+        "PLASTIC"
+      ],
+      "packingWeight": "214",
+      "packingName": "[\"纸盒\"]",
+      "packingNameSet": [
+        "纸盒"
+      ],
+      "packingNameEn": "[\"Carton\"]",
+      "packingNameEnSet": [
+        "Carton"
+      ],
+      "packingKey": "[\"PAPER_BOX\"]",
+      "packingKeySet": [
+        "PAPER_BOX"
+      ],
+      "productKey": "[\"Length\"]",
+      "productKeySet": [
+        "Length"
+      ],
+      "productKeyEn": "Length",
+      "productKeyEnSet": [
+        "Length"
+      ],
+      "productPro": "[\"普货\"]",
+      "productProSet": [
+        "普货"
+      ],
+      "productProEn": "[\"COMMON\"]",
+      "productProEnSet": [
+        "COMMON"
+      ],
+      "sellPrice": "11.94-15.62",
+      "sourceFrom": 0,
+      "description": "<p>Our Retractable Leash is designed with an ergonomic handle and anti-slip locking button, so you can walk your pup confidently and safely.<br/>Created for pet parents who want to give their furry friend more freedom while maintaining safety and control at all times, from roaming to every outing like a walk in the park.<br/>Equipped with anti-fray and anti-tangle nylon ribbon, automatically adjusts with your dog's movements.<br/>The inner spring mechanism keeps the lead under slight tension for total control.<br/>Precautions: Keep out of reach of small children. Never let anyone play with this leash. Avoid contact with the cord/tape/belt and never let it wrap around any part of your body. To safely operate, you must be able to maintain control of your dog at all times in order to prevent your dog from bolting off or entangling a bystander in the leash tape.</p><p>Specification:<br/><br/>The retractable dog leash can be extended up to 3-5 meters, giving your dog a perfect range and freedom of movement.<br/><br/>The handle part is made of environmentally friendly materials, which will not cause allergies to pets or human skin.<br/><br/>Retractable design, the belt can be automatically retracted.<br/><br/>It's great for walking and training and controls your pet with ease.<br/><br/>Made of high-quality materials, durable and safe.<br/><br/>Product name: retractable pet leash<br/><br/>Material: ABS, PC<br/><br/>Features: Pet Supplies, Durable, Automatic, Retractable, Leash</p>",
+      "variants": [
+        {
+          "vid": "1650329494433452032",
+          "pid": "1650329494391508992",
+          "variantName": null,
+          "variantNameEn": null,
+          "variantImage": "https://cf.cjdropshipping.com/a04a3911-7076-4279-992d-ca92415f2c84.jpg",
+          "variantSku": "CJGY1742809-3m",
+          "barcode": "1600000634100",
+          "variantUnit": null,
+          "variantProperty": null,
+          "variantKey": "3m",
+          "variantLength": 180,
+          "variantWidth": 120,
+          "variantHeight": 40,
+          "variantVolume": 864000,
+          "variantWeight": 214.0,
+          "variantSellPrice": 11.941,
+          "createTime": 1682294400000,
+          "variantStandard": "long=180,width=120,height=40",
+          "variantSugSellPrice": 67.59,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        },
+        {
+          "vid": "1650329494433452033",
+          "pid": "1650329494391508992",
+          "variantName": null,
+          "variantNameEn": null,
+          "variantImage": "https://cf.cjdropshipping.com/1c6e7858-180e-4887-9a7b-1e5189407638.jpg",
+          "variantSku": "CJGY1742809-5m",
+          "barcode": "1600000634101",
+          "variantUnit": null,
+          "variantProperty": null,
+          "variantKey": "5m",
+          "variantLength": 180,
+          "variantWidth": 120,
+          "variantHeight": 40,
+          "variantVolume": 864000,
+          "variantWeight": 214.0,
+          "variantSellPrice": 15.621,
+          "createTime": 1682294400000,
+          "variantStandard": "long=180,width=120,height=40",
+          "variantSugSellPrice": 88.42,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        }
+      ],
+      "addMarkStatus": 1,
+      "createrTime": "2023-04-24T02:43:07+08:00",
+      "productVideo": [
+        "cd4a388a5ece46cdbccafbc7b76f03e6"
+      ],
+      "status": "3",
+      "suggestSellPrice": "67.59 - 88.42",
+      "listedNum": 2460,
+      "supplierName": "Fan Nan",
+      "supplierId": "1384349674504110081",
+      "customizationVersion": null,
+      "customizationJson1": null,
+      "customizationJson2": null,
+      "customizationJson3": null,
+      "customizationJson4": null,
+      "isTestProduct": false,
+      "productUrl": "https://www.cjdropshipping.com/product/automatic-explore-retractable-dog-leash-pet-traction-rope-5m-dog-retractable-traction-rope-dog-leash-cat-puppy-harness-belt-automatic-flexible-small-medium-dogs-pet-products-p-1650329494391508992.html"
+    }
+  },
+  "get_product_inventory": {
+    "tool": "get_product_inventory",
+    "params": {
+      "pid": "1650329494391508992"
+    },
+    "_header": "✅ 商品库存查询成功。\n【如何选择正确的 stockId 传给 get_storage_info】:\n  - 优先选 cjInventory > 0 的 stock 条目的 stockId（CJ自有仓）\n  - 若只有 factoryInventory > 0 的条目，也可使用其 stockId（工厂仓）\n  - 本工具返回的 stockId 已去掉花括号；get_storage_info 对带/不带花括号两种形态都接受，原样传入即可\n    （注：query_cj_inventory 返回的是带花括号的形态，同样可原样传入）",
+    "data": {
+      "inventories": [
+        {
+          "areaEn": "China Warehouse",
+          "areaId": 1,
+          "countryCode": "CN",
+          "totalInventoryNum": 28200,
+          "cjInventoryNum": 3143,
+          "factoryInventoryNum": 25057,
+          "countryNameEn": "China Warehouse",
+          "stock": null
+        }
+      ],
+      "variantInventories": [
+        {
+          "vid": "1650329494433452032",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 14481,
+              "cjInventory": 1620,
+              "factoryInventory": 12861,
+              "verifiedWarehouse": 1,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 12861
+                },
+                {
+                  "stockId": "14461",
+                  "inventory": 1620,
+                  "factoryInventory": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vid": "1650329494433452033",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 13719,
+              "cjInventory": 1523,
+              "factoryInventory": 12196,
+              "verifiedWarehouse": 1,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 12196
+                },
+                {
+                  "stockId": "14461",
+                  "inventory": 1523,
+                  "factoryInventory": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "get_product_reviews": {
+    "tool": "get_product_reviews",
+    "params": {
+      "pid": "1650329494391508992",
+      "pageSize": 20
+    },
+    "total": 0,
+    "pagesFetched": 1,
+    "pages": [
+      {
+        "pageNum": 1,
+        "pageSize": 20,
+        "total": 0,
+        "list": []
+      }
+    ],
+    "allReviews": []
+  }
+}

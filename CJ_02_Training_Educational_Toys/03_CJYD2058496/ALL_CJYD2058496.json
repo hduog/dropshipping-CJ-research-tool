@@ -1,0 +1,741 @@
+{
+  "rank": 3,
+  "pid": "2406120341111620600",
+  "sku": "CJYD2058496",
+  "search_products": {
+    "tool": "cjdropship.search_products",
+    "params": {
+      "lv3categoryList": [
+        "2410110340031614900"
+      ],
+      "orderBy": 1,
+      "sort": "desc",
+      "pageSize": 100,
+      "pageNum": 1,
+      "features": [
+        "enable_category",
+        "enable_description",
+        "enable_video",
+        "enable_combine"
+      ]
+    },
+    "rank_by_listedNum": 3,
+    "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+    "product": {
+      "id": "2406120341111620600",
+      "nameEn": "Summer Cooling Pet Water Bed Cushion Ice Pad Dog Sleeping Square Mat For Puppy Dogs Cats Pet Kennel Cool Cold",
+      "sku": "CJYD2058496",
+      "isCollect": 0,
+      "listedNum": 3852,
+      "bigImage": "https://oss-cf.cjdropshipping.com/product/2024/06/17/08/ea67e59f-f281-499c-8e57-97b12e50e261.jpg",
+      "sellPrice": "0.58 -- 3.52",
+      "nowPrice": null,
+      "authorityStatus": "1",
+      "addMarkStatus": 0,
+      "isVedio": 1,
+      "productType": "0",
+      "isAut": "0",
+      "categoryId": "2410110340031614900",
+      "threeCategoryName": "Pet Training and Educational Toys",
+      "twoCategoryId": "2410110335471602500",
+      "twoCategoryName": "Pet Toys",
+      "oneCategoryId": "2409110611570657700",
+      "oneCategoryName": "Pet Supplies",
+      "directMinOrderNum": null,
+      "supplierName": null,
+      "zoneRecommendJson": null,
+      "createAt": null,
+      "setRecommendedTime": null,
+      "autStatus": "1",
+      "isList": 0,
+      "isAd": 0,
+      "activityId": null,
+      "isPersonalized": 0,
+      "saleStatus": "3",
+      "syncListedProductStatus": null,
+      "videoList": [
+        "e09589e6320071efbfba6632b68f0102",
+        "c08bd424320171efbff75017f1f80102",
+        "6040ac07320171efbfba6632b68f0102",
+        "10afe82b2c5071efbfd95017f0e90102",
+        "20abec2f2c5071ef808b5017f1e90102",
+        "808fb8382c5071ef80155017e1e90102",
+        "c027c6932eda71efbfb65420848c0102",
+        "e0897ed62eda71efbff45017f0f90102",
+        "e00f19252c5071efa87c4531959c0102",
+        "706d30b62eda71efb51d6723b78e0102",
+        "30a424212c5071efad475107e0c90102",
+        "6069061d2c5071ef8da55017e1f90102",
+        "5060be3c2c5071efbfc85017f0f80102"
+      ],
+      "deliveryCycle": null,
+      "warehouseInventoryNum": 118337,
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "myProduct": false,
+      "currency": null,
+      "totalVerifiedInventory": 50,
+      "totalUnVerifiedInventory": null,
+      "verifiedWarehouse": 1,
+      "customization": 0,
+      "hasCECertification": 0,
+      "description": "<p><b>Overview:</b></p><p>The&nbsp;enhanced&nbsp;thickness&nbsp;ensures&nbsp;water&nbsp;playmat&nbsp;durability&nbsp;and&nbsp;long-lasting&nbsp;use.<br/>This&nbsp;water&nbsp;playmat&nbsp;features&nbsp;a&nbsp;fish&nbsp;design&nbsp;that&nbsp;captures&nbsp;the&nbsp;attention&nbsp;of&nbsp;pets&nbsp;and&nbsp;children.<br/>This&nbsp;water&nbsp;playmat&nbsp;for&nbsp;cats&nbsp;provides&nbsp;a&nbsp;cool&nbsp;and&nbsp;comfortable&nbsp;sensory&nbsp;experience&nbsp;for&nbsp;pets.<br/></p><p><b><br/></b></p><p><b>Product Information:</b><br/>Specifications: Inflatable water injection ice pad (Shark pirate ship) small size of about 65cm, inflatable water injection ice pad (pond world) small size about 65cm, inflatable water injection ice pad (underwater world) small size of about 65cm, inflatable water injection ice pad (Shark pirate ship) Large size about 100cm, inflatable water injection ice pad (seal dolphin) Large size about 100cm<br/> Material: PVC<br/> Applicable object: Cat<br/> Category: pet bed, Cage</p><br/><b>Packing List: </b><br/>1*Cat Water Bed<p><br/></p><b>Product Image:</b><br/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520322600.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520324400.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520325200.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520326100.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520326900.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520327900.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520328700.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520329800.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142530320600.jpg\"/>",
+      "spu": "CJYD2058496",
+      "inventoryInfo": null,
+      "variantKeyEn": null,
+      "variantInventories": null,
+      "propertyKey": null,
+      "isVideo": 1,
+      "productUrl": "https://www.cjdropshipping.com/product/summer-cooling-pet-water-bed-cushion-ice-pad-dog-sleeping-square-mat-for-puppy-dogs-cats-pet-kennel-cool-cold-p-2406120341111620600.html"
+    }
+  },
+  "get_product_detail": {
+    "tool": "cjdropship.get_product_detail",
+    "params": {
+      "pid": "2406120341111620600",
+      "features": "enable_combine,enable_video"
+    },
+    "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+    "response_message": "🔍 Product detail loaded.",
+    "response": {
+      "pid": "2406120341111620600",
+      "productName": "[\"猫咪水床宠物拍垫注水冰垫夏日猫窝犬窝冰窝防抓冰垫玩具代发包邮\",\"猫咪水床宠物拍垫注水冰\",\"垫夏日猫窝犬窝冰窝\"]",
+      "productNameSet": [
+        "猫咪水床宠物拍垫注水冰垫夏日猫窝犬窝冰窝防抓冰垫玩具代发包邮",
+        "猫咪水床宠物拍垫注水冰",
+        "垫夏日猫窝犬窝冰窝"
+      ],
+      "productNameEn": "Summer Cooling Pet Water Bed Cushion Ice Pad Dog Sleeping Square Mat For Puppy Dogs Cats Pet Kennel Cool Cold",
+      "productSku": "CJYD2058496",
+      "bigImage": "https://oss-cf.cjdropshipping.com/product/2024/06/17/08/ea67e59f-f281-499c-8e57-97b12e50e261.jpg",
+      "productImage": "[\"https://oss-cf.cjdropshipping.com/product/2024/06/17/08/ea67e59f-f281-499c-8e57-97b12e50e261.jpg\",\"https://oss-cf.cjdropshipping.com/product/2024/06/13/02/9a9a8419-4cc4-45ef-9a11-bce06a3ff684.jpg\",\"https://oss-cf.cjdropshipping.com/product/2024/06/12/03/b38fc470-94ed-4274-b2f4-9c2de8f4bc91_trans.jpeg\",\"https://oss-cf.cjdropshipping.com/product/2024/06/12/03/64ca9c1d-46b0-4e98-bc67-98cc5e5b1561_trans.jpeg\",\"https://oss-cf.cjdropshipping.com/product/2024/06/12/03/3fa4cb83-2148-4511-8e68-2b07876f5e34_trans.jpeg\",\"https://oss-cf.cjdropshipping.com/product/2024/06/12/03/c71f1ebd-15f3-4fdb-bcf6-52e16f6c1a70_trans.jpeg\",\"https://oss-cf.cjdropshipping.com/product/2024/06/12/03/da85abf6-f0bd-42e9-ad95-9b17fc5ff65d_trans.jpeg\",\"https://oss-cf.cjdropshipping.com/product/2024/06/12/03/cb6a2eca-cbf1-4240-9946-3585aa5d80d0_trans.jpeg\",\"https://oss-cf.cjdropshipping.com/product/2024/06/12/03/82632f6d-a2d7-4ce7-92fb-1008dac291b0_trans.jpeg\",\"https://oss-cf.cjdropshipping.com/product/2024/06/12/03/8a6195ba-6c08-4cef-b867-da7930237cd3_trans.jpeg\",\"https://oss-cf.cjdropshipping.com/product/2024/06/12/03/991f8f37-f293-45a6-ab76-72a24c0138eb_trans.jpeg\",\"https://oss-cf.cjdropshipping.com/product/2024/07/08/06/bcbdc199-5d89-43c1-aeae-1b83615089b8.jpg\",\"https://oss-cf.cjdropshipping.com/product/2024/07/17/09/b45908c4-6e2c-408a-8f9e-cdae0d4959f6_trans.jpeg\",\"https://oss-cf.cjdropshipping.com/product/2024/07/22/08/6d107a97-aafa-4f37-9ff1-2ad46fa08bf6.jpg\",\"https://oss-cf.cjdropshipping.com/product/2024/07/23/01/83166dbc-9ebe-4d5a-9aaa-dbd84e71998b.jpg\",\"https://oss-cf.cjdropshipping.com/product/2024/07/23/01/9310b0e2-3eba-4832-8ab1-737cda82f18e.jpg\",\"https://oss-cf.cjdropshipping.com/product/2024/08/18/00/678825b5-7c47-4608-b7c8-d7d2623dc60c.jpg\",\"https://oss-cf.cjdropshipping.com/product/2025/06/12/01/f858a542-2057-40e2-a2f8-4d218406d0b2.jpg\",\"https://oss-cf.cjdropshipping.com/product/2025/06/20/06/9b28246b-f8ba-48f7-b8a2-81eb116416dd_trans.jpeg\"]",
+      "productImageSet": [
+        "https://oss-cf.cjdropshipping.com/product/2024/06/13/02/9a9a8419-4cc4-45ef-9a11-bce06a3ff684.jpg",
+        "https://oss-cf.cjdropshipping.com/product/2025/06/12/01/f858a542-2057-40e2-a2f8-4d218406d0b2.jpg",
+        "https://oss-cf.cjdropshipping.com/product/2024/06/12/03/c71f1ebd-15f3-4fdb-bcf6-52e16f6c1a70_trans.jpeg",
+        "https://oss-cf.cjdropshipping.com/product/2024/06/12/03/82632f6d-a2d7-4ce7-92fb-1008dac291b0_trans.jpeg",
+        "https://oss-cf.cjdropshipping.com/product/2024/07/23/01/83166dbc-9ebe-4d5a-9aaa-dbd84e71998b.jpg",
+        "https://oss-cf.cjdropshipping.com/product/2025/06/20/06/9b28246b-f8ba-48f7-b8a2-81eb116416dd_trans.jpeg",
+        "https://oss-cf.cjdropshipping.com/product/2024/06/12/03/da85abf6-f0bd-42e9-ad95-9b17fc5ff65d_trans.jpeg",
+        "https://oss-cf.cjdropshipping.com/product/2024/06/12/03/b38fc470-94ed-4274-b2f4-9c2de8f4bc91_trans.jpeg",
+        "https://oss-cf.cjdropshipping.com/product/2024/06/12/03/991f8f37-f293-45a6-ab76-72a24c0138eb_trans.jpeg",
+        "https://oss-cf.cjdropshipping.com/product/2024/07/23/01/9310b0e2-3eba-4832-8ab1-737cda82f18e.jpg",
+        "https://oss-cf.cjdropshipping.com/product/2024/07/08/06/bcbdc199-5d89-43c1-aeae-1b83615089b8.jpg",
+        "https://oss-cf.cjdropshipping.com/product/2024/06/12/03/3fa4cb83-2148-4511-8e68-2b07876f5e34_trans.jpeg",
+        "https://oss-cf.cjdropshipping.com/product/2024/07/22/08/6d107a97-aafa-4f37-9ff1-2ad46fa08bf6.jpg",
+        "https://oss-cf.cjdropshipping.com/product/2024/07/17/09/b45908c4-6e2c-408a-8f9e-cdae0d4959f6_trans.jpeg",
+        "https://oss-cf.cjdropshipping.com/product/2024/08/18/00/678825b5-7c47-4608-b7c8-d7d2623dc60c.jpg",
+        "https://oss-cf.cjdropshipping.com/product/2024/06/12/03/8a6195ba-6c08-4cef-b867-da7930237cd3_trans.jpeg",
+        "https://oss-cf.cjdropshipping.com/product/2024/06/12/03/64ca9c1d-46b0-4e98-bc67-98cc5e5b1561_trans.jpeg",
+        "https://oss-cf.cjdropshipping.com/product/2024/06/17/08/ea67e59f-f281-499c-8e57-97b12e50e261.jpg",
+        "https://oss-cf.cjdropshipping.com/product/2024/06/12/03/cb6a2eca-cbf1-4240-9946-3585aa5d80d0_trans.jpeg"
+      ],
+      "productWeight": "18.00-490.00",
+      "productUnit": null,
+      "productType": "ORDINARY_PRODUCT",
+      "categoryId": "2410110340031614900",
+      "categoryName": "Pet Supplies > Pet Toys > Pet Training and Educational Toys",
+      "entryCode": "3918109000",
+      "entryName": "塑料宠物垫",
+      "entryNameEn": "Plastic Pet Pad",
+      "materialName": "[\"塑料\"]",
+      "materialNameSet": [
+        "塑料"
+      ],
+      "materialNameEn": "[\"Plastic\"]",
+      "materialNameEnSet": [
+        "Plastic"
+      ],
+      "materialKey": "[\"PLASTIC\"]",
+      "materialKeySet": [
+        "PLASTIC"
+      ],
+      "packingWeight": "70.00-510.00",
+      "packingName": "[\"塑料袋\"]",
+      "packingNameSet": [
+        "塑料袋"
+      ],
+      "packingNameEn": "[\"Plastic bags\"]",
+      "packingNameEnSet": [
+        "Plastic bags"
+      ],
+      "packingKey": "[\"PLASTIC_BAG\"]",
+      "packingKeySet": [
+        "PLASTIC_BAG"
+      ],
+      "productKey": "[\"款式\",\"数量\"]",
+      "productKeySet": [
+        "款式",
+        "数量"
+      ],
+      "productKeyEn": "Style-quantity",
+      "productKeyEnSet": [
+        "Style",
+        "quantity"
+      ],
+      "productPro": "[\"普货\"]",
+      "productProSet": [
+        "普货"
+      ],
+      "productProEn": "[\"COMMON\"]",
+      "productProEnSet": [
+        "COMMON"
+      ],
+      "sellPrice": "0.58-3.52",
+      "sourceFrom": 0,
+      "description": "<p><b>Overview:</b></p><p>The&nbsp;enhanced&nbsp;thickness&nbsp;ensures&nbsp;water&nbsp;playmat&nbsp;durability&nbsp;and&nbsp;long-lasting&nbsp;use.<br/>This&nbsp;water&nbsp;playmat&nbsp;features&nbsp;a&nbsp;fish&nbsp;design&nbsp;that&nbsp;captures&nbsp;the&nbsp;attention&nbsp;of&nbsp;pets&nbsp;and&nbsp;children.<br/>This&nbsp;water&nbsp;playmat&nbsp;for&nbsp;cats&nbsp;provides&nbsp;a&nbsp;cool&nbsp;and&nbsp;comfortable&nbsp;sensory&nbsp;experience&nbsp;for&nbsp;pets.<br/></p><p><b><br/></b></p><p><b>Product Information:</b><br/>Specifications: Inflatable water injection ice pad (Shark pirate ship) small size of about 65cm, inflatable water injection ice pad (pond world) small size about 65cm, inflatable water injection ice pad (underwater world) small size of about 65cm, inflatable water injection ice pad (Shark pirate ship) Large size about 100cm, inflatable water injection ice pad (seal dolphin) Large size about 100cm<br/> Material: PVC<br/> Applicable object: Cat<br/> Category: pet bed, Cage</p><br/><b>Packing List: </b><br/>1*Cat Water Bed<p><br/></p><b>Product Image:</b><br/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520322600.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520324400.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520325200.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520326100.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520326900.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520327900.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520328700.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142520329800.jpg\"/><img src=\"https://cf.cjdropshipping.com/17216928/2407230142530320600.jpg\"/>",
+      "variants": [
+        {
+          "vid": "2406120341111620800",
+          "pid": "2406120341111620600",
+          "variantName": null,
+          "variantNameEn": "Summer Cooling Pet Water Bed Cushion Ice Pad Dog Sleeping Square Mat For Puppy Dogs Cats Pet Kennel Cool Cold Shark Pirate Ship 65cm 1PCS",
+          "variantImage": "https://oss-cf.cjdropshipping.com/product/2024/08/18/00/678825b5-7c47-4608-b7c8-d7d2623dc60c.jpg",
+          "variantSku": "CJYD205849601AZ",
+          "barcode": "1600003919936",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Shark Pirate Ship 65cm-1PCS",
+          "variantLength": 350,
+          "variantWidth": 300,
+          "variantHeight": 100,
+          "variantVolume": 10500000,
+          "variantWeight": 416.0,
+          "variantSellPrice": 2.37,
+          "createTime": 1718163671000,
+          "variantStandard": "long=350,width=300,height=100",
+          "variantSugSellPrice": 15.48,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        },
+        {
+          "vid": "2406120341111621200",
+          "pid": "2406120341111620600",
+          "variantName": null,
+          "variantNameEn": "Summer Cooling Pet Water Bed Cushion Ice Pad Dog Sleeping Square Mat For Puppy Dogs Cats Pet Kennel Cool Cold Pond World 65cm 1PCS",
+          "variantImage": "https://oss-cf.cjdropshipping.com/product/2024/06/12/03/cb6a2eca-cbf1-4240-9946-3585aa5d80d0_trans.jpeg",
+          "variantSku": "CJYD205849602BY",
+          "barcode": "1600003919937",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Pond World 65cm-1PCS",
+          "variantLength": 350,
+          "variantWidth": 300,
+          "variantHeight": 100,
+          "variantVolume": 10500000,
+          "variantWeight": 416.0,
+          "variantSellPrice": 2.37,
+          "createTime": 1718163671000,
+          "variantStandard": "long=350,width=300,height=100",
+          "variantSugSellPrice": 16.91,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        },
+        {
+          "vid": "2406120341111621400",
+          "pid": "2406120341111620600",
+          "variantName": null,
+          "variantNameEn": "Summer Cooling Pet Water Bed Cushion Ice Pad Dog Sleeping Square Mat For Puppy Dogs Cats Pet Kennel Cool Cold Undersea World 65cm 1PCS",
+          "variantImage": "https://oss-cf.cjdropshipping.com/product/2024/06/12/03/82632f6d-a2d7-4ce7-92fb-1008dac291b0_trans.jpeg",
+          "variantSku": "CJYD205849603CX",
+          "barcode": "1600003919938",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Undersea World 65cm-1PCS",
+          "variantLength": 350,
+          "variantWidth": 300,
+          "variantHeight": 100,
+          "variantVolume": 10500000,
+          "variantWeight": 416.0,
+          "variantSellPrice": 2.58,
+          "createTime": 1718163671000,
+          "variantStandard": "long=350,width=300,height=100",
+          "variantSugSellPrice": 16.85,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        },
+        {
+          "vid": "2406120341111621600",
+          "pid": "2406120341111620600",
+          "variantName": null,
+          "variantNameEn": "Summer Cooling Pet Water Bed Cushion Ice Pad Dog Sleeping Square Mat For Puppy Dogs Cats Pet Kennel Cool Cold Shark Pirate Ship 100cm 1PCS",
+          "variantImage": "https://oss-cf.cjdropshipping.com/product/2025/06/12/01/f858a542-2057-40e2-a2f8-4d218406d0b2.jpg",
+          "variantSku": "CJYD205849604DW",
+          "barcode": "1600003919939",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Shark Pirate Ship 100cm-1PCS",
+          "variantLength": 350,
+          "variantWidth": 300,
+          "variantHeight": 100,
+          "variantVolume": 10500000,
+          "variantWeight": 442.0,
+          "variantSellPrice": 3.35,
+          "createTime": 1718163671000,
+          "variantStandard": "long=350,width=300,height=100",
+          "variantSugSellPrice": 21.88,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        },
+        {
+          "vid": "2406120341111621800",
+          "pid": "2406120341111620600",
+          "variantName": null,
+          "variantNameEn": "Summer Cooling Pet Water Bed Cushion Ice Pad Dog Sleeping Square Mat For Puppy Dogs Cats Pet Kennel Cool Cold Seal Dolphin 100cm 1PCS",
+          "variantImage": "https://oss-cf.cjdropshipping.com/product/2024/06/12/03/991f8f37-f293-45a6-ab76-72a24c0138eb_trans.jpeg",
+          "variantSku": "CJYD205849605EV",
+          "barcode": "1600003919940",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Seal Dolphin 100cm-1PCS",
+          "variantLength": 350,
+          "variantWidth": 300,
+          "variantHeight": 100,
+          "variantVolume": 10500000,
+          "variantWeight": 510.0,
+          "variantSellPrice": 3.52,
+          "createTime": 1718163671000,
+          "variantStandard": "long=350,width=300,height=100",
+          "variantSugSellPrice": 24.94,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        },
+        {
+          "vid": "2407170935211617300",
+          "pid": "2406120341111620600",
+          "variantName": null,
+          "variantNameEn": "Summer Cooling Pet Water Bed Cushion Ice Pad Dog Sleeping Square Mat For Puppy Dogs Cats Pet Kennel Cool Cold Ice pad large size 1PCS",
+          "variantImage": "https://oss-cf.cjdropshipping.com/product/2024/07/17/09/b45908c4-6e2c-408a-8f9e-cdae0d4959f6_trans.jpeg",
+          "variantSku": "CJYD205849606FU",
+          "barcode": "1600004230398",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Ice pad large size-1PCS",
+          "variantLength": 350,
+          "variantWidth": 300,
+          "variantHeight": 50,
+          "variantVolume": 5250000,
+          "variantWeight": 380.0,
+          "variantSellPrice": 1.55,
+          "createTime": 1721208921000,
+          "variantStandard": "long=350,width=300,height=50",
+          "variantSugSellPrice": 27.34,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        },
+        {
+          "vid": "2407220901471615300",
+          "pid": "2406120341111620600",
+          "variantName": null,
+          "variantNameEn": "Summer Cooling Pet Water Bed Cushion Ice Pad Dog Sleeping Square Mat For Puppy Dogs Cats Pet Kennel Cool Cold Random color pump 1PCS",
+          "variantImage": "https://oss-cf.cjdropshipping.com/product/2024/07/22/08/6d107a97-aafa-4f37-9ff1-2ad46fa08bf6.jpg",
+          "variantSku": "CJYD205849607GT",
+          "barcode": "1600004272616",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Random color pump-1PCS",
+          "variantLength": 150,
+          "variantWidth": 70,
+          "variantHeight": 70,
+          "variantVolume": 735000,
+          "variantWeight": 70.0,
+          "variantSellPrice": 0.58,
+          "createTime": 1721638907000,
+          "variantStandard": "long=150,width=70,height=70",
+          "variantSugSellPrice": 3.79,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        },
+        {
+          "vid": "2407230142511603500",
+          "pid": "2406120341111620600",
+          "variantName": null,
+          "variantNameEn": "Summer Cooling Pet Water Bed Cushion Ice Pad Dog Sleeping Square Mat For Puppy Dogs Cats Pet Kennel Cool Cold Ocean World 65cm 1PCS",
+          "variantImage": "https://oss-cf.cjdropshipping.com/product/2024/07/23/01/83166dbc-9ebe-4d5a-9aaa-dbd84e71998b.jpg",
+          "variantSku": "CJYD205849608HS",
+          "barcode": "1600004274975",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Ocean World 65cm-1PCS",
+          "variantLength": 350,
+          "variantWidth": 300,
+          "variantHeight": 50,
+          "variantVolume": 5250000,
+          "variantWeight": 416.0,
+          "variantSellPrice": 2.09,
+          "createTime": 1721698971000,
+          "variantStandard": "long=350,width=300,height=50",
+          "variantSugSellPrice": 13.65,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        },
+        {
+          "vid": "2407230142511603700",
+          "pid": "2406120341111620600",
+          "variantName": null,
+          "variantNameEn": "Summer Cooling Pet Water Bed Cushion Ice Pad Dog Sleeping Square Mat For Puppy Dogs Cats Pet Kennel Cool Cold Ocean World 100cm 1PCS",
+          "variantImage": "https://oss-cf.cjdropshipping.com/product/2024/07/23/01/9310b0e2-3eba-4832-8ab1-737cda82f18e.jpg",
+          "variantSku": "CJYD205849609IR",
+          "barcode": "1600004274976",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Ocean World 100cm-1PCS",
+          "variantLength": 350,
+          "variantWidth": 300,
+          "variantHeight": 50,
+          "variantVolume": 5250000,
+          "variantWeight": 510.0,
+          "variantSellPrice": 3.09,
+          "createTime": 1721698971000,
+          "variantStandard": "long=350,width=300,height=50",
+          "variantSugSellPrice": 20.18,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        },
+        {
+          "vid": "2506200638421621900",
+          "pid": "2406120341111620600",
+          "variantName": null,
+          "variantNameEn": "Summer Cooling Pet Water Bed Cushion Ice Pad Dog Sleeping Square Mat For Puppy Dogs Cats Pet Kennel Cool Cold Ice pad small size 1PCS",
+          "variantImage": "https://oss-cf.cjdropshipping.com/product/2025/06/20/06/9b28246b-f8ba-48f7-b8a2-81eb116416dd_trans.jpeg",
+          "variantSku": "CJYD205849610JQ",
+          "barcode": "1600007138516",
+          "variantUnit": "个",
+          "variantProperty": "[]",
+          "variantKey": "Ice pad small size-1PCS",
+          "variantLength": 350,
+          "variantWidth": 300,
+          "variantHeight": 50,
+          "variantVolume": 5250000,
+          "variantWeight": 250.0,
+          "variantSellPrice": 1.6,
+          "createTime": 1750401522000,
+          "variantStandard": "long=350,width=300,height=50",
+          "variantSugSellPrice": 10.45,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        }
+      ],
+      "addMarkStatus": 0,
+      "createrTime": "2024-06-12T03:41:11+08:00",
+      "productVideo": [
+        "e09589e6320071efbfba6632b68f0102",
+        "c08bd424320171efbff75017f1f80102",
+        "6040ac07320171efbfba6632b68f0102",
+        "10afe82b2c5071efbfd95017f0e90102",
+        "20abec2f2c5071ef808b5017f1e90102",
+        "808fb8382c5071ef80155017e1e90102",
+        "c027c6932eda71efbfb65420848c0102",
+        "e0897ed62eda71efbff45017f0f90102",
+        "e00f19252c5071efa87c4531959c0102",
+        "706d30b62eda71efb51d6723b78e0102",
+        "30a424212c5071efad475107e0c90102",
+        "6069061d2c5071ef8da55017e1f90102",
+        "5060be3c2c5071efbfc85017f0f80102"
+      ],
+      "status": "3",
+      "suggestSellPrice": "3.79 - 27.34",
+      "listedNum": 3852,
+      "supplierName": null,
+      "supplierId": null,
+      "customizationVersion": null,
+      "customizationJson1": null,
+      "customizationJson2": null,
+      "customizationJson3": null,
+      "customizationJson4": null,
+      "isTestProduct": false,
+      "productUrl": "https://www.cjdropshipping.com/product/summer-cooling-pet-water-bed-cushion-ice-pad-dog-sleeping-square-mat-for-puppy-dogs-cats-pet-kennel-cool-cold-p-2406120341111620600.html"
+    }
+  },
+  "get_product_inventory": {
+    "tool": "cjdropship.get_product_inventory",
+    "params": {
+      "pid": "2406120341111620600"
+    },
+    "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+    "response_message": "✅ 商品库存查询成功。\n【如何选择正确的 stockId 传给 get_storage_info】:\n  - 优先选 cjInventory > 0 的 stock 条目的 stockId（CJ自有仓）\n  - 若只有 factoryInventory > 0 的条目，也可使用其 stockId（工厂仓）\n  - 本工具返回的 stockId 已去掉花括号；get_storage_info 对带/不带花括号两种形态都接受，原样传入即可\n    （注：query_cj_inventory 返回的是带花括号的形态，同样可原样传入）",
+    "response": {
+      "inventories": [
+        {
+          "areaEn": "China Warehouse",
+          "areaId": 1,
+          "countryCode": "CN",
+          "totalInventoryNum": 118337,
+          "cjInventoryNum": 50,
+          "factoryInventoryNum": 118287,
+          "countryNameEn": "China Warehouse",
+          "stock": null
+        }
+      ],
+      "variantInventories": [
+        {
+          "vid": "2506200638421621900",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 7991,
+              "cjInventory": 0,
+              "factoryInventory": 7991,
+              "verifiedWarehouse": 2,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 7991
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vid": "2407230142511603500",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 13472,
+              "cjInventory": 0,
+              "factoryInventory": 13472,
+              "verifiedWarehouse": 2,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 13472
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vid": "2407170935211617300",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 10288,
+              "cjInventory": 0,
+              "factoryInventory": 10288,
+              "verifiedWarehouse": 2,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 10288
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vid": "2407230142511603700",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 14456,
+              "cjInventory": 0,
+              "factoryInventory": 14456,
+              "verifiedWarehouse": 2,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 14456
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vid": "2406120341111621200",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 11076,
+              "cjInventory": 0,
+              "factoryInventory": 11076,
+              "verifiedWarehouse": 2,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 11076
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vid": "2406120341111621400",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 13328,
+              "cjInventory": 0,
+              "factoryInventory": 13328,
+              "verifiedWarehouse": 2,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 13328
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vid": "2406120341111621600",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 11899,
+              "cjInventory": 49,
+              "factoryInventory": 11850,
+              "verifiedWarehouse": 1,
+              "stock": [
+                {
+                  "stockId": "62cfedee247c4be1a0d497bfd2cf65ae",
+                  "inventory": 49,
+                  "factoryInventory": 0
+                },
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 11850
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vid": "2407220901471615300",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 14049,
+              "cjInventory": 1,
+              "factoryInventory": 14048,
+              "verifiedWarehouse": 1,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 14048
+                },
+                {
+                  "stockId": "62cfedee247c4be1a0d497bfd2cf65ae",
+                  "inventory": 1,
+                  "factoryInventory": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vid": "2406120341111621800",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 10363,
+              "cjInventory": 0,
+              "factoryInventory": 10363,
+              "verifiedWarehouse": 2,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 10363
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vid": "2406120341111620800",
+          "inventory": [
+            {
+              "countryCode": "CN",
+              "totalInventory": 11415,
+              "cjInventory": 0,
+              "factoryInventory": 11415,
+              "verifiedWarehouse": 2,
+              "stock": [
+                {
+                  "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                  "inventory": 0,
+                  "factoryInventory": 11415
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "get_product_reviews": {
+    "tool": "cjdropship.get_product_reviews",
+    "params": {
+      "pid": "2406120341111620600",
+      "pageSize": 20
+    },
+    "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+    "total": 1,
+    "pages_fetched": 1,
+    "pages": [
+      {
+        "pageNum": 1,
+        "pageSize": 20,
+        "total": 1,
+        "list": [
+          {
+            "commentId": 2406130905431629900,
+            "pid": "2406120341111620600",
+            "comment": "interesting",
+            "commentUrls": [
+              "https://oss-cf.cjdropshipping.com/other/2024/06/17/06/ec56c092-8fae-4d20-ba1d-a013a3a00ee2.jpg"
+            ],
+            "commentUser": "A***q",
+            "score": 5,
+            "countryCode": "US",
+            "commentDate": "2024-06-13T17:05:20+08:00",
+            "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+          }
+        ]
+      }
+    ],
+    "all_reviews": [
+      {
+        "commentId": 2406130905431629900,
+        "pid": "2406120341111620600",
+        "comment": "interesting",
+        "commentUrls": [
+          "https://oss-cf.cjdropshipping.com/other/2024/06/17/06/ec56c092-8fae-4d20-ba1d-a013a3a00ee2.jpg"
+        ],
+        "commentUser": "A***q",
+        "score": 5,
+        "countryCode": "US",
+        "commentDate": "2024-06-13T17:05:20+08:00",
+        "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+      }
+    ]
+  }
+}

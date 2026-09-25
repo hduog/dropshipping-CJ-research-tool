@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "cj-dropshipping": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["D:/research-best-product/api-mcp/dist/mcp-server/index.cjs"],
+      "env": { "CJ_ENV": "production" }
+    }
+  }
+}

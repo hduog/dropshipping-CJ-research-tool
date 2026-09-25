@@ -1,0 +1,210 @@
+{
+  "tool": "get_product_detail",
+  "params": {
+    "pid": "1657574694545412096",
+    "features": "enable_combine,enable_video"
+  },
+  "_header": "🔍 Product detail loaded.",
+  "data": {
+    "pid": "1657574694545412096",
+    "productName": "[\"Pet Silicone Toothbrush\",\"Pet Finger Toothbrush\",\"Dog Tooth Brush\",\"Dog Toothbrush Kit \",\"Puppy Toothbrush\"]",
+    "productNameSet": [
+      "Pet Silicone Toothbrush",
+      "Pet Finger Toothbrush",
+      "Dog Tooth Brush",
+      "Dog Toothbrush Kit ",
+      "Puppy Toothbrush"
+    ],
+    "productNameEn": "Dog Tooth Cleaning Brush Care Finger Wrap Cat Dog Oral Cleaning Toothbrush Tool Silicone Dog Cat Finger Toothbrush Supplies Pet Products",
+    "productSku": "CJGY1757445",
+    "bigImage": "https://oss-cf.cjdropshipping.com/product/2024/04/07/06/54824e9a-8ff4-4420-8c53-f5efde0fb953.jpg",
+    "productImage": "[\"https://oss-cf.cjdropshipping.com/product/2024/04/07/06/54824e9a-8ff4-4420-8c53-f5efde0fb953.jpg\",\"https://oss-cf.cjdropshipping.com/product/2024/04/07/06/609e4c93-bc2a-4421-a134-b62ac628e30d.jpg\",\"https://cf.cjdropshipping.com/bb0dc32a-ca29-4bf5-a887-245cc1f90059.jpg\",\"https://cf.cjdropshipping.com/b0604f0d-77de-4e89-a9ca-cd49af1b08e8.jpg\",\"https://cf.cjdropshipping.com/f0416c5d-48b0-47d2-b46e-53b0a470d356.jpg\",\"https://cf.cjdropshipping.com/91990109-d4e3-44cc-83c5-ca9e3ba9a2db.jpg\",\"https://cf.cjdropshipping.com/a31158ce-6de8-4955-8931-530f9def9832.jpg\",\"https://cf.cjdropshipping.com/0c319d74-512a-4dce-8629-2b056e4df3f7.jpg\",\"https://cf.cjdropshipping.com/16e38bec-15bb-4d29-a3b8-0bb894386d67.jpg\",\"https://cf.cjdropshipping.com/386e7ee2-779a-4cf0-a182-1bc408a17d75.jpg\",\"https://cf.cjdropshipping.com/92aaabb2-44fd-4ee0-9029-e51ff4b09f73.jpg\",\"https://cf.cjdropshipping.com/95bcd774-aee7-4a4a-b52f-7b97554ce614.jpg\",\"https://cf.cjdropshipping.com/cb69542a-2c6b-4b80-b76a-a111e39ce9f6.jpg\"]",
+    "productImageSet": [
+      "https://cf.cjdropshipping.com/91990109-d4e3-44cc-83c5-ca9e3ba9a2db.jpg",
+      "https://cf.cjdropshipping.com/95bcd774-aee7-4a4a-b52f-7b97554ce614.jpg",
+      "https://cf.cjdropshipping.com/a31158ce-6de8-4955-8931-530f9def9832.jpg",
+      "https://oss-cf.cjdropshipping.com/product/2024/04/07/06/609e4c93-bc2a-4421-a134-b62ac628e30d.jpg",
+      "https://cf.cjdropshipping.com/0c319d74-512a-4dce-8629-2b056e4df3f7.jpg",
+      "https://cf.cjdropshipping.com/16e38bec-15bb-4d29-a3b8-0bb894386d67.jpg",
+      "https://oss-cf.cjdropshipping.com/product/2024/04/07/06/54824e9a-8ff4-4420-8c53-f5efde0fb953.jpg",
+      "https://cf.cjdropshipping.com/bb0dc32a-ca29-4bf5-a887-245cc1f90059.jpg",
+      "https://cf.cjdropshipping.com/b0604f0d-77de-4e89-a9ca-cd49af1b08e8.jpg",
+      "https://cf.cjdropshipping.com/cb69542a-2c6b-4b80-b76a-a111e39ce9f6.jpg",
+      "https://cf.cjdropshipping.com/f0416c5d-48b0-47d2-b46e-53b0a470d356.jpg",
+      "https://cf.cjdropshipping.com/386e7ee2-779a-4cf0-a182-1bc408a17d75.jpg",
+      "https://cf.cjdropshipping.com/92aaabb2-44fd-4ee0-9029-e51ff4b09f73.jpg"
+    ],
+    "productWeight": "16",
+    "productUnit": null,
+    "productType": "SUPPLIER_SHIPPED_PRODUCT",
+    "categoryId": "2410110340411608400",
+    "categoryName": "Pet Supplies / Pet Toys / Pet Toy Set",
+    "entryCode": "9603210000",
+    "entryName": "狗牙刷",
+    "entryNameEn": "Dog Tooth Brush",
+    "materialName": "[\"其他\"]",
+    "materialNameSet": [
+      "其他"
+    ],
+    "materialNameEn": "[\"Others\"]",
+    "materialNameEnSet": [
+      "Others"
+    ],
+    "materialKey": "[\"MATERIAL\"]",
+    "materialKeySet": [
+      "MATERIAL"
+    ],
+    "packingWeight": "16",
+    "packingName": "[\"塑料袋\"]",
+    "packingNameSet": [
+      "塑料袋"
+    ],
+    "packingNameEn": "[\"Plastic bags\"]",
+    "packingNameEnSet": [
+      "Plastic bags"
+    ],
+    "packingKey": "[\"PLASTIC_BAG\"]",
+    "packingKeySet": [
+      "PLASTIC_BAG"
+    ],
+    "productKey": "[\"Color\"]",
+    "productKeySet": [
+      "Color"
+    ],
+    "productKeyEn": "Color",
+    "productKeyEnSet": [
+      "Color"
+    ],
+    "productPro": "[\"普货\"]",
+    "productProSet": [
+      "普货"
+    ],
+    "productProEn": "[\"COMMON\"]",
+    "productProEnSet": [
+      "COMMON"
+    ],
+    "sellPrice": "6.42-9.18",
+    "sourceFrom": 0,
+    "description": "<p><b>Overview:</b></p><p>This finger dog toothbrush allows easy cleaning of the entire mouth. Better performance than just one finger type.<br/><br/>This dog toothbrush bristles are softer and more elastic, abrasive enough to remove plaque without hurting the gums, be more easily acceptable by pets.<br/><br/>【Reusable】 Dog finger toothbrush can be reused, just rinse it off with water. It is durable and can save the purchase cost. Compared to disposable small dog tooth brushing kit and teeth cleaners, dog tooth brushing kit is more economically priced!<br/><br/>【Happy Time with Your Dog and Cat Pets】Dog teeth cleaning and dog dental care is suitable for your dog's longevity and health, regular use of toothbrushes for dogs can effectively freshen breath, clean dog teeth, prevent oral diseases and maintain oral.</p><p><br/></p><p>Note:</p><p>Our default processing time is 1-3 working days(Normally 1-2 Days), and it usually can be delivered within a week. If there is no update for 3-4 days, that's quite normal and won't affect the delivery time.</p><p>If it has not been delivered after more than 10 days, please contact us immediately and we will help you quickly. Depending on the actual situation, we will urge the logistics company to update, reship, or refund.</p><p>We accept returns and refunds within 30 days.</p><p>Due to uncontrollable factors. Within 7 business days after we upload the tracking number, we do not accept refunds due to logistics problems. If there is still no update on the logistics information after more than 10 working days, you can contact us for a refund or resend.</p><p>\n\n\n\n\n</p><p>Please contact us with any questions.</p><p><br/></p><p><b>Specifications:</b><br/></p><p>Material: PP+TPR<br/>Size: Approx. 149x30x36mm/ 5.86x1.18x1.41in<br/>Color: Pink, Yellow, White<br/><br/></p><p><b>Package Content:</b></p><p>1pc Pet Finger Toothbrush</p><p><img src=\"https://cf.cjdropshipping.com/861d68d2-a82e-410f-b836-4f324dce42e9.png\" style=\"max-width:100%;\" contenteditable=\"false\" data-key=\"1\" data-src=\"https://oss-cf.cjdropshipping.com/product/2024/04/07/06/c3596c63-afb0-4082-9b0e-bee246179829.jpg\" data-uploadossfail=\"false\"/><img src=\"https://cf.cjdropshipping.com/0053de39-d27f-4062-bb07-c6500a6de7f2.png\" style=\"max-width:100%;\" contenteditable=\"false\" data-key=\"2\" data-src=\"https://oss-cf.cjdropshipping.com/product/2024/04/07/06/7a51597a-0865-4a80-be51-8aa5757ac480.jpg\" data-uploadossfail=\"false\"/><img src=\"https://cf.cjdropshipping.com/2d383d1d-881e-4694-9c2c-6af09e41a0b0.png\" style=\"max-width:100%;\" contenteditable=\"false\" data-key=\"3\" data-src=\"https://oss-cf.cjdropshipping.com/product/2024/04/07/06/ad6dd0c0-d2b0-4d5a-a38a-f617c72f3128.jpg\" data-uploadossfail=\"false\"/><img src=\"https://cf.cjdropshipping.com/5c832731-4323-48fc-b778-6677b72c0ea1.png\" style=\"max-width:100%;\" contenteditable=\"false\" data-key=\"4\" data-src=\"https://oss-cf.cjdropshipping.com/product/2024/04/07/06/77fc65fc-5fc5-4200-a64b-ec519087ae4a.jpg\" data-uploadossfail=\"false\"/><img src=\"https://cf.cjdropshipping.com/4a48040a-3006-4a7a-bf27-019a5a50937e.png\" style=\"max-width:100%;\" contenteditable=\"false\" data-key=\"5\" data-src=\"https://oss-cf.cjdropshipping.com/product/2024/04/07/06/6ce53552-ba8f-4ae7-8957-a3c6e12257a2.jpg\" data-uploadossfail=\"false\"/><img src=\"https://cf.cjdropshipping.com/db2db9d2-ef1f-4e14-ae46-ecb01281d348.png\" data-src=\"https://oss-cf.cjdropshipping.com/product/2024/04/07/06/aa3f9127-f9b4-4591-8596-815fe9e30a58.jpg\" data-key=\"6\" data-uploadossfail=\"false\"/><img src=\"https://cf.cjdropshipping.com/5e779843-d18b-45f4-b41d-881cbe9a23b0.png\" data-src=\"https://oss-cf.cjdropshipping.com/product/2024/04/07/06/772cccea-608a-4326-b13a-b24147178c23.jpg\" style=\"font-size: 14px;\" data-key=\"7\" data-uploadossfail=\"false\"/><img src=\"https://cf.cjdropshipping.com/808c0acf-f3d3-4535-9af1-81cf5a06163f.png\" data-src=\"https://oss-cf.cjdropshipping.com/product/2024/04/07/06/e41681a7-5bd9-4ca0-aadc-7d65a38fb5ee.jpg\" style=\"font-size: 14px;\" data-key=\"8\" data-uploadossfail=\"false\"/></p>",
+    "variants": [
+      {
+        "vid": "1657574694587355136",
+        "pid": "1657574694545412096",
+        "variantName": null,
+        "variantNameEn": null,
+        "variantImage": "https://cf.cjdropshipping.com/95bcd774-aee7-4a4a-b52f-7b97554ce614.jpg",
+        "variantSku": "CJGY1757445-Pink",
+        "barcode": "1600000765860",
+        "variantUnit": null,
+        "variantProperty": null,
+        "variantKey": "Pink",
+        "variantLength": 149,
+        "variantWidth": 30,
+        "variantHeight": 36,
+        "variantVolume": 160920,
+        "variantWeight": 16.0,
+        "variantSellPrice": 6.421,
+        "createTime": 1684022400000,
+        "variantStandard": "long=149,width=30,height=36",
+        "variantSugSellPrice": 36.35,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "1657574694587355137",
+        "pid": "1657574694545412096",
+        "variantName": null,
+        "variantNameEn": null,
+        "variantImage": "https://cf.cjdropshipping.com/cb69542a-2c6b-4b80-b76a-a111e39ce9f6.jpg",
+        "variantSku": "CJGY1757445-Yellow",
+        "barcode": "1600000765859",
+        "variantUnit": null,
+        "variantProperty": null,
+        "variantKey": "Yellow",
+        "variantLength": 149,
+        "variantWidth": 30,
+        "variantHeight": 36,
+        "variantVolume": 160920,
+        "variantWeight": 16.0,
+        "variantSellPrice": 6.421,
+        "createTime": 1684022400000,
+        "variantStandard": "long=149,width=30,height=36",
+        "variantSugSellPrice": 36.35,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "1657574694587355138",
+        "pid": "1657574694545412096",
+        "variantName": null,
+        "variantNameEn": null,
+        "variantImage": "https://cf.cjdropshipping.com/92aaabb2-44fd-4ee0-9029-e51ff4b09f73.jpg",
+        "variantSku": "CJGY1757445-Gray",
+        "barcode": "1600000765861",
+        "variantUnit": null,
+        "variantProperty": null,
+        "variantKey": "Gray",
+        "variantLength": 149,
+        "variantWidth": 30,
+        "variantHeight": 36,
+        "variantVolume": 160920,
+        "variantWeight": 16.0,
+        "variantSellPrice": 6.421,
+        "createTime": 1684022400000,
+        "variantStandard": "long=149,width=30,height=36",
+        "variantSugSellPrice": 36.35,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "1657574694587355139",
+        "pid": "1657574694545412096",
+        "variantName": null,
+        "variantNameEn": null,
+        "variantImage": "https://cf.cjdropshipping.com/bb0dc32a-ca29-4bf5-a887-245cc1f90059.jpg",
+        "variantSku": "CJGY1757445-3Pcs",
+        "barcode": "1600000765862",
+        "variantUnit": null,
+        "variantProperty": null,
+        "variantKey": "3Pcs",
+        "variantLength": 149,
+        "variantWidth": 30,
+        "variantHeight": 36,
+        "variantVolume": 160920,
+        "variantWeight": 16.0,
+        "variantSellPrice": 9.181,
+        "createTime": 1684022400000,
+        "variantStandard": "long=149,width=30,height=36",
+        "variantSugSellPrice": 51.97,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      }
+    ],
+    "addMarkStatus": 1,
+    "createrTime": "2023-05-14T02:32:58+08:00",
+    "productVideo": [
+      "85e2719d907548d0ad78ab2708ca6e39",
+      "20bb5ad8f4ca71eebff15017e1e90102"
+    ],
+    "status": "3",
+    "suggestSellPrice": "36.35 - 51.97",
+    "listedNum": 2333,
+    "supplierName": "Fan Nan",
+    "supplierId": "1384349674504110081",
+    "customizationVersion": null,
+    "customizationJson1": null,
+    "customizationJson2": null,
+    "customizationJson3": null,
+    "customizationJson4": null,
+    "isTestProduct": false,
+    "productUrl": "https://www.cjdropshipping.com/product/dog-tooth-cleaning-brush-care-finger-wrap-cat-dog-oral-cleaning-toothbrush-tool-silicone-dog-cat-finger-toothbrush-supplies-pet-products-p-1657574694545412096.html"
+  }
+}

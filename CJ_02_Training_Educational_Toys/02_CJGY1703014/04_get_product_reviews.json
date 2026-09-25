@@ -1,0 +1,65 @@
+{
+  "tool": "cjdropship.get_product_reviews",
+  "params": {
+    "pid": "1634099836821712896",
+    "pageSize": 20
+  },
+  "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+  "total": 2,
+  "pages_fetched": 1,
+  "pages": [
+    {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 2,
+      "list": [
+        {
+          "commentId": 1640264868328648704,
+          "pid": "1634099836821712896",
+          "comment": "I and my dog are very satisfied",
+          "commentUrls": null,
+          "commentUser": "K***x",
+          "score": 5,
+          "countryCode": "US",
+          "commentDate": "2023-01-16T17:24:15+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+        },
+        {
+          "commentId": 1640264765131993090,
+          "pid": "1634099836821712896",
+          "comment": "Très jolie jouet",
+          "commentUrls": null,
+          "commentUser": "E***i",
+          "score": 4,
+          "countryCode": "FR",
+          "commentDate": "2023-01-13T02:28:53+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        }
+      ]
+    }
+  ],
+  "all_reviews": [
+    {
+      "commentId": 1640264868328648704,
+      "pid": "1634099836821712896",
+      "comment": "I and my dog are very satisfied",
+      "commentUrls": null,
+      "commentUser": "K***x",
+      "score": 5,
+      "countryCode": "US",
+      "commentDate": "2023-01-16T17:24:15+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+    },
+    {
+      "commentId": 1640264765131993090,
+      "pid": "1634099836821712896",
+      "comment": "Très jolie jouet",
+      "commentUrls": null,
+      "commentUser": "E***i",
+      "score": 4,
+      "countryCode": "FR",
+      "commentDate": "2023-01-13T02:28:53+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+    }
+  ]
+}

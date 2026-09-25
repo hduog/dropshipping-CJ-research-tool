@@ -1,0 +1,219 @@
+{
+  "tool": "cjdropship.get_product_reviews",
+  "params": {
+    "pid": "1633065187785846784",
+    "pageSize": 20
+  },
+  "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+  "total": 9,
+  "pages_fetched": 1,
+  "pages": [
+    {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 9,
+      "list": [
+        {
+          "commentId": 1638802073913405447,
+          "pid": "1633065187785846784",
+          "comment": "ממש ממליצה החתול לא מפסיק לשחק ממליצה משלוח מהיר",
+          "commentUrls": null,
+          "commentUser": "R***b",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2023-03-23T01:31:12+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1638802073913405443,
+          "pid": "1633065187785846784",
+          "comment": "this is a very good product my cat loves it plays with it quite often it is reasonably priced not hard to put together came in great condition and it's an addition to our house thank you",
+          "commentUrls": null,
+          "commentUser": "J***f",
+          "score": 5,
+          "countryCode": "US",
+          "commentDate": "2022-12-18T20:21:34+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+        },
+        {
+          "commentId": 1638802073909211136,
+          "pid": "1633065187785846784",
+          "comment": "설명서가 없는 건 아쉽지만 판매글 보면서 쉽게 조립했네요. 처음 도착하면 구성물이 안에 들어있는데, 하판은 반시계 방향으로 돌리면 빠집니다. 흰색 상판쪽에 방향이 오픈 클로즈가 써 있습니다. 모르고 막 당기시면 걸쇠가 부러질 수 있어요.",
+          "commentUrls": null,
+          "commentUser": "E***a",
+          "score": 5,
+          "countryCode": "KR",
+          "commentDate": "2022-11-19T03:58:40+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/KR.png"
+        },
+        {
+          "commentId": 1638802073913405445,
+          "pid": "1633065187785846784",
+          "comment": "Мои кошки в восторге  😊",
+          "commentUrls": null,
+          "commentUser": "R***p",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2022-11-05T19:04:46+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1638802073913405444,
+          "pid": "1633065187785846784",
+          "comment": "The delivery speed is fast and the packaging is very good to take back not very will use or sell tutor how do I use ",
+          "commentUrls": null,
+          "commentUser": "U***k",
+          "score": 5,
+          "countryCode": "RU",
+          "commentDate": "2022-10-13T20:01:07+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+        },
+        {
+          "commentId": 1638802073913405441,
+          "pid": "1633065187785846784",
+          "comment": " The cat loves to play with this toy, which is given catnip, and it is very easy for the cat to accept this toy, which is especially loved by the cats at home",
+          "commentUrls": null,
+          "commentUser": "L***h",
+          "score": 5,
+          "countryCode": "EU",
+          "commentDate": "2022-10-13T17:39:42+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/EU.png"
+        },
+        {
+          "commentId": 1638802073913405442,
+          "pid": "1633065187785846784",
+          "comment": " Seller delivery speed is very fast little cat like to play the effect is very good  ",
+          "commentUrls": null,
+          "commentUser": "T***k",
+          "score": 5,
+          "countryCode": "RU",
+          "commentDate": "2022-10-13T09:09:39+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+        },
+        {
+          "commentId": 1638802073913405440,
+          "pid": "1633065187785846784",
+          "comment": "The two cats at home are particularly fond of playing by themselves for a long time. I recommend the seller",
+          "commentUrls": null,
+          "commentUser": "Q***f",
+          "score": 5,
+          "countryCode": "RU",
+          "commentDate": "2022-10-13T05:24:06+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+        },
+        {
+          "commentId": 1638802073913405446,
+          "pid": "1633065187785846784",
+          "comment": "perfect. Just like described. Thank you",
+          "commentUrls": null,
+          "commentUser": "U***w",
+          "score": 5,
+          "countryCode": "SG",
+          "commentDate": "2022-10-13T05:19:30+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/SG.png"
+        }
+      ]
+    }
+  ],
+  "all_reviews": [
+    {
+      "commentId": 1638802073913405447,
+      "pid": "1633065187785846784",
+      "comment": "ממש ממליצה החתול לא מפסיק לשחק ממליצה משלוח מהיר",
+      "commentUrls": null,
+      "commentUser": "R***b",
+      "score": 5,
+      "countryCode": "IL",
+      "commentDate": "2023-03-23T01:31:12+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+    },
+    {
+      "commentId": 1638802073913405443,
+      "pid": "1633065187785846784",
+      "comment": "this is a very good product my cat loves it plays with it quite often it is reasonably priced not hard to put together came in great condition and it's an addition to our house thank you",
+      "commentUrls": null,
+      "commentUser": "J***f",
+      "score": 5,
+      "countryCode": "US",
+      "commentDate": "2022-12-18T20:21:34+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+    },
+    {
+      "commentId": 1638802073909211136,
+      "pid": "1633065187785846784",
+      "comment": "설명서가 없는 건 아쉽지만 판매글 보면서 쉽게 조립했네요. 처음 도착하면 구성물이 안에 들어있는데, 하판은 반시계 방향으로 돌리면 빠집니다. 흰색 상판쪽에 방향이 오픈 클로즈가 써 있습니다. 모르고 막 당기시면 걸쇠가 부러질 수 있어요.",
+      "commentUrls": null,
+      "commentUser": "E***a",
+      "score": 5,
+      "countryCode": "KR",
+      "commentDate": "2022-11-19T03:58:40+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/KR.png"
+    },
+    {
+      "commentId": 1638802073913405445,
+      "pid": "1633065187785846784",
+      "comment": "Мои кошки в восторге  😊",
+      "commentUrls": null,
+      "commentUser": "R***p",
+      "score": 5,
+      "countryCode": "IL",
+      "commentDate": "2022-11-05T19:04:46+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+    },
+    {
+      "commentId": 1638802073913405444,
+      "pid": "1633065187785846784",
+      "comment": "The delivery speed is fast and the packaging is very good to take back not very will use or sell tutor how do I use ",
+      "commentUrls": null,
+      "commentUser": "U***k",
+      "score": 5,
+      "countryCode": "RU",
+      "commentDate": "2022-10-13T20:01:07+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+    },
+    {
+      "commentId": 1638802073913405441,
+      "pid": "1633065187785846784",
+      "comment": " The cat loves to play with this toy, which is given catnip, and it is very easy for the cat to accept this toy, which is especially loved by the cats at home",
+      "commentUrls": null,
+      "commentUser": "L***h",
+      "score": 5,
+      "countryCode": "EU",
+      "commentDate": "2022-10-13T17:39:42+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/EU.png"
+    },
+    {
+      "commentId": 1638802073913405442,
+      "pid": "1633065187785846784",
+      "comment": " Seller delivery speed is very fast little cat like to play the effect is very good  ",
+      "commentUrls": null,
+      "commentUser": "T***k",
+      "score": 5,
+      "countryCode": "RU",
+      "commentDate": "2022-10-13T09:09:39+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+    },
+    {
+      "commentId": 1638802073913405440,
+      "pid": "1633065187785846784",
+      "comment": "The two cats at home are particularly fond of playing by themselves for a long time. I recommend the seller",
+      "commentUrls": null,
+      "commentUser": "Q***f",
+      "score": 5,
+      "countryCode": "RU",
+      "commentDate": "2022-10-13T05:24:06+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RU.png"
+    },
+    {
+      "commentId": 1638802073913405446,
+      "pid": "1633065187785846784",
+      "comment": "perfect. Just like described. Thank you",
+      "commentUrls": null,
+      "commentUser": "U***w",
+      "score": 5,
+      "countryCode": "SG",
+      "commentDate": "2022-10-13T05:19:30+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/SG.png"
+    }
+  ]
+}

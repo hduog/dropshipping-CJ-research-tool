@@ -1,0 +1,489 @@
+{
+  "tool": "get_product_reviews",
+  "params": {
+    "pid": "1657574694545412096",
+    "pageSize": 20
+  },
+  "total": 21,
+  "pagesFetched": 2,
+  "pages": [
+    {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 21,
+      "list": [
+        {
+          "commentId": 1776859157354778625,
+          "pid": "1657574694545412096",
+          "comment": "отличный товар",
+          "commentUrls": null,
+          "commentUser": "T***g",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2024-04-05T19:36:54+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1776859157354778630,
+          "pid": "1657574694545412096",
+          "comment": "good toothbrush with reasonable price",
+          "commentUrls": null,
+          "commentUser": "X***l",
+          "score": 5,
+          "countryCode": "CA",
+          "commentDate": "2024-04-02T20:07:32+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CA.png"
+        },
+        {
+          "commentId": 1776859157354778633,
+          "pid": "1657574694545412096",
+          "comment": "los 4 son cute",
+          "commentUrls": null,
+          "commentUser": "N***j",
+          "score": 5,
+          "countryCode": "CL",
+          "commentDate": "2024-03-29T06:27:04+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CL.png"
+        },
+        {
+          "commentId": 1776859157354778626,
+          "pid": "1657574694545412096",
+          "comment": "El envío fue muy rápido a CDMX 8 días, el producto es tal como lo muestra la descripción",
+          "commentUrls": null,
+          "commentUser": "C***s",
+          "score": 5,
+          "countryCode": "MX",
+          "commentDate": "2024-03-29T02:28:20+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/MX.png"
+        },
+        {
+          "commentId": 1776859157354778627,
+          "pid": "1657574694545412096",
+          "comment": "Полное соответствие картинке на сайте;дошёл в рамках обещанного времени доставки;хорошее качество.",
+          "commentUrls": null,
+          "commentUser": "T***c",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2024-03-09T07:33:43+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1776859157346390016,
+          "pid": "1657574694545412096",
+          "comment": "נראה מעולה , הזמנתי הרבה למרות שאני רק עם 2 כלבים כי זה נאבד מהר",
+          "commentUrls": null,
+          "commentUser": "R***t",
+          "score": 5,
+          "countryCode": "IL",
+          "commentDate": "2024-03-07T18:44:01+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+        },
+        {
+          "commentId": 1776859157354778628,
+          "pid": "1657574694545412096",
+          "comment": "Perfect, just bigger than expected. But quality is amazing. Recomend",
+          "commentUrls": null,
+          "commentUser": "P***w",
+          "score": 5,
+          "countryCode": "LT",
+          "commentDate": "2024-02-22T05:49:12+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/LT.png"
+        },
+        {
+          "commentId": 1776859157358972934,
+          "pid": "1657574694545412096",
+          "comment": "Conforme à la photo ",
+          "commentUrls": null,
+          "commentUser": "Z***e",
+          "score": 3,
+          "countryCode": "FR",
+          "commentDate": "2024-02-21T22:04:51+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1776859157354778632,
+          "pid": "1657574694545412096",
+          "comment": "Envio muy rápido. Buen material.",
+          "commentUrls": null,
+          "commentUser": "T***o",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2024-02-15T11:28:35+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1776859157354778624,
+          "pid": "1657574694545412096",
+          "comment": "Produkt zgodny ze zdjęciem. Jeszcze nie używano. Wyglądają ok. Dostawa dość szybka. Polecam sprzedawcę.",
+          "commentUrls": null,
+          "commentUser": "A***h",
+          "score": 5,
+          "countryCode": "PL",
+          "commentDate": "2024-02-10T23:31:21+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/PL.png"
+        },
+        {
+          "commentId": 1776859157363167232,
+          "pid": "1657574694545412096",
+          "comment": "Never received",
+          "commentUrls": null,
+          "commentUser": "F***c",
+          "score": 1,
+          "countryCode": "AU",
+          "commentDate": "2024-02-01T09:32:59+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/AU.png"
+        },
+        {
+          "commentId": 1776859157358972930,
+          "pid": "1657574694545412096",
+          "comment": "Thanks",
+          "commentUrls": null,
+          "commentUser": "O***q",
+          "score": 5,
+          "countryCode": "RO",
+          "commentDate": "2024-01-26T00:25:57+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RO.png"
+        },
+        {
+          "commentId": 1776859157358972933,
+          "pid": "1657574694545412096",
+          "comment": "lo hules son pequeños para mis dedos,son para niño o gente muy delgadas",
+          "commentUrls": null,
+          "commentUser": "U***b",
+          "score": 3,
+          "countryCode": "MX",
+          "commentDate": "2024-01-14T13:35:28+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/MX.png"
+        },
+        {
+          "commentId": 1776859157354778629,
+          "pid": "1657574694545412096",
+          "comment": "délai de livraison très rapide et conforme à ma commande",
+          "commentUrls": null,
+          "commentUser": "J***v",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2024-01-12T16:48:28+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 1776859157358972929,
+          "pid": "1657574694545412096",
+          "comment": "They work great! A++++",
+          "commentUrls": null,
+          "commentUser": "N***j",
+          "score": 5,
+          "countryCode": "US",
+          "commentDate": "2024-01-06T07:00:28+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+        },
+        {
+          "commentId": 1776859157350584320,
+          "pid": "1657574694545412096",
+          "comment": "hele snelle levering zien er goed uit straks eens proberen bij de hond",
+          "commentUrls": null,
+          "commentUser": "Z***e",
+          "score": 5,
+          "countryCode": "NL",
+          "commentDate": "2024-01-04T20:26:42+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/NL.png"
+        },
+        {
+          "commentId": 1776859161641357312,
+          "pid": "1657574694545412096",
+          "comment": "Nunca me llego",
+          "commentUrls": null,
+          "commentUser": "T***n",
+          "score": 1,
+          "countryCode": "CL",
+          "commentDate": "2023-12-28T01:06:30+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CL.png"
+        },
+        {
+          "commentId": 1776859157354778631,
+          "pid": "1657574694545412096",
+          "comment": "Tal cual viene en las fotografías. Mi gato tiene curiosidad por ello. Muy suave al tacto",
+          "commentUrls": null,
+          "commentUser": "P***f",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2023-12-06T04:27:15+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1776859157358972932,
+          "pid": "1657574694545412096",
+          "comment": "Muy bueno",
+          "commentUrls": null,
+          "commentUser": "U***r",
+          "score": 5,
+          "countryCode": "ES",
+          "commentDate": "2023-12-04T08:01:09+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+        },
+        {
+          "commentId": 1776859157358972928,
+          "pid": "1657574694545412096",
+          "comment": "La brosse un peu petite",
+          "commentUrls": null,
+          "commentUser": "E***a",
+          "score": 5,
+          "countryCode": "FR",
+          "commentDate": "2023-11-29T18:20:23+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        }
+      ]
+    },
+    {
+      "pageNum": 2,
+      "pageSize": 20,
+      "total": 21,
+      "list": [
+        {
+          "commentId": 1776859157358972931,
+          "pid": "1657574694545412096",
+          "comment": "Muy bueno ",
+          "commentUrls": null,
+          "commentUser": "J***j",
+          "score": 5,
+          "countryCode": "CL",
+          "commentDate": "2023-11-06T07:20:42+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CL.png"
+        }
+      ]
+    }
+  ],
+  "allReviews": [
+    {
+      "commentId": 1776859157354778625,
+      "pid": "1657574694545412096",
+      "comment": "отличный товар",
+      "commentUrls": null,
+      "commentUser": "T***g",
+      "score": 5,
+      "countryCode": "IL",
+      "commentDate": "2024-04-05T19:36:54+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+    },
+    {
+      "commentId": 1776859157354778630,
+      "pid": "1657574694545412096",
+      "comment": "good toothbrush with reasonable price",
+      "commentUrls": null,
+      "commentUser": "X***l",
+      "score": 5,
+      "countryCode": "CA",
+      "commentDate": "2024-04-02T20:07:32+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CA.png"
+    },
+    {
+      "commentId": 1776859157354778633,
+      "pid": "1657574694545412096",
+      "comment": "los 4 son cute",
+      "commentUrls": null,
+      "commentUser": "N***j",
+      "score": 5,
+      "countryCode": "CL",
+      "commentDate": "2024-03-29T06:27:04+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CL.png"
+    },
+    {
+      "commentId": 1776859157354778626,
+      "pid": "1657574694545412096",
+      "comment": "El envío fue muy rápido a CDMX 8 días, el producto es tal como lo muestra la descripción",
+      "commentUrls": null,
+      "commentUser": "C***s",
+      "score": 5,
+      "countryCode": "MX",
+      "commentDate": "2024-03-29T02:28:20+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/MX.png"
+    },
+    {
+      "commentId": 1776859157354778627,
+      "pid": "1657574694545412096",
+      "comment": "Полное соответствие картинке на сайте;дошёл в рамках обещанного времени доставки;хорошее качество.",
+      "commentUrls": null,
+      "commentUser": "T***c",
+      "score": 5,
+      "countryCode": "IL",
+      "commentDate": "2024-03-09T07:33:43+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+    },
+    {
+      "commentId": 1776859157346390016,
+      "pid": "1657574694545412096",
+      "comment": "נראה מעולה , הזמנתי הרבה למרות שאני רק עם 2 כלבים כי זה נאבד מהר",
+      "commentUrls": null,
+      "commentUser": "R***t",
+      "score": 5,
+      "countryCode": "IL",
+      "commentDate": "2024-03-07T18:44:01+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IL.png"
+    },
+    {
+      "commentId": 1776859157354778628,
+      "pid": "1657574694545412096",
+      "comment": "Perfect, just bigger than expected. But quality is amazing. Recomend",
+      "commentUrls": null,
+      "commentUser": "P***w",
+      "score": 5,
+      "countryCode": "LT",
+      "commentDate": "2024-02-22T05:49:12+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/LT.png"
+    },
+    {
+      "commentId": 1776859157358972934,
+      "pid": "1657574694545412096",
+      "comment": "Conforme à la photo ",
+      "commentUrls": null,
+      "commentUser": "Z***e",
+      "score": 3,
+      "countryCode": "FR",
+      "commentDate": "2024-02-21T22:04:51+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+    },
+    {
+      "commentId": 1776859157354778632,
+      "pid": "1657574694545412096",
+      "comment": "Envio muy rápido. Buen material.",
+      "commentUrls": null,
+      "commentUser": "T***o",
+      "score": 5,
+      "countryCode": "ES",
+      "commentDate": "2024-02-15T11:28:35+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+    },
+    {
+      "commentId": 1776859157354778624,
+      "pid": "1657574694545412096",
+      "comment": "Produkt zgodny ze zdjęciem. Jeszcze nie używano. Wyglądają ok. Dostawa dość szybka. Polecam sprzedawcę.",
+      "commentUrls": null,
+      "commentUser": "A***h",
+      "score": 5,
+      "countryCode": "PL",
+      "commentDate": "2024-02-10T23:31:21+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/PL.png"
+    },
+    {
+      "commentId": 1776859157363167232,
+      "pid": "1657574694545412096",
+      "comment": "Never received",
+      "commentUrls": null,
+      "commentUser": "F***c",
+      "score": 1,
+      "countryCode": "AU",
+      "commentDate": "2024-02-01T09:32:59+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/AU.png"
+    },
+    {
+      "commentId": 1776859157358972930,
+      "pid": "1657574694545412096",
+      "comment": "Thanks",
+      "commentUrls": null,
+      "commentUser": "O***q",
+      "score": 5,
+      "countryCode": "RO",
+      "commentDate": "2024-01-26T00:25:57+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/RO.png"
+    },
+    {
+      "commentId": 1776859157358972933,
+      "pid": "1657574694545412096",
+      "comment": "lo hules son pequeños para mis dedos,son para niño o gente muy delgadas",
+      "commentUrls": null,
+      "commentUser": "U***b",
+      "score": 3,
+      "countryCode": "MX",
+      "commentDate": "2024-01-14T13:35:28+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/MX.png"
+    },
+    {
+      "commentId": 1776859157354778629,
+      "pid": "1657574694545412096",
+      "comment": "délai de livraison très rapide et conforme à ma commande",
+      "commentUrls": null,
+      "commentUser": "J***v",
+      "score": 5,
+      "countryCode": "FR",
+      "commentDate": "2024-01-12T16:48:28+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+    },
+    {
+      "commentId": 1776859157358972929,
+      "pid": "1657574694545412096",
+      "comment": "They work great! A++++",
+      "commentUrls": null,
+      "commentUser": "N***j",
+      "score": 5,
+      "countryCode": "US",
+      "commentDate": "2024-01-06T07:00:28+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+    },
+    {
+      "commentId": 1776859157350584320,
+      "pid": "1657574694545412096",
+      "comment": "hele snelle levering zien er goed uit straks eens proberen bij de hond",
+      "commentUrls": null,
+      "commentUser": "Z***e",
+      "score": 5,
+      "countryCode": "NL",
+      "commentDate": "2024-01-04T20:26:42+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/NL.png"
+    },
+    {
+      "commentId": 1776859161641357312,
+      "pid": "1657574694545412096",
+      "comment": "Nunca me llego",
+      "commentUrls": null,
+      "commentUser": "T***n",
+      "score": 1,
+      "countryCode": "CL",
+      "commentDate": "2023-12-28T01:06:30+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CL.png"
+    },
+    {
+      "commentId": 1776859157354778631,
+      "pid": "1657574694545412096",
+      "comment": "Tal cual viene en las fotografías. Mi gato tiene curiosidad por ello. Muy suave al tacto",
+      "commentUrls": null,
+      "commentUser": "P***f",
+      "score": 5,
+      "countryCode": "ES",
+      "commentDate": "2023-12-06T04:27:15+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+    },
+    {
+      "commentId": 1776859157358972932,
+      "pid": "1657574694545412096",
+      "comment": "Muy bueno",
+      "commentUrls": null,
+      "commentUser": "U***r",
+      "score": 5,
+      "countryCode": "ES",
+      "commentDate": "2023-12-04T08:01:09+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/ES.png"
+    },
+    {
+      "commentId": 1776859157358972928,
+      "pid": "1657574694545412096",
+      "comment": "La brosse un peu petite",
+      "commentUrls": null,
+      "commentUser": "E***a",
+      "score": 5,
+      "countryCode": "FR",
+      "commentDate": "2023-11-29T18:20:23+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+    },
+    {
+      "commentId": 1776859157358972931,
+      "pid": "1657574694545412096",
+      "comment": "Muy bueno ",
+      "commentUrls": null,
+      "commentUser": "J***j",
+      "score": 5,
+      "countryCode": "CL",
+      "commentDate": "2023-11-06T07:20:42+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CL.png"
+    }
+  ]
+}

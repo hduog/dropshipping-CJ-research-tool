@@ -1,0 +1,40 @@
+{
+  "pageNum": 1,
+  "pageSize": 20,
+  "total": 3,
+  "list": [
+    {
+      "commentId": 2605171103141948000,
+      "pid": "1368888013161107456",
+      "comment": "",
+      "commentUrls": null,
+      "commentUser": "VantigoStore",
+      "score": 5,
+      "countryCode": "IT",
+      "commentDate": "2026-05-17T11:03:15+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/IT.png"
+    },
+    {
+      "commentId": 2502050538301609601,
+      "pid": "1368888013161107456",
+      "comment": "Muy necesario para quien tiene mascota en su casa, buen producto ",
+      "commentUrls": null,
+      "commentUser": "L***i",
+      "score": 5,
+      "countryCode": "CL",
+      "commentDate": "2025-01-11T23:38:02+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CL.png"
+    },
+    {
+      "commentId": 2502050538301609600,
+      "pid": "1368888013161107456",
+      "comment": "muy buenooo",
+      "commentUrls": null,
+      "commentUser": "Q***y",
+      "score": 5,
+      "countryCode": "CL",
+      "commentDate": "2024-08-25T13:45:00+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/CL.png"
+    }
+  ]
+}

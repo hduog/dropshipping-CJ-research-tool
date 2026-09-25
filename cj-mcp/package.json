@@ -1,0 +1,21 @@
+{
+  "name": "cj-dropshipping-mcp",
+  "version": "1.0.0",
+  "description": "MCP server + CLI for searching products via the CJ Dropshipping API 2.0",
+  "type": "module",
+  "bin": {
+    "cj-mcp": "src/index.js",
+    "cj-search": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "search": "node src/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "zod": "^3.23.8"
+  }
+}

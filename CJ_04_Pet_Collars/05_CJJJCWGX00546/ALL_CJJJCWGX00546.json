@@ -1,0 +1,692 @@
+{
+  "rank": 5,
+  "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+  "sku": "CJJJCWGX00546",
+  "search_products": {
+    "id": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+    "nameEn": "Nylon Anti-grind Dog Leash Collar",
+    "sku": "CJJJCWGX00546",
+    "isCollect": 0,
+    "listedNum": 740,
+    "bigImage": "https://cf.cjdropshipping.com/20200814/1431036287196.jpg",
+    "sellPrice": "3.93 -- 4.05",
+    "nowPrice": null,
+    "authorityStatus": "1",
+    "addMarkStatus": 0,
+    "isVedio": 1,
+    "productType": "0",
+    "isAut": "0",
+    "categoryId": "2410110352331629800",
+    "threeCategoryName": "Pet Collars",
+    "twoCategoryId": "2410110338321625700",
+    "twoCategoryName": "Pet Collars, Harnesses & Accessories",
+    "oneCategoryId": "2409110611570657700",
+    "oneCategoryName": "Pet Supplies",
+    "directMinOrderNum": null,
+    "supplierName": null,
+    "zoneRecommendJson": null,
+    "createAt": null,
+    "setRecommendedTime": null,
+    "autStatus": "1",
+    "isList": 0,
+    "isAd": 0,
+    "activityId": null,
+    "isPersonalized": 0,
+    "saleStatus": "3",
+    "syncListedProductStatus": null,
+    "videoList": [
+      "40592ab2847371ef927e5420848c0102"
+    ],
+    "deliveryCycle": null,
+    "warehouseInventoryNum": 109193,
+    "discountPrice": null,
+    "discountPriceRate": null,
+    "myProduct": false,
+    "currency": null,
+    "totalVerifiedInventory": 18,
+    "totalUnVerifiedInventory": null,
+    "verifiedWarehouse": 1,
+    "customization": 0,
+    "hasCECertification": 0,
+    "description": "<p><b>Overview:</b><br>1. Sturdy quality and sturdy comfort: It is designed with thick nylon straps and thick padded lining to make your dog comfortable to wear and will not cause irritation<br>2. Important user-friendly details: The Velcro panel allows you to create a unique military patch/name patch or ethical patch for your dog, and ensure your pet after confirming the name patch/ID tag in the emergency ping experience Safe marking is our primary care<br>3.5 adjustable points: durable and comfortable, with heavy metal D ring and metal buckle, with 5 adjustable points, easy to adjust the comfortable fit and tie the dog leash</p><p><b>Product information:</b></p><p>Material: Nylon</p><p><b>Packing list:</b><br>Collar*1</p><p><b>Size Information:</b></p><p><img src=\"https://cf.cjdropshipping.com/cb23cfcb-487a-4982-b9a5-b9a1d7a4484a.jpg\" style=\"max-width:100%;\">Material: Nylon<br></p><div><br></div><div><div><ul><li ng-drop=\"true\" ng-drop-success=\"dropComplete($index,$data)\" ng-repeat=\"item in picContainer track by $index\"><div ng-drag=\"true\" ng-drag-data=\"item\" draggable=\"false\"><img ng-src=\"https://cf.cjdropshipping.com/20200814/1431036287196.jpg\" alt=\"\" src=\"https://cf.cjdropshipping.com/20200814/1431036287196.jpg\"></div></li><li ng-drop=\"true\" ng-drop-success=\"dropComplete($index,$data)\" ng-repeat=\"item in picContainer track by $index\"><div ng-drag=\"true\" ng-drag-data=\"item\" draggable=\"false\"><img ng-src=\"https://cf.cjdropshipping.com/20200814/36537424702.jpg\" alt=\"\" src=\"https://cf.cjdropshipping.com/20200814/36537424702.jpg\"></div></li><li ng-drop=\"true\" ng-drop-success=\"dropComplete($index,$data)\" ng-repeat=\"item in picContainer track by $index\"><div ng-drag=\"true\" ng-drag-data=\"item\" draggable=\"false\"><img ng-src=\"https://cf.cjdropshipping.com/20200814/363615837817.jpg\" alt=\"\" src=\"https://cf.cjdropshipping.com/20200814/363615837817.jpg\"></div></li><li ng-drop=\"true\" ng-drop-success=\"dropComplete($index,$data)\" ng-repeat=\"item in picContainer track by $index\"><div ng-drag=\"true\" ng-drag-data=\"item\" draggable=\"false\"><img ng-src=\"https://cf.cjdropshipping.com/20200814/70239086428451.jpg\" alt=\"\" src=\"https://cf.cjdropshipping.com/20200814/70239086428451.jpg\"></div></li><li ng-drop=\"true\" ng-drop-success=\"dropComplete($index,$data)\" ng-repeat=\"item in picContainer track by $index\"><div ng-drag=\"true\" ng-drag-data=\"item\" draggable=\"false\"><img ng-src=\"https://cf.cjdropshipping.com/20200814/5269272527083.jpg\" alt=\"\" src=\"https://cf.cjdropshipping.com/20200814/5269272527083.jpg\"></div></li></ul></div></div>",
+    "spu": "CJJJCWGX00546",
+    "inventoryInfo": null,
+    "variantKeyEn": null,
+    "variantInventories": null,
+    "propertyKey": null,
+    "isVideo": 1,
+    "productUrl": "https://www.cjdropshipping.com/product/nylon-anti-grind-dog-leash-collar-p-D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8.html"
+  },
+  "get_product_detail": {
+    "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+    "productName": "[\"尼龙防磨狗狗牵引项圈 户外战术训练项圈 军犬颈圈现货批发\",\"尼龙防磨狗狗牵引项圈\",\"牵引项圈\"]",
+    "productNameSet": [
+      "尼龙防磨狗狗牵引项圈 户外战术训练项圈 军犬颈圈现货批发",
+      "尼龙防磨狗狗牵引项圈",
+      "牵引项圈"
+    ],
+    "productNameEn": "Nylon Anti-grind Dog Leash Collar",
+    "productSku": "CJJJCWGX00546",
+    "bigImage": "https://cf.cjdropshipping.com/20200814/1431036287196.jpg",
+    "productImage": "[\"https://cf.cjdropshipping.com/20200814/1431036287196.jpg\",\"https://cf.cjdropshipping.com/20200814/5269272527083.jpg\",\"https://cf.cjdropshipping.com/20200814/70239086428451.jpg\",\"https://cf.cjdropshipping.com/20200814/36537424702.jpg\",\"https://cf.cjdropshipping.com/20200814/363615837817.jpg\"]",
+    "productImageSet": [
+      "https://cf.cjdropshipping.com/20200814/70239086428451.jpg",
+      "https://cf.cjdropshipping.com/20200814/1431036287196.jpg",
+      "https://cf.cjdropshipping.com/20200814/363615837817.jpg",
+      "https://cf.cjdropshipping.com/20200814/5269272527083.jpg",
+      "https://cf.cjdropshipping.com/20200814/36537424702.jpg"
+    ],
+    "productWeight": "102.00-136.00",
+    "productUnit": "unit(s)",
+    "productType": "ORDINARY_PRODUCT",
+    "categoryId": "2410110352331629800",
+    "categoryName": "Pet Supplies > Pet Collars, Harnesses & Accessories > Pet Collars",
+    "entryCode": "4201000090",
+    "entryName": "尼龙项圈",
+    "entryNameEn": "collar",
+    "materialName": "[\"布料\"]",
+    "materialNameSet": [
+      "布料"
+    ],
+    "materialNameEn": "[\"Cloth\"]",
+    "materialNameEnSet": [
+      "Cloth"
+    ],
+    "materialKey": "[\"FARBIC\"]",
+    "materialKeySet": [
+      "FARBIC"
+    ],
+    "packingWeight": "135.00-156.00",
+    "packingName": "[\"塑料袋\"]",
+    "packingNameSet": [
+      "塑料袋"
+    ],
+    "packingNameEn": "[\"Plastic bags\"]",
+    "packingNameEnSet": [
+      "Plastic bags"
+    ],
+    "packingKey": "[\"PLASTIC_BAG\"]",
+    "packingKeySet": [
+      "PLASTIC_BAG"
+    ],
+    "productKey": "[\"颜色\",\"尺寸\"]",
+    "productKeySet": [
+      "颜色",
+      "尺寸"
+    ],
+    "productKeyEn": "Color-Size",
+    "productKeyEnSet": [
+      "Color",
+      "Size"
+    ],
+    "productPro": "[\"普货\"]",
+    "productProSet": [
+      "普货"
+    ],
+    "productProEn": "[\"COMMON\"]",
+    "productProEnSet": [
+      "COMMON"
+    ],
+    "sellPrice": "3.93-4.05",
+    "sourceFrom": 1,
+    "description": "<p><b>Overview:</b><br>1. Sturdy quality and sturdy comfort: It is designed with thick nylon straps and thick padded lining to make your dog comfortable to wear and will not cause irritation<br>2. Important user-friendly details: The Velcro panel allows you to create a unique military patch/name patch or ethical patch for your dog, and ensure your pet after confirming the name patch/ID tag in the emergency ping experience Safe marking is our primary care<br>3.5 adjustable points: durable and comfortable, with heavy metal D ring and metal buckle, with 5 adjustable points, easy to adjust the comfortable fit and tie the dog leash</p><p><b>Product information:</b></p><p>Material: Nylon</p><p><b>Packing list:</b><br>Collar*1</p><p><b>Size Information:</b></p><p><img src=\"https://cf.cjdropshipping.com/cb23cfcb-487a-4982-b9a5-b9a1d7a4484a.jpg\" style=\"max-width:100%;\">Material: Nylon<br></p><div><br></div><div><div><ul><li ng-drop=\"true\" ng-drop-success=\"dropComplete($index,$data)\" ng-repeat=\"item in picContainer track by $index\"><div ng-drag=\"true\" ng-drag-data=\"item\" draggable=\"false\"><img ng-src=\"https://cf.cjdropshipping.com/20200814/1431036287196.jpg\" alt=\"\" src=\"https://cf.cjdropshipping.com/20200814/1431036287196.jpg\"></div></li><li ng-drop=\"true\" ng-drop-success=\"dropComplete($index,$data)\" ng-repeat=\"item in picContainer track by $index\"><div ng-drag=\"true\" ng-drag-data=\"item\" draggable=\"false\"><img ng-src=\"https://cf.cjdropshipping.com/20200814/36537424702.jpg\" alt=\"\" src=\"https://cf.cjdropshipping.com/20200814/36537424702.jpg\"></div></li><li ng-drop=\"true\" ng-drop-success=\"dropComplete($index,$data)\" ng-repeat=\"item in picContainer track by $index\"><div ng-drag=\"true\" ng-drag-data=\"item\" draggable=\"false\"><img ng-src=\"https://cf.cjdropshipping.com/20200814/363615837817.jpg\" alt=\"\" src=\"https://cf.cjdropshipping.com/20200814/363615837817.jpg\"></div></li><li ng-drop=\"true\" ng-drop-success=\"dropComplete($index,$data)\" ng-repeat=\"item in picContainer track by $index\"><div ng-drag=\"true\" ng-drag-data=\"item\" draggable=\"false\"><img ng-src=\"https://cf.cjdropshipping.com/20200814/70239086428451.jpg\" alt=\"\" src=\"https://cf.cjdropshipping.com/20200814/70239086428451.jpg\"></div></li><li ng-drop=\"true\" ng-drop-success=\"dropComplete($index,$data)\" ng-repeat=\"item in picContainer track by $index\"><div ng-drag=\"true\" ng-drag-data=\"item\" draggable=\"false\"><img ng-src=\"https://cf.cjdropshipping.com/20200814/5269272527083.jpg\" alt=\"\" src=\"https://cf.cjdropshipping.com/20200814/5269272527083.jpg\"></div></li></ul></div></div>",
+    "variants": [
+      {
+        "vid": "04A40241-AB98-4136-B493-9F758A239B10",
+        "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+        "variantName": null,
+        "variantNameEn": "Nylon Anti-grind Dog Leash Collar Green L",
+        "variantImage": "https://cf.cjdropshipping.com/20200814/363615837817.jpg",
+        "variantSku": "CJJJCWGX00546-Green-L",
+        "barcode": "1988971",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Green-L",
+        "variantLength": 200,
+        "variantWidth": 200,
+        "variantHeight": 40,
+        "variantVolume": 1600000,
+        "variantWeight": 145.0,
+        "variantSellPrice": 4.05,
+        "createTime": 1597569179000,
+        "variantStandard": "long=200,width=200,height=40",
+        "variantSugSellPrice": 27.67,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "1DB25B7F-FC34-412F-8EEB-B9BF58C3668C",
+        "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+        "variantName": null,
+        "variantNameEn": "Nylon Anti-grind Dog Leash Collar Green XL",
+        "variantImage": "https://cf.cjdropshipping.com/20200814/363615837817.jpg",
+        "variantSku": "CJJJCWGX00546-Green-XL",
+        "barcode": "1988974",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Green-XL",
+        "variantLength": 200,
+        "variantWidth": 200,
+        "variantHeight": 40,
+        "variantVolume": 1600000,
+        "variantWeight": 156.0,
+        "variantSellPrice": 4.05,
+        "createTime": 1597569189000,
+        "variantStandard": "long=200,width=200,height=40",
+        "variantSugSellPrice": 27.67,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "2B3D3FE6-4AC4-459D-8CB2-BBBBB7D74BCC",
+        "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+        "variantName": null,
+        "variantNameEn": "Nylon Anti-grind Dog Leash Collar Brown L",
+        "variantImage": "https://cf.cjdropshipping.com/20200814/36537424702.jpg",
+        "variantSku": "CJJJCWGX00546-Brown-L",
+        "barcode": "1988967",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Brown-L",
+        "variantLength": 200,
+        "variantWidth": 200,
+        "variantHeight": 40,
+        "variantVolume": 1600000,
+        "variantWeight": 145.0,
+        "variantSellPrice": 4.05,
+        "createTime": 1597569119000,
+        "variantStandard": "long=200,width=200,height=40",
+        "variantSugSellPrice": 27.67,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "5049FDD8-DE23-4314-A147-D623C4F04F62",
+        "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+        "variantName": null,
+        "variantNameEn": "Nylon Anti-grind Dog Leash Collar Black L",
+        "variantImage": "https://cf.cjdropshipping.com/20200814/70239086428451.jpg",
+        "variantSku": "CJJJCWGX00546-Black-L",
+        "barcode": "1988968",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Black-L",
+        "variantLength": 200,
+        "variantWidth": 200,
+        "variantHeight": 40,
+        "variantVolume": 1600000,
+        "variantWeight": 145.0,
+        "variantSellPrice": 4.05,
+        "createTime": 1597569149000,
+        "variantStandard": "long=200,width=200,height=40",
+        "variantSugSellPrice": 27.67,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "5581E1B3-334C-47EA-B159-89302E1EFD14",
+        "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+        "variantName": null,
+        "variantNameEn": "Nylon Anti-grind Dog Leash Collar Black XL",
+        "variantImage": "https://cf.cjdropshipping.com/20200814/70239086428451.jpg",
+        "variantSku": "CJJJCWGX00546-Black-XL",
+        "barcode": "1988973",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Black-XL",
+        "variantLength": 200,
+        "variantWidth": 200,
+        "variantHeight": 40,
+        "variantVolume": 1600000,
+        "variantWeight": 156.0,
+        "variantSellPrice": 3.93,
+        "createTime": 1597569159000,
+        "variantStandard": "long=200,width=200,height=40",
+        "variantSugSellPrice": 26.85,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "597B1086-8558-4E19-B21E-A5E6E9BB1C47",
+        "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+        "variantName": null,
+        "variantNameEn": "Nylon Anti-grind Dog Leash Collar Black M",
+        "variantImage": "https://cf.cjdropshipping.com/20200814/70239086428451.jpg",
+        "variantSku": "CJJJCWGX00546-Black-M",
+        "barcode": "1988970",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Black-M",
+        "variantLength": 200,
+        "variantWidth": 200,
+        "variantHeight": 40,
+        "variantVolume": 1600000,
+        "variantWeight": 135.0,
+        "variantSellPrice": 4.05,
+        "createTime": 1597569139000,
+        "variantStandard": "long=200,width=200,height=40",
+        "variantSugSellPrice": 27.67,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "636E2301-EC0C-4E12-996F-CD996140B42D",
+        "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+        "variantName": null,
+        "variantNameEn": "Nylon Anti-grind Dog Leash Collar Green M",
+        "variantImage": "https://cf.cjdropshipping.com/20200814/363615837817.jpg",
+        "variantSku": "CJJJCWGX00546-Green-M",
+        "barcode": "1988969",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Green-M",
+        "variantLength": 200,
+        "variantWidth": 200,
+        "variantHeight": 40,
+        "variantVolume": 1600000,
+        "variantWeight": 135.0,
+        "variantSellPrice": 4.05,
+        "createTime": 1597569169000,
+        "variantStandard": "long=200,width=200,height=40",
+        "variantSugSellPrice": 27.67,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "8EC8A8A3-6781-4A63-8B86-B149FD76D05E",
+        "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+        "variantName": null,
+        "variantNameEn": "Nylon Anti-grind Dog Leash Collar Brown XL",
+        "variantImage": "https://cf.cjdropshipping.com/20200814/36537424702.jpg",
+        "variantSku": "CJJJCWGX00546-Brown-XL",
+        "barcode": "1988972",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Brown-XL",
+        "variantLength": 200,
+        "variantWidth": 200,
+        "variantHeight": 40,
+        "variantVolume": 1600000,
+        "variantWeight": 156.0,
+        "variantSellPrice": 3.93,
+        "createTime": 1597569129000,
+        "variantStandard": "long=200,width=200,height=40",
+        "variantSugSellPrice": 26.85,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      },
+      {
+        "vid": "AE9AD186-BC49-4755-91BD-15AD60F889DC",
+        "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+        "variantName": null,
+        "variantNameEn": "Nylon Anti-grind Dog Leash Collar Brown M",
+        "variantImage": "https://cf.cjdropshipping.com/20200814/36537424702.jpg",
+        "variantSku": "CJJJCWGX00546-Brown-M",
+        "barcode": "1988966",
+        "variantUnit": "个",
+        "variantProperty": "[]",
+        "variantKey": "Brown-M",
+        "variantLength": 200,
+        "variantWidth": 200,
+        "variantHeight": 40,
+        "variantVolume": 1600000,
+        "variantWeight": 135.0,
+        "variantSellPrice": 3.93,
+        "createTime": 1597569109000,
+        "variantStandard": "long=200,width=200,height=40",
+        "variantSugSellPrice": 26.85,
+        "combineNum": null,
+        "inventoryNum": null,
+        "combineVariants": null,
+        "inventories": null
+      }
+    ],
+    "addMarkStatus": 0,
+    "createrTime": "2020-08-14T19:33:39+08:00",
+    "productVideo": [
+      "40592ab2847371ef927e5420848c0102"
+    ],
+    "status": "3",
+    "suggestSellPrice": "26.85 - 27.67",
+    "listedNum": 741,
+    "supplierName": null,
+    "supplierId": "{}",
+    "customizationVersion": null,
+    "customizationJson1": null,
+    "customizationJson2": null,
+    "customizationJson3": null,
+    "customizationJson4": null,
+    "isTestProduct": false,
+    "productUrl": "https://www.cjdropshipping.com/product/nylon-anti-grind-dog-leash-collar-p-D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8.html"
+  },
+  "get_product_inventory": {
+    "inventories": [
+      {
+        "areaEn": "China Warehouse",
+        "areaId": 1,
+        "countryCode": "CN",
+        "totalInventoryNum": 109176,
+        "cjInventoryNum": 1,
+        "factoryInventoryNum": 109175,
+        "countryNameEn": "China Warehouse",
+        "stock": null
+      },
+      {
+        "areaEn": "US Warehouse",
+        "areaId": 2,
+        "countryCode": "US",
+        "totalInventoryNum": 17,
+        "cjInventoryNum": 17,
+        "factoryInventoryNum": 0,
+        "countryNameEn": "US Warehouse",
+        "stock": null
+      }
+    ],
+    "variantInventories": [
+      {
+        "vid": "2B3D3FE6-4AC4-459D-8CB2-BBBBB7D74BCC",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 13737,
+            "cjInventory": 0,
+            "factoryInventory": 13737,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 13737
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "5049FDD8-DE23-4314-A147-D623C4F04F62",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 13063,
+            "cjInventory": 0,
+            "factoryInventory": 13063,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 13063
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "8EC8A8A3-6781-4A63-8B86-B149FD76D05E",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 10290,
+            "cjInventory": 0,
+            "factoryInventory": 10290,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 10290
+              }
+            ]
+          },
+          {
+            "countryCode": "US",
+            "totalInventory": 8,
+            "cjInventory": 8,
+            "factoryInventory": 0,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "201e67f6ba4644c0a36d63bf4989dd70",
+                "inventory": 8,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1DB25B7F-FC34-412F-8EEB-B9BF58C3668C",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 12917,
+            "cjInventory": 0,
+            "factoryInventory": 12917,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 12917
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "597B1086-8558-4E19-B21E-A5E6E9BB1C47",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 13084,
+            "cjInventory": 0,
+            "factoryInventory": 13084,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 13084
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "5581E1B3-334C-47EA-B159-89302E1EFD14",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 12361,
+            "cjInventory": 0,
+            "factoryInventory": 12361,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 12361
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "636E2301-EC0C-4E12-996F-CD996140B42D",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 10838,
+            "cjInventory": 0,
+            "factoryInventory": 10838,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 10838
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "AE9AD186-BC49-4755-91BD-15AD60F889DC",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 11004,
+            "cjInventory": 1,
+            "factoryInventory": 11003,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "62cfedee247c4be1a0d497bfd2cf65ae",
+                "inventory": 1,
+                "factoryInventory": 0
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 11003
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "04A40241-AB98-4136-B493-9F758A239B10",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 11882,
+            "cjInventory": 0,
+            "factoryInventory": 11882,
+            "verifiedWarehouse": 2,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 11882
+              }
+            ]
+          },
+          {
+            "countryCode": "US",
+            "totalInventory": 9,
+            "cjInventory": 9,
+            "factoryInventory": 0,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "201e67f6ba4644c0a36d63bf4989dd70",
+                "inventory": 9,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "get_product_reviews": {
+    "total": 6,
+    "fetched": 6,
+    "complete": true,
+    "pages": [
+      {
+        "pageNum": 1,
+        "pageSize": 20,
+        "total": 6,
+        "list": [
+          {
+            "commentId": 3450265,
+            "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+            "comment": "everything is ok.. thanks",
+            "commentUrls": null,
+            "commentUser": "J***o",
+            "score": 5,
+            "countryCode": "SK",
+            "commentDate": "2020-08-24T09:18:45+08:00",
+            "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/SK.png"
+          },
+          {
+            "commentId": 3450266,
+            "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+            "comment": "I am very impressed with the collar when I first got it on the first time out on her rope outside the d ring on it was not welded together and it just opened up, I am very impressed with the I&#39;d tag it is excellent  I am hoping that they will make it right for me  I will add more information about this later",
+            "commentUrls": null,
+            "commentUser": "B***r",
+            "score": 5,
+            "countryCode": "US",
+            "commentDate": "2020-08-22T19:09:45+08:00",
+            "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+          },
+          {
+            "commentId": 3450267,
+            "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+            "comment": "Amazing quality, strong and durable collar for my German Shepherd. Seller put at total 4 patches (2 of my choice and 2 service dog). Thank you so much!!",
+            "commentUrls": null,
+            "commentUser": "N***s",
+            "score": 5,
+            "countryCode": "GR",
+            "commentDate": "2020-08-19T08:44:45+08:00",
+            "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/GR.png"
+          },
+          {
+            "commentId": 3450268,
+            "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+            "comment": "Super recommended looks great on my dog",
+            "commentUrls": null,
+            "commentUser": "A***z",
+            "score": 5,
+            "countryCode": "MX",
+            "commentDate": "2020-07-11T13:05:45+08:00",
+            "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/MX.png"
+          },
+          {
+            "commentId": 3450269,
+            "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+            "comment": "The necklace is consistent but the scratch with the name does not match. They&#39;re way too big",
+            "commentUrls": null,
+            "commentUser": "A***n",
+            "score": 3,
+            "countryCode": "FR",
+            "commentDate": "2020-06-23T08:42:45+08:00",
+            "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+          },
+          {
+            "commentId": 3450270,
+            "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+            "comment": "A little too big but not too bad. Great quality and the patch glows in the dark!",
+            "commentUrls": [
+              "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2020-11-24/44e8c4db-9871-4590-9231-12611a043f62.jpg",
+              "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2020-11-24/a3b0ba76-407c-4bc6-8e00-118c7fbde983.jpg",
+              "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2020-11-24/18f3c1a8-53a7-4703-9c08-2a60a64627db.jpg"
+            ],
+            "commentUser": "A***s",
+            "score": 5,
+            "countryCode": "PL",
+            "commentDate": "2020-05-29T07:20:45+08:00",
+            "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/PL.png"
+          }
+        ]
+      }
+    ]
+  }
+}

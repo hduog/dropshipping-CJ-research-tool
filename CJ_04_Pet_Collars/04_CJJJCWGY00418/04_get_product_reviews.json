@@ -1,0 +1,21 @@
+{
+  "tool": "get_product_reviews",
+  "args": {
+    "pid": "91FDF3BC-C202-4349-A495-E383C00F7521",
+    "pageSize": 20,
+    "pagesFetched": [
+      1
+    ]
+  },
+  "total": 0,
+  "fetched": 0,
+  "complete": true,
+  "pages": [
+    {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 0,
+      "list": []
+    }
+  ]
+}

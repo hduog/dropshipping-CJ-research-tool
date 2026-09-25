@@ -1,0 +1,119 @@
+{
+  "tool": "get_product_inventory",
+  "params": {
+    "pid": "1657574694545412096"
+  },
+  "_header": "✅ 商品库存查询成功。\n【如何选择正确的 stockId 传给 get_storage_info】:\n  - 优先选 cjInventory > 0 的 stock 条目的 stockId（CJ自有仓）\n  - 若只有 factoryInventory > 0 的条目，也可使用其 stockId（工厂仓）\n  - 本工具返回的 stockId 已去掉花括号；get_storage_info 对带/不带花括号两种形态都接受，原样传入即可\n    （注：query_cj_inventory 返回的是带花括号的形态，同样可原样传入）",
+  "data": {
+    "inventories": [
+      {
+        "areaEn": "China Warehouse",
+        "areaId": 1,
+        "countryCode": "CN",
+        "totalInventoryNum": 54902,
+        "cjInventoryNum": 6701,
+        "factoryInventoryNum": 48201,
+        "countryNameEn": "China Warehouse",
+        "stock": null
+      }
+    ],
+    "variantInventories": [
+      {
+        "vid": "1657574694587355139",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 14890,
+            "cjInventory": 1276,
+            "factoryInventory": 13614,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 13614
+              },
+              {
+                "stockId": "14461",
+                "inventory": 1276,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1657574694587355137",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 12958,
+            "cjInventory": 1799,
+            "factoryInventory": 11159,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 11159
+              },
+              {
+                "stockId": "14461",
+                "inventory": 1799,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1657574694587355138",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 13753,
+            "cjInventory": 1715,
+            "factoryInventory": 12038,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 12038
+              },
+              {
+                "stockId": "14461",
+                "inventory": 1715,
+                "factoryInventory": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vid": "1657574694587355136",
+        "inventory": [
+          {
+            "countryCode": "CN",
+            "totalInventory": 13301,
+            "cjInventory": 1911,
+            "factoryInventory": 11390,
+            "verifiedWarehouse": 1,
+            "stock": [
+              {
+                "stockId": "14461",
+                "inventory": 1911,
+                "factoryInventory": 0
+              },
+              {
+                "stockId": "6709CCD7-0DC7-43B1-B310-17AB499E9B0A",
+                "inventory": 0,
+                "factoryInventory": 11390
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

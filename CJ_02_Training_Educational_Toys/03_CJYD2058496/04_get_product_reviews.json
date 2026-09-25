@@ -1,0 +1,47 @@
+{
+  "tool": "cjdropship.get_product_reviews",
+  "params": {
+    "pid": "2406120341111620600",
+    "pageSize": 20
+  },
+  "fetched_at_utc": "2026-09-25T02:46:11+00:00",
+  "total": 1,
+  "pages_fetched": 1,
+  "pages": [
+    {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 1,
+      "list": [
+        {
+          "commentId": 2406130905431629900,
+          "pid": "2406120341111620600",
+          "comment": "interesting",
+          "commentUrls": [
+            "https://oss-cf.cjdropshipping.com/other/2024/06/17/06/ec56c092-8fae-4d20-ba1d-a013a3a00ee2.jpg"
+          ],
+          "commentUser": "A***q",
+          "score": 5,
+          "countryCode": "US",
+          "commentDate": "2024-06-13T17:05:20+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+        }
+      ]
+    }
+  ],
+  "all_reviews": [
+    {
+      "commentId": 2406130905431629900,
+      "pid": "2406120341111620600",
+      "comment": "interesting",
+      "commentUrls": [
+        "https://oss-cf.cjdropshipping.com/other/2024/06/17/06/ec56c092-8fae-4d20-ba1d-a013a3a00ee2.jpg"
+      ],
+      "commentUser": "A***q",
+      "score": 5,
+      "countryCode": "US",
+      "commentDate": "2024-06-13T17:05:20+08:00",
+      "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "tool": "get_product_reviews",
+  "args": {
+    "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+    "pageSize": 20,
+    "pagesFetched": [
+      1
+    ]
+  },
+  "total": 6,
+  "fetched": 6,
+  "complete": true,
+  "pages": [
+    {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 6,
+      "list": [
+        {
+          "commentId": 3450265,
+          "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+          "comment": "everything is ok.. thanks",
+          "commentUrls": null,
+          "commentUser": "J***o",
+          "score": 5,
+          "countryCode": "SK",
+          "commentDate": "2020-08-24T09:18:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/SK.png"
+        },
+        {
+          "commentId": 3450266,
+          "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+          "comment": "I am very impressed with the collar when I first got it on the first time out on her rope outside the d ring on it was not welded together and it just opened up, I am very impressed with the I&#39;d tag it is excellent  I am hoping that they will make it right for me  I will add more information about this later",
+          "commentUrls": null,
+          "commentUser": "B***r",
+          "score": 5,
+          "countryCode": "US",
+          "commentDate": "2020-08-22T19:09:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/US.png"
+        },
+        {
+          "commentId": 3450267,
+          "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+          "comment": "Amazing quality, strong and durable collar for my German Shepherd. Seller put at total 4 patches (2 of my choice and 2 service dog). Thank you so much!!",
+          "commentUrls": null,
+          "commentUser": "N***s",
+          "score": 5,
+          "countryCode": "GR",
+          "commentDate": "2020-08-19T08:44:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/GR.png"
+        },
+        {
+          "commentId": 3450268,
+          "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+          "comment": "Super recommended looks great on my dog",
+          "commentUrls": null,
+          "commentUser": "A***z",
+          "score": 5,
+          "countryCode": "MX",
+          "commentDate": "2020-07-11T13:05:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/MX.png"
+        },
+        {
+          "commentId": 3450269,
+          "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+          "comment": "The necklace is consistent but the scratch with the name does not match. They&#39;re way too big",
+          "commentUrls": null,
+          "commentUser": "A***n",
+          "score": 3,
+          "countryCode": "FR",
+          "commentDate": "2020-06-23T08:42:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/FR.png"
+        },
+        {
+          "commentId": 3450270,
+          "pid": "D2C89161-B5F9-4B6C-99D1-9D9E3B00A2A8",
+          "comment": "A little too big but not too bad. Great quality and the patch glows in the dark!",
+          "commentUrls": [
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2020-11-24/44e8c4db-9871-4590-9231-12611a043f62.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2020-11-24/a3b0ba76-407c-4bc6-8e00-118c7fbde983.jpg",
+            "https://cc-west-usa.oss-us-west-1.aliyuncs.com/comment/additional/0001/image/2020-11-24/18f3c1a8-53a7-4703-9c08-2a60a64627db.jpg"
+          ],
+          "commentUser": "A***s",
+          "score": 5,
+          "countryCode": "PL",
+          "commentDate": "2020-05-29T07:20:45+08:00",
+          "flagIconUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/national-flags/phone/PL.png"
+        }
+      ]
+    }
+  ]
+}
