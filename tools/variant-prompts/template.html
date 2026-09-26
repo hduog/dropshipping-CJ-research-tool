@@ -11,18 +11,21 @@
   --bg:#f7f6f3; --surface:#ffffff; --surface-2:#f0eee9; --text:#1d1c1a; --muted:#6b675f;
   --border:#e2dfd8; --accent:#2f7fb8; --accent-soft:#e3f0f9; --warm:#c9772b; --warm-soft:#fbeedf;
   --code-bg:#1f2329; --code-text:#e6e6e6;
+  --s1:#2f7fb8; --s2:#c9772b; --s3:#16a3a0; --s4:#7a5cc4; --s5:#c24d6b;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#15161a; --surface:#1e2025; --surface-2:#262930; --text:#ecebe8; --muted:#a19d95;
     --border:#33363e; --accent:#6db3e6; --accent-soft:#1d3444; --warm:#e59a55; --warm-soft:#3a2a1b;
     --code-bg:#0f1114; --code-text:#e6e6e6;
+    --s1:#3d7fae; --s2:#b8702f; --s3:#1f8f8c; --s4:#7a62c0; --s5:#b8526d;
   }
 }
 :root[data-theme="dark"]{
   --bg:#15161a; --surface:#1e2025; --surface-2:#262930; --text:#ecebe8; --muted:#a19d95;
   --border:#33363e; --accent:#6db3e6; --accent-soft:#1d3444; --warm:#e59a55; --warm-soft:#3a2a1b;
   --code-bg:#0f1114; --code-text:#e6e6e6;
+  --s1:#3d7fae; --s2:#b8702f; --s3:#1f8f8c; --s4:#7a62c0; --s5:#b8526d;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -73,6 +76,13 @@ tr:last-child td{border-bottom:0}
 .design .lbl{font-weight:600}
 details{min-width:0;max-width:100%}
 .design .small{overflow-wrap:anywhere}
+.stl-row{display:flex;flex-wrap:wrap;gap:6px}
+button.stl{font:600 12px/1 "JetBrains Mono",monospace;padding:7px 9px;border-radius:7px;border:0;color:#fff;cursor:pointer}
+button.stl:hover{filter:brightness(1.1)}
+button.stl.skip{opacity:.35;cursor:not-allowed;text-decoration:line-through}
+.t1{background:var(--s1)}.t2{background:var(--s2)}.t3{background:var(--s3)}.t4{background:var(--s4)}.t5{background:var(--s5)}
+details h4{margin:12px 0 0;font-size:14px;display:flex;gap:8px;align-items:center}
+details .tag{font:600 11px/1 "JetBrains Mono",monospace;padding:4px 6px;border-radius:5px;background:var(--surface-2);border:1px solid var(--border)}
 details summary{cursor:pointer;font-size:14px;color:var(--accent)}
 pre.prompt{overflow-wrap:anywhere;background:var(--code-bg);color:var(--code-text);font:13px/1.55 "JetBrains Mono",monospace;padding:14px;border-radius:10px;white-space:pre-wrap;word-break:break-word;margin:8px 0 0;max-height:420px;overflow:auto}
 .btn{font:600 14px "Be Vietnam Pro",sans-serif;border:0;border-radius:9px;padding:9px 14px;cursor:pointer;background:var(--accent);color:#fff}
@@ -93,9 +103,9 @@ footer{padding:30px 0 50px;color:var(--muted);font-size:14px}
 <header class="hero">
   <div class="wrap">
     <a href="pet-ad-workflow.html" class="small" style="text-decoration:none">← Quy trình 5 Style</a>
-    <div class="eyebrow">STL_01 · Hero Shot theo từng mẫu mã</div>
+    <div class="eyebrow">STL_01 → STL_05 theo từng mẫu mã</div>
     <h1>Prompt theo Variant</h1>
-    <p class="lead">Mỗi sản phẩm CJ được thống kê số variant. Các variant chỉ khác <b>size / chiều dài / số lượng / phích cắm</b> được gộp lại, chỉ giữ các <b>mẫu mã khác nhau</b> (màu, kiểu dáng). Mỗi mẫu mã có sẵn 1 prompt STL_01, đã gắn link ảnh variant (<code>[Base Image]</code>) và link ảnh pet (<code>[Reference Image]</code>).</p>
+    <p class="lead">Mỗi sản phẩm CJ được thống kê số variant. Các variant chỉ khác <b>size / chiều dài / số lượng / phích cắm</b> được gộp lại, chỉ giữ các <b>mẫu mã khác nhau</b> (màu, kiểu dáng). Mỗi mẫu mã có đủ <b>5 prompt STL_01 → STL_05</b> theo <a href="pet-ad-workflow.html#quy-trinh">quy trình 5 Style</a>: STL_01 và STL_02 đã gắn link ảnh variant (<code>[Base Image]</code>) và ảnh pet (<code>[Reference Image]</code>); STL_03, 04, 05 dùng ảnh STL_01 bạn đã tạo cho variant đó (<code>[STL_01 Image]</code>, tên file gợi ý <code>{SKU}_{VARIANT}_STL01.jpg</code>).</p>
     <div class="stats" id="stats"></div>
   </div>
 </header>
@@ -112,7 +122,7 @@ footer{padding:30px 0 50px;color:var(--muted);font-size:14px}
   <div class="wrap">
     <h2>Tổng hợp variant</h2>
     <div class="note" style="margin:10px 0 14px">
-      <b>Quy tắc:</b> nội dung prompt chỉ lấy từ dữ liệu CJ (tên, chất liệu, variantKey, ảnh variant). Cách pet tương tác được suy ra từ công dụng ghi trong tên / mô tả sản phẩm; mục "Căn cứ" trích nguyên văn đoạn dữ liệu đó. Variant combo/set (nhiều món trong 1 ảnh) không tạo prompt, chỉ liệt kê để bạn kiểm tra.
+      <b>Quy tắc:</b> nội dung prompt chỉ lấy từ dữ liệu CJ (tên, chất liệu, variantKey, ảnh variant, mô tả). STL_02 cho AI viết Title/Description chỉ từ Overview + Product Information trích từ mô tả CJ. STL_04: nếu CJ không ghi cấu tạo lớp/bộ phận thì tạo ảnh cận cảnh chất liệu. STL_05: nếu CJ không có kích thước thì không tạo (nút gạch ngang). Cách pet tương tác được suy ra từ công dụng ghi trong tên / mô tả sản phẩm; mục "Căn cứ" trích nguyên văn đoạn dữ liệu đó. Variant combo/set (nhiều món trong 1 ảnh) không tạo prompt, chỉ liệt kê để bạn kiểm tra.
     </div>
     <div class="table-wrap"><table id="summary"></table></div>
     <div class="filters">
@@ -138,9 +148,10 @@ var DATA = /*__DATA__*/null;
     if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, done); else done();
   }
 
-  var nProd = 0, nVar = 0, nDes = 0, nBun = 0;
-  DATA.categories.forEach(function(c){ c.products.forEach(function(p){ nProd++; nVar += p.totalVariants; nDes += p.designs.length; nBun += p.bundles.length; }); });
-  $('stats').innerHTML = [['Sản phẩm', nProd], ['Tổng variant', nVar], ['Mẫu mã có prompt', nDes], ['Variant combo/set', nBun], ['Pet', DATA.pets.length]]
+  var nProd = 0, nVar = 0, nDes = 0, nBun = 0, nPr = 0;
+  DATA.categories.forEach(function(c){ c.products.forEach(function(p){ nProd++; nVar += p.totalVariants; nDes += p.designs.length; nBun += p.bundles.length;
+    p.designs.forEach(function(g){ nPr += g.prompts.filter(function(x){ return !x.skip; }).length; }); }); });
+  $('stats').innerHTML = [['Sản phẩm', nProd], ['Tổng variant', nVar], ['Mẫu mã', nDes], ['Prompt', nPr], ['Variant combo/set', nBun], ['Pet', DATA.pets.length]]
     .map(function(x){ return '<div class="stat"><span class="muted small">' + x[0] + '</span><b>' + x[1] + '</b></div>'; }).join('');
 
   $('pet-grid').innerHTML = DATA.pets.map(function(p){
@@ -173,7 +184,7 @@ var DATA = /*__DATA__*/null;
         '<div class="chips"><span class="chip">' + p.totalVariants + ' variant</span><span class="chip on">' + p.designs.length + ' mẫu mã</span>' +
         (p.bundles.length ? '<span class="chip">' + p.bundles.length + ' combo/set</span>' : '') + chips(p) + '</div>' +
         '<p class="small" style="margin:0">Pet: <b>' + esc(pet.name) + '</b> · Căn cứ: <span class="muted">' + esc(p.basis) + '</span></p>' +
-        '<div class="row" style="margin-top:8px"><button class="btn ghost" type="button" data-copyall="' + esc(p.sku) + '">📋 Copy ' + p.designs.length + ' prompt</button>' +
+        '<div class="row" style="margin-top:8px"><button class="btn ghost" type="button" data-copyall="' + esc(p.sku) + '">📋 Copy toàn bộ ' + p.designs.length + ' mẫu mã × 5 STL</button>' +
         (p.url ? '<a class="small" href="' + esc(p.url) + '" target="_blank" rel="noopener">Trang CJ ↗</a>' : '') + '</div>' +
         '</div></div><div class="designs">';
       p.designs.forEach(function(g, i){
@@ -181,8 +192,15 @@ var DATA = /*__DATA__*/null;
           '<img class="petimg" loading="lazy" src="pets/' + esc(pet.file) + '" alt="' + esc(pet.name) + '"></div>' +
           '<div class="body"><div class="lbl">' + esc(g.label) + '</div>' +
           '<div class="small muted">' + g.variants.length + ' variant: ' + esc(g.variants.map(function(v){ return v.variantKey; }).join(', ')) + '</div>' +
-          '<div class="row"><button class="btn" type="button" data-copy="' + esc(p.sku) + ':' + i + '">Copy prompt</button></div>' +
-          '<details><summary>Xem prompt</summary><pre class="prompt">' + esc(g.prompt) + '</pre></details></div></div>';
+          '<div class="row"><button class="btn" type="button" data-copyset="' + esc(p.sku) + ':' + i + '">📋 Copy 5 STL</button></div>' +
+          '<div class="stl-row">' + g.prompts.map(function(pr, j){
+            return '<button class="stl t' + (j + 1) + (pr.skip ? ' skip' : '') + '" type="button" title="' + esc(pr.name + (pr.skip ? ' – ' + pr.text : '')) + '"' +
+              (pr.skip ? ' disabled' : ' data-copy="' + esc(p.sku) + ':' + i + ':' + j + '"') + '>' + esc(pr.stl.replace('_', ' ')) + '</button>';
+          }).join('') + '</div>' +
+          '<details><summary>Xem 5 prompt</summary>' + g.prompts.map(function(pr){
+            return '<h4><span class="tag">' + esc(pr.stl) + '</span>' + esc(pr.name) + '</h4>' +
+              (pr.skip ? '<p class="small muted">' + esc(pr.text) + '</p>' : '<pre class="prompt">' + esc(pr.text) + '</pre>');
+          }).join('') + '</details></div></div>';
       });
       html += '</div>';
       if (p.bundles.length) {
@@ -200,11 +218,16 @@ var DATA = /*__DATA__*/null;
   DATA.categories.forEach(function(c){ c.products.forEach(function(p){ bySku[p.sku] = p; }); });
   document.addEventListener('click', function(e){
     var b = e.target.closest('button'); if (!b) return;
+    var setText = function(p, g){
+      return g.prompts.map(function(pr){ return '===== ' + p.sku + ' · ' + g.label + ' · ' + pr.stl + ' – ' + pr.name + ' =====\n' + pr.text; }).join('\n\n');
+    };
     if (b.dataset.copy) {
-      var k = b.dataset.copy.split(':'); copy(bySku[k[0]].designs[+k[1]].prompt, b);
+      var k = b.dataset.copy.split(':'); copy(bySku[k[0]].designs[+k[1]].prompts[+k[2]].text, b);
+    } else if (b.dataset.copyset) {
+      var k2 = b.dataset.copyset.split(':'), p0 = bySku[k2[0]]; copy(setText(p0, p0.designs[+k2[1]]), b);
     } else if (b.dataset.copyall) {
       var p = bySku[b.dataset.copyall];
-      copy(p.designs.map(function(g){ return '===== ' + p.sku + ' · ' + g.label + ' =====\n' + g.prompt; }).join('\n\n'), b);
+      copy(p.designs.map(function(g){ return setText(p, g); }).join('\n\n'), b);
     }
   });
 

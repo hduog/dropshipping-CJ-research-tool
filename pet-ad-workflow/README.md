@@ -12,7 +12,8 @@ Trang: `variant-prompts.html` (nút "🧩 Prompt theo Variant" trên nav). Với
 
 - Thống kê tổng số variant, các chiều biến thể (Color, Size…) và số **mẫu mã** thực sự khác nhau.
 - Variant chỉ khác size / chiều dài / số lượng / phích cắm được gộp; variant combo/set được liệt kê riêng, không tạo prompt.
-- Mỗi mẫu mã có 1 prompt STL_01 (Hero Shot) đã gắn link ảnh variant CJ và link ảnh pet trong `pets/`.
+- Mỗi mẫu mã có đủ 5 prompt STL_01 → STL_05. STL_01/02 gắn link ảnh variant CJ + ảnh pet trong `pets/`; STL_03/04/05 dùng ảnh STL_01 đã tạo cho variant đó (`{SKU}_{VARIANT}_STL01.jpg`).
+- Dữ liệu STL_02–05 (overview, công năng, nhãn, cấu tạo, bảng size) trích từ description CJ, lưu ở mục `stl` trong `tools/variant-prompts/products.json`. CJ không ghi cấu tạo → STL_04 là ảnh cận cảnh chất liệu; CJ không có kích thước → không tạo STL_05.
 
 Tạo lại sau khi thêm/sửa dữ liệu CJ: `python3 tools/variant-prompts/build.py`.
 Sản phẩm mới cần thêm 1 mục trong `tools/variant-prompts/products.json` (loại sản phẩm, pet, cách tương tác, căn cứ trích từ dữ liệu CJ).

@@ -6,7 +6,8 @@
     "- use: cách pet tương tác với sản phẩm, suy ra từ công dụng sản phẩm trong productNameEn / description.",
     "- action, angle: lấy theo các lựa chọn của MAKE PROMPT (STL_01).",
     "- basis: đoạn trích từ dữ liệu CJ làm căn cứ cho product/pet/use.",
-    "- excludeDesigns: variantKey (sau chuẩn hoá) cần bỏ, kèm lý do."
+    "- excludeDesigns: variantKey (sau chuẩn hoá) cần bỏ, kèm lý do.",
+    "- stl: dữ liệu cho STL_02–05 trích từ description CJ (overview/info cho STL_02; func/graphic/labels cho STL_03; parts hoặc materialLabel cho STL_04; sizes/sizesFromLabel/oneSize cho STL_05). Không có dữ liệu size → STL_05 ghi rõ là không tạo."
   ],
   "CJGY1281703": {
     "product": "silicone pet bath massage brush",
@@ -14,7 +15,27 @@
     "use": "sitting right behind the product, which stands upright in the foreground",
     "action": "sitting upright, looking directly at the camera with a happy panting expression",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Silicone Dog Bath Massage Gloves Brush Pet Cat Bathroom Cleaning Tool\""
+    "basis": "productNameEn: \"Silicone Dog Bath Massage Gloves Brush Pet Cat Bathroom Cleaning Tool\"",
+    "stl": {
+      "scene": "a bright, clean modern bathroom with soft natural light",
+      "overview": "Silicone bath and massage brush. Leaves pet skin clean and restores coat sheen. Won't pull on hair, good for sensitive skin.",
+      "info": "Silicone. Refillable: open the small ring and pour in shampoo and water. Size 7.9 x 8.5 x 5.5 cm, about 85 g.",
+      "func": "gentle massage and shampoo foaming while bathing",
+      "graphic": "soft white foam bubbles and gentle circular massage motion lines around the silicone bristles",
+      "funcDesc": "Soft silicone bristles massage the skin; shampoo poured inside is distributed into the fur during the bath.",
+      "labels": [
+        "Gentle Massage",
+        "Shampoo Inside",
+        "Soft Silicone"
+      ],
+      "parts": [
+        "Silicone Bristles",
+        "Shampoo Chamber",
+        "Refill Ring"
+      ],
+      "partsBasis": "description: \"open the small ring and pour shampoo and water\"",
+      "oneSize": "7.9 x 8.5 x 5.5 cm"
+    }
   },
   "CJGY1035039": {
     "product": "reusable pet hair remover roller brush",
@@ -22,7 +43,27 @@
     "use": "lying beside the product, which rests in the foreground",
     "action": "lying down with paws tucked, tilting its head curiously at the camera",
     "angle": "45-degree isometric studio angle",
-    "basis": "productNameEn: \"2-1 Reusable Pet Hair Remover Brush Lint Roller\"; description: \"remove fur and fluff anywhere\""
+    "basis": "productNameEn: \"2-1 Reusable Pet Hair Remover Brush Lint Roller\"; description: \"remove fur and fluff anywhere\"",
+    "stl": {
+      "scene": "a bright, cozy modern living room with soft sunlight through the window",
+      "overview": "Reusable pet hair remover brush. Swipe on the surface and hair is collected in the dustbin; press the top button to empty it.",
+      "info": "Self-cleaning by swiveling left and right. Works on cotton, linen, wool: sofas, clothes, bedding. Electrostatic adsorption. Size 4.3 x 4.3 x 18.3 cm.",
+      "func": "electrostatic hair pick-up",
+      "graphic": "loose pet hairs being pulled from the fabric into the brush head with subtle static spark lines",
+      "funcDesc": "Electrostatic brush collects pet hair into a built-in dustbin; press the top button to empty.",
+      "labels": [
+        "Electrostatic",
+        "Self-Cleaning",
+        "Reusable"
+      ],
+      "parts": [
+        "Brush Head",
+        "Hair Dustbin",
+        "Top Button"
+      ],
+      "partsBasis": "description: \"all the hair is collected in the dustbin ... press the top button to empty it\"",
+      "oneSize": "4.3 x 4.3 x 18.3 cm"
+    }
   },
   "CJGY1739674": {
     "product": "pet hair massage comb brush",
@@ -30,7 +71,23 @@
     "use": "sitting right behind the product, which lies in the foreground",
     "action": "sitting upright, looking directly at the camera with a happy panting expression",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"New Pet Cat Dog Hair Brush Hair Massage Comb\"; description: \"Size: 18 * 9.5cm\""
+    "basis": "productNameEn: \"New Pet Cat Dog Hair Brush Hair Massage Comb\"; description: \"Size: 18 * 9.5cm\"",
+    "stl": {
+      "scene": "a bright, cozy modern living room with soft sunlight through the window",
+      "overview": "Pet hair massage comb. Regular combing prevents knots and swallowing hair, and promotes blood circulation.",
+      "info": "Plastic comb brush. Size 18 x 9.5 cm. Colors: smoke grey, blue pink, orange green.",
+      "func": "detangling and massage while combing",
+      "graphic": "soft flowing lines showing loose fur lifted away and gentle massage waves on the skin",
+      "funcDesc": "Regular combing prevents knots and bacteria growth and promotes blood circulation.",
+      "labels": [
+        "Anti-Knot",
+        "Massage",
+        "Easy Grooming"
+      ],
+      "parts": null,
+      "oneSize": "18 x 9.5 cm",
+      "materialLabel": "Plastic"
+    }
   },
   "CJMY1752960": {
     "product": "smart pet hair dryer comb",
@@ -38,7 +95,23 @@
     "use": "sitting next to the product, which stands upright beside it",
     "action": "sitting upright, looking directly at the camera with a happy panting expression",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Smart Pet Hair Dryer Dog Golden Retriever Cat Grooming\"; description: \"Product size: 260 * 95 * 95mm\""
+    "basis": "productNameEn: \"Smart Pet Hair Dryer Dog Golden Retriever Cat Grooming\"; description: \"Product size: 260 * 95 * 95mm\"",
+    "stl": {
+      "scene": "a bright, clean modern bathroom with soft natural light",
+      "overview": "Smart pet hair dryer and comb in one (blowing and combing integrated machine).",
+      "info": "300W, 40000 rpm. ABS+PA+30% GF. Product size 260 x 95 x 95 mm, about 400 g. Conversion plug included.",
+      "func": "warm airflow drying while combing",
+      "graphic": "soft translucent warm airflow waves flowing out of the nozzle through the comb teeth",
+      "funcDesc": "Blowing and combing integrated machine, 300W, 40000 rpm.",
+      "labels": [
+        "300W",
+        "40000 RPM",
+        "Dry & Comb"
+      ],
+      "parts": null,
+      "oneSize": "260 x 95 x 95 mm",
+      "materialLabel": "ABS"
+    }
   },
   "CJYD2332008": {
     "product": "pet hair remover grooming glove",
@@ -46,7 +119,27 @@
     "use": "sitting right behind the product, which lies flat in the foreground",
     "action": "sitting upright, looking directly at the camera with a happy panting expression",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Pet Hair Remover Mitt ... Deshedding Brush Glove\"; description: \"pet grooming gloves ... removes loose fur\""
+    "basis": "productNameEn: \"Pet Hair Remover Mitt ... Deshedding Brush Glove\"; description: \"pet grooming gloves ... removes loose fur\"",
+    "stl": {
+      "scene": "a bright, cozy modern living room with soft sunlight through the window",
+      "overview": "Dual-sided pet hair remover gloves. Soft silicone bristles remove loose fur and massage without harming skin.",
+      "info": "Breathable mesh fabric and TPR. Flexible wrist cuffs, fits various hand sizes. For everyday cleaning, grooming and bathtime.",
+      "func": "loose fur removal",
+      "graphic": "loose fur clumps lifting off the pet's coat onto the glove bristles, with gentle motion lines",
+      "funcDesc": "Dual-sided design with soft silicone bristles removes loose fur and massages the skin.",
+      "labels": [
+        "Dual-Sided",
+        "Soft Bristles",
+        "Easy Fit"
+      ],
+      "parts": [
+        "TPR Bristles",
+        "Mesh Fabric",
+        "Wrist Cuff"
+      ],
+      "partsBasis": "description: \"breathable mesh fabric and TPR ... flexible wrist cuffs\"",
+      "oneSize": null
+    }
   },
   "CJMY1870790": {
     "product": "remote control interactive cat car toy",
@@ -54,7 +147,23 @@
     "use": "crouching playfully right behind the product with its eyes fixed on it, ready to pounce",
     "action": "crouched low in a playful hunting pose",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Remote Control Interactive Cat Car Toy\"; description: \"mouse-like movements ... hunting, chasing\""
+    "basis": "productNameEn: \"Remote Control Interactive Cat Car Toy\"; description: \"mouse-like movements ... hunting, chasing\"",
+    "stl": {
+      "scene": "a bright, cozy modern living room with soft sunlight through the window",
+      "overview": "Remote control interactive cat car toy with fast mouse-like movements that keep cats hunting and chasing.",
+      "info": "2 modes: automatic play or remote control. Obstacle avoidance sensor, 360° rolls. Quiet. USB charging.",
+      "func": "automatic movement with obstacle avoidance",
+      "graphic": "curved glowing motion trail arrows around the car and a small sensor wave in front of it",
+      "funcDesc": "Moves automatically or by remote control, avoids obstacles with a built-in sensor, performs 360° rolls.",
+      "labels": [
+        "2 Modes",
+        "Auto Avoid",
+        "360° Roll"
+      ],
+      "parts": null,
+      "oneSize": null,
+      "materialLabel": "Silicone"
+    }
   },
   "CJGY1703014": {
     "product": "dog bone chew toy",
@@ -62,7 +171,23 @@
     "use": "lying down holding the product between its front paws",
     "action": "lying down with paws tucked, tilting its head curiously at the camera",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Dog Chew Toy Dog Bone Type ... TPR Bone\""
+    "basis": "productNameEn: \"Dog Chew Toy Dog Bone Type ... TPR Bone\"",
+    "stl": {
+      "scene": "a bright, cozy modern living room with soft sunlight through the window",
+      "overview": "Dog bone chew toy made of tough TPR. Cleans teeth while the dog bites and massages the gums.",
+      "info": "TPR. Bone shape. Reduces tartar, freshens breath. Relieves boredom and anxiety. For small, medium and large dogs.",
+      "func": "teeth cleaning while chewing",
+      "graphic": "small sparkle marks on the teeth and gentle lines showing the textured surface scrubbing the teeth",
+      "funcDesc": "Tough TPR bone cleans teeth and massages gums while the dog chews.",
+      "labels": [
+        "Tough TPR",
+        "Clean Teeth",
+        "Bite Resistant"
+      ],
+      "parts": null,
+      "oneSize": null,
+      "materialLabel": "TPR"
+    }
   },
   "CJYD2058496": {
     "product": "cooling water play mat for cats",
@@ -73,6 +198,39 @@
     "basis": "productNameEn: \"Summer Cooling Pet Water Bed Cushion Ice Pad\"; description: \"water playmat features a fish design ... for cats\"",
     "excludeDesigns": {
       "random color pump": "phụ kiện bơm nước, không phải mẫu mã thảm"
+    },
+    "stl": {
+      "scene": "a shaded outdoor terrace on a hot summer day",
+      "overview": "Inflatable water-filled cooling play mat for cats with a fish design that catches pets' attention.",
+      "info": "PVC, enhanced thickness. Cool and comfortable sensory experience. Sizes about 65 cm and about 100 cm.",
+      "func": "cooling water-filled surface",
+      "graphic": "cool blue ripples moving across the water-filled mat surface",
+      "funcDesc": "Water-injected PVC mat gives a cool sensory surface; printed fish design attracts cats.",
+      "labels": [
+        "Cool Water",
+        "Fish Design",
+        "Thick PVC"
+      ],
+      "parts": null,
+      "sizesFromLabel": {
+        "65cm": {
+          "badge": "S",
+          "dim": "about 65 cm"
+        },
+        "100cm": {
+          "badge": "L",
+          "dim": "about 100 cm"
+        },
+        "small size": {
+          "badge": "S",
+          "dim": ""
+        },
+        "large size": {
+          "badge": "L",
+          "dim": ""
+        }
+      },
+      "materialLabel": "Thick PVC"
     }
   },
   "CJMY1700579": {
@@ -81,7 +239,23 @@
     "use": "sitting next to the product, reaching one paw toward it",
     "action": "sitting next to the toy, one paw raised playfully",
     "angle": "45-degree isometric studio angle",
-    "basis": "productNameEn: \"2 In 1 Pet Cat Toy With Feather For Self-play Cat Turntable\"; description: \"Color: orange-blue, yellow-green\""
+    "basis": "productNameEn: \"2 In 1 Pet Cat Toy With Feather For Self-play Cat Turntable\"; description: \"Color: orange-blue, yellow-green\"",
+    "stl": {
+      "scene": "a bright, cozy modern living room with soft sunlight through the window",
+      "overview": "2-in-1 interactive cat turntable toy with feather that engages cats' natural instincts.",
+      "info": "Plastic, 475 g. Battery powered, does not have to stay on a charger. Smooth, thick track edges protect paws.",
+      "func": "self-play motion",
+      "graphic": "curved motion arrows around the turntable and feather showing movement",
+      "funcDesc": "Electronic turntable with feather keeps cats playing by themselves; smooth track edges are safe for paws.",
+      "labels": [
+        "Self-Play",
+        "Feather",
+        "Paw Safe"
+      ],
+      "parts": null,
+      "oneSize": null,
+      "materialLabel": "Plastic"
+    }
   },
   "CJGY1157230": {
     "product": "silicone flying disc dog toy",
@@ -89,7 +263,23 @@
     "use": "sitting right behind the product, which stands upright in the foreground",
     "action": "sitting upright, looking directly at the camera with a happy panting expression",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Silicone Flying Saucer ... Dog Game Flying Discs\"; description: \"diameter 20cm ... Applicable to: Dog ... color shipped randomly\""
+    "basis": "productNameEn: \"Silicone Flying Saucer ... Dog Game Flying Discs\"; description: \"diameter 20cm ... Applicable to: Dog ... color shipped randomly\"",
+    "stl": {
+      "scene": "a shaded outdoor terrace on a hot summer day",
+      "overview": "Silicone flying disc dog toy, disc shape designed for dogs. Trains eye, brain and paw coordination.",
+      "info": "Diameter 20 cm, 40 g. Colors yellow/blue/green/pink shipped randomly.",
+      "func": "flight and catch training",
+      "graphic": "a curved dotted flight path arrow showing the disc flying",
+      "funcDesc": "Disc shape designed for dogs; trains the flexibility of eyes, brain and feet.",
+      "labels": [
+        "Flying Disc",
+        "Dog Training",
+        "Only 40g"
+      ],
+      "parts": null,
+      "oneSize": "Ø 20 cm",
+      "materialLabel": "Silicone"
+    }
   },
   "CJJJCWGY04596": {
     "product": "hands-free dog leash with waist belt",
@@ -97,7 +287,27 @@
     "use": "sitting next to the product, with the bungee leash clipped to its collar",
     "action": "sitting upright, looking directly at the camera with a happy panting expression",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Hands Free Dog Leash Pet Walking And Training Belt With Shock Absorbing Bungee Leash For Up To 180lbs Large Dogs\""
+    "basis": "productNameEn: \"Hands Free Dog Leash Pet Walking And Training Belt With Shock Absorbing Bungee Leash For Up To 180lbs Large Dogs\"",
+    "stl": {
+      "scene": "a sunny green park path",
+      "overview": "Hands-free dog leash with waist belt and shock absorbing bungee leash, for large dogs up to 180 lbs.",
+      "info": "Waist fits 28-48 in. Leash 39-53.5 in. Neoprene with padded mesh liner. Reflective stitching. Waterproof zipped phone pocket, treat pouch, bottle holder.",
+      "func": "shock absorbing and reflective safety",
+      "graphic": "elastic stretch arrows along the bungee leash and soft light reflections on the reflective stitching",
+      "funcDesc": "Bungee leash absorbs pulls; reflective stripes enhance safety; phone pocket and bottle holder on the belt.",
+      "labels": [
+        "Shock Absorbing",
+        "Reflective",
+        "Phone Pocket"
+      ],
+      "parts": [
+        "Waist Belt",
+        "Phone Pocket",
+        "Bungee Leash"
+      ],
+      "partsBasis": "description: \"waist ... zippered main pocket ... bungee dog leash\"",
+      "oneSize": "Waist 28-48 in · Leash 39-53.5 in"
+    }
   },
   "CJGY1548160": {
     "product": "portable mesh pet safety gate",
@@ -105,7 +315,32 @@
     "use": "standing behind the product, peeking over the top of the mesh",
     "action": "standing on its hind legs with front paws on the top edge, looking at the camera",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Pets Dog Cat Baby Safety Gate Mesh Fence Magic Portable Guard Net Stairs Doors\""
+    "basis": "productNameEn: \"Pets Dog Cat Baby Safety Gate Mesh Fence Magic Portable Guard Net Stairs Doors\"",
+    "stl": {
+      "scene": "a bright, cozy modern living room with soft sunlight through the window",
+      "overview": "Portable mesh safety gate for pets. Fits doorways, between walls and stairwells; installs without tools.",
+      "info": "Nylon mesh + stainless steel tubes. Pressure-mounted with rubber bumpers. Rolls away when not in use.",
+      "func": "safe barrier",
+      "graphic": "a soft protective shield glow outlining the mesh barrier",
+      "funcDesc": "Woven mesh barrier on stainless steel tubes blocks doorways and stairs; installs without tools.",
+      "labels": [
+        "No Tools",
+        "Portable",
+        "Wall Safe"
+      ],
+      "parts": [
+        "Nylon Mesh",
+        "Steel Tubes",
+        "Hooks"
+      ],
+      "partsBasis": "description: \"Nylon mesh + stainless steel tube ... Hang the fabric woven on the four hooks\"",
+      "sizes": {
+        "m": {
+          "badge": "M",
+          "dim": "70.9 x 28.3 in"
+        }
+      }
+    }
   },
   "CJGY1742809": {
     "product": "retractable dog leash",
@@ -113,7 +348,32 @@
     "use": "sitting next to the product, with the leash clipped to its collar and the handle lying in front of it",
     "action": "sitting upright, looking directly at the camera with a happy panting expression",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Automatic Explore Retractable Dog Leash ... Small Medium Dogs\""
+    "basis": "productNameEn: \"Automatic Explore Retractable Dog Leash ... Small Medium Dogs\"",
+    "stl": {
+      "scene": "a sunny green park path",
+      "overview": "Automatic retractable dog leash with ergonomic handle and anti-slip locking button.",
+      "info": "Extends 3 or 5 m. Anti-fray, anti-tangle nylon ribbon. Inner spring retracts automatically. ABS, PC.",
+      "func": "automatic retraction",
+      "graphic": "a curved arrow showing the ribbon retracting back into the handle",
+      "funcDesc": "Inner spring keeps the ribbon under slight tension and retracts automatically; locking button for control.",
+      "labels": [
+        "Auto Retract",
+        "Anti-Tangle",
+        "One-Button Lock"
+      ],
+      "parts": null,
+      "sizes": {
+        "3m": {
+          "badge": "3 m",
+          "dim": "up to 3 m"
+        },
+        "5m": {
+          "badge": "5 m",
+          "dim": "up to 5 m"
+        }
+      },
+      "materialLabel": "ABS + PC"
+    }
   },
   "CJGY1757445": {
     "product": "silicone finger toothbrush for pets",
@@ -121,7 +381,23 @@
     "use": "sitting right behind the product, which lies in the foreground",
     "action": "sitting upright with a big open-mouth smile showing clean white teeth",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Dog Tooth Cleaning Brush Care Finger Wrap Cat Dog Oral Cleaning Toothbrush\""
+    "basis": "productNameEn: \"Dog Tooth Cleaning Brush Care Finger Wrap Cat Dog Oral Cleaning Toothbrush\"",
+    "stl": {
+      "scene": "a bright, clean modern bathroom with soft natural light",
+      "overview": "Silicone finger toothbrush for dogs and cats. Soft elastic bristles remove plaque without hurting gums.",
+      "info": "PP+TPR. Reusable, just rinse with water. About 149 x 30 x 36 mm.",
+      "func": "plaque removal",
+      "graphic": "small sparkle marks on clean teeth next to the bristles",
+      "funcDesc": "Soft, elastic bristles remove plaque without hurting the gums; reusable.",
+      "labels": [
+        "Soft Bristles",
+        "Reusable",
+        "Fresh Breath"
+      ],
+      "parts": null,
+      "oneSize": "149 x 30 x 36 mm",
+      "materialLabel": "PP + TPR"
+    }
   },
   "CJGY1803656": {
     "product": "microfiber pet drying towel",
@@ -129,7 +405,37 @@
     "use": "wrapped snugly in the product",
     "action": "sitting upright, looking directly at the camera with a happy panting expression",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Dog Towels For Drying Dogs ... Towels Robe Super Absorbent Quick Drying Soft Microfiber Pet Towel\""
+    "basis": "productNameEn: \"Dog Towels For Drying Dogs ... Towels Robe Super Absorbent Quick Drying Soft Microfiber Pet Towel\"",
+    "stl": {
+      "scene": "a bright, clean modern bathroom with soft natural light",
+      "overview": "Microfiber pet drying towel. Thick fabric absorbs moisture quickly and shortens drying time.",
+      "info": "Superfine microfiber, thick terry, hook for hanging. Machine washable. Sizes 30x60, 50x100, 70x140 cm.",
+      "func": "fast water absorption",
+      "graphic": "water droplets being drawn into the towel fibers",
+      "funcDesc": "Thick superfine microfiber absorbs water instantly so pets dry quickly.",
+      "labels": [
+        "Super Absorbent",
+        "Quick Dry",
+        "Soft"
+      ],
+      "parts": null,
+      "sizes": {
+        "30x60cm": {
+          "badge": "M",
+          "dim": "30 x 60 cm"
+        },
+        "50x100cm": {
+          "badge": "L",
+          "dim": "50 x 100 cm"
+        },
+        "70x140cm": {
+          "badge": "XL",
+          "dim": "70 x 140 cm"
+        }
+      },
+      "sizesBasis": "description: \"M: 30x60CM L: 50X100CM XL: 70X140CM\"",
+      "materialLabel": "Microfiber"
+    }
   },
   "CJGX1597441": {
     "product": "reflective nylon collar with AirTag holder",
@@ -137,7 +443,23 @@
     "use": "wearing the product around its neck",
     "action": "sitting upright, looking directly at the camera",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Reflective Collar Waterproof Holder Case For Airtag ... Cat Dog Kitten Puppy Nylon Collar\""
+    "basis": "productNameEn: \"Reflective Collar Waterproof Holder Case For Airtag ... Cat Dog Kitten Puppy Nylon Collar\"",
+    "stl": {
+      "scene": "a bright, cozy modern living room with soft sunlight through the window",
+      "overview": "Reflective nylon collar with a waterproof holder case for AirTag, for cats, dogs, kittens and puppies.",
+      "info": "Nylon, solid color. Locator not included.",
+      "func": "reflective visibility",
+      "graphic": "soft light reflection streaks along the reflective collar",
+      "funcDesc": "Reflective nylon collar with a waterproof AirTag holder case (AirTag not included).",
+      "labels": [
+        "Reflective",
+        "AirTag Case",
+        "Waterproof"
+      ],
+      "parts": null,
+      "oneSize": null,
+      "materialLabel": "Nylon"
+    }
   },
   "CJJJCWGY00032": {
     "product": "LED light-up nylon dog collar",
@@ -145,7 +467,44 @@
     "use": "wearing the product around its neck, the LED collar glowing softly",
     "action": "sitting upright, looking directly at the camera with a happy panting expression",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Nylon LED Pet Dog Luminous Collar Night Safety Flashing Glow in Dark Dog Cat\""
+    "basis": "productNameEn: \"Nylon LED Pet Dog Luminous Collar Night Safety Flashing Glow in Dark Dog Cat\"",
+    "stl": {
+      "scene": "a shaded outdoor terrace on a hot summer day",
+      "overview": "Nylon LED light-up collar for night walks. Glowing in the dark keeps pets safe and visible.",
+      "info": "Nylon + LED fiber light. 4 modes: steady, flash, slow flash, off. Battery (2x CR2032) or USB rechargeable version.",
+      "func": "LED glow visibility at night",
+      "graphic": "a soft bright glow halo around the LED collar",
+      "funcDesc": "Bright fiber optic LED light, 4 modes; battery or USB rechargeable.",
+      "labels": [
+        "LED Glow",
+        "4 Modes",
+        "USB / Battery"
+      ],
+      "parts": null,
+      "sizes": {
+        "xs": {
+          "badge": "XS",
+          "dim": "Neck 28-38 cm"
+        },
+        "s": {
+          "badge": "S",
+          "dim": "Neck 34-41 cm"
+        },
+        "m": {
+          "badge": "M",
+          "dim": "Neck 37-46 cm"
+        },
+        "l": {
+          "badge": "L",
+          "dim": "Neck 41-52 cm"
+        },
+        "xl": {
+          "badge": "XL",
+          "dim": "Neck 42-56 cm"
+        }
+      },
+      "materialLabel": "Nylon + LED"
+    }
   },
   "CJJJCWGY02126": {
     "product": "soft nylon pet collar",
@@ -153,7 +512,52 @@
     "use": "wearing the product exactly as shown in [Base Image]",
     "action": "sitting upright, looking directly at the camera with a happy panting expression",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"New Pet Collar\"; description: \"Name: Soft nylon pet collar ... General for cats and dogs\""
+    "basis": "productNameEn: \"New Pet Collar\"; description: \"Name: Soft nylon pet collar ... General for cats and dogs\"",
+    "stl": {
+      "scene": "a bright, cozy modern living room with soft sunlight through the window",
+      "overview": "Soft nylon pet collar for cats and dogs, adjustable to fit the pet's neck.",
+      "info": "Nylon, neoprene lining. Plastic buckle, metal D buckle.",
+      "func": "adjustable comfortable fit",
+      "graphic": "small double-headed arrows along the strap showing size adjustment",
+      "funcDesc": "Adjust the buckle to fit the neck; neoprene lining for comfort.",
+      "labels": [
+        "Adjustable",
+        "Soft Lining",
+        "Metal D-Ring"
+      ],
+      "parts": [
+        "Nylon Strap",
+        "Neoprene Lining",
+        "Metal D-Ring"
+      ],
+      "partsBasis": "description: \"Main fabric material: nylon ... Lining: Neoprene ... metal D buckle\"",
+      "sizes": {
+        "xs": {
+          "badge": "XS",
+          "dim": "Neck 22-35 cm",
+          "fit": "Chihuahua, Cat"
+        },
+        "s": {
+          "badge": "S",
+          "dim": "Neck 27-43 cm",
+          "fit": "Yorkie, Maltese"
+        },
+        "m": {
+          "badge": "M",
+          "dim": "Neck 33-48 cm",
+          "fit": "Beagle"
+        },
+        "l": {
+          "badge": "L",
+          "dim": "Neck 36-56 cm",
+          "fit": "Golden Retriever"
+        },
+        "xl": {
+          "badge": "XL",
+          "dim": ""
+        }
+      }
+    }
   },
   "CJJJCWGY00418": {
     "product": "camouflage light-up dog collar",
@@ -161,7 +565,41 @@
     "use": "wearing the product around its neck, the collar light glowing softly",
     "action": "sitting upright, looking directly at the camera with a happy panting expression",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Camouflage pet supplies luminous dog collar\"; description: \"3 adjustable lighting modes\""
+    "basis": "productNameEn: \"Camouflage pet supplies luminous dog collar\"; description: \"3 adjustable lighting modes\"",
+    "stl": {
+      "scene": "a shaded outdoor terrace on a hot summer day",
+      "overview": "Camouflage light-up dog collar, ideal for night walks. Keeps you and your pet safe in the dark.",
+      "info": "Nylon + plastic. 3 lighting modes: steady, fast flash, slow flash. 2 button batteries included.",
+      "func": "LED glow visibility at night",
+      "graphic": "a soft bright glow halo around the light-up collar",
+      "funcDesc": "Flashing collar with 3 lighting modes for night walks.",
+      "labels": [
+        "Light-Up",
+        "3 Modes",
+        "Night Safety"
+      ],
+      "parts": null,
+      "sizes": {
+        "s": {
+          "badge": "S",
+          "dim": "35-43 cm"
+        },
+        "m": {
+          "badge": "M",
+          "dim": "40-48 cm"
+        },
+        "l": {
+          "badge": "L",
+          "dim": "45-52 cm"
+        },
+        "xl": {
+          "badge": "XL",
+          "dim": "52-60 cm"
+        }
+      },
+      "sizesBasis": "description: \"S code ... Short 35cm Length 43cm ... XL ... short 52cm length 60cm\"",
+      "materialLabel": "Nylon + Plastic"
+    }
   },
   "CJJJCWGX00546": {
     "product": "padded nylon dog collar",
@@ -169,7 +607,40 @@
     "use": "wearing the product around its neck",
     "action": "sitting upright, looking directly at the camera with a happy panting expression",
     "angle": "straight horizontal eye-level view",
-    "basis": "productNameEn: \"Nylon Anti-grind Dog Leash Collar\"; description: \"thick nylon straps and thick padded lining\""
+    "basis": "productNameEn: \"Nylon Anti-grind Dog Leash Collar\"; description: \"thick nylon straps and thick padded lining\"",
+    "stl": {
+      "scene": "a sunny green park path",
+      "overview": "Heavy duty padded nylon dog collar with Velcro panel for name or ID patches.",
+      "info": "Thick nylon strap, padded lining, heavy metal D-ring and metal buckle, 5 adjustable points.",
+      "func": "padded comfort and strength",
+      "graphic": "soft cushion highlight on the padded lining and a strength glow on the metal D-ring",
+      "funcDesc": "Thick nylon straps with padded lining; heavy metal D-ring and buckle; Velcro patch panel.",
+      "labels": [
+        "Padded",
+        "Metal D-Ring",
+        "Velcro Patch"
+      ],
+      "parts": [
+        "Nylon Strap",
+        "Padded Lining",
+        "Metal Buckle"
+      ],
+      "partsBasis": "description: \"thick nylon straps and thick padded lining ... heavy metal D ring and metal buckle\"",
+      "sizes": {
+        "m": {
+          "badge": "M",
+          "dim": ""
+        },
+        "l": {
+          "badge": "L",
+          "dim": ""
+        },
+        "xl": {
+          "badge": "XL",
+          "dim": ""
+        }
+      }
+    }
   },
   "CJGY1025454": {
     "product": "anti-overflow floating pet water bowl",
@@ -177,7 +648,27 @@
     "use": "drinking from the product",
     "action": "lowering its head to drink calmly",
     "angle": "45-degree isometric studio angle",
-    "basis": "productNameEn: \"1.5L Cat Dog Water Bowl Carried Floating Bowl Anti-Overflow Slow Water Feeder\""
+    "basis": "productNameEn: \"1.5L Cat Dog Water Bowl Carried Floating Bowl Anti-Overflow Slow Water Feeder\"",
+    "stl": {
+      "scene": "a bright, clean modern kitchen corner with soft natural light",
+      "overview": "Anti-overflow floating pet water bowl. The floating plate slows drinking and keeps the mouth dry.",
+      "info": "1.5 L. ABS & PP. Waterproof frame + floating plate prevent spills. Easy to disassemble and clean. Non-slip bottom.",
+      "func": "anti-spill slow drinking",
+      "graphic": "small water droplets held back by the floating plate and a curved arrow showing slower water flow",
+      "funcDesc": "Floating plate slows water intake and keeps the mouth dry; waterproof frame prevents overflow.",
+      "labels": [
+        "No Splash",
+        "Slow Drinking",
+        "1.5L"
+      ],
+      "parts": [
+        "Floating Plate",
+        "Waterproof Frame",
+        "Water Basin"
+      ],
+      "partsBasis": "description: \"dual design of a waterproof frame and floating plate ... water basin is easy to disassemble\"",
+      "oneSize": "1.5 L"
+    }
   },
   "CJGY1748465": {
     "product": "slow feeder pet bowl",
@@ -185,7 +676,23 @@
     "use": "eating from the product",
     "action": "lowering its head to eat happily",
     "angle": "45-degree isometric studio angle",
-    "basis": "productNameEn: \"Pet Dog Cat Slow Feeder Bowls Anti Choking Slow Feeder Dish Bowl\""
+    "basis": "productNameEn: \"Pet Dog Cat Slow Feeder Bowls Anti Choking Slow Feeder Dish Bowl\"",
+    "stl": {
+      "scene": "a bright, clean modern kitchen corner with soft natural light",
+      "overview": "Slow feeder dog bowl with fun-shaped ridges that slow down even the fastest eaters.",
+      "info": "PP, food safe, bite-resistant, high-temperature resistant. Anti-gulping, anti-choking.",
+      "func": "slow feeding",
+      "graphic": "small curved arrows winding through the ridges showing slowed eating",
+      "funcDesc": "Fun-shaped ridges inside the bowl slow eating and prevent gulping.",
+      "labels": [
+        "Slow Feeding",
+        "Anti-Gulp",
+        "Food Safe"
+      ],
+      "parts": null,
+      "oneSize": null,
+      "materialLabel": "PP"
+    }
   },
   "CJMY1772383": {
     "product": "silicone pet licking mat",
@@ -193,7 +700,32 @@
     "use": "licking the product with its tongue out",
     "action": "lying down with its tongue out, licking happily",
     "angle": "45-degree isometric studio angle",
-    "basis": "productNameEn: \"Dog Silicone Licking Pad Pet Licking Mat\"; description: \"The licking mat is a unique form of pet slow-feeder\""
+    "basis": "productNameEn: \"Dog Silicone Licking Pad Pet Licking Mat\"; description: \"The licking mat is a unique form of pet slow-feeder\"",
+    "stl": {
+      "scene": "a bright, clean modern kitchen corner with soft natural light",
+      "overview": "Silicone licking mat, a slow feeder for dogs. Different textures reduce eating speed.",
+      "info": "Silicone. Cleans the tongue and supports dental care. Small 30 x 20 x 4.2 cm, large 43 x 28.8 x 4.2 cm.",
+      "func": "slow licking feeding",
+      "graphic": "small curved arrows following the textured grooves",
+      "funcDesc": "Textured silicone surface slows eating and cleans the tongue.",
+      "labels": [
+        "Slow Feeding",
+        "Textured",
+        "Silicone"
+      ],
+      "parts": null,
+      "sizesFromLabel": {
+        "small": {
+          "badge": "S",
+          "dim": "30 x 20 x 4.2 cm"
+        },
+        "large": {
+          "badge": "L",
+          "dim": "43 x 28.8 x 4.2 cm"
+        }
+      },
+      "materialLabel": "Silicone"
+    }
   },
   "CJMY1228721": {
     "product": "elevated cat feeder stand with transparent bowl",
@@ -201,7 +733,26 @@
     "use": "eating from the product",
     "action": "sitting and eating calmly",
     "angle": "45-degree isometric studio angle",
-    "basis": "productNameEn: \"Cat Elevated Feeder Stand With Transparent Bowl\""
+    "basis": "productNameEn: \"Cat Elevated Feeder Stand With Transparent Bowl\"",
+    "stl": {
+      "scene": "a bright, clean modern kitchen corner with soft natural light",
+      "overview": "Elevated cat feeder stand with transparent cat-head bowl. 15° tilted design reduces neck strain.",
+      "info": "ABS+PC+plastic, food grade. Bowl and base stand detach. Easy to clean, not easy to overturn.",
+      "func": "15° tilt neck protection",
+      "graphic": "an angle arc showing the 15° tilt and a soft arrow along the relaxed neck line",
+      "funcDesc": "15° tilted elevated bowl reduces neck burden; bowl and base detach for cleaning.",
+      "labels": [
+        "15° Tilt",
+        "Neck Care",
+        "Detachable"
+      ],
+      "parts": [
+        "Transparent Bowl",
+        "Base Stand"
+      ],
+      "partsBasis": "description: \"Bowl and base stand an be take apart\"",
+      "oneSize": null
+    }
   },
   "CJGY1029541": {
     "product": "ceramic tilted pet bowl",
@@ -216,6 +767,21 @@
       "greenset": "Green bowl + rack",
       "whiteset": "White bowl + rack",
       "light greenset": "Light green bowl + rack"
+    },
+    "stl": {
+      "scene": "a bright, clean modern kitchen corner with soft natural light",
+      "overview": "Ceramic pet bowl with oblique mouth. Classic simple colors.",
+      "info": "Ceramic. Single bowl or bowl + rack.",
+      "func": "oblique mouth easy eating",
+      "graphic": "a subtle angle arc showing the tilted rim",
+      "funcDesc": "Ceramic bowl with oblique (tilted) mouth.",
+      "labels": [
+        "Ceramic",
+        "Tilted Rim"
+      ],
+      "parts": null,
+      "oneSize": null,
+      "materialLabel": "Ceramic"
     }
   },
   "CJJT1006521": {
@@ -224,7 +790,45 @@
     "use": "lying in the center of the product",
     "action": "sleeping contentedly with eyes closed, curled up naturally",
     "angle": "45-degree isometric studio angle",
-    "basis": "productNameEn: \"Pet Cooling Pad Bed For Dogs Cats ... Ice Silk Material\""
+    "basis": "productNameEn: \"Pet Cooling Pad Bed For Dogs Cats ... Ice Silk Material\"",
+    "stl": {
+      "scene": "a calm Scandinavian bedroom with neutral tones",
+      "overview": "Self-cooling pet mat. Uses no electricity and no toxic gels; wicks heat away to keep pets cool.",
+      "info": "Cool silk and cotton-linen stripes, 3D PP cotton + high elastic sponge filling, Oxford non-slip bottom. Machine washable.",
+      "func": "cooling and heat dissipation",
+      "graphic": "glowing blue arrows showing heat flowing up and away from the pet",
+      "funcDesc": "Cold silk fabric wicks heat out and releases it into the air; no electricity, no gel.",
+      "labels": [
+        "Cool Touch",
+        "No Power",
+        "Washable"
+      ],
+      "parts": [
+        "Cool Silk",
+        "PP Cotton Filling",
+        "Oxford Non-Slip Base"
+      ],
+      "partsBasis": "description: \"Fabric: cotton and linen stripes, cool silk, Oxford non-slip bottom Filling: 3 D PP cotton, high elastic sponge\"",
+      "sizes": {
+        "s": {
+          "badge": "S",
+          "dim": "",
+          "fit": "Small Breeds"
+        },
+        "m": {
+          "badge": "M",
+          "dim": "",
+          "fit": "Medium Breeds"
+        },
+        "l": {
+          "badge": "L",
+          "dim": "",
+          "fit": "Large Breeds"
+        }
+      },
+      "sizesBasis": "description: \"Three different sizes, fit for small, medium, and large breeds\"",
+      "partsMode": "layers"
+    }
   },
   "CJJJCWGY00320": {
     "product": "ice silk pet cooling pad",
@@ -232,7 +836,54 @@
     "use": "lying in the center of the product",
     "action": "sprawled out comfortably, looking relaxed and pampered",
     "angle": "45-degree isometric studio angle",
-    "basis": "productNameEn: \"Pet Dog Cat Ice Silk Cold Nest Pad For Cooling In Summer\""
+    "basis": "productNameEn: \"Pet Dog Cat Ice Silk Cold Nest Pad For Cooling In Summer\"",
+    "stl": {
+      "scene": "a calm Scandinavian bedroom with neutral tones",
+      "overview": "Ice silk pet cooling pad. Instant cooling with heat-resistant fibers, no water needed.",
+      "info": "Cold ice silk surface, cotton middle, breathable mesh back. Embroidered edges.",
+      "func": "cooling and heat dissipation",
+      "graphic": "glowing blue arrows showing heat flowing up and away from the pet",
+      "funcDesc": "Heat-resistant ice silk fibers give instant cooling without water.",
+      "labels": [
+        "Instant Cool",
+        "Ice Silk",
+        "Breathable"
+      ],
+      "parts": [
+        "Ice Silk",
+        "Cotton",
+        "Breathable Mesh"
+      ],
+      "partsBasis": "description: \"cold ice silk on the surface, cotton in the middle, breathable mesh on the back\"",
+      "sizes": {
+        "40x30cm": {
+          "badge": "40x30",
+          "dim": "40 x 30 cm"
+        },
+        "50x40cm": {
+          "badge": "S",
+          "dim": "50 x 40 cm"
+        },
+        "63x50cm": {
+          "badge": "M",
+          "dim": "63 x 50 cm"
+        },
+        "70x56cm": {
+          "badge": "L",
+          "dim": "70 x 56 cm"
+        },
+        "102x70cm": {
+          "badge": "XL",
+          "dim": "102 x 70 cm"
+        },
+        "150x100cm": {
+          "badge": "150x100",
+          "dim": "150 x 100 cm"
+        }
+      },
+      "partsMode": "layers",
+      "sizesBasis": "description: \"S: 50*40cm, M: 63*50cm, L: 70*56cm, XL: 102*70cm\"; 40x30 và 150x100 chỉ có trong variantKey"
+    }
   },
   "CJJJCWMY00030": {
     "product": "double layer cat litter mat",
@@ -240,7 +891,52 @@
     "use": "sitting in the center of the product",
     "action": "sitting upright, looking directly at the camera",
     "angle": "high-angle top-down view",
-    "basis": "productNameEn: \"Double Layer Litter Cat Bed Pads Pet Cat Litter Mat Trapping\"; description: \"Foldable black and Foldable gray can be folded\""
+    "basis": "productNameEn: \"Double Layer Litter Cat Bed Pads Pet Cat Litter Mat Trapping\"; description: \"Foldable black and Foldable gray can be folded\"",
+    "stl": {
+      "scene": "a minimal home corner with plants and warm light",
+      "overview": "Double layer cat litter mat that traps litter from the claws. One-step cleaning, litter can be reused.",
+      "info": "EVA, waterproof layer. Foldable black/gray versions fold; black/gray versions lie flat.",
+      "func": "litter trapping",
+      "graphic": "small litter granules falling through the top holes into the lower layer, with downward arrows",
+      "funcDesc": "Double layer traps litter from claws; waterproof; empty to reuse the litter.",
+      "labels": [
+        "Traps Litter",
+        "Waterproof",
+        "Easy Clean"
+      ],
+      "parts": [
+        "Top Layer",
+        "Waterproof Layer"
+      ],
+      "partsBasis": "description: \"Double Layer ... Waterproof layer\"",
+      "sizes": {
+        "xs": {
+          "badge": "XS",
+          "dim": ""
+        },
+        "s": {
+          "badge": "S",
+          "dim": ""
+        },
+        "m": {
+          "badge": "M",
+          "dim": ""
+        },
+        "l": {
+          "badge": "L",
+          "dim": ""
+        },
+        "46x60cm": {
+          "badge": "46x60",
+          "dim": "46 x 60 cm"
+        },
+        "55x70cm": {
+          "badge": "55x70",
+          "dim": "55 x 70 cm"
+        }
+      },
+      "partsMode": "layers"
+    }
   },
   "CJGY2064580": {
     "product": "ice silk dog cooling mat",
@@ -248,7 +944,53 @@
     "use": "lying in the center of the product",
     "action": "sprawled out comfortably, looking relaxed and pampered",
     "angle": "45-degree isometric studio angle",
-    "basis": "productNameEn: \"Dog Cooling Mat Summer Pets Cold Bed Extra Large For Small Big Dogs\"; description: \"ice silk fabric\""
+    "basis": "productNameEn: \"Dog Cooling Mat Summer Pets Cold Bed Extra Large For Small Big Dogs\"; description: \"ice silk fabric\"",
+    "stl": {
+      "scene": "a calm Scandinavian bedroom with neutral tones",
+      "overview": "Ice silk dog cooling mat. Absorbs and dissipates heat to lower the pet's body temperature. No electricity, water or refrigeration.",
+      "info": "Nylon cold-feeling gauze, cotton, breathable mesh. Easy to clean.",
+      "func": "cooling and heat dissipation",
+      "graphic": "glowing blue arrows showing heat flowing up and away from the pet",
+      "funcDesc": "Ice silk fabric absorbs and dissipates heat; no electricity, water or refrigeration.",
+      "labels": [
+        "Ice Silk",
+        "No Power",
+        "Breathable"
+      ],
+      "parts": [
+        "Cold-Feeling Gauze",
+        "Cotton",
+        "Breathable Mesh"
+      ],
+      "partsBasis": "description: \"Material: nylon cold-feeling gauze cotton breathable mesh\"",
+      "sizes": {
+        "xs40*30cm": {
+          "badge": "XS",
+          "dim": "40 x 30 cm"
+        },
+        "s50*40cm": {
+          "badge": "S",
+          "dim": "50 x 40 cm"
+        },
+        "m60*50cm": {
+          "badge": "M",
+          "dim": "60 x 50 cm"
+        },
+        "l70*55cm": {
+          "badge": "L",
+          "dim": "70 x 55 cm"
+        },
+        "xl100*70cm": {
+          "badge": "XL",
+          "dim": "100 x 70 cm"
+        },
+        "2xl150*100cm": {
+          "badge": "2XL",
+          "dim": "150 x 100 cm"
+        }
+      },
+      "partsMode": "layers"
+    }
   },
   "CJGY1942967": {
     "product": "plush dog sofa bed cushion",
@@ -256,6 +998,43 @@
     "use": "curled up in the center of the product",
     "action": "sleeping contentedly with eyes closed, curled up naturally",
     "angle": "45-degree isometric studio angle",
-    "basis": "productNameEn: \"Pet Dog Sofa Bed Dog Beds For Large Dogs Cushion Warm\"; description: \"unique curved design ... to curl up\""
+    "basis": "productNameEn: \"Pet Dog Sofa Bed Dog Beds For Large Dogs Cushion Warm\"; description: \"unique curved design ... to curl up\"",
+    "stl": {
+      "scene": "a bright, cozy modern living room with soft sunlight through the window",
+      "overview": "Plush dog sofa bed with pillow. Curved design gives a warm, safe space to curl up and protects furniture.",
+      "info": "Soft plush, removable, hand or machine washable. Keeps the dog off the cold floor.",
+      "func": "warmth and heat retention",
+      "graphic": "warm orange glow radiating from the product surface",
+      "funcDesc": "Soft plush and curved pillow edge keep the dog warm and off the cold floor; protects the sofa.",
+      "labels": [
+        "Warm Plush",
+        "Pillow Edge",
+        "Washable"
+      ],
+      "parts": null,
+      "sizes": {
+        "75x75cm": {
+          "badge": "75x75",
+          "dim": "75 x 75 cm"
+        },
+        "75x120cm": {
+          "badge": "75x120",
+          "dim": "75 x 120 cm"
+        },
+        "90x90cm": {
+          "badge": "90x90",
+          "dim": "90 x 90 cm"
+        },
+        "90x120cm": {
+          "badge": "90x120",
+          "dim": "90 x 120 cm"
+        },
+        "90x135cm": {
+          "badge": "90x135",
+          "dim": "90 x 135 cm"
+        }
+      },
+      "materialLabel": "Soft Plush"
+    }
   }
 }

@@ -1,4 +1,4 @@
-"""Thống kê variant + tạo prompt STL_01 (Hero Shot) cho từng mẫu mã của mỗi sản phẩm CJ.
+"""Thống kê variant + tạo đủ 5 prompt (STL_01 → STL_05) cho từng mẫu mã của mỗi sản phẩm CJ.
 
 Nguồn dữ liệu: CJ_*/<rank>_<SKU>/02_get_product_detail.json (dữ liệu MCP CJdropshipping trả về).
 Variant chỉ khác size / chiều dài / số lượng / loại phích cắm được gộp lại; variant combo/set được
@@ -22,6 +22,8 @@ NON_DESIGN_DIM = re.compile(r"^(size|尺寸|length|specifications?|quantity|数�
 SIZE_VALUE = re.compile(
     r"^(\d*x{0,2}[sml]|xs|x{1,3}l|\d+xl|free size|\d+(\.\d+)?\s*(m|cm|mm|l|ml)"
     r"|\d+(\.\d+)?\s*[x*×]\s*\d+(\.\d+)?\s*(cm|mm)?|[a-z0-9]+\s*\d+(\.\d+)?\s*[x*×]\s*\d+(\.\d+)?\s*(cm|mm)?)$", re.I)
+# Chiều kích thước (khác với số lượng / phích cắm / model) -> dùng cho STL_05
+SIZE_DIM = re.compile(r"^(size|尺寸|length|specifications?|capacity)$", re.I)
 DIM_ALIAS = {"颜色": "Color", "尺寸": "Size", "数量": "Quantity"}
 
 # Phần chữ trong giá trị mẫu mã chỉ nói về số lượng / dung tích / kích cỡ -> bỏ đi
@@ -85,15 +87,24 @@ def is_bundle(v):
     return any(rx.search(v) for rx in BUNDLE)
 
 
+def size_tokens(v):
+    """'XS and M' -> ['xs', 'm'];  'M3PC' -> ['m'];  'S Charging' -> ['s charging']"""
+    v = re.sub(r"\d+\s*pcs?\b", "", v, flags=re.I)
+    return [re.sub(r"\s+", " ", x).strip().lower() for x in re.split(r"\band\b", v, flags=re.I) if x.strip()]
+
+
 def analyse(d, cfg):
     dims = [DIM_ALIAS.get(x.strip(), x.strip()) for x in (d.get("productKeyEn") or "Variant").split("-")]
     variants = d["variants"]
     rows = [split_key(v["variantKey"] or "", len(dims)) for v in variants]
     # chiều nào không đổi mẫu mã: theo tên, hoặc mọi giá trị đều là kích thước
-    design_idx = []
+    design_idx, size_idx = [], []
     for i, name in enumerate(dims):
         vals = {r[i] for r in rows if r[i]}
-        if NON_DESIGN_DIM.match(name) or (vals and all(SIZE_VALUE.match(x) for x in vals)):
+        all_size = bool(vals) and all(SIZE_VALUE.match(x) for x in vals)
+        if SIZE_DIM.match(name) or all_size:
+            size_idx.append(i)
+        if NON_DESIGN_DIM.match(name) or all_size:
             continue
         design_idx.append(i)
 
@@ -113,7 +124,15 @@ def analyse(d, cfg):
         if key in exclude:
             excluded.append({"variantKey": v["variantKey"], "sku": v["variantSku"], "reason": exclude[key]})
             continue
-        g = designs.setdefault(key, {"label": rename.get(key, label), "variants": [], "images": [], "other": []})
+        g = designs.setdefault(key, {"label": rename.get(key, label), "variants": [], "images": [], "other": [],
+                                     "sizes": [], "raw": []})
+        for i in size_idx:
+            for sz in size_tokens(r[i]):
+                if sz not in g["sizes"]:
+                    g["sizes"].append(sz)
+        for x in raw:
+            if x not in g["raw"]:
+                g["raw"].append(x)
         # ưu tiên ảnh của variant "đơn": không bị cắt số lượng/kích cỡ, không phải combo nhiều size
         plain = vals == raw and not MULTI.search(other)
         g["variants"].append({"variantKey": v["variantKey"], "sku": v["variantSku"], "image": v.get("variantImage")})
@@ -131,43 +150,177 @@ def analyse(d, cfg):
     return dims, design_idx, list(designs.values()), bundles, excluded
 
 
-def build_prompt(p, g, pet):
-    random_color = "random" in g["label"].lower()
+FORMAT = "FORMAT: square 1:1 aspect ratio (e.g. 2048x2048 px); keep every element fully inside the square frame."
+STL_NAMES = [("STL_01", "Hero Shot"), ("STL_02", "Lifestyle + chữ"), ("STL_03", "Functional Infographic"),
+             ("STL_04", "Exploded View"), ("STL_05", "Size Guide")]
+
+
+def q(s):
+    return '"' + s.replace('"', "'") + '"'
+
+
+def file_tag(p, g):
+    return "%s_%s_STL01.jpg" % (p["sku"], re.sub(r"[^A-Za-z0-9]+", "-", g["label"]).strip("-").upper())
+
+
+def size_cells(p, g):
+    st = p["stl"]
+    table = {k.lower().replace(" ", ""): v for k, v in (st.get("sizes") or {}).items()}
+    order = list(table)
+    cells = []
+    for sz in g["sizes"]:
+        k = sz.replace(" ", "")
+        hit = k if k in table else sz.split(" ")[0] if sz.split(" ")[0] in table else None
+        v = table[hit] if hit else {"badge": sz.upper(), "dim": sz if re.search(r"\d\s*[x*]\s*\d", sz) else ""}
+        cells.append((order.index(hit) if hit else 99, v))
+    for key, v in (st.get("sizesFromLabel") or {}).items():
+        if any(key in r.lower() for r in g["raw"]):
+            cells.append((len(cells), v))
+    out, seen = [], set()
+    for _, v in sorted(cells, key=lambda x: x[0]):
+        if v["badge"] not in seen:
+            seen.add(v["badge"]); out.append(v)
+    if not out and st.get("oneSize"):
+        out = [{"badge": "One Size", "dim": st["oneSize"]}]
+    return out[:6]
+
+
+def build_prompts(p, g, pet):
+    st = p["stl"]
     variant = g["label"]
     img = g["images"][0] if g["images"] else p["bigImage"]
-    lines = [
-        "IMAGES:",
-        "[Reference Image] = pet: " + PET_URL + pet["file"],
-        "[Base Image] = product variant \"" + variant + "\": " + img,
-        "",
-        "Place the " + pet["look"] + " from [Reference Image] together with the " + p["product"] +
-        " (variant \"" + variant + "\") from [Base Image].",
+    pet_line = "[Reference Image] = pet: " + PET_URL + pet["file"]
+    base_line = "[Base Image] = product variant " + q(variant) + ": " + img
+    stl01_line = ("[STL_01 Image] = the STL_01 hero shot you generated for this variant (file " + file_tag(p, g) +
+                  "). Attach it as the base image.")
+    keep = ("Keep the pet identical to [Reference Image] (breed, fur color, face) and keep the product identical to "
+            "[Base Image] (exact colors, pattern, shape and parts of variant " + q(variant) + ").")
+    if "random" in variant.lower():
+        keep += " CJ ships this item in random colors: use exactly the color shown in [Base Image]."
+    facts = "PRODUCT FACTS (CJ data): " + p["nameEn"] + (" | Material: " + ", ".join(p["material"]) if p["material"] else "")
+    prod = "the " + p["product"] + " (variant " + q(variant) + ")"
+    lock = ("DO NOT change the pet, the product (variant " + q(variant) + ", exact colors and shape), "
+            "the composition or the pure white #FFFFFF background of [STL_01 Image].")
+
+    p1 = "\n".join([
+        "IMAGES:", pet_line, base_line, "",
+        "Place the " + pet["look"] + " from [Reference Image] together with " + prod + " from [Base Image].",
         "Pose: the pet is " + p["action"] + ".",
         "Position: " + p["use"] + ".",
         "The product is captured from a " + p["angle"] + ", with product and pet filling the frame from left to right edges.",
-        "",
-        "Keep the pet identical to [Reference Image] (breed, fur color, face) and keep the product identical to "
-        "[Base Image] (exact colors, pattern, shape and parts of variant \"" + variant + "\").",
-    ]
-    if random_color:
-        lines.append("CJ ships this item in random colors: use exactly the color shown in [Base Image].")
-    facts = "PRODUCT FACTS (CJ data): " + p["nameEn"]
-    if p["material"]:
-        facts += " | Material: " + ", ".join(p["material"])
-    lines += [
-        "",
-        facts,
-        "",
+        "", keep, "", facts, "",
         "BACKGROUND: solid pure white #FFFFFF, seamless, no gradient, no vignette, no texture, no floor line. "
         "Shadows: only soft contact shadows directly under and right next to the product and the pet; everything else stays pure #FFFFFF.",
-        "",
-        "LIGHTING & STYLE: high-key 3D studio lighting, professional commercial catalog photo, 8k, crisp textures.",
-        "",
-        "NO TEXT, no logo, no watermark.",
-        "",
-        "FORMAT: square 1:1 aspect ratio (e.g. 2048x2048 px); keep every element fully inside the square frame.",
-    ]
-    return "\n".join(lines)
+        "", "LIGHTING & STYLE: high-key 3D studio lighting, professional commercial catalog photo, 8k, crisp textures.",
+        "", "NO TEXT, no logo, no watermark.", "", FORMAT])
+
+    p2 = "\n".join([
+        "IMAGES:", pet_line, base_line, "",
+        "SCENE: Place the " + pet["look"] + " from [Reference Image] with " + prod + " from [Base Image], set in " + st["scene"] + ".",
+        "Pose: the pet is " + p["action"] + ("" if "pampered" in p["action"] else ", looking pampered") + ".",
+        "Position: " + p["use"] + ".",
+        "", keep, "",
+        "DATA INPUT FOR COPYWRITING (CJ data only):",
+        "Overview: " + st["overview"],
+        "Product Information: " + st["info"], "",
+        "COPYWRITING TASK: Write ONE punchy Title, max 4 words. Write ONE Description line, max 8 words, about the single "
+        "strongest benefit. Use only facts from the data above; do not invent features or numbers.", "",
+        "TEXT RULES: Only the Title and the Description appear in the image. Short, bold, decisive words. No paragraphs, "
+        "no bullet lists, no extra labels, no logo. Spell every word correctly.", "",
+        "TYPOGRAPHY: Place the text in the top area of the image, in clean negative space, never over the pet's face. "
+        "Bold modern sans-serif, large and highly legible; Title clearly bigger than the Description.", "",
+        "STYLE: Professional lifestyle photography, soft natural light, realistic contact shadows, 8k.", "", FORMAT])
+
+    labels = st["labels"][:3]
+    p3 = "\n".join([
+        "IMAGES:", stl01_line, "",
+        "BASE IMAGE: [STL_01 Image] (the hero shot created in STL_01).", "",
+        "FUNCTIONAL OVERLAY: Show the product's " + st["func"] + ". Product description (CJ data): " + st["funcDesc"],
+        "Add clean, premium infographic graphics: " + st["graphic"] + ". Integrate them naturally on and around the product.", "",
+        lock, "",
+        "TEXT: Add only these short labels next to the graphics, nothing else: " + ", ".join(q(x) for x in labels) +
+        ". Bold sans-serif, large and legible.", "",
+        "GOAL: A simple, instantly understandable functional diagram. Clean and premium, lots of white space.", "", FORMAT])
+
+    parts = st.get("parts")
+    if parts:
+        layered = st.get("partsMode") == "layers"
+        n = len(parts)
+        lines = []
+        for i, name in enumerate(parts):
+            where = ("top surface" if i == 0 else "bottom layer" if i == n - 1 else "middle layer") if layered else "part"
+            lines.append("%d. %s: %s" % (i + 1, where, q(name)))
+        p4 = "\n".join([
+            "IMAGES:", stl01_line, "",
+            "SCENE: Create a high-end exploded-view diagram of " + prod + " from [STL_01 Image].", "",
+            ("LAYERS (top to bottom, from CJ data):" if layered else "PARTS (from CJ data):"), *lines, "",
+            "TASK: Show these %d %s " % (n, "layers" if layered else "parts") +
+            ("peeled apart and stacked in a clean diagonal 3D arrangement" if layered
+             else "separated and floating apart in a clean 3D exploded arrangement") +
+            ", each showing its real texture. Keep the product colors of variant " + q(variant) + " accurate.", "",
+            "DIAGRAM: One thin leader line per %s, pointing precisely to it." % ("layer" if layered else "part"), "",
+            "TEXT RULES: Each %s gets ONE label, exactly the quoted name above (1-3 words). No descriptions, no sentences, "
+            "no title, no other text. Bold sans-serif, large and legible." % ("layer" if layered else "part"), "",
+            "STYLE: Pure white #FFFFFF studio background, realistic textures, soft technical lighting, 8k, premium catalog look.",
+            "", FORMAT])
+    else:
+        mat = st["materialLabel"]
+        p4 = "\n".join([
+            "IMAGES:", stl01_line, "",
+            "NOTE: CJ data lists no internal layers or separate parts for this product, so this is a material close-up "
+            "instead of an exploded view.", "",
+            "SCENE: Keep " + prod + " and the pet from [STL_01 Image]. Add one large circular magnified inset beside the "
+            "product showing the real surface texture of its material: " + q(mat) + ".", "",
+            lock, "",
+            "DIAGRAM: One thin leader line from the inset to the product surface.", "",
+            "TEXT RULES: ONE label only, exactly " + q(mat) + ". No descriptions, no sentences, no title, no other text. "
+            "Bold sans-serif, large and legible.", "",
+            "STYLE: Pure white #FFFFFF studio background, realistic textures, soft technical lighting, 8k, premium catalog look.",
+            "", FORMAT])
+
+    cells = size_cells(p, g)
+    if not cells:
+        p5 = None
+    else:
+        n = len(cells)
+        grid = {1: "a single centered panel", 2: "a clean 1x2 row", 3: "a clean 1x3 row", 4: "a clean 2x2 grid"}.get(n, "a clean 2x3 grid")
+        has_fit = any(c.get("fit") for c in cells)
+        lines = []
+        for c in cells:
+            line = "One size" if c["badge"] == "One Size" else "Size " + c["badge"]
+            if c.get("dim"):
+                line += ": " + q(c["dim"])
+            if c.get("fit"):
+                line += " - " + q(c["fit"])
+            lines.append(line)
+        items = ([] if cells[0]["badge"] == "One Size" else ["the size badge"]) + (["the dimension"] if any(c.get("dim") for c in cells) else []) + \
+                (["the short fit label"] if has_fit else [])
+        if n == 1:
+            visuals = "Show the product with the pet from [STL_01 Image] and a clean dimension callout line along the product."
+        elif has_fit:
+            visuals = "In each cell, show the same product with a realistically scaled pet that matches the fit label, so the size difference is obvious."
+        else:
+            visuals = ("In each cell, show the same product drawn at its true relative scale, with the same pet from "
+                       "[STL_01 Image] at the same size in every cell, so the size difference is obvious.")
+        p5 = "\n".join([
+            "IMAGES:", stl01_line, "",
+            "SCENE: Create a size guide infographic for " + prod + " from [STL_01 Image].", "",
+            "LAYOUT: " + grid + (", one cell per size: " + ", ".join(c["badge"] for c in cells) if n > 1 else "") + ".", "",
+            "SIZE DATA (CJ data):", *lines, "",
+            "VISUALS: " + visuals, "",
+            "TEXT RULES: " + ("The panel" if n == 1 else "Each cell") + " has only: " + " and ".join(items) + ", exactly as quoted above. No title, no sentences, "
+            "no other text. Bold sans-serif, large and legible.", "",
+            "STYLE: Pure white #FFFFFF background, consistent studio lighting across all cells, 8k, premium advertising look.",
+            "", FORMAT])
+
+    out = []
+    for (code, name), text_ in zip(STL_NAMES, [p1, p2, p3, p4, p5]):
+        if text_ is None:
+            out.append({"stl": code, "name": name, "skip": True,
+                        "text": "Không tạo " + code + ": dữ liệu CJ của sản phẩm này không có thông tin kích thước (không tự đoán)."})
+        else:
+            out.append({"stl": code, "name": name, "text": text_})
+    return out
 
 
 def main():
@@ -197,8 +350,9 @@ def main():
                 "totalVariants": len(d["variants"]),
                 "bundles": bundles, "excluded": excluded,
             }
+            p["stl"] = cfg["stl"]
             for g in designs:
-                g["prompt"] = build_prompt(p, g, pet)
+                g["prompts"] = build_prompts(p, g, pet)
             p["designs"] = designs
             cat["products"].append(p)
         if cat["products"]:
@@ -217,7 +371,7 @@ def main():
 
 
 def write_md(cat, pets):
-    L = ["# " + cat["folder"] + " – Variant & prompt STL_01", "",
+    L = ["# " + cat["folder"] + " – Variant & prompt STL_01 → STL_05", "",
          "Tự tạo bởi `tools/variant-prompts/build.py` từ `02_get_product_detail.json`. "
          "Xem bản có nút copy: [variant-prompts.html](" + PAGES + "pet-ad-workflow/variant-prompts.html).", "",
          "| # | SKU | Tổng variant | Chiều biến thể | Mẫu mã (có prompt) | Combo/Set (bỏ qua) | Pet |",
@@ -235,8 +389,10 @@ def write_md(cat, pets):
         for e in p["excluded"]:
             L.append("- Bỏ `%s`: %s" % (e["variantKey"], e["reason"]))
         for g in p["designs"]:
-            L += ["", "### " + g["label"], "", "![](%s)" % (g["images"][0] if g["images"] else p["bigImage"]), "",
-                  "```text", g["prompt"], "```"]
+            L += ["", "### " + g["label"], "", "![](%s)" % (g["images"][0] if g["images"] else p["bigImage"])]
+            for pr in g["prompts"]:
+                L += ["", "#### %s – %s" % (pr["stl"], pr["name"]), ""]
+                L += ["> " + pr["text"]] if pr.get("skip") else ["```text", pr["text"], "```"]
     with open(os.path.join(ROOT, cat["folder"], "VARIANT_PROMPTS.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(L) + "\n")
 
