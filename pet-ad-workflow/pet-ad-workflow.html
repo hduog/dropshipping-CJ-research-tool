@@ -107,6 +107,30 @@ figcaption{font-size:13px;color:var(--muted);margin-top:6px}
 .matrix td:first-child,.matrix th:first-child{text-align:left}
 .chk{color:var(--ok);font-weight:700}
 footer{padding:36px 0 56px;color:var(--muted);font-size:14px}
+
+/* make prompt */
+#make-prompt{background:var(--surface-2)}
+nav.toc a.hot{color:#fff;background:var(--accent);border-color:var(--accent)}
+.mp-block{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px;margin-top:14px}
+.mp-block>h3{display:flex;gap:10px;align-items:center;margin-bottom:12px}
+.mp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.mp-grid .wide{grid-column:1/-1}
+.mp-grid label.f{min-width:0}
+.mp-grid select,.mp-grid input[type=text]{width:100%;min-width:0}
+.mp-pair{grid-column:1/-1;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+textarea{font:15px/1.5 "Be Vietnam Pro",sans-serif;padding:10px 12px;border-radius:10px;border:1px solid var(--border);background:var(--surface);color:var(--text);width:100%;min-height:64px;resize:vertical}
+label.f small{color:var(--muted);font-size:12px}
+label.chk-inline{display:flex;gap:8px;align-items:center;font-size:14px;color:var(--text)}
+.size-row{display:grid;grid-template-columns:48px 1fr 1.3fr;gap:8px;align-items:center}
+.size-row b{font-family:"JetBrains Mono",monospace}
+.mp-actions{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 12px}
+.btn{font:600 15px "Be Vietnam Pro",sans-serif;border:0;border-radius:10px;padding:12px 18px;cursor:pointer;background:var(--accent);color:#fff}
+.btn.ghost{background:var(--surface);color:var(--text);border:1px solid var(--border)}
+.btn:hover{filter:brightness(1.08)}
+.mp-out{display:grid;gap:12px}
+.mp-out h4{margin:6px 0 0;font-size:15px;display:flex;gap:8px;align-items:center}
+.mp-rules{font-size:14px}
+.mp-rules li{margin:2px 0}
 </style>
 </head>
 <body>
@@ -124,6 +148,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:14px}
   <div class="wrap">
     <a href="#tong-quan">Tổng quan</a>
     <a href="#quy-trinh">Quy trình</a>
+    <a href="#make-prompt" class="hot">⚡ MAKE PROMPT</a>
     <a href="#stl01">STL_01</a>
     <a href="#stl02">STL_02</a>
     <a href="#stl03">STL_03</a>
@@ -191,12 +216,194 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:14px}
   </div>
 </section>
 
+<!-- ============ MAKE PROMPT ============ -->
+<section id="make-prompt">
+  <div class="wrap">
+    <div class="eyebrow">Tool</div>
+    <h2>⚡ MAKE PROMPT – tạo đủ 5 prompt trong 1 lần</h2>
+    <p class="sec-sub">Chọn / nhập tham số cho cả 5 style rồi bấm <b>Tạo prompt</b>. Hình ảnh không cần nhập: prompt giữ chỗ <code>[Reference Image]</code>, <code>[Base Image]</code>, <code>[STL_01 Image]</code> để bạn gắn ảnh khi chạy. Dữ liệu bạn nhập được lưu tạm trên trình duyệt này.</p>
+
+    <div class="note small mp-rules">
+      <b>Quy tắc đã cài sẵn trong mọi prompt:</b>
+      <ul style="margin:6px 0 0;padding-left:20px">
+        <li>Chữ trên ảnh <b>ngắn gọn, dứt khoát</b>: Title ≤ 4 từ, Description ≤ 8 từ, mỗi nhãn 1–3 từ. Càng ít chữ AI càng ít render lỗi.</li>
+        <li>STL_01: nền <b>trắng tinh #FFFFFF</b>, không gradient. Bóng đổ (nếu có) chỉ ở vùng sát sản phẩm và nhân vật.</li>
+      </ul>
+    </div>
+
+    <!-- Chung -->
+    <div class="mp-block">
+      <h3><span class="tag" style="background:var(--muted)">CHUNG</span> Thông tin sản phẩm</h3>
+      <div class="mp-grid">
+        <label class="f">Loại sản phẩm (tiếng Anh)
+          <input type="text" id="mp-product" value="pet cooling mat">
+          <small>vd: pet cooling mat, cat bed, dog bowl</small>
+        </label>
+        <label class="f">Màu / Variant
+          <input type="text" id="mp-variant" value="blue">
+          <small>Để AI giữ đúng màu sản phẩm</small>
+        </label>
+        <label class="f">Loại pet
+          <input type="text" id="mp-pet" value="golden retriever puppy">
+          <small>Chỉ để mô tả, ngoại hình lấy theo ảnh pet</small>
+        </label>
+      </div>
+    </div>
+
+    <!-- STL 01 -->
+    <div class="mp-block">
+      <h3><span class="tag t1">STL_01</span> Hero Shot</h3>
+      <div class="mp-grid">
+        <label class="f">Diễn xuất của pet
+          <select id="mp-action">
+            <option value="sleeping contentedly with eyes closed, curled up naturally">Nằm ngủ mãn nguyện</option>
+            <option value="sitting upright, looking directly at the camera with a happy panting expression">Ngồi vui vẻ</option>
+            <option value="lying down with paws tucked, tilting its head curiously at the camera">Tò mò</option>
+            <option value="sprawled out comfortably, looking relaxed and pampered">Thư giãn</option>
+            <option value="custom">✏️ Tự nhập…</option>
+          </select>
+          <input type="text" id="mp-action-custom" placeholder="Nhập diễn xuất (tiếng Anh)" hidden>
+        </label>
+        <label class="f">Góc chụp sản phẩm
+          <select id="mp-angle">
+            <option value="straight horizontal eye-level view">Góc ngang tiêu chuẩn (Catalog)</option>
+            <option value="45-degree isometric studio angle">Góc nghiêng 3/4 (Thấy độ sâu)</option>
+            <option value="high-angle top-down view">Góc từ trên xuống (Thấy lòng đệm)</option>
+            <option value="close-up eye-level view focusing on fabric textures">Góc cận cảnh (Khoe chất liệu)</option>
+          </select>
+        </label>
+        <label class="f">Bóng đổ
+          <select id="mp-shadow">
+            <option value="soft">Bóng tiếp xúc mềm, sát sản phẩm</option>
+            <option value="none">Không bóng (cắt nền sạch)</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <!-- STL 02 -->
+    <div class="mp-block">
+      <h3><span class="tag t2">STL_02</span> Lifestyle + chữ</h3>
+      <div class="mp-grid">
+        <label class="f">Bối cảnh lifestyle
+          <select id="mp-scene">
+            <option value="a bright, cozy modern living room with soft sunlight through the window">Phòng khách hiện đại, nắng nhẹ</option>
+            <option value="a calm Scandinavian bedroom with neutral tones">Phòng ngủ Bắc Âu tông trung tính</option>
+            <option value="a shaded outdoor terrace on a hot summer day">Hiên nhà ngoài trời mùa hè</option>
+            <option value="a minimal home corner with plants and warm light">Góc nhà tối giản, cây xanh</option>
+          </select>
+        </label>
+        <label class="f">Diễn xuất
+          <select id="mp-action2">
+            <option value="same">= Giống STL_01 (đồng bộ)</option>
+            <option value="sleeping contentedly with eyes closed, curled up naturally">Nằm ngủ mãn nguyện</option>
+            <option value="sitting upright, looking directly at the camera with a happy panting expression">Ngồi vui vẻ</option>
+            <option value="lying down with paws tucked, tilting its head curiously at the camera">Tò mò</option>
+            <option value="sprawled out comfortably, looking relaxed and pampered">Thư giãn</option>
+          </select>
+        </label>
+        <label class="f">Vị trí chữ
+          <select id="mp-textpos">
+            <option value="top area of the image">Phía trên</option>
+            <option value="left side of the image">Bên trái</option>
+            <option value="right side of the image">Bên phải</option>
+          </select>
+        </label>
+        <div class="mp-pair">
+        <label class="f">Title (≤ 4 từ, để trống = AI tự viết)
+          <input type="text" id="mp-title" value="Stay Cool All Summer" maxlength="40">
+          <small id="mp-title-cnt"></small>
+        </label>
+        <label class="f">Description (≤ 8 từ, để trống = AI tự viết)
+          <input type="text" id="mp-desc" value="Instant cooling. No power needed." maxlength="70">
+          <small id="mp-desc-cnt"></small>
+        </label>
+        </div>
+        <label class="f wide">Overview (dùng khi AI tự viết chữ)
+          <textarea id="mp-overview">Cooling mat for dogs and cats. No electricity or water needed. Keeps pets cool all summer.</textarea>
+        </label>
+        <label class="f wide">Product Information
+          <textarea id="mp-info">Ice silk surface, cool to the touch. Heat-resistant fibers. Quilted round pattern. Breathable mesh bottom. Fits all pet sizes.</textarea>
+        </label>
+      </div>
+    </div>
+
+    <!-- STL 03 -->
+    <div class="mp-block">
+      <h3><span class="tag t3">STL_03</span> Functional Infographic</h3>
+      <div class="mp-grid">
+        <label class="f">Công năng chính
+          <select id="mp-func">
+            <option value="cooling and heat dissipation">Làm mát / tản nhiệt</option>
+            <option value="breathability and airflow">Thoáng khí</option>
+            <option value="warmth and heat retention">Giữ ấm</option>
+            <option value="waterproof and easy to clean">Chống thấm / dễ vệ sinh</option>
+            <option value="anti-slip grip">Chống trượt</option>
+          </select>
+        </label>
+        <label class="f">Kiểu đồ họa
+          <select id="mp-graphic">
+            <option value="glowing blue arrows showing heat flowing up and away from the pet">Mũi tên phát sáng (nhiệt thoát lên)</option>
+            <option value="soft translucent airflow waves passing through the product">Sóng khí trong suốt</option>
+            <option value="warm orange glow radiating from the product surface">Vầng sáng ấm</option>
+            <option value="water droplets beading and rolling off the surface">Giọt nước trượt khỏi bề mặt</option>
+          </select>
+        </label>
+        <label class="f wide">Mô tả sản phẩm (ngắn)
+          <textarea id="mp-func-desc">Ice silk surface absorbs and dissipates body heat. Breathable quilted structure. No electricity or water needed.</textarea>
+        </label>
+        <label class="f wide">Nhãn trên ảnh (tối đa 3, mỗi nhãn 1–3 từ, cách nhau bằng dấu phẩy; để trống = không chữ)
+          <input type="text" id="mp-func-labels" value="Instant Cool, Breathable, No Power">
+        </label>
+      </div>
+    </div>
+
+    <!-- STL 04 -->
+    <div class="mp-block">
+      <h3><span class="tag t4">STL_04</span> Exploded View</h3>
+      <div class="mp-grid">
+        <label class="f">Lớp 1 – mặt trên<input type="text" id="mp-l1" value="Ice Silk"></label>
+        <label class="f">Lớp 2<input type="text" id="mp-l2" value="Cotton Filling"></label>
+        <label class="f">Lớp 3<input type="text" id="mp-l3" value="Breathable Mesh"></label>
+        <label class="f">Lớp 4 (tuỳ chọn)<input type="text" id="mp-l4" value=""></label>
+        <label class="f">Kiểu sắp xếp
+          <select id="mp-explode">
+            <option value="peeled apart and stacked in a clean diagonal 3D arrangement">Chéo 3D so le</option>
+            <option value="floating vertically one above another with even spacing">Xếp dọc lơ lửng</option>
+          </select>
+        </label>
+      </div>
+      <p class="small muted" style="margin:10px 0 0">Tên lớp chính là nhãn in trên ảnh, nên giữ 1–3 từ.</p>
+    </div>
+
+    <!-- STL 05 -->
+    <div class="mp-block">
+      <h3><span class="tag t5">STL_05</span> Size Guide</h3>
+      <div class="mp-grid" style="grid-template-columns:1fr">
+        <div class="size-row small muted"><span></span><span>Kích thước (Dài × Rộng)</span><span>Phù hợp (1–3 từ)</span></div>
+        <div class="size-row"><b>S</b><input type="text" id="mp-s" value="50 x 40 cm"><input type="text" id="mp-s-fit" value="Cats"></div>
+        <div class="size-row"><b>M</b><input type="text" id="mp-m" value="63 x 50 cm"><input type="text" id="mp-m-fit" value="Small Dogs"></div>
+        <div class="size-row"><b>L</b><input type="text" id="mp-l" value="70 x 56 cm"><input type="text" id="mp-l-fit" value="Medium Dogs"></div>
+        <div class="size-row"><b>XL</b><input type="text" id="mp-xl" value="102 x 70 cm"><input type="text" id="mp-xl-fit" value="Large Dogs"></div>
+      </div>
+      <p class="small muted" style="margin:10px 0 0">Để trống 1 dòng size thì prompt tự bỏ ô đó; lưới tự đổi thành 1×3, 1×2…</p>
+    </div>
+
+    <div class="mp-actions">
+      <button class="btn" type="button" id="mp-build">⚡ Tạo prompt</button>
+      <button class="btn ghost" type="button" id="mp-copy-all">📋 Copy toàn bộ 5 prompt</button>
+      <button class="btn ghost" type="button" id="mp-reset">↺ Về mặc định</button>
+    </div>
+    <div class="mp-out" id="mp-out"></div>
+  </div>
+</section>
+
 <!-- ============ STL_01 ============ -->
 <section id="stl01">
   <div class="wrap">
     <div class="style-head"><span class="tag t1">STL_01</span><h2 style="margin:0">Hình ảnh Đại diện Sản phẩm (Product Hero Shot)</h2></div>
     <dl class="kv">
-      <dt>Đặc điểm</dt><dd>Ảnh studio sạch, phông trắng, ánh sáng High-key. Chủ thể (sản phẩm + thú cưng) phóng lớn sát lề, nhìn trực diện camera.</dd>
+      <dt>Đặc điểm</dt><dd>Ảnh studio sạch, <b>nền trắng tinh #FFFFFF</b> (không gradient), ánh sáng High-key, bóng đổ chỉ ở sát sản phẩm/pet. Chủ thể (sản phẩm + thú cưng) phóng lớn sát lề, nhìn trực diện camera.</dd>
       <dt>Input</dt><dd>Reference Image (pet) + Base Image (variant sản phẩm)</dd>
       <dt>Output</dt><dd>Ảnh gốc – được dùng làm Base cho STL_03, 04, 05</dd>
       <dt>Kênh</dt><dd>Ảnh đại diện (thumbnail) trên sàn TMĐT</dd>
@@ -207,18 +414,18 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:14px}
     <div class="builder">
       <label class="f">[DIỄN XUẤT CỦA PET]
         <select id="b-action">
-          <option value="sleeping contentedly with eyes closed, curled up naturally.">Nằm ngủ mãn nguyện</option>
-          <option value="sitting upright, looking directly at the camera with a happy panting expression.">Ngồi vui vẻ</option>
-          <option value="lying down with paws tucked, tilting its head curiously at the camera.">Tò mò</option>
-          <option value="sprawled out comfortably, looking relaxed and pampered.">Thư giãn</option>
+          <option value="sleeping contentedly with eyes closed, curled up naturally">Nằm ngủ mãn nguyện</option>
+          <option value="sitting upright, looking directly at the camera with a happy panting expression">Ngồi vui vẻ</option>
+          <option value="lying down with paws tucked, tilting its head curiously at the camera">Tò mò</option>
+          <option value="sprawled out comfortably, looking relaxed and pampered">Thư giãn</option>
         </select>
       </label>
       <label class="f">[GÓC CHỤP SẢN PHẨM]
         <select id="b-angle">
-          <option value="straight horizontal eye-level view.">Góc ngang tiêu chuẩn (Catalog)</option>
-          <option value="45-degree isometric studio angle.">Góc nghiêng 3/4 (Thấy độ sâu)</option>
-          <option value="high-angle top-down view.">Góc từ trên xuống (Thấy lòng đệm)</option>
-          <option value="close-up eye-level view focus on fabric textures.">Góc cận cảnh (Khoe chất liệu)</option>
+          <option value="straight horizontal eye-level view">Góc ngang tiêu chuẩn (Catalog)</option>
+          <option value="45-degree isometric studio angle">Góc nghiêng 3/4 (Thấy độ sâu)</option>
+          <option value="high-angle top-down view">Góc từ trên xuống (Thấy lòng đệm)</option>
+          <option value="close-up eye-level view focus on fabric textures">Góc cận cảnh (Khoe chất liệu)</option>
         </select>
       </label>
     </div>
@@ -244,7 +451,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:14px}
         </tbody></table>
       </div>
     </div>
-    <p class="note small" style="margin-top:16px"><b>Checklist duyệt STL_01:</b> pet giữ đúng giống/màu lông/khuôn mặt · màu sản phẩm đúng variant · họa tiết (vân tròn, viền) không bị biến dạng · phông trắng tinh · có bóng đổ tiếp xúc mềm · chủ thể lấp đầy khung từ trái sang phải.</p>
+    <p class="note small" style="margin-top:16px"><b>Checklist duyệt STL_01:</b> pet giữ đúng giống/màu lông/khuôn mặt · màu sản phẩm đúng variant · họa tiết (vân tròn, viền) không bị biến dạng · nền trắng tinh #FFFFFF (không xám, không gradient) · bóng đổ chỉ nằm sát sản phẩm/pet · chủ thể lấp đầy khung từ trái sang phải.</p>
   </div>
 </section>
 
@@ -263,12 +470,14 @@ DATA INPUT FOR COPYWRITING:
 Overview: <span class="v">[Dữ liệu Overview bạn cung cấp]</span>
 Product Information: <span class="v">[Dữ liệu Product Info bạn cung cấp]</span>
 
-CREATIVE TASK: Based on the DATA INPUT, generate and render a short, impressive Title and a short Description that highlights the key product benefits.
+CREATIVE TASK: Based on the DATA INPUT, write ONE punchy Title (max 4 words) and ONE Description line (max 8 words) about the single strongest benefit.
 
-VISUAL TYPOGRAPHY: Place the generated Title and Description elegantly in the image's negative space. Use clean, high-end commercial fonts. The text must be legible and professionally aligned.
+TEXT RULES: Only these two text elements appear in the image. Short, bold, decisive words. No paragraphs, no bullet lists, no extra labels, no logos. Spell every word correctly.
+
+VISUAL TYPOGRAPHY: Place the Title and Description in the image's negative space, away from the pet's face. Clean, bold sans-serif font, large and highly legible, professionally aligned.
 
 STYLE: Professional photography, soft natural lighting, realistic contact shadows, 8k resolution.</pre>
-    <p class="note small" style="margin-top:16px"><b>Lưu ý:</b> Action nên dùng cùng giá trị với STL_01 để đồng bộ. Kiểm tra kỹ chữ AI render (sai chính tả, lặp chữ) – nếu lỗi, có thể tạo ảnh không chữ rồi thêm chữ bằng công cụ thiết kế.</p>
+    <p class="note small" style="margin-top:16px"><b>Lưu ý:</b> Action nên dùng cùng giá trị với STL_01 để đồng bộ. Prompt đã giới hạn Title ≤ 4 từ, Description ≤ 8 từ. Vẫn cần kiểm tra chữ AI render (sai chính tả, lặp chữ) – nếu lỗi, có thể tạo ảnh không chữ rồi thêm chữ bằng công cụ thiết kế.</p>
   </div>
 </section>
 
@@ -287,6 +496,8 @@ FUNCTIONAL OVERLAY: Based on the Product Description: <span class="v">[Mô tả 
 
 Overlay clean, high-end visual symbols (such as glowing arrows or airflow waves) that clearly demonstrate the product's benefits (e.g., cooling, heat dissipation, breathability).
 The graphics must be harmoniously integrated onto the product surface without altering or editing the existing pet or the product itself.
+
+TEXT RULES: At most 3 very short labels (1-3 words each), or no text at all. No sentences.
 
 GOAL: Create a simple, easy-to-understand functional diagram that showcases the technology within the original professional studio setting. Keep it clean and premium.</pre>
   </div>
@@ -309,7 +520,7 @@ TASK: Analyze the MATERIAL DATA to visualize the product's internal construction
 
 DIAGRAM ELEMENTS:
 - Add clean, thin leader lines pointing precisely to each revealed layer.
-- Generate and render clear, concise text labels for each layer based on the material names provided.
+- One short label per layer (1-3 words, e.g. "Ice Silk"), taken from the material names. No descriptions or sentences.
 - Use high-end sans-serif fonts for a premium catalog look.
 
 STYLE: Pure white studio background, realistic fabric textures, soft technical lighting, 8k resolution, professional commercial quality.</pre>
@@ -330,12 +541,12 @@ STYLE: Pure white studio background, realistic fabric textures, soft technical l
 INFOGRAPHIC LAYOUT: Arrange the image into a clean 2x2 grid representing four sizes: S, M, L, and XL.
 
 SIZE DATA: Use the following information for each grid cell:
-Size S: <span class="v">[Kích thước S]</span> - Suitable for small pets like cats.
-Size M: <span class="v">[Kích thước M]</span> - Suitable for large cats or small dogs.
-Size L: <span class="v">[Kích thước L]</span> - Suitable for medium-sized dogs.
-Size XL: <span class="v">[Kích thước XL]</span> - Suitable for large breeds.
+Size S: <span class="v">[Kích thước S]</span> - "Cats"
+Size M: <span class="v">[Kích thước M]</span> - "Small Dogs"
+Size L: <span class="v">[Kích thước L]</span> - "Medium Dogs"
+Size XL: <span class="v">[Kích thước XL]</span> - "Large Dogs"
 
-VISUALS: In each cell, show the product with a realistically scaled pet (cat or dog) to demonstrate the fit. Include clear dimension labels (Length x Width) and a prominent 'S/M/L/XL' badge.
+VISUALS: In each cell, show the product with a realistically scaled pet (cat or dog) to demonstrate the fit. Each cell has only three text elements: the size badge (S/M/L/XL), the dimension (Length x Width) and the short fit label in quotes. No other text.
 
 STYLE: Pure white studio background, clean commercial typography, consistent high-end lighting across all cells. 8k resolution, professional advertising quality.</pre>
   </div>
@@ -374,7 +585,7 @@ STYLE: Pure white studio background, clean commercial typography, consistent hig
     </div>
 
     <h3 style="margin-top:32px">Bước 2 – Prompt STL_01 đã dùng</h3>
-<pre class="prompt">Place the pet from <span class="v">[PET_01]</span> into the center of the product in the <span class="v">[VAR_BLUE]</span>. The pet is <span class="v">sleeping contentedly with eyes closed, curled up naturally.</span> The product is captured from a <span class="v">straight horizontal eye-level view.</span>, filling the frame from left to right edges to highlight the product's features. Background: pure white studio. Lighting: high-end 3D studio lighting with realistic soft contact shadows. Style: professional commercial catalog, 8k, crisp textures.</pre>
+<pre class="prompt">Place the pet from <span class="v">[PET_01]</span> into the center of the product in the <span class="v">[VAR_BLUE]</span>. The pet is <span class="v">sleeping contentedly with eyes closed, curled up naturally</span>. The product is captured from a <span class="v">straight horizontal eye-level view</span>, filling the frame from left to right edges to highlight the product's features. Background: solid pure white #FFFFFF, seamless, no gradient, no vignette, no texture. Shadows: only soft contact shadows directly under and right next to the product and the pet; everything else stays pure #FFFFFF. Lighting: high-end 3D studio lighting. Style: professional commercial catalog, 8k, crisp textures. No text, no logo.</pre>
     <p class="small muted" style="margin-top:8px">Với variant khác (vd: Xám): chỉ thay <code>[VAR_BLUE]</code> → <code>[VAR_GREY]</code>, giữ nguyên các biến còn lại.</p>
 
     <h3 style="margin-top:32px">Bước 3 – Kết quả 5 Style (ảnh ví dụ)</h3>
@@ -466,7 +677,7 @@ MATERIAL DATA: <span class="v">Surface: Cold Ice Silk; Middle: quilted cotton fi
 <script>
 (function(){
   var tpl = function(a, g){
-    return 'Place the pet from <span class="v">[Reference Image]</span> into the center of the product in the <span class="v">[Base Image]</span>. The pet is <span class="v">' + a + '</span> The product is captured from a <span class="v">' + g + '</span>, filling the frame from left to right edges to highlight the product\'s features. Background: pure white studio. Lighting: high-end 3D studio lighting with realistic soft contact shadows. Style: professional commercial catalog, 8k, crisp textures.';
+    return 'Place the pet from <span class="v">[Reference Image]</span> into the center of the product in the <span class="v">[Base Image]</span>. The pet is <span class="v">' + a + '</span>. The product is captured from a <span class="v">' + g + '</span>, filling the frame from left to right edges to highlight the product\'s features. Background: solid pure white #FFFFFF, seamless, no gradient, no vignette, no texture. Shadows: only soft contact shadows directly under and right next to the product and the pet; everything else stays pure #FFFFFF. Lighting: high-end 3D studio lighting. Style: professional commercial catalog, 8k, crisp textures. No text, no logo.';
   };
   var act = document.getElementById('b-action'), ang = document.getElementById('b-angle'), out = document.getElementById('p-stl01');
   function render(){ out.innerHTML = tpl(act.value, ang.value); addCopy(out); }
@@ -485,6 +696,167 @@ MATERIAL DATA: <span class="v">Surface: Cold Ice Silk; Middle: quilted cotton fi
   }
   document.querySelectorAll('pre.prompt').forEach(function(p){ if(p.id !== 'p-stl01') addCopy(p); });
   render();
+
+  /* ---------------- MAKE PROMPT ---------------- */
+  var $ = function(id){ return document.getElementById(id); };
+  var FIELDS = ['mp-product','mp-variant','mp-pet','mp-action','mp-action-custom','mp-angle','mp-shadow',
+    'mp-scene','mp-action2','mp-textpos','mp-title','mp-desc','mp-overview','mp-info',
+    'mp-func','mp-graphic','mp-func-desc','mp-func-labels',
+    'mp-l1','mp-l2','mp-l3','mp-l4','mp-explode',
+    'mp-s','mp-s-fit','mp-m','mp-m-fit','mp-l','mp-l-fit','mp-xl','mp-xl-fit'];
+  var KEY = 'petAdMakePrompt.v1';
+  var defaults = {};
+  FIELDS.forEach(function(id){ defaults[id] = $(id).value; });
+
+  try {
+    var saved = JSON.parse(localStorage.getItem(KEY) || 'null');
+    if (saved) FIELDS.forEach(function(id){ if (id in saved) $(id).value = saved[id]; });
+  } catch (e) {}
+  function save(){
+    try { var o = {}; FIELDS.forEach(function(id){ o[id] = $(id).value; }); localStorage.setItem(KEY, JSON.stringify(o)); } catch (e) {}
+  }
+
+  var v = function(id){ return $(id).value.trim(); };
+  var words = function(s){ return s ? s.split(/\s+/).filter(Boolean).length : 0; };
+  var clean = function(s){ return s.replace(/\s+/g, ' ').trim().replace(/[.\s]+$/, ''); };
+  var tidy = function(s){ return s.replace(/\s+/g, ' ').trim(); }; // on-image text: keep punctuation as typed
+  var q = function(s){ return '"' + s.replace(/"/g, "'") + '"'; };
+
+  function syncCustom(){ $('mp-action-custom').hidden = $('mp-action').value !== 'custom'; }
+  function counters(){
+    [['mp-title', 4], ['mp-desc', 8]].forEach(function(x){
+      var n = words(v(x[0])), el = $(x[0] + '-cnt');
+      el.textContent = n ? n + ' / ' + x[1] + ' từ' + (n > x[1] ? ' – quá dài, AI dễ render lỗi chữ' : '') : 'Trống → AI tự viết (giới hạn ' + x[1] + ' từ)';
+      el.style.color = n > x[1] ? 'var(--s5)' : '';
+    });
+  }
+
+  function action1(){
+    if ($('mp-action').value === 'custom') return clean(v('mp-action-custom')) || 'resting comfortably';
+    return $('mp-action').value;
+  }
+
+  function build(){
+    var product = clean(v('mp-product')) || 'pet product';
+    var variant = clean(v('mp-variant'));
+    var pet = clean(v('mp-pet'));
+    var prodDesc = (variant ? 'the ' + variant + ' ' : 'the ') + product;
+    var petDesc = 'the pet' + (pet ? ' (' + pet + ')' : '');
+    var keep = 'Keep the pet identical to [Reference Image] (breed, fur color, face) and keep the product identical to [Base Image] (exact color' + (variant ? ' ' + variant : '') + ', pattern, shape).';
+    var act = action1();
+
+    // STL_01
+    var shadow = $('mp-shadow').value === 'none'
+      ? 'No shadows at all; clean cut-out look on pure #FFFFFF.'
+      : 'Shadows: only soft contact shadows directly under and right next to the product and the pet; everything else stays pure #FFFFFF.';
+    var p1 = 'Place ' + petDesc + ' from [Reference Image] into the center of ' + prodDesc + ' from [Base Image]. ' +
+      'The pet is ' + act + '. The product is captured from a ' + $('mp-angle').value + ', with product and pet filling the frame from left to right edges.\n\n' +
+      keep + '\n\n' +
+      'BACKGROUND: solid pure white #FFFFFF, seamless, no gradient, no vignette, no texture, no floor line. ' + shadow + '\n\n' +
+      'LIGHTING & STYLE: high-key 3D studio lighting, professional commercial catalog photo, 8k, crisp textures.\n\n' +
+      'NO TEXT, no logo, no watermark.';
+
+    // STL_02
+    var act2 = $('mp-action2').value === 'same' ? act : $('mp-action2').value;
+    var title = tidy(v('mp-title')), desc = tidy(v('mp-desc'));
+    var copy;
+    if (title && desc) {
+      copy = 'TEXT (render exactly, nothing else):\nTitle: ' + q(title) + '\nDescription: ' + q(desc);
+    } else {
+      copy = 'DATA INPUT FOR COPYWRITING:\nOverview: ' + (clean(v('mp-overview')) || '-') + '\nProduct Information: ' + (clean(v('mp-info')) || '-') + '\n\n' +
+        'COPYWRITING TASK: ' +
+        (title ? 'Use this Title exactly: ' + q(title) + '. ' : 'Write ONE punchy Title, max 4 words. ') +
+        (desc ? 'Use this Description exactly: ' + q(desc) : 'Write ONE Description line, max 8 words, about the single strongest benefit.');
+    }
+    var p2 = 'SCENE: Place ' + petDesc + ' from [Reference Image] on ' + prodDesc + ' from [Base Image], set in ' + $('mp-scene').value + '. ' +
+      'The pet is ' + act2 + ', looking pampered.\n\n' + keep + '\n\n' +
+      copy + '\n\n' +
+      'TEXT RULES: Only the Title and the Description appear in the image. Short, bold, decisive words. No paragraphs, no bullet lists, no extra labels, no logo. Spell every word correctly.\n\n' +
+      'TYPOGRAPHY: Place the text in the ' + $('mp-textpos').value + ', in clean negative space, never over the pet\'s face. Bold modern sans-serif, large and highly legible; Title clearly bigger than the Description.\n\n' +
+      'STYLE: Professional lifestyle photography, soft natural light, realistic contact shadows, 8k.';
+
+    // STL_03
+    var labels = v('mp-func-labels').split(',').map(tidy).filter(Boolean).slice(0, 3);
+    var labelTxt = labels.length
+      ? 'TEXT: Add only these short labels next to the graphics, nothing else: ' + labels.map(q).join(', ') + '. Bold sans-serif, large and legible.'
+      : 'TEXT: No text at all. Graphics only.';
+    var p3 = 'BASE IMAGE: [STL_01 Image] (the hero shot created in STL_01).\n\n' +
+      'FUNCTIONAL OVERLAY: Show the product\'s ' + $('mp-func').value + '. Product description: ' + (clean(v('mp-func-desc')) || product) + '.\n' +
+      'Add clean, premium infographic graphics: ' + $('mp-graphic').value + '. Integrate them naturally on and around the product surface.\n\n' +
+      'DO NOT change the pet, the product, the composition or the pure white #FFFFFF background of the base image.\n\n' +
+      labelTxt + '\n\n' +
+      'GOAL: A simple, instantly understandable functional diagram. Clean and premium, lots of white space.';
+
+    // STL_04
+    var layers = ['mp-l1','mp-l2','mp-l3','mp-l4'].map(v).map(tidy).filter(Boolean);
+    var layerLines = layers.map(function(n, i){
+      var where = layers.length === 1 ? 'layer' : i === 0 ? 'top surface' : i === layers.length - 1 ? 'bottom layer' : 'middle layer';
+      return (i + 1) + '. ' + where + ': ' + q(n);
+    }).join('\n');
+    var p4 = 'SCENE: Create a high-end exploded-view diagram of ' + prodDesc + ' from [STL_01 Image].\n\n' +
+      'LAYERS (top to bottom):\n' + (layerLines || '1. top surface\n2. middle layer\n3. bottom layer') + '\n\n' +
+      'TASK: Show these ' + (layers.length || 3) + ' layers ' + $('mp-explode').value + ', each layer showing its real texture. Keep the product color' + (variant ? ' ' + variant : '') + ' accurate.\n\n' +
+      'DIAGRAM: One thin leader line per layer, pointing precisely to that layer.\n\n' +
+      'TEXT RULES: Each layer gets ONE label, exactly the quoted name above (1-3 words). No descriptions, no sentences, no title, no other text. Bold sans-serif, large and legible.\n\n' +
+      'STYLE: Pure white #FFFFFF studio background, realistic fabric textures, soft technical lighting, 8k, premium catalog look.';
+
+    // STL_05
+    var sizes = [['S','mp-s','mp-s-fit'],['M','mp-m','mp-m-fit'],['L','mp-l','mp-l-fit'],['XL','mp-xl','mp-xl-fit']]
+      .map(function(x){ return { k: x[0], dim: tidy(v(x[1])), fit: tidy(v(x[2])) }; })
+      .filter(function(x){ return x.dim; });
+    var n = sizes.length || 4;
+    var grid = n === 4 ? 'a clean 2x2 grid' : n === 1 ? 'a single centered panel' : 'a clean 1x' + n + ' row';
+    var sizeLines = sizes.length
+      ? sizes.map(function(x){ return 'Size ' + x.k + ': ' + q(x.dim) + (x.fit ? ' - ' + q(x.fit) : ''); }).join('\n')
+      : 'Size S / M / L / XL: [enter sizes]';
+    var p5 = 'SCENE: Create a size guide infographic for ' + prodDesc + ' from [STL_01 Image].\n\n' +
+      'LAYOUT: ' + grid + ', one cell per size: ' + (sizes.map(function(x){ return x.k; }).join(', ') || 'S, M, L, XL') + '.\n\n' +
+      'SIZE DATA:\n' + sizeLines + '\n\n' +
+      'VISUALS: In each cell, show the same product with a realistically scaled pet that matches the fit label, so the size difference is obvious.\n\n' +
+      'TEXT RULES: Each cell has only: the size badge, the dimension and the short fit label, exactly as quoted above. No title, no sentences, no other text. Bold sans-serif, large and legible.\n\n' +
+      'STYLE: Pure white #FFFFFF background, consistent studio lighting across all cells, 8k, premium advertising look.';
+
+    return [
+      ['STL_01', 'Hero Shot', 't1', p1],
+      ['STL_02', 'Lifestyle + chữ', 't2', p2],
+      ['STL_03', 'Functional Infographic', 't3', p3],
+      ['STL_04', 'Exploded View', 't4', p4],
+      ['STL_05', 'Size Guide', 't5', p5]
+    ];
+  }
+
+  var last = [];
+  function renderOut(){
+    save(); counters();
+    last = build();
+    var out = $('mp-out'); out.innerHTML = '';
+    last.forEach(function(r){
+      var h = document.createElement('h4');
+      h.innerHTML = '<span class="tag ' + r[2] + '">' + r[0] + '</span>' + r[1];
+      var pre = document.createElement('pre'); pre.className = 'prompt'; pre.textContent = r[3];
+      out.appendChild(h); out.appendChild(pre); addCopy(pre);
+    });
+  }
+  function allText(){
+    return last.map(function(r){ return '===== ' + r[0] + ' – ' + r[1] + ' =====\n' + r[3]; }).join('\n\n');
+  }
+
+  $('mp-action').addEventListener('change', syncCustom);
+  $('mp-build').addEventListener('click', function(){
+    renderOut();
+    $('mp-out').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  $('mp-copy-all').addEventListener('click', function(){
+    renderOut();
+    var b = this, done = function(){ b.textContent = '✓ Đã copy 5 prompt'; setTimeout(function(){ b.textContent = '📋 Copy toàn bộ 5 prompt'; }, 1600); };
+    if (navigator.clipboard) navigator.clipboard.writeText(allText()).then(done, done); else done();
+  });
+  $('mp-reset').addEventListener('click', function(){
+    FIELDS.forEach(function(id){ $(id).value = defaults[id]; });
+    syncCustom(); renderOut();
+  });
+  FIELDS.forEach(function(id){ $(id).addEventListener('input', function(){ if (last.length) renderOut(); else { save(); counters(); } }); });
+  syncCustom(); counters(); renderOut();
 
 })();
 </script>
