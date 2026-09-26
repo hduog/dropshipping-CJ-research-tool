@@ -227,6 +227,7 @@ label.chk-inline{display:flex;gap:8px;align-items:center;font-size:14px;color:va
       <b>Quy tắc đã cài sẵn trong mọi prompt:</b>
       <ul style="margin:6px 0 0;padding-left:20px">
         <li>Chữ trên ảnh <b>ngắn gọn, dứt khoát</b>: Title ≤ 4 từ, Description ≤ 8 từ, mỗi nhãn 1–3 từ. Càng ít chữ AI càng ít render lỗi.</li>
+        <li>Mọi ảnh đều <b>tỉ lệ vuông 1:1</b> (vd 2048×2048).</li>
         <li>STL_01: nền <b>trắng tinh #FFFFFF</b>, không gradient. Bóng đổ (nếu có) chỉ ở vùng sát sản phẩm và nhân vật.</li>
       </ul>
     </div>
@@ -476,7 +477,9 @@ TEXT RULES: Only these two text elements appear in the image. Short, bold, decis
 
 VISUAL TYPOGRAPHY: Place the Title and Description in the image's negative space, away from the pet's face. Clean, bold sans-serif font, large and highly legible, professionally aligned.
 
-STYLE: Professional photography, soft natural lighting, realistic contact shadows, 8k resolution.</pre>
+STYLE: Professional photography, soft natural lighting, realistic contact shadows, 8k resolution.
+
+FORMAT: square 1:1 aspect ratio (e.g. 2048x2048 px); keep every element fully inside the square frame.</pre>
     <p class="note small" style="margin-top:16px"><b>Lưu ý:</b> Action nên dùng cùng giá trị với STL_01 để đồng bộ. Prompt đã giới hạn Title ≤ 4 từ, Description ≤ 8 từ. Vẫn cần kiểm tra chữ AI render (sai chính tả, lặp chữ) – nếu lỗi, có thể tạo ảnh không chữ rồi thêm chữ bằng công cụ thiết kế.</p>
   </div>
 </section>
@@ -499,7 +502,9 @@ The graphics must be harmoniously integrated onto the product surface without al
 
 TEXT RULES: At most 3 very short labels (1-3 words each), or no text at all. No sentences.
 
-GOAL: Create a simple, easy-to-understand functional diagram that showcases the technology within the original professional studio setting. Keep it clean and premium.</pre>
+GOAL: Create a simple, easy-to-understand functional diagram that showcases the technology within the original professional studio setting. Keep it clean and premium.
+
+FORMAT: square 1:1 aspect ratio (e.g. 2048x2048 px); keep every element fully inside the square frame.</pre>
   </div>
 </section>
 
@@ -523,7 +528,9 @@ DIAGRAM ELEMENTS:
 - One short label per layer (1-3 words, e.g. "Ice Silk"), taken from the material names. No descriptions or sentences.
 - Use high-end sans-serif fonts for a premium catalog look.
 
-STYLE: Pure white studio background, realistic fabric textures, soft technical lighting, 8k resolution, professional commercial quality.</pre>
+STYLE: Pure white studio background, realistic fabric textures, soft technical lighting, 8k resolution, professional commercial quality.
+
+FORMAT: square 1:1 aspect ratio (e.g. 2048x2048 px); keep every element fully inside the square frame.</pre>
   </div>
 </section>
 
@@ -548,7 +555,9 @@ Size XL: <span class="v">[Kích thước XL]</span> - "Large Dogs"
 
 VISUALS: In each cell, show the product with a realistically scaled pet (cat or dog) to demonstrate the fit. Each cell has only three text elements: the size badge (S/M/L/XL), the dimension (Length x Width) and the short fit label in quotes. No other text.
 
-STYLE: Pure white studio background, clean commercial typography, consistent high-end lighting across all cells. 8k resolution, professional advertising quality.</pre>
+STYLE: Pure white studio background, clean commercial typography, consistent high-end lighting across all cells. 8k resolution, professional advertising quality.
+
+FORMAT: square 1:1 aspect ratio (e.g. 2048x2048 px); keep every element fully inside the square frame.</pre>
   </div>
 </section>
 
@@ -585,7 +594,9 @@ STYLE: Pure white studio background, clean commercial typography, consistent hig
     </div>
 
     <h3 style="margin-top:32px">Bước 2 – Prompt STL_01 đã dùng</h3>
-<pre class="prompt">Place the pet from <span class="v">[PET_01]</span> into the center of the product in the <span class="v">[VAR_BLUE]</span>. The pet is <span class="v">sleeping contentedly with eyes closed, curled up naturally</span>. The product is captured from a <span class="v">straight horizontal eye-level view</span>, filling the frame from left to right edges to highlight the product's features. Background: solid pure white #FFFFFF, seamless, no gradient, no vignette, no texture. Shadows: only soft contact shadows directly under and right next to the product and the pet; everything else stays pure #FFFFFF. Lighting: high-end 3D studio lighting. Style: professional commercial catalog, 8k, crisp textures. No text, no logo.</pre>
+<pre class="prompt">Place the pet from <span class="v">[PET_01]</span> into the center of the product in the <span class="v">[VAR_BLUE]</span>. The pet is <span class="v">sleeping contentedly with eyes closed, curled up naturally</span>. The product is captured from a <span class="v">straight horizontal eye-level view</span>, filling the frame from left to right edges to highlight the product's features. Background: solid pure white #FFFFFF, seamless, no gradient, no vignette, no texture. Shadows: only soft contact shadows directly under and right next to the product and the pet; everything else stays pure #FFFFFF. Lighting: high-end 3D studio lighting. Style: professional commercial catalog, 8k, crisp textures. No text, no logo.
+
+FORMAT: square 1:1 aspect ratio (e.g. 2048x2048 px); keep every element fully inside the square frame.</pre>
     <p class="small muted" style="margin-top:8px">Với variant khác (vd: Xám): chỉ thay <code>[VAR_BLUE]</code> → <code>[VAR_GREY]</code>, giữ nguyên các biến còn lại.</p>
 
     <h3 style="margin-top:32px">Bước 3 – Kết quả 5 Style (ảnh ví dụ)</h3>
@@ -677,7 +688,7 @@ MATERIAL DATA: <span class="v">Surface: Cold Ice Silk; Middle: quilted cotton fi
 <script>
 (function(){
   var tpl = function(a, g){
-    return 'Place the pet from <span class="v">[Reference Image]</span> into the center of the product in the <span class="v">[Base Image]</span>. The pet is <span class="v">' + a + '</span>. The product is captured from a <span class="v">' + g + '</span>, filling the frame from left to right edges to highlight the product\'s features. Background: solid pure white #FFFFFF, seamless, no gradient, no vignette, no texture. Shadows: only soft contact shadows directly under and right next to the product and the pet; everything else stays pure #FFFFFF. Lighting: high-end 3D studio lighting. Style: professional commercial catalog, 8k, crisp textures. No text, no logo.';
+    return 'Place the pet from <span class="v">[Reference Image]</span> into the center of the product in the <span class="v">[Base Image]</span>. The pet is <span class="v">' + a + '</span>. The product is captured from a <span class="v">' + g + '</span>, filling the frame from left to right edges to highlight the product\'s features. Background: solid pure white #FFFFFF, seamless, no gradient, no vignette, no texture. Shadows: only soft contact shadows directly under and right next to the product and the pet; everything else stays pure #FFFFFF. Lighting: high-end 3D studio lighting. Style: professional commercial catalog, 8k, crisp textures. No text, no logo.\n\nFORMAT: square 1:1 aspect ratio (e.g. 2048x2048 px); keep every element fully inside the square frame.';
   };
   var act = document.getElementById('b-action'), ang = document.getElementById('b-angle'), out = document.getElementById('p-stl01');
   function render(){ out.innerHTML = tpl(act.value, ang.value); addCopy(out); }
@@ -816,6 +827,8 @@ MATERIAL DATA: <span class="v">Surface: Cold Ice Silk; Middle: quilted cotton fi
       'TEXT RULES: Each cell has only: the size badge, the dimension and the short fit label, exactly as quoted above. No title, no sentences, no other text. Bold sans-serif, large and legible.\n\n' +
       'STYLE: Pure white #FFFFFF background, consistent studio lighting across all cells, 8k, premium advertising look.';
 
+    var fmt = '\n\nFORMAT: square 1:1 aspect ratio (e.g. 2048x2048 px); keep every element fully inside the square frame.';
+    p1 += fmt; p2 += fmt; p3 += fmt; p4 += fmt; p5 += fmt;
     return [
       ['STL_01', 'Hero Shot', 't1', p1],
       ['STL_02', 'Lifestyle + chữ', 't2', p2],
