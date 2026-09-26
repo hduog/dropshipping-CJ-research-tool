@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quy trình 5 Style Quảng cáo Thú cưng</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f6f3; --surface:#ffffff; --surface-2:#f0eee9; --text:#1d1c1a; --muted:#6b675f;
+  --border:#e2dfd8; --accent:#2f7fb8; --accent-soft:#e3f0f9; --warm:#c9772b; --warm-soft:#fbeedf;
+  --ok:#2e8a5a; --ok-soft:#e2f3ea; --code-bg:#1f2329; --code-text:#e6e6e6;
+  --s1:#2f7fb8; --s2:#c9772b; --s3:#16a3a0; --s4:#7a5cc4; --s5:#c24d6b;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#15161a; --surface:#1e2025; --surface-2:#262930; --text:#ecebe8; --muted:#a19d95;
+    --border:#33363e; --accent:#6db3e6; --accent-soft:#1d3444; --warm:#e59a55; --warm-soft:#3a2a1b;
+    --ok:#5cc28d; --ok-soft:#1b3328; --code-bg:#0f1114; --code-text:#e6e6e6;
+    --s1:#6db3e6; --s2:#e59a55; --s3:#4fd0cc; --s4:#a58cf0; --s5:#e57b98;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15161a; --surface:#1e2025; --surface-2:#262930; --text:#ecebe8; --muted:#a19d95;
+  --border:#33363e; --accent:#6db3e6; --accent-soft:#1d3444; --warm:#e59a55; --warm-soft:#3a2a1b;
+  --ok:#5cc28d; --ok-soft:#1b3328; --code-bg:#0f1114; --code-text:#e6e6e6;
+  --s1:#6db3e6; --s2:#e59a55; --s3:#4fd0cc; --s4:#a58cf0; --s5:#e57b98;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 "Be Vietnam Pro",system-ui,sans-serif}
+img{max-width:100%;display:block}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+header.hero{padding:56px 0 32px;border-bottom:1px solid var(--border)}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:8px 0 12px;letter-spacing:-.02em}
+h2{font-size:clamp(22px,3.4vw,30px);margin:0 0 8px;letter-spacing:-.01em}
+h3{font-size:19px;margin:0 0 6px}
+p{margin:0 0 12px}
+.lead{color:var(--muted);font-size:18px;max-width:760px}
+nav.toc{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+nav.toc .wrap{display:flex;gap:6px;overflow-x:auto;padding-top:10px;padding-bottom:10px;scrollbar-width:none}
+nav.toc a{flex:none;font-size:14px;color:var(--muted);text-decoration:none;padding:6px 12px;border-radius:999px;border:1px solid var(--border);background:var(--surface)}
+nav.toc a:hover{color:var(--text);border-color:var(--accent)}
+section{padding:48px 0;border-bottom:1px solid var(--border)}
+.sec-sub{color:var(--muted);margin-bottom:24px;max-width:760px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px}
+.grid{display:grid;gap:16px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.g5{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.tag{display:inline-block;font:600 12px/1 "JetBrains Mono",monospace;padding:5px 8px;border-radius:6px;color:#fff}
+.t1{background:var(--s1)}.t2{background:var(--s2)}.t3{background:var(--s3)}.t4{background:var(--s4)}.t5{background:var(--s5)}
+.muted{color:var(--muted)}
+.small{font-size:14px}
+
+/* flow diagram */
+.flow{display:grid;grid-template-columns:1fr auto 1fr auto 1.3fr;gap:14px;align-items:center}
+.flow .node{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px}
+.flow .node b{display:block;margin-bottom:4px}
+.flow .arrow{font-size:26px;color:var(--muted);text-align:center}
+.stack{display:grid;gap:10px}
+.stack .node{display:flex;gap:10px;align-items:center;padding:10px 12px}
+@media (max-width:820px){
+  .flow{grid-template-columns:1fr}
+  .flow .arrow{transform:rotate(90deg)}
+}
+
+/* steps */
+.steps{counter-reset:step;display:grid;gap:14px}
+.step{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start}
+.step::before{counter-increment:step;content:counter(step);width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-weight:700;background:var(--accent-soft);color:var(--accent)}
+
+/* style blocks */
+.style-block{display:grid;grid-template-columns:1fr;gap:18px;margin-top:28px}
+.style-head{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:6px}
+.kv{display:grid;grid-template-columns:140px 1fr;gap:6px 14px;font-size:15px;margin:12px 0}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0}
+@media (max-width:560px){.kv{grid-template-columns:1fr}.kv dt{margin-top:6px}}
+pre.prompt{position:relative;background:var(--code-bg);color:var(--code-text);border-radius:12px;padding:18px 18px 18px;margin:0;font:13.5px/1.6 "JetBrains Mono",monospace;white-space:pre-wrap;word-break:break-word;overflow:auto}
+pre.prompt .v{color:#ffcf6b;background:rgba(255,207,107,.1);border-radius:4px;padding:0 3px}
+.copy{position:absolute;top:10px;right:10px;font:500 12px "Be Vietnam Pro",sans-serif;border:1px solid #444a55;background:#2a2f37;color:#ddd;border-radius:8px;padding:5px 10px;cursor:pointer}
+.copy:hover{background:#353b45}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top}
+th{font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600}
+.table-scroll{overflow-x:auto;border:1px solid var(--border);border-radius:12px;background:var(--surface)}
+code{font-family:"JetBrains Mono",monospace;font-size:.9em;background:var(--surface-2);padding:1px 6px;border-radius:5px}
+.note{border-left:4px solid var(--warm);background:var(--warm-soft);padding:14px 16px;border-radius:0 10px 10px 0}
+.good{border-left:4px solid var(--ok);background:var(--ok-soft);padding:14px 16px;border-radius:0 10px 10px 0}
+
+/* builder */
+.builder{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-bottom:14px}
+label.f{display:grid;gap:6px;font-size:14px;color:var(--muted)}
+select,input[type=text]{font:15px "Be Vietnam Pro",sans-serif;padding:10px 12px;border-radius:10px;border:1px solid var(--border);background:var(--surface);color:var(--text);width:100%}
+
+/* example */
+figure{margin:0}
+figure img{border-radius:12px;border:1px solid var(--border);background:#fff;aspect-ratio:1/1;object-fit:cover;width:100%}
+figcaption{font-size:13px;color:var(--muted);margin-top:6px}
+.input-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media (max-width:640px){.input-row{grid-template-columns:1fr 1fr}}
+.mock{position:relative;border-radius:12px;overflow:hidden;border:1px solid var(--border);background:#fff;aspect-ratio:1/1}
+.mock > img{width:100%;height:100%;object-fit:cover;border:0;border-radius:0}
+.mock .lbl{position:absolute;top:8px;left:8px;z-index:4;font:600 11px "JetBrains Mono",monospace;background:rgba(0,0,0,.6);color:#fff;padding:3px 7px;border-radius:5px}
+/* STL_02 mock */
+.m2 > img{filter:saturate(1.05) sepia(.18) brightness(1.02)}
+.m2 .txt{position:absolute;left:0;right:0;top:0;padding:14% 8% 0;text-align:center;color:#3a2e22;z-index:2}
+.m2 .txt .t{font-weight:700;font-size:clamp(14px,3.4vw,22px);line-height:1.15;letter-spacing:-.01em}
+.m2 .txt .d{font-size:clamp(10px,1.9vw,12.5px);margin-top:6px;opacity:.85}
+.m2::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,244,228,.85),rgba(255,244,228,0) 45%);z-index:1}
+/* STL_03 mock */
+.m3 svg{position:absolute;inset:0;width:100%;height:100%;z-index:2}
+/* STL_04 mock */
+.m4{display:grid;place-items:center;background:#fff}
+.m4 .layers{position:relative;width:88%;height:70%;margin-right:18%}
+.m4 .ly{position:absolute;left:0;width:48%;height:34%;border-radius:10px;transform:skewX(-18deg);box-shadow:0 10px 18px rgba(0,0,0,.12)}
+.m4 .ly span{position:absolute;left:112%;top:40%;white-space:nowrap;transform:skewX(18deg);font:600 clamp(9px,1.7vw,11.5px) "Be Vietnam Pro",sans-serif;color:#333}
+.m4 .ly span::before{content:"";position:absolute;right:calc(100% + 4px);top:50%;width:30px;border-top:1px solid #777}
+.m4 .l1{top:0;left:0}
+.m4 .l2{top:30%;left:12%;background:repeating-linear-gradient(45deg,#f4f4f2 0 6px,#e6e6e2 6px 12px)}
+.m4 .l3{top:60%;left:24%;background:radial-gradient(circle,#9aa0a6 18%,transparent 20%) 0 0/12px 12px,#d9dcdf}
+/* STL_05 mock */
+.mock img.real{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0;border-radius:0;z-index:2;display:none;aspect-ratio:auto}
+.m5{position:relative;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:4px;padding:4px;background:#eee}
+.m5 .cell{position:relative;background:#fff;border-radius:6px;overflow:hidden;display:grid;place-items:center}
+.m5 .cell img{object-fit:contain;border:0;border-radius:0;aspect-ratio:auto;background:none}
+.m5 .badge{position:absolute;top:5px;left:5px;font:700 11px "Be Vietnam Pro",sans-serif;color:#fff;background:var(--s5);padding:2px 7px;border-radius:5px}
+.m5 .dim{position:absolute;bottom:4px;left:0;right:0;text-align:center;font:500 9.5px "JetBrains Mono",monospace;color:#444}
+
+.matrix td,.matrix th{text-align:center}
+.matrix td:first-child,.matrix th:first-child{text-align:left}
+.chk{color:var(--ok);font-weight:700}
+footer{padding:36px 0 56px;color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <a href="../index.html" class="small" style="color:var(--accent);text-decoration:none">← Về CJ Research</a>
+    <div class="eyebrow">Workflow · AI Image Generation</div>
+    <h1>Quy trình sản xuất 5 Style quảng cáo thú cưng</h1>
+    <p class="lead">Từ <b>1 ảnh pet</b> + <b>ảnh các variant sản phẩm</b> → tạo đủ bộ 5 hình quảng cáo (STL_01 → STL_05) cho <b>mỗi variant</b>. STL_01 là "ảnh gốc" – các style kỹ thuật phía sau đều được dựng trên nền STL_01.</p>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Mục lục">
+  <div class="wrap">
+    <a href="#tong-quan">Tổng quan</a>
+    <a href="#quy-trinh">Quy trình</a>
+    <a href="#stl01">STL_01</a>
+    <a href="#stl02">STL_02</a>
+    <a href="#stl03">STL_03</a>
+    <a href="#stl04">STL_04</a>
+    <a href="#stl05">STL_05</a>
+    <a href="#vi-du">Ví dụ thực tế</a>
+    <a href="#ma-tran">Ma trận Variant</a>
+    <a href="#loi-ich">Lợi ích</a>
+  </div>
+</nav>
+
+<main>
+<!-- ============ TỔNG QUAN ============ -->
+<section id="tong-quan">
+  <div class="wrap">
+    <h2>Tổng quan hệ thống 5 Style</h2>
+    <p class="sec-sub">Mỗi style phục vụ một nhu cầu khác nhau trên hành trình mua hàng: gây ấn tượng → kể câu chuyện → chứng minh chất lượng → chốt quyết định.</p>
+    <div class="grid g5">
+      <div class="card"><span class="tag t1">STL_01</span><h3 style="margin-top:10px">Product Hero Shot</h3><p class="small muted">Ảnh studio phông trắng, ánh sáng high-key. Sản phẩm + pet phóng lớn sát lề, nhìn trực diện camera.</p><p class="small"><b>Mục tiêu:</b> Gây ấn tượng</p></div>
+      <div class="card"><span class="tag t2">STL_02</span><h3 style="margin-top:10px">Lifestyle Marketing</h3><p class="small muted">Ảnh lifestyle ấm áp + Typography: 1 Title ấn tượng và 1 Description ngắn nêu lợi ích.</p><p class="small"><b>Mục tiêu:</b> Kể câu chuyện</p></div>
+      <div class="card"><span class="tag t3">STL_03</span><h3 style="margin-top:10px">Functional Infographic</h3><p class="small muted">Giữ nguyên STL_01, phủ thêm mũi tên phát sáng / sóng khí để "thị giác hóa" tính năng vô hình.</p><p class="small"><b>Mục tiêu:</b> Chứng minh công năng</p></div>
+      <div class="card"><span class="tag t4">STL_04</span><h3 style="margin-top:10px">Exploded View</h3><p class="small muted">Bóc tách từng lớp chất liệu so le, có đường chỉ dẫn và nhãn tên từng lớp.</p><p class="small"><b>Mục tiêu:</b> Chứng minh chất liệu</p></div>
+      <div class="card"><span class="tag t5">STL_05</span><h3 style="margin-top:10px">Size Guide</h3><p class="small muted">Lưới 2x2 S/M/L/XL, pet thật đúng tỷ lệ, nhãn kích thước Dài x Rộng.</p><p class="small"><b>Mục tiêu:</b> Chốt chọn size</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUY TRÌNH ============ -->
+<section id="quy-trinh">
+  <div class="wrap">
+    <h2>Sơ đồ quy trình (Workflow)</h2>
+    <p class="sec-sub">Luồng phụ thuộc giữa các bước. Lưu ý: <b>STL_03, STL_04, STL_05 dùng ảnh STL_01 đã tạo làm Base Image</b> (media_id), nên phải hoàn thành và duyệt STL_01 trước.</p>
+
+    <div class="flow">
+      <div class="stack">
+        <div class="node"><b>📥 Input A – Pet</b><span class="small muted">Reference Image (nhân vật)</span></div>
+        <div class="node"><b>📥 Input B – Variant</b><span class="small muted">Base Image (ảnh sản phẩm từng màu)</span></div>
+        <div class="node"><b>📝 Input C – Dữ liệu</b><span class="small muted">Overview, Product Info, Material, Size</span></div>
+      </div>
+      <div class="arrow">→</div>
+      <div class="node" style="border-color:var(--s1);border-width:2px">
+        <span class="tag t1">STL_01</span>
+        <b style="margin-top:8px">Hero Shot (ảnh gốc)</b>
+        <span class="small muted">Pet (A) + Variant (B) · chọn Diễn xuất & Góc chụp · <b>duyệt kỹ</b> vì là nền cho các bước sau</span>
+      </div>
+      <div class="arrow">→</div>
+      <div class="stack">
+        <div class="node"><span class="tag t2">STL_02</span><span class="small">A + B + Overview/Product Info → Lifestyle + Title/Description</span></div>
+        <div class="node"><span class="tag t3">STL_03</span><span class="small">Base = STL_01 + Mô tả sản phẩm → overlay công năng</span></div>
+        <div class="node"><span class="tag t4">STL_04</span><span class="small">Base = STL_01 + Material data → bóc tách lớp</span></div>
+        <div class="node"><span class="tag t5">STL_05</span><span class="small">Base = STL_01 + Size data → lưới S/M/L/XL</span></div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:36px">Các bước thực hiện chi tiết</h3>
+    <div class="steps" style="margin-top:14px">
+      <div class="step"><div class="card"><h3>Chuẩn bị input</h3><p class="small">Ảnh pet rõ mặt, đủ sáng (Reference Image). Ảnh từng variant sản phẩm trên nền trắng (Base Image). Soạn sẵn dữ liệu: <b>Overview</b>, <b>Product Information</b>, <b>Thành phần cấu tạo</b>, <b>Bảng kích thước S/M/L/XL</b>.</p></div></div>
+      <div class="step"><div class="card"><h3>Upload & lấy media_id</h3><p class="small">Upload ảnh pet và từng ảnh variant lên công cụ tạo ảnh, ghi lại <code>media_id</code> cho từng ảnh (vd: <code>PET_01</code>, <code>VAR_BLUE</code>, <code>VAR_GREY</code>).</p></div></div>
+      <div class="step"><div class="card"><h3>Tạo STL_01 cho từng variant</h3><p class="small">Điền template STL_01, chọn 1 <b>Diễn xuất</b> + 1 <b>Góc chụp</b>. <b>Giữ cùng lựa chọn cho mọi variant</b> để bộ ảnh đồng nhất. Duyệt: pet giống bản gốc, màu sản phẩm đúng variant, phông trắng sạch, bóng đổ tự nhiên. Lưu <code>media_id</code> của STL_01.</p></div></div>
+      <div class="step"><div class="card"><h3>Tạo STL_02 (Lifestyle + chữ)</h3><p class="small">Dùng Pet + Variant, chèn dữ liệu Overview & Product Info để AI tự viết Title/Description và render chữ. Kiểm tra chính tả, chữ không bị méo, không che mặt pet.</p></div></div>
+      <div class="step"><div class="card"><h3>Tạo STL_03, STL_04, STL_05 từ STL_01</h3><p class="small">Base Image = <code>media_id</code> của STL_01. Điền Mô tả sản phẩm / Material data / Size data tương ứng. Kiểm tra pet & sản phẩm <b>không bị thay đổi</b> so với STL_01.</p></div></div>
+      <div class="step"><div class="card"><h3>QC & đặt tên file</h3><p class="small">Quy ước: <code>{SKU}_{VARIANT}_{STL}.jpg</code> – vd: <code>COOLMAT_BLUE_STL01.jpg</code>. Mỗi variant đủ 5 file. Lặp lại bước 3–6 cho variant tiếp theo.</p></div></div>
+      <div class="step"><div class="card"><h3>Phân phối đa kênh</h3><p class="small">STL_01 → ảnh đại diện sàn TMĐT · STL_02 → Facebook/Instagram · STL_03/04/05 → phần mô tả chi tiết sản phẩm.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STL_01 ============ -->
+<section id="stl01">
+  <div class="wrap">
+    <div class="style-head"><span class="tag t1">STL_01</span><h2 style="margin:0">Hình ảnh Đại diện Sản phẩm (Product Hero Shot)</h2></div>
+    <dl class="kv">
+      <dt>Đặc điểm</dt><dd>Ảnh studio sạch, phông trắng, ánh sáng High-key. Chủ thể (sản phẩm + thú cưng) phóng lớn sát lề, nhìn trực diện camera.</dd>
+      <dt>Input</dt><dd>Reference Image (pet) + Base Image (variant sản phẩm)</dd>
+      <dt>Output</dt><dd>Ảnh gốc – được dùng làm Base cho STL_03, 04, 05</dd>
+      <dt>Kênh</dt><dd>Ảnh đại diện (thumbnail) trên sàn TMĐT</dd>
+    </dl>
+
+    <h3 style="margin-top:20px">Prompt Builder</h3>
+    <p class="small muted">Chọn biến để sinh prompt hoàn chỉnh, rồi bấm Copy.</p>
+    <div class="builder">
+      <label class="f">[DIỄN XUẤT CỦA PET]
+        <select id="b-action">
+          <option value="sleeping contentedly with eyes closed, curled up naturally.">Nằm ngủ mãn nguyện</option>
+          <option value="sitting upright, looking directly at the camera with a happy panting expression.">Ngồi vui vẻ</option>
+          <option value="lying down with paws tucked, tilting its head curiously at the camera.">Tò mò</option>
+          <option value="sprawled out comfortably, looking relaxed and pampered.">Thư giãn</option>
+        </select>
+      </label>
+      <label class="f">[GÓC CHỤP SẢN PHẨM]
+        <select id="b-angle">
+          <option value="straight horizontal eye-level view.">Góc ngang tiêu chuẩn (Catalog)</option>
+          <option value="45-degree isometric studio angle.">Góc nghiêng 3/4 (Thấy độ sâu)</option>
+          <option value="high-angle top-down view.">Góc từ trên xuống (Thấy lòng đệm)</option>
+          <option value="close-up eye-level view focus on fabric textures.">Góc cận cảnh (Khoe chất liệu)</option>
+        </select>
+      </label>
+    </div>
+    <pre class="prompt" id="p-stl01"></pre>
+
+    <div class="grid g2" style="margin-top:20px">
+      <div class="card">
+        <h3>Biến [DIỄN XUẤT CỦA PET]</h3>
+        <table><tbody>
+          <tr><td><b>Nằm ngủ mãn nguyện</b></td><td class="small"><code>sleeping contentedly with eyes closed, curled up naturally.</code></td></tr>
+          <tr><td><b>Ngồi vui vẻ</b></td><td class="small"><code>sitting upright, looking directly at the camera with a happy panting expression.</code></td></tr>
+          <tr><td><b>Tò mò</b></td><td class="small"><code>lying down with paws tucked, tilting its head curiously at the camera.</code></td></tr>
+          <tr><td><b>Thư giãn</b></td><td class="small"><code>sprawled out comfortably, looking relaxed and pampered.</code></td></tr>
+        </tbody></table>
+      </div>
+      <div class="card">
+        <h3>Biến [GÓC CHỤP SẢN PHẨM]</h3>
+        <table><tbody>
+          <tr><td><b>Ngang tiêu chuẩn</b></td><td class="small"><code>straight horizontal eye-level view.</code></td></tr>
+          <tr><td><b>Nghiêng 3/4</b></td><td class="small"><code>45-degree isometric studio angle.</code></td></tr>
+          <tr><td><b>Từ trên xuống</b></td><td class="small"><code>high-angle top-down view.</code></td></tr>
+          <tr><td><b>Cận cảnh</b></td><td class="small"><code>close-up eye-level view focus on fabric textures.</code></td></tr>
+        </tbody></table>
+      </div>
+    </div>
+    <p class="note small" style="margin-top:16px"><b>Checklist duyệt STL_01:</b> pet giữ đúng giống/màu lông/khuôn mặt · màu sản phẩm đúng variant · họa tiết (vân tròn, viền) không bị biến dạng · phông trắng tinh · có bóng đổ tiếp xúc mềm · chủ thể lấp đầy khung từ trái sang phải.</p>
+  </div>
+</section>
+
+<!-- ============ STL_02 ============ -->
+<section id="stl02">
+  <div class="wrap">
+    <div class="style-head"><span class="tag t2">STL_02</span><h2 style="margin:0">Hình ảnh Giới thiệu Sơ lược (Lifestyle Marketing)</h2></div>
+    <dl class="kv">
+      <dt>Đặc điểm</dt><dd>Kết hợp hình ảnh sản phẩm với chữ (Typography): 1 Title ấn tượng + 1 Description ngắn gọn, nổi bật lợi ích trên nền lifestyle ấm áp.</dd>
+      <dt>Input</dt><dd>Reference Image (pet) + Base Image (variant) + <b>Overview</b> + <b>Product Information</b></dd>
+      <dt>Kênh</dt><dd>Facebook / Instagram / quảng cáo social</dd>
+    </dl>
+<pre class="prompt">SCENE: Place the pet from <span class="v">[Reference Image]</span> into the center of the product in the <span class="v">[Base Image]</span>. The pet is <span class="v">[Action]</span>, looking pampered in a high-end lifestyle setting.
+
+DATA INPUT FOR COPYWRITING:
+Overview: <span class="v">[Dữ liệu Overview bạn cung cấp]</span>
+Product Information: <span class="v">[Dữ liệu Product Info bạn cung cấp]</span>
+
+CREATIVE TASK: Based on the DATA INPUT, generate and render a short, impressive Title and a short Description that highlights the key product benefits.
+
+VISUAL TYPOGRAPHY: Place the generated Title and Description elegantly in the image's negative space. Use clean, high-end commercial fonts. The text must be legible and professionally aligned.
+
+STYLE: Professional photography, soft natural lighting, realistic contact shadows, 8k resolution.</pre>
+    <p class="note small" style="margin-top:16px"><b>Lưu ý:</b> Action nên dùng cùng giá trị với STL_01 để đồng bộ. Kiểm tra kỹ chữ AI render (sai chính tả, lặp chữ) – nếu lỗi, có thể tạo ảnh không chữ rồi thêm chữ bằng công cụ thiết kế.</p>
+  </div>
+</section>
+
+<!-- ============ STL_03 ============ -->
+<section id="stl03">
+  <div class="wrap">
+    <div class="style-head"><span class="tag t3">STL_03</span><h2 style="margin:0">Hình ảnh Mô tả Công năng (Functional Infographic)</h2></div>
+    <dl class="kv">
+      <dt>Đặc điểm</dt><dd>Giữ nguyên ảnh STL_01, chèn thêm lớp đồ họa kỹ thuật (mũi tên phát sáng, sóng khí) để thị giác hóa tính năng vô hình: giải nhiệt, sưởi ấm, thoát khí.</dd>
+      <dt>Input</dt><dd><b>Base = media_id STL_01</b> + Mô tả sản phẩm</dd>
+      <dt>Kênh</dt><dd>Mô tả chi tiết sản phẩm (PDP)</dd>
+    </dl>
+<pre class="prompt">BASE IMAGE: <span class="v">[Sử dụng media_id của hình ảnh STL_01 đã tạo]</span>.
+
+FUNCTIONAL OVERLAY: Based on the Product Description: <span class="v">[Mô tả sản phẩm]</span>, add professional infographic elements to this image.
+
+Overlay clean, high-end visual symbols (such as glowing arrows or airflow waves) that clearly demonstrate the product's benefits (e.g., cooling, heat dissipation, breathability).
+The graphics must be harmoniously integrated onto the product surface without altering or editing the existing pet or the product itself.
+
+GOAL: Create a simple, easy-to-understand functional diagram that showcases the technology within the original professional studio setting. Keep it clean and premium.</pre>
+  </div>
+</section>
+
+<!-- ============ STL_04 ============ -->
+<section id="stl04">
+  <div class="wrap">
+    <div class="style-head"><span class="tag t4">STL_04</span><h2 style="margin:0">Sơ đồ Bóc tách Cấu tạo (Exploded View Diagram)</h2></div>
+    <dl class="kv">
+      <dt>Đặc điểm</dt><dd>Hình ảnh kỹ thuật bóc tách từng lớp chất liệu so le, đường kẻ chỉ dẫn + nhãn tên để chứng minh chất lượng vật liệu & công nghệ bên trong.</dd>
+      <dt>Input</dt><dd><b>Base = STL_01</b> + Thông tin thành phần cấu tạo (Material data)</dd>
+      <dt>Kênh</dt><dd>Mô tả chi tiết sản phẩm (PDP)</dd>
+    </dl>
+<pre class="prompt">SCENE: Create a high-end professional exploded-view diagram based on the product in <span class="v">[Base Image STL_01]</span>.
+
+MATERIAL DATA: <span class="v">[Thông tin thành phần cấu tạo bạn cung cấp]</span>.
+
+TASK: Analyze the MATERIAL DATA to visualize the product's internal construction. Display the different layers (surface, middle, and back) peeled apart and stacked in a clean, diagonal 3D arrangement to showcase their unique textures.
+
+DIAGRAM ELEMENTS:
+- Add clean, thin leader lines pointing precisely to each revealed layer.
+- Generate and render clear, concise text labels for each layer based on the material names provided.
+- Use high-end sans-serif fonts for a premium catalog look.
+
+STYLE: Pure white studio background, realistic fabric textures, soft technical lighting, 8k resolution, professional commercial quality.</pre>
+  </div>
+</section>
+
+<!-- ============ STL_05 ============ -->
+<section id="stl05">
+  <div class="wrap">
+    <div class="style-head"><span class="tag t5">STL_05</span><h2 style="margin:0">Bảng Hướng dẫn Chọn Size (Size Guide Infographic)</h2></div>
+    <dl class="kv">
+      <dt>Đặc điểm</dt><dd>Bố cục lưới (Grid) trình bày S, M, L, XL. Kết hợp hình ảnh thú cưng thật theo đúng tỷ lệ so sánh để khách dễ quyết định.</dd>
+      <dt>Input</dt><dd><b>Base = STL_01</b> + Kích thước S/M/L/XL</dd>
+      <dt>Kênh</dt><dd>Mô tả chi tiết sản phẩm, ảnh cuối trong gallery</dd>
+    </dl>
+<pre class="prompt">SCENE: Create a professional size guide infographic for the pet cooling mat based on the product in <span class="v">[Base Image STL_01]</span>.
+
+INFOGRAPHIC LAYOUT: Arrange the image into a clean 2x2 grid representing four sizes: S, M, L, and XL.
+
+SIZE DATA: Use the following information for each grid cell:
+Size S: <span class="v">[Kích thước S]</span> - Suitable for small pets like cats.
+Size M: <span class="v">[Kích thước M]</span> - Suitable for large cats or small dogs.
+Size L: <span class="v">[Kích thước L]</span> - Suitable for medium-sized dogs.
+Size XL: <span class="v">[Kích thước XL]</span> - Suitable for large breeds.
+
+VISUALS: In each cell, show the product with a realistically scaled pet (cat or dog) to demonstrate the fit. Include clear dimension labels (Length x Width) and a prominent 'S/M/L/XL' badge.
+
+STYLE: Pure white studio background, clean commercial typography, consistent high-end lighting across all cells. 8k resolution, professional advertising quality.</pre>
+  </div>
+</section>
+
+<!-- ============ VÍ DỤ ============ -->
+<section id="vi-du">
+  <div class="wrap">
+    <h2>Ví dụ thực tế: Đệm làm mát cho thú cưng</h2>
+    <p class="sec-sub">Ví dụ minh họa: 1 pet (chó Golden con) và 2 variant (Xanh, Xám), mỗi style lấy 1 ảnh mẫu.</p>
+
+    <h3>Bước 1 – Input</h3>
+    <div class="input-row" style="margin-top:12px">
+      <figure><img src="images/pet.jpg" alt="Chó Golden Retriever con ngồi trên cỏ"><figcaption><b>Reference Image</b> · Pet (nhân vật) · <code>PET_01</code></figcaption></figure>
+      <figure><img src="images/variant-blue.jpg" alt="Đệm làm mát màu xanh"><figcaption><b>Base Image</b> · Variant Xanh · <code>VAR_BLUE</code></figcaption></figure>
+      <figure><img src="images/variant-grey.jpg" alt="Đệm làm mát màu xám"><figcaption><b>Base Image</b> · Variant Xám · <code>VAR_GREY</code></figcaption></figure>
+    </div>
+
+    <div class="grid g2" style="margin-top:20px">
+      <div class="card small">
+        <h3>Dữ liệu mẫu (Input C)</h3>
+        <p><b>Overview:</b> Đệm làm mát cho chó mèo, không cần điện/nước, giúp pet mát mẻ suốt mùa hè.</p>
+        <p><b>Product Info:</b> Vải lụa băng (ice silk) mát lạnh, sợi chịu nhiệt, chần bông họa tiết tròn, đáy lưới thoáng khí, phù hợp mọi kích cỡ pet.</p>
+        <p style="margin:0"><b>Material:</b> Mặt trên Cold Ice Silk · Lớp giữa bông chần · Mặt đáy lưới thoáng khí (Breathable Mesh).</p>
+      </div>
+      <div class="card small">
+        <h3>Size mẫu</h3>
+        <table><tbody>
+          <tr><td><b>S</b></td><td>50 × 40 cm</td><td class="muted">Mèo, chó mini</td></tr>
+          <tr><td><b>M</b></td><td>63 × 50 cm</td><td class="muted">Mèo lớn, chó nhỏ</td></tr>
+          <tr><td><b>L</b></td><td>70 × 56 cm</td><td class="muted">Chó vừa</td></tr>
+          <tr><td><b>XL</b></td><td>102 × 70 cm</td><td class="muted">Chó lớn</td></tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+
+    <h3 style="margin-top:32px">Bước 2 – Prompt STL_01 đã dùng</h3>
+<pre class="prompt">Place the pet from <span class="v">[PET_01]</span> into the center of the product in the <span class="v">[VAR_BLUE]</span>. The pet is <span class="v">sleeping contentedly with eyes closed, curled up naturally.</span> The product is captured from a <span class="v">straight horizontal eye-level view.</span>, filling the frame from left to right edges to highlight the product's features. Background: pure white studio. Lighting: high-end 3D studio lighting with realistic soft contact shadows. Style: professional commercial catalog, 8k, crisp textures.</pre>
+    <p class="small muted" style="margin-top:8px">Với variant khác (vd: Xám): chỉ thay <code>[VAR_BLUE]</code> → <code>[VAR_GREY]</code>, giữ nguyên các biến còn lại.</p>
+
+    <h3 style="margin-top:32px">Bước 3 – Kết quả 5 Style (ví dụ với Variant Xanh)</h3>
+    <p class="small muted">Ảnh chỉ để minh họa; khi làm thật, mỗi variant đều cần đủ 5 style như trên.</p>
+
+    <div class="grid g5" id="set">
+      <figure>
+        <div class="mock"><span class="lbl" style="z-index:4">STL_01 · ảnh ví dụ</span><img class="v-img" src="images/stl01-blue.jpg" alt="STL_01: chó con nằm trên đệm làm mát, phông trắng"></div>
+        <figcaption><span class="tag t1">STL_01</span> Hero Shot – ảnh AI đã tạo</figcaption>
+      </figure>
+
+      <figure>
+        <div class="mock m2"><span class="lbl">STL_02 · mô phỏng</span><img class="real" data-stl="stl02" alt="STL_02 thật"><img class="v-img" src="images/stl01-blue.jpg" alt="">
+          <div class="txt"><div class="t">The Ultimate Pet Oasis</div><div class="d">Instant, durable comfort · Cold ice silk · Suitable for pets of all sizes</div></div>
+        </div>
+        <figcaption><span class="tag t2">STL_02</span> Lifestyle + Title/Description</figcaption>
+      </figure>
+
+      <figure>
+        <div class="mock m3"><span class="lbl">STL_03 · mô phỏng</span><img class="real" data-stl="stl03" alt="STL_03 thật"><img class="v-img" src="images/stl01-blue.jpg" alt="">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <defs>
+              <filter id="glow"><feGaussianBlur stdDeviation="0.9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+              <marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#27c4ff"/></marker>
+              <marker id="ahw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#ff8a3d"/></marker>
+            </defs>
+            <g filter="url(#glow)" fill="none" stroke-width="1.1" stroke-linecap="round">
+              <path d="M16 30 q4 -4 8 0 t8 0" stroke="#27c4ff" opacity=".9"/>
+              <path d="M70 26 q4 -4 8 0 t8 0" stroke="#27c4ff" opacity=".9"/>
+              <path d="M22 60 L22 40" stroke="#ff8a3d" marker-end="url(#ahw)"/>
+              <path d="M52 44 L52 30" stroke="#ff8a3d" marker-end="url(#ahw)"/>
+              <path d="M80 60 L80 42" stroke="#ff8a3d" marker-end="url(#ahw)"/>
+              <path d="M8 74 L34 74" stroke="#27c4ff" marker-end="url(#ah)"/>
+              <path d="M92 74 L66 74" stroke="#27c4ff" marker-end="url(#ah)"/>
+            </g>
+            <g font-family="Be Vietnam Pro, sans-serif" font-size="3.6" font-weight="700" text-anchor="middle">
+              <text x="50" y="14" fill="#0b6fa8">GIẢI NHIỆT TỨC THÌ</text>
+              <text x="50" y="88" fill="#555" font-weight="500" font-size="3">Hấp thụ nhiệt ↓ · Thoát nhiệt ↑ · Thoáng khí</text>
+            </g>
+          </svg>
+        </div>
+        <figcaption><span class="tag t3">STL_03</span> Overlay công năng trên STL_01</figcaption>
+      </figure>
+
+      <figure>
+        <div class="mock m4"><span class="lbl">STL_04 · mô phỏng</span><img class="real" data-stl="stl04" alt="STL_04 thật">
+          <div class="layers">
+            <div class="ly l1 v-bg" style="background:repeating-radial-gradient(circle at 20% 30%,#cfe4f3 0 5px,#b9d6ea 5px 10px)"><span>Cold Ice Silk Surface</span></div>
+            <div class="ly l2"><span>Lớp giữa · Bông chần</span></div>
+            <div class="ly l3"><span>Breathable Mesh Back</span></div>
+          </div>
+        </div>
+        <figcaption><span class="tag t4">STL_04</span> Bóc tách 3 lớp + nhãn chỉ dẫn</figcaption>
+      </figure>
+
+      <figure>
+        <div class="mock m5"><span class="lbl" style="left:auto;right:8px">STL_05 · mô phỏng</span><img class="real" data-stl="stl05" alt="STL_05 thật">
+          <div class="cell"><span class="badge">S</span><img class="v-img" src="images/stl01-blue.jpg" alt="" style="width:55%"><span class="dim">50 × 40 cm</span></div>
+          <div class="cell"><span class="badge">M</span><img class="v-img" src="images/stl01-blue.jpg" alt="" style="width:68%"><span class="dim">63 × 50 cm</span></div>
+          <div class="cell"><span class="badge">L</span><img class="v-img" src="images/stl01-blue.jpg" alt="" style="width:82%"><span class="dim">70 × 56 cm</span></div>
+          <div class="cell"><span class="badge">XL</span><img class="v-img" src="images/stl01-blue.jpg" alt="" style="width:96%"><span class="dim">102 × 70 cm</span></div>
+        </div>
+        <figcaption><span class="tag t5">STL_05</span> Lưới size 2×2</figcaption>
+      </figure>
+    </div>
+
+    <h3 style="margin-top:32px">Ví dụ prompt đã điền dữ liệu (Variant Xanh)</h3>
+    <div class="grid g2" style="margin-top:12px">
+<pre class="prompt"><b>STL_03</b>
+BASE IMAGE: <span class="v">[STL01_BLUE]</span>.
+FUNCTIONAL OVERLAY: Based on the Product Description: <span class="v">Ice silk surface that feels cool to the touch, absorbs and dissipates body heat, breathable quilted structure, no electricity or water needed</span>, add professional infographic elements to this image. ...</pre>
+<pre class="prompt"><b>STL_04</b>
+SCENE: Create a high-end professional exploded-view diagram based on the product in <span class="v">[STL01_BLUE]</span>.
+MATERIAL DATA: <span class="v">Surface: Cold Ice Silk; Middle: quilted cotton filling; Back: Breathable Mesh</span>. ...</pre>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MA TRẬN ============ -->
+<section id="ma-tran">
+  <div class="wrap">
+    <h2>Ma trận Variant × Style</h2>
+    <p class="sec-sub">Mỗi variant nên có đủ 5 style. Với N variant → cần <b>N × 5</b> ảnh. Ví dụ trên: 2 variant = 10 ảnh.</p>
+    <div class="table-scroll">
+      <table class="matrix">
+        <thead><tr><th>Variant</th><th>STL_01</th><th>STL_02</th><th>STL_03</th><th>STL_04</th><th>STL_05</th></tr></thead>
+        <tbody>
+          <tr><td>🔵 Xanh</td><td class="small">COOLMAT_BLUE_STL01</td><td class="small">…_STL02</td><td class="small">…_STL03</td><td class="small">…_STL04</td><td class="small">…_STL05</td></tr>
+          <tr><td>⚪ Xám</td><td class="small">COOLMAT_GREY_STL01</td><td class="small">…_STL02</td><td class="small">…_STL03</td><td class="small">…_STL04</td><td class="small">…_STL05</td></tr>
+          <tr><td class="muted">+ Variant mới…</td><td class="chk">✓</td><td class="chk">✓</td><td class="chk">✓</td><td class="chk">✓</td><td class="chk">✓</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 style="margin-top:28px">Phân phối đa kênh</h3>
+    <div class="table-scroll" style="margin-top:10px">
+      <table>
+        <thead><tr><th>Style</th><th>Kênh sử dụng</th><th>Vai trò trong phễu</th></tr></thead>
+        <tbody>
+          <tr><td><span class="tag t1">STL_01</span></td><td>Ảnh đại diện sàn TMĐT (Shopee, Lazada, TikTok Shop, Amazon)</td><td>Gây ấn tượng, tăng CTR</td></tr>
+          <tr><td><span class="tag t2">STL_02</span></td><td>Facebook, Instagram, quảng cáo social</td><td>Kể câu chuyện, tạo cảm xúc</td></tr>
+          <tr><td><span class="tag t3">STL_03</span></td><td>Gallery / mô tả chi tiết sản phẩm</td><td>Chứng minh công năng</td></tr>
+          <tr><td><span class="tag t4">STL_04</span></td><td>Gallery / mô tả chi tiết sản phẩm</td><td>Chứng minh chất liệu</td></tr>
+          <tr><td><span class="tag t5">STL_05</span></td><td>Ảnh cuối gallery, mô tả chi tiết</td><td>Chốt size → giảm đổi trả</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LỢI ÍCH ============ -->
+<section id="loi-ich">
+  <div class="wrap">
+    <h2>Vì sao mỗi Variant cần đủ 5 Style?</h2>
+    <div class="grid g2" style="margin-top:18px">
+      <div class="good"><b>📈 Tăng tỷ lệ chuyển đổi</b><br><span class="small">Mỗi style nhắm một nhu cầu: STL_01 gây ấn tượng, STL_02 kể câu chuyện, STL_03 & STL_04 chứng minh chất lượng kỹ thuật, STL_05 chốt hạ quyết định chọn size.</span></div>
+      <div class="good"><b>🤝 Xây dựng sự tin tưởng</b><br><span class="small">Khách thấy sự đầu tư kỹ lưỡng cho từng màu, từng kích cỡ → cảm nhận uy tín thương hiệu.</span></div>
+      <div class="good"><b>🛒 Trải nghiệm mua sắm liền mạch</b><br><span class="small">Khách không cần "đoán" mẫu màu này có tính năng giống mẫu màu kia không – mọi thông tin đã được thị giác hóa cho từng loại.</span></div>
+      <div class="good"><b>📡 Tối ưu hóa đa kênh</b><br><span class="small">STL_01 cho ảnh đại diện sàn TMĐT, STL_02 cho Facebook/Instagram, các Infographic cho phần mô tả chi tiết.</span></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">Quy trình 5 Style Quảng cáo Thú cưng · STL_01 → STL_05</div></footer>
+
+<script>
+(function(){
+  var tpl = function(a, g){
+    return 'Place the pet from <span class="v">[Reference Image]</span> into the center of the product in the <span class="v">[Base Image]</span>. The pet is <span class="v">' + a + '</span> The product is captured from a <span class="v">' + g + '</span>, filling the frame from left to right edges to highlight the product\'s features. Background: pure white studio. Lighting: high-end 3D studio lighting with realistic soft contact shadows. Style: professional commercial catalog, 8k, crisp textures.';
+  };
+  var act = document.getElementById('b-action'), ang = document.getElementById('b-angle'), out = document.getElementById('p-stl01');
+  function render(){ out.innerHTML = tpl(act.value, ang.value); addCopy(out); }
+  act.addEventListener('change', render); ang.addEventListener('change', render);
+
+  function addCopy(pre){
+    var b = document.createElement('button');
+    b.className = 'copy'; b.type = 'button'; b.textContent = 'Copy';
+    b.addEventListener('click', function(){
+      var clone = pre.cloneNode(true); var btn = clone.querySelector('.copy'); if(btn) btn.remove();
+      var text = clone.textContent.trim();
+      var done = function(){ b.textContent = 'Đã copy ✓'; setTimeout(function(){ b.textContent = 'Copy'; }, 1500); };
+      if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, done); else done();
+    });
+    pre.appendChild(b);
+  }
+  document.querySelectorAll('pre.prompt').forEach(function(p){ if(p.id !== 'p-stl01') addCopy(p); });
+  render();
+
+  // Ảnh ví dụ thật (images/stl02.jpg ... stl05.jpg) thay cho bản mô phỏng nếu có file
+  document.querySelectorAll('#set img.real').forEach(function(img){
+    var lbl = img.parentNode.querySelector('.lbl');
+    img.onload = function(){ img.style.display = 'block'; lbl.textContent = img.dataset.stl.toUpperCase().replace('STL','STL_') + ' · ảnh ví dụ'; };
+    img.src = 'images/' + img.dataset.stl + '.jpg';
+  });
+})();
+</script>
+</body>
+</html>
