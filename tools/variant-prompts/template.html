@@ -95,6 +95,14 @@ pre.prompt{overflow-wrap:anywhere;background:var(--code-bg);color:var(--code-tex
 .filters{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
 .filters input,.filters select{font:15px "Be Vietnam Pro",sans-serif;padding:9px 12px;border-radius:10px;border:1px solid var(--border);background:var(--surface);color:var(--text);min-width:0}
 .filters input{flex:1 1 220px}
+.seo{margin-top:14px;border:1px solid var(--border);border-radius:12px;background:var(--bg);padding:12px 14px}
+.seo>summary{font-weight:600;color:var(--text);font-size:15px}
+.seo .seo-title{font-size:16px;font-weight:600;margin:10px 0 4px;overflow-wrap:anywhere}
+.seo .cnt{font:500 12px "JetBrains Mono",monospace;color:var(--muted)}
+.seo .cnt.warn{color:var(--s5)}
+.seo .kw{font:500 12px/1 "Be Vietnam Pro",sans-serif;padding:5px 9px;border-radius:999px;background:var(--accent-soft);color:var(--text);border:1px solid var(--border)}
+.seo-preview{background:#ffffff;color:#333333;border:1px solid #e8e8e8;border-radius:10px;padding:18px 20px;margin-top:10px;max-height:520px;overflow:auto}
+.seo .conflict{font-size:13px;color:var(--muted);margin-top:8px}
 footer{padding:30px 0 50px;color:var(--muted);font-size:14px}
 @media (max-width:520px){.phead{grid-template-columns:64px 1fr}.phead img{width:64px;height:64px}}
 </style>
@@ -106,6 +114,7 @@ footer{padding:30px 0 50px;color:var(--muted);font-size:14px}
     <div class="eyebrow">STL_01 → STL_05 theo từng mẫu mã</div>
     <h1>Prompt theo Variant</h1>
     <p class="lead">Mỗi sản phẩm CJ được thống kê số variant. Các variant chỉ khác <b>size / chiều dài / số lượng / phích cắm</b> được gộp lại, chỉ giữ các <b>mẫu mã khác nhau</b> (màu, kiểu dáng). Mỗi mẫu mã có đủ <b>5 prompt STL_01 → STL_05</b> theo <a href="pet-ad-workflow.html#quy-trinh">quy trình 5 Style</a>: STL_01 và STL_02 đã gắn link ảnh variant (<code>[Base Image]</code>) và ảnh pet (<code>[Reference Image]</code>); STL_03, 04, 05 dùng ảnh STL_01 bạn đã tạo cho variant đó (<code>[STL_01 Image]</code>, tên file gợi ý <code>{SKU}_{VARIANT}_STL01.jpg</code>).</p>
+    <p class="lead">Mỗi sản phẩm có thêm khối <b>🛒 SEO listing</b>: title chứa từ khóa chính và mô tả HTML chuẩn SEO (tiếng Anh, tông sáng, chữ vừa), viết <b>chỉ từ dữ liệu CJ</b>, có nút copy title / HTML / keywords.</p>
     <div class="stats" id="stats"></div>
   </div>
 </header>
@@ -171,6 +180,22 @@ var DATA = /*__DATA__*/null;
   });
   $('summary').innerHTML = rows;
 
+  function seoBlock(p){
+    var s = p.seo; if (!s) return '';
+    var n = s.title.length;
+    return '<details class="seo" open><summary>🛒 SEO listing (title + HTML description, English)</summary>' +
+      '<div class="seo-title">' + esc(s.title) + '</div>' +
+      '<div class="row"><span class="cnt' + (n > 150 ? ' warn' : '') + '">' + n + ' ký tự</span>' +
+      '<button class="btn" type="button" data-seo="' + esc(p.sku) + ':title">📋 Copy title</button>' +
+      '<button class="btn" type="button" data-seo="' + esc(p.sku) + ':html">📋 Copy HTML description</button>' +
+      '<button class="btn ghost" type="button" data-seo="' + esc(p.sku) + ':kw">Copy keywords</button></div>' +
+      '<div class="chips" style="margin-top:8px">' + s.keywords.map(function(k){ return '<span class="kw">' + esc(k) + '</span>'; }).join('') + '</div>' +
+      '<div class="seo-preview">' + s.html + '</div>' +
+      '<details style="margin-top:8px"><summary>Xem code HTML</summary><pre class="prompt">' + esc(s.html) + '</pre></details>' +
+      (s.conflicts ? '<div class="conflict">⚠️ Dữ liệu CJ mâu thuẫn: ' + esc(s.conflicts) + '</div>' : '') +
+      '</details>';
+  }
+
   var html = '';
   DATA.categories.forEach(function(c){
     html += '<section id="' + esc(c.folder) + '" data-cat="' + esc(c.folder) + '"><div class="wrap"><h2>' + esc(c.folder.replace(/_/g, ' ')) + '</h2>';
@@ -186,7 +211,7 @@ var DATA = /*__DATA__*/null;
         '<p class="small" style="margin:0">Pet: <b>' + esc(pet.name) + '</b> · Căn cứ: <span class="muted">' + esc(p.basis) + '</span></p>' +
         '<div class="row" style="margin-top:8px"><button class="btn ghost" type="button" data-copyall="' + esc(p.sku) + '">📋 Copy toàn bộ ' + p.designs.length + ' mẫu mã × 5 STL</button>' +
         (p.url ? '<a class="small" href="' + esc(p.url) + '" target="_blank" rel="noopener">Trang CJ ↗</a>' : '') + '</div>' +
-        '</div></div><div class="designs">';
+        '</div></div>' + seoBlock(p) + '<div class="designs">';
       p.designs.forEach(function(g, i){
         html += '<div class="design"><div class="imgs"><img loading="lazy" src="' + esc(g.images[0] || p.bigImage) + '" alt="' + esc(g.label) + '">' +
           '<img class="petimg" loading="lazy" src="pets/' + esc(pet.file) + '" alt="' + esc(pet.name) + '"></div>' +
@@ -221,7 +246,10 @@ var DATA = /*__DATA__*/null;
     var setText = function(p, g){
       return g.prompts.map(function(pr){ return '===== ' + p.sku + ' · ' + g.label + ' · ' + pr.stl + ' – ' + pr.name + ' =====\n' + pr.text; }).join('\n\n');
     };
-    if (b.dataset.copy) {
+    if (b.dataset.seo) {
+      var ks = b.dataset.seo.split(':'), sp = bySku[ks[0]].seo;
+      copy(ks[1] === 'title' ? sp.title : ks[1] === 'kw' ? sp.keywords.join(', ') : sp.html, b);
+    } else if (b.dataset.copy) {
       var k = b.dataset.copy.split(':'); copy(bySku[k[0]].designs[+k[1]].prompts[+k[2]].text, b);
     } else if (b.dataset.copyset) {
       var k2 = b.dataset.copyset.split(':'), p0 = bySku[k2[0]]; copy(setText(p0, p0.designs[+k2[1]]), b);

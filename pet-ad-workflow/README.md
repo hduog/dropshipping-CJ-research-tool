@@ -18,3 +18,5 @@ Trang: `variant-prompts.html` (nút "🧩 Prompt theo Variant" trên nav). Với
 Tạo lại sau khi thêm/sửa dữ liệu CJ: `python3 tools/variant-prompts/build.py`.
 Sản phẩm mới cần thêm 1 mục trong `tools/variant-prompts/products.json` (loại sản phẩm, pet, cách tương tác, căn cứ trích từ dữ liệu CJ).
 Kết quả cũng được ghi ra `variant-prompts.json` và `CJ_*/VARIANT_PROMPTS.md`.
+
+**SEO listing** trên `variant-prompts.html`: mỗi sản phẩm có title chứa từ khóa chính + mô tả HTML chuẩn SEO (tiếng Anh, style inline tông sáng), nút copy title / HTML / keywords. Nội dung nằm ở `tools/variant-prompts/seo.json`, viết chỉ từ dữ liệu CJ; bản Markdown nằm ở `CJ_*/SEO_LISTING.md`.

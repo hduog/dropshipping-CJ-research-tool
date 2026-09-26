@@ -323,8 +323,66 @@ def build_prompts(p, g, pet):
     return out
 
 
+SEO_CSS = {
+    "wrap": "font-family:inherit;font-size:15px;line-height:1.65;color:#333333;max-width:820px",
+    "h2": "font-size:20px;line-height:1.35;color:#222222;margin:0 0 10px;font-weight:600",
+    "h3": "font-size:16px;color:#222222;margin:22px 0 8px;font-weight:600",
+    "p": "margin:0 0 12px",
+    "ul": "margin:0 0 12px;padding-left:20px",
+    "li": "margin:0 0 6px",
+    "table": "width:100%;border-collapse:collapse;font-size:14px;margin:0 0 12px",
+    "th": "text-align:left;padding:8px 10px;border:1px solid #e8e8e8;background:#f7f8fa;font-weight:600;color:#444444;width:34%",
+    "thh": "text-align:left;padding:8px 10px;border:1px solid #e8e8e8;background:#f7f8fa;font-weight:600;color:#444444",
+    "td": "padding:8px 10px;border:1px solid #e8e8e8",
+    "note": "font-size:13px;color:#777777;margin:0 0 6px",
+}
+
+
+def seo_html(p, s):
+    """Mô tả sản phẩm HTML chuẩn SEO: 1 H2, H3 cho từng phần, danh sách, bảng thông số. Style inline, tông sáng."""
+    e = lambda t: html.escape(str(t), quote=False)
+    c = SEO_CSS
+    out = ['<div class="product-description" style="%s">' % c["wrap"],
+           '<h2 style="%s">%s</h2>' % (c["h2"], e(s["title"])),
+           '<p style="%s">%s</p>' % (c["p"], e(s["intro"]))]
+    out.append('<h3 style="%s">Key Features</h3><ul style="%s">' % (c["h3"], c["ul"]))
+    out += ['<li style="%s"><strong>%s:</strong> %s</li>' % (c["li"], e(h), e(t)) for h, t in s["highlights"]]
+    out.append('</ul>')
+    out.append('<h3 style="%s">Specifications</h3><table style="%s"><tbody>' % (c["h3"], c["table"]))
+    out += ['<tr><th scope="row" style="%s">%s</th><td style="%s">%s</td></tr>' % (c["th"], e(k), c["td"], e(v)) for k, v in s["specs"]]
+    out.append('</tbody></table>')
+    if s.get("sizes"):
+        head, rows = s["sizes"][0], s["sizes"][1:]
+        out.append('<h3 style="%s">Size Guide</h3><table style="%s"><thead><tr>%s</tr></thead><tbody>' % (
+            c["h3"], c["table"], "".join('<th scope="col" style="%s">%s</th>' % (c["thh"], e(h)) for h in head)))
+        out += ['<tr>%s</tr>' % "".join('<td style="%s">%s</td>' % (c["td"], e(v)) for v in r) for r in rows]
+        out.append('</tbody></table>')
+        if s.get("sizesNote"):
+            out.append('<p style="%s">%s</p>' % (c["note"], e(s["sizesNote"])))
+        if s.get("howToMeasure"):
+            out.append('<p style="%s"><strong>How to measure:</strong> %s</p>' % (c["p"], e(s["howToMeasure"])))
+    if s.get("uses"):
+        out.append('<h3 style="%s">Perfect For</h3><ul style="%s">' % (c["h3"], c["ul"]))
+        out += ['<li style="%s">%s</li>' % (c["li"], e(u)) for u in s["uses"]]
+        out.append('</ul>')
+    if s.get("installation"):
+        out.append('<h3 style="%s">How to Install</h3><ol style="%s">' % (c["h3"], c["ul"]))
+        out += ['<li style="%s">%s</li>' % (c["li"], e(u)) for u in s["installation"]]
+        out.append('</ol>')
+    out.append('<h3 style="%s">Package Includes</h3><p style="%s">%s</p>' % (c["h3"], c["p"], e(s["package"])))
+    for n in s.get("notes") or []:
+        out.append('<p style="%s">Note: %s</p>' % (c["note"], e(n)))
+    out.append('</div>')
+    return "\n".join(out)
+
+
+def seo_block(p, s):
+    return {"title": s["title"], "keywords": s["keywords"], "html": seo_html(p, s), "conflicts": s.get("conflicts")}
+
+
 def main():
     cfg_all = json.load(open(os.path.join(HERE, "products.json"), encoding="utf-8"))
+    seo_all = json.load(open(os.path.join(HERE, "seo.json"), encoding="utf-8"))
     pets = {p["id"]: p for p in json.load(open(os.path.join(ROOT, "pet-ad-workflow/pets/pets.json"), encoding="utf-8"))}
     categories = []
     for cat_dir in sorted(glob.glob(os.path.join(ROOT, "CJ_[0-9]*"))):
@@ -351,6 +409,9 @@ def main():
                 "bundles": bundles, "excluded": excluded,
             }
             p["stl"] = cfg["stl"]
+            if sku not in seo_all:
+                raise SystemExit("Thiếu nội dung SEO cho SKU %s trong seo.json" % sku)
+            p["seo"] = seo_block(p, seo_all[sku])
             for g in designs:
                 g["prompts"] = build_prompts(p, g, pet)
             p["designs"] = designs
@@ -363,6 +424,7 @@ def main():
         json.dump(out, fh, ensure_ascii=False, indent=1)
     for cat in categories:
         write_md(cat, pets)
+        write_seo_md(cat)
     write_html(out)
     for cat in categories:
         for p in cat["products"]:
@@ -394,6 +456,20 @@ def write_md(cat, pets):
                 L += ["", "#### %s – %s" % (pr["stl"], pr["name"]), ""]
                 L += ["> " + pr["text"]] if pr.get("skip") else ["```text", pr["text"], "```"]
     with open(os.path.join(ROOT, cat["folder"], "VARIANT_PROMPTS.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(L) + "\n")
+
+
+def write_seo_md(cat):
+    L = ["# " + cat["folder"] + " – SEO listing (title + HTML description)", "",
+         "Tự tạo bởi `tools/variant-prompts/build.py` từ `tools/variant-prompts/seo.json` "
+         "(nội dung viết chỉ từ dữ liệu CJ). Xem bản xem trước + nút copy: "
+         "[variant-prompts.html](" + PAGES + "pet-ad-workflow/variant-prompts.html)."]
+    for p in cat["products"]:
+        s = p["seo"]
+        L += ["", "## %s · %s" % (p["rank"], p["sku"]), "",
+              "**Title** (%d ký tự):" % len(s["title"]), "", "```text", s["title"], "```", "",
+              "**Keywords:** " + ", ".join(s["keywords"]), "", "**Description (HTML):**", "", "```html", s["html"], "```"]
+    with open(os.path.join(ROOT, cat["folder"], "SEO_LISTING.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(L) + "\n")
 
 
