@@ -1,0 +1,1952 @@
+{
+ "_readme": [
+  "Nội dung SEO (tiếng Anh) cho từng SKU, viết tay CHỈ từ dữ liệu CJ trong CJ_*/<rank>_<SKU>/02_get_product_detail.json (productNameEn, description, material, variantKey).",
+  "Không thêm tính năng, số liệu, chứng nhận hay lời hứa không có trong dữ liệu CJ. Ghi chú vận chuyển/chính sách của nhà bán trong description bị bỏ qua.",
+  "Khi dữ liệu CJ tự mâu thuẫn (vd tên ghi 'stainless steel' nhưng spec ghi 'Plastic'), dùng giá trị trong phần spec và không nhắc giá trị còn lại; trường 'conflicts' ghi lại để kiểm tra.",
+  "title: tiêu đề sản phẩm chứa các từ khóa chính (lấy từ tên CJ + danh mục CJ). keywords: danh sách từ khóa. intro/highlights/specs/uses/package/notes: dựng thành HTML mô tả bởi build.py."
+ ],
+ "CJGY1281703": {
+  "title": "Silicone Dog Bath Brush with Shampoo Dispenser – Pet Grooming Massage Brush for Dogs & Cats",
+  "keywords": [
+   "dog bath brush",
+   "shampoo dispenser brush",
+   "silicone pet grooming brush",
+   "dog massage brush",
+   "cat bath brush",
+   "pet grooming supplies"
+  ],
+  "intro": "Make bath time easier with this silicone dog bath brush. Pour diluted shampoo into the built-in reservoir, then brush it through your pet's coat while you give a soothing massage.",
+  "highlights": [
+   [
+    "Built-in shampoo dispenser",
+    "Open the small ring on top and pour in shampoo and water. Dilute the shampoo in advance and spread it through the fur as you brush."
+   ],
+   [
+    "Gentle on sensitive skin",
+    "Soft silicone bristles do not pull on hair, so the brush suits pets with sensitive skin."
+   ],
+   [
+    "Bath and massage in one",
+    "Grooming becomes a soothing massage that gets your pet clean and helps keep skin and coat healthy."
+   ],
+   [
+    "Cleaner, shinier coat",
+    "Leaves skin clean and helps restore sheen and luster to the coat."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Silicone bath / massage brush"
+   ],
+   [
+    "Material",
+    "Silicone"
+   ],
+   [
+    "Size",
+    "7.9 × 8.5 × 5.5 cm"
+   ],
+   [
+    "Weight",
+    "About 85 g"
+   ],
+   [
+    "Shapes",
+    "Round, square, heart"
+   ],
+   [
+    "Colors",
+    "Pink, green, yellow, beige, blue"
+   ]
+  ],
+  "uses": [
+   "Shampooing dogs and cats at bath time",
+   "Massaging your pet during grooming",
+   "Brushing pets with sensitive skin"
+  ],
+  "package": "1 × silicone bath brush",
+  "notes": []
+ },
+ "CJGY1035039": {
+  "title": "Reusable Pet Hair Remover Brush – Self-Cleaning Lint Roller for Dog & Cat Fur on Sofa, Clothes and Bedding",
+  "keywords": [
+   "pet hair remover",
+   "reusable lint roller",
+   "dog hair remover brush",
+   "cat fur remover",
+   "self-cleaning lint brush",
+   "furniture hair removal"
+  ],
+  "intro": "Remove dog and cat hair from sofas, clothes and bedding without sticky refills. Swipe across the fabric, and the fur collects in the built-in bin.",
+  "highlights": [
+   [
+    "Easy hair removal",
+    "Swipe over the surface and the hair is collected in the dustbin. Press the top button to empty it without touching the dirt."
+   ],
+   [
+    "Self-cleaning",
+    "Swivel left and right to quickly clear hair from the brush."
+   ],
+   [
+    "Works on many fabrics",
+    "Use on cotton, linen, wool and more: sofas, clothes, bedding and comforters."
+   ],
+   [
+    "Reusable and eco-friendly",
+    "Electrostatic dry cleaning with no disposable sheets. Reusable, economical and gentle on clothing."
+   ],
+   [
+    "Travel friendly",
+    "Compact enough for a bag or the car, so you can remove fur anywhere."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Pet hair removal brush"
+   ],
+   [
+    "Working principle",
+    "Electrostatic adsorption"
+   ],
+   [
+    "Size",
+    "4.3 × 4.3 × 18.3 cm"
+   ],
+   [
+    "Colors",
+    "White, green, pink, blue"
+   ]
+  ],
+  "uses": [
+   "Removing pet hair from sofas and upholstery",
+   "Cleaning fur off clothes before going out",
+   "Refreshing bedding and comforters",
+   "Quick clean-ups in the car"
+  ],
+  "package": "1 × hair removal brush",
+  "notes": [
+   "Size is measured by hand; small deviations are possible."
+  ]
+ },
+ "CJGY1739674": {
+  "title": "Pet Grooming Comb for Cats & Dogs – Open-Knot Massage Hair Brush for Shedding and Tangles",
+  "keywords": [
+   "pet grooming comb",
+   "cat hair brush",
+   "dog grooming brush",
+   "detangling comb",
+   "open knot brush",
+   "pet massage comb"
+  ],
+  "intro": "A simple grooming comb for everyday brushing. Regular combing removes loose hair, prevents knots and gives your cat or dog a relaxing massage.",
+  "highlights": [
+   [
+    "Less swallowed hair",
+    "Regular combing removes loose hair so your pet swallows less of it while self-grooming."
+   ],
+   [
+    "Prevents knots",
+    "Keeps the coat from knotting and helps prevent bacteria from building up in tangled fur."
+   ],
+   [
+    "Relaxing massage",
+    "Combing promotes blood circulation and gives your pet a massage it can enjoy."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Comb brush"
+   ],
+   [
+    "Material",
+    "Plastic"
+   ],
+   [
+    "Size",
+    "18 × 9.5 cm"
+   ],
+   [
+    "Colors",
+    "Smoke grey, pink, green"
+   ]
+  ],
+  "uses": [
+   "Daily brushing of cats and dogs",
+   "Loosening knots and tangles",
+   "Reducing loose hair around the home"
+  ],
+  "package": "1 × comb",
+  "notes": [],
+  "conflicts": "productNameEn says 'Stainless Steel Comb'; description spec says Material: Plastic. Material is shown as Plastic."
+ },
+ "CJMY1752960": {
+  "title": "2-in-1 Pet Hair Dryer and Comb – 300W Dog & Cat Grooming Blower Brush, 40,000 RPM",
+  "keywords": [
+   "pet hair dryer",
+   "dog hair dryer brush",
+   "cat grooming dryer",
+   "blow and comb pet dryer",
+   "dog grooming blower",
+   "pet grooming tool"
+  ],
+  "intro": "Dry and comb your dog or cat at the same time with this integrated blowing-and-combing grooming machine.",
+  "highlights": [
+   [
+    "Blow and comb together",
+    "An integrated dryer and comb lets you dry and brush the coat in one step."
+   ],
+   [
+    "300W motor, 40,000 rpm",
+    "Rated power 300W with a motor speed of 40,000 rpm."
+   ],
+   [
+    "Compact size",
+    "About 400 g net weight, 260 × 95 × 95 mm."
+   ],
+   [
+    "Plug options",
+    "Available with CN, US, EU, AU and UK plugs."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Pet hair dryer"
+   ],
+   [
+    "Rated power",
+    "300W"
+   ],
+   [
+    "Rated voltage",
+    "220V"
+   ],
+   [
+    "Motor speed",
+    "40,000 rpm"
+   ],
+   [
+    "Material",
+    "ABS + PA + 30% GF"
+   ],
+   [
+    "Size",
+    "260 × 95 × 95 mm"
+   ],
+   [
+    "Net weight",
+    "About 400 g"
+   ],
+   [
+    "Colors",
+    "Simple White, Elegant Purple"
+   ]
+  ],
+  "uses": [
+   "Drying dogs and cats after a bath",
+   "Combing and drying the coat in one session",
+   "At-home pet grooming"
+  ],
+  "package": "1 × hair dryer + 1 × conversion plug",
+  "notes": [
+   "Rated power supply is 220V. Choose the plug type that matches your region."
+  ]
+ },
+ "CJYD2332008": {
+  "title": "Pet Hair Remover Gloves – Dual-Sided Deshedding Grooming Mitt for Dogs, Cats & Rabbits",
+  "keywords": [
+   "pet grooming gloves",
+   "deshedding glove",
+   "pet hair remover mitt",
+   "dog grooming glove",
+   "cat hair glove",
+   "rabbit grooming"
+  ],
+  "intro": "Groom while you pet. These dual-sided grooming gloves remove loose fur and massage your pet at the same time, for long, short or curly coats.",
+  "highlights": [
+   [
+    "Dual-sided cleaning",
+    "Both sides remove loose fur quickly for a thorough clean."
+   ],
+   [
+    "Gentle silicone bristles",
+    "Soft bristles care for your pet's skin and make grooming enjoyable."
+   ],
+   [
+    "Sturdy build",
+    "Breathable mesh fabric and TPR: thick, abrasion-resistant and bite-proof for long-term use."
+   ],
+   [
+    "Comfortable fit",
+    "Flexible wrist cuffs hold the glove securely without extra straps and fit various hand sizes."
+   ],
+   [
+    "Multi-purpose",
+    "For everyday grooming, cleaning and bath time."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Pet hair removal gloves"
+   ],
+   [
+    "Material",
+    "Mesh fabric + TPR"
+   ],
+   [
+    "Suitable for",
+    "Dogs, cats and rabbits with long, short or curly hair"
+   ],
+   [
+    "Colors",
+    "Light brown, dark brown, black"
+   ]
+  ],
+  "uses": [
+   "Removing loose hair during shedding season",
+   "Massaging your pet while grooming",
+   "Bath time washing",
+   "Wiping dirt off the coat"
+  ],
+  "package": "1 × hair removal glove",
+  "notes": []
+ },
+ "CJMY1870790": {
+  "title": "Remote Control Interactive Cat Toy Car – USB Rechargeable, Automatic Self-Moving with Obstacle Avoidance",
+  "keywords": [
+   "interactive cat toy",
+   "remote control cat toy",
+   "automatic cat toy",
+   "usb rechargeable cat toy",
+   "cat chasing toy",
+   "indoor cat exercise"
+  ],
+  "intro": "Keep indoor cats active and entertained. This interactive toy car moves on its own or by remote control, triggering your cat's hunting and chasing instincts.",
+  "highlights": [
+   [
+    "2 play modes",
+    "Auto mode: the toy moves, shakes and bounces on its own once switched on. Remote mode: steer it yourself for extra fun."
+   ],
+   [
+    "Smart obstacle avoidance",
+    "A built-in motion sensor and obstacle avoidance system help it navigate around your home and perform 360° rolls."
+   ],
+   [
+    "Encourages exercise",
+    "Fast, unpredictable moves promote hunting, chasing and running, which helps prevent boredom and obesity."
+   ],
+   [
+    "Quiet operation",
+    "Plays quietly, and works on wood, tile and hard floors or thin carpets."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Interactive cat toy"
+   ],
+   [
+    "Material",
+    "Plastic"
+   ],
+   [
+    "Power",
+    "USB charging"
+   ],
+   [
+    "Modes",
+    "Automatic / remote control"
+   ],
+   [
+    "Styles",
+    "Orange sports car, blue running car"
+   ]
+  ],
+  "uses": [
+   "Daily play for indoor cats",
+   "Exercise and energy release",
+   "Mental stimulation when you are busy",
+   "A gift for cat lovers"
+  ],
+  "package": "1 × cat toy + 1 × remote control",
+  "notes": [],
+  "conflicts": "Overview says 'made of high-quality silicone'; product information says Material: Plastic. Material is shown as Plastic."
+ },
+ "CJGY1703014": {
+  "title": "Indestructible Dog Chew Toy Bone – TPR Teeth Cleaning Bite-Resistant Chew Toy for Small to Large Dogs",
+  "keywords": [
+   "dog chew toy",
+   "indestructible dog bone",
+   "dog teeth cleaning toy",
+   "tpr chew toy",
+   "bite resistant dog toy",
+   "teething toy for dogs"
+  ],
+  "intro": "A tough TPR chew bone that satisfies your dog's natural urge to chew while helping keep teeth and gums clean.",
+  "highlights": [
+   [
+    "Tough TPR material",
+    "Durable TPR stands up to chewing and molar instincts."
+   ],
+   [
+    "Cleans teeth while chewing",
+    "Chewing massages the gums, helps reduce tartar and freshens breath for better oral health."
+   ],
+   [
+    "Relieves boredom",
+    "Helps relieve anxiety and stress, burns off excess energy and reduces chewing on furniture."
+   ],
+   [
+    "Easy to clean",
+    "Rinse and reuse. Small and portable for indoor and outdoor play."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Dog chew toy (bone shape)"
+   ],
+   [
+    "Material",
+    "TPR"
+   ],
+   [
+    "Colors",
+    "Blue, pink, green"
+   ],
+   [
+    "Suitable for",
+    "Small, medium and large breeds such as Husky, Shepherd, Samoyed, Shiba Inu and Labrador"
+   ]
+  ],
+  "uses": [
+   "Daily chewing and teething",
+   "Dental care between brushing",
+   "Keeping dogs busy indoors or outdoors"
+  ],
+  "package": "1 × chew toy",
+  "notes": [
+   "Color details may vary (shipped randomly)."
+  ]
+ },
+ "CJYD2058496": {
+  "title": "Cooling Pet Water Bed – Inflatable Water Play Mat & Ice Pad for Cats and Puppies, Summer Cooling Cushion",
+  "keywords": [
+   "pet water bed",
+   "cat water play mat",
+   "cooling pet pad",
+   "summer ice pad for pets",
+   "sensory water mat for cats",
+   "inflatable water cushion"
+  ],
+  "intro": "A water-filled play mat that gives cats a cool, comfortable sensory experience, with fun sea-life designs that catch their attention.",
+  "highlights": [
+   [
+    "Cool sensory play",
+    "A cool and comfortable sensory experience for pets on warm days."
+   ],
+   [
+    "Eye-catching designs",
+    "Fish and sea-life designs attract the attention of pets and children."
+   ],
+   [
+    "Thick and durable",
+    "Enhanced thickness for long-lasting use."
+   ],
+   [
+    "Two sizes",
+    "Small (about 65 cm) and large (about 100 cm) water-injection pads, plus plain ice pads."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Inflatable water-injection ice pad / cat water bed"
+   ],
+   [
+    "Material",
+    "PVC"
+   ],
+   [
+    "Designs",
+    "Shark Pirate Ship, Pond World, Undersea World, Seal Dolphin, Ocean World, plain ice pad"
+   ],
+   [
+    "Sizes",
+    "About 65 cm (small), about 100 cm (large)"
+   ],
+   [
+    "Suitable for",
+    "Cats"
+   ]
+  ],
+  "uses": [
+   "Cooling spot for cats in summer",
+   "Sensory play mat",
+   "Pet bed or cage mat"
+  ],
+  "package": "1 × cat water bed",
+  "notes": []
+ },
+ "CJMY1700579": {
+  "title": "2-in-1 Electric Cat Turntable Toy with Feather – Interactive Self-Play Cat Toy for Indoor Cats",
+  "keywords": [
+   "cat turntable toy",
+   "interactive cat toy",
+   "electric cat toy with feather",
+   "self play cat toy",
+   "indoor cat toy",
+   "cat track toy"
+  ],
+  "intro": "An electronic turntable toy with a feather that engages your cat's natural hunting instincts, so it can play on its own.",
+  "highlights": [
+   [
+    "Engages natural instincts",
+    "Interactive design built to trigger your cat's instinct to chase and catch."
+   ],
+   [
+    "Cord-free play",
+    "High-capacity electronic toy that does not need to stay attached to a charger to run."
+   ],
+   [
+    "Paw-safe track",
+    "Smooth, thick track edges help keep your cat's paws safe."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Electric cat turntable toy with feather"
+   ],
+   [
+    "Material",
+    "Plastic"
+   ],
+   [
+    "Weight",
+    "475 g"
+   ],
+   [
+    "Box size",
+    "20 × 24 × 6.8 cm"
+   ],
+   [
+    "Colors",
+    "Orange-blue, yellow-green"
+   ]
+  ],
+  "uses": [
+   "Self-play when you are away or busy",
+   "Daily exercise for indoor cats",
+   "Keeping kittens and adult cats entertained"
+  ],
+  "package": "1 × turntable",
+  "notes": [
+   "Battery not included."
+  ]
+ },
+ "CJGY1157230": {
+  "title": "Dog Flying Disc Toy – Interactive Frisbee for Fetch, Training and Outdoor Play, 20 cm",
+  "keywords": [
+   "dog flying disc",
+   "dog frisbee",
+   "interactive dog toy",
+   "dog training toy",
+   "fetch toy for dogs",
+   "outdoor dog toy"
+  ],
+  "intro": "A lightweight flying disc shaped for dogs, great for fetch, outdoor fitness and training.",
+  "highlights": [
+   [
+    "Designed for dogs",
+    "Disc shape made specifically for dogs to catch."
+   ],
+   [
+    "Fun fitness",
+    "Playing fetch is good exercise and trains eye, brain and paw coordination."
+   ],
+   [
+    "Lightweight",
+    "Only about 40 g with a 20 cm diameter."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Dog flying disc"
+   ],
+   [
+    "Material",
+    "Environmentally friendly plastic"
+   ],
+   [
+    "Diameter",
+    "20 cm"
+   ],
+   [
+    "Weight",
+    "About 40 g"
+   ],
+   [
+    "Colors",
+    "Yellow / blue / green / pink (shipped randomly)"
+   ],
+   [
+    "Suitable for",
+    "Dogs"
+   ]
+  ],
+  "uses": [
+   "Fetch games in the park or backyard",
+   "Dog training sessions",
+   "Daily outdoor exercise"
+  ],
+  "package": "1 × flying disc",
+  "notes": [
+   "Color is shipped randomly."
+  ],
+  "conflicts": "productNameEn says 'Silicone'; description spec says environmentally friendly plastic. Material is shown as plastic."
+ },
+ "CJJJCWGY04596": {
+  "title": "Hands-Free Dog Leash Waist Belt – Shock-Absorbing Bungee Leash with Phone Pocket & Water Bottle Holder",
+  "keywords": [
+   "hands free dog leash",
+   "running dog leash",
+   "bungee dog leash",
+   "waist dog leash",
+   "reflective dog leash",
+   "dog walking belt"
+  ],
+  "intro": "Walk or run with your dog while keeping your hands free. The adjustable waist belt carries your phone, keys, treats and water.",
+  "highlights": [
+   [
+    "Adjustable waist belt",
+    "Buckle and strap fit most waist sizes from 28\" to 48\"."
+   ],
+   [
+    "Shock-absorbing bungee leash",
+    "Heavy-duty bungee leash with reflective stitching, length from 39\" to 53.5\"."
+   ],
+   [
+    "Plenty of storage",
+    "Waterproof zippered pocket for most smartphones, inner pocket for keys and cards, zippered treat pouch and elastic water bottle holder."
+   ],
+   [
+    "Strong and visible",
+    "Neoprene fabric with breathable padded mesh lining, 3 heavy-duty D-rings and reflective stripes for safety."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Hands-free leash with waist belt"
+   ],
+   [
+    "Material",
+    "Neoprene fabric + breathable padded mesh"
+   ],
+   [
+    "Waist fit",
+    "28\" – 48\""
+   ],
+   [
+    "Leash length",
+    "39\" – 53.5\""
+   ],
+   [
+    "Colors",
+    "Fluorescent yellow, rose red, blue, black, orange"
+   ]
+  ],
+  "uses": [
+   "Running or jogging with your dog",
+   "Daily walks",
+   "Hiking and outdoor trips",
+   "Walking at night (reflective details)"
+  ],
+  "package": "1 × traction belt",
+  "notes": []
+ },
+ "CJGY1548160": {
+  "title": "Pet Safety Gate Mesh Fence – Portable Magic Gate for Dogs & Cats, Doorways and Stairs",
+  "keywords": [
+   "pet safety gate",
+   "dog gate for doorways",
+   "mesh pet gate",
+   "portable dog fence",
+   "stair gate for pets",
+   "magic gate"
+  ],
+  "intro": "A lightweight mesh gate that keeps pets out of rooms and away from stairs, then rolls away when you don't need it.",
+  "highlights": [
+   [
+    "Wall-friendly",
+    "Rubber bumpers help protect your walls while giving a secure fit."
+   ],
+   [
+    "Quick pass-through",
+    "The woven barrier retracts fully or partially for a quick pass-through."
+   ],
+   [
+    "Tool-free assembly",
+    "Assemble right away without any tools."
+   ],
+   [
+    "Tough see-through mesh",
+    "Woven mesh fabric made to withstand pets."
+   ],
+   [
+    "Portable",
+    "Lightweight, easy to move around the house and takes minimal space when stored."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Mesh safety gate"
+   ],
+   [
+    "Material",
+    "Nylon mesh + stainless steel tube"
+   ],
+   [
+    "Size",
+    "70.9\" × 28.3\" (M)"
+   ],
+   [
+    "Color",
+    "Black"
+   ],
+   [
+    "Recommended for",
+    "Small pets"
+   ]
+  ],
+  "uses": [
+   "Doorways",
+   "Between walls",
+   "Stairwells",
+   "Keeping pets out of the kitchen or other rooms"
+  ],
+  "installation": [
+   "Unfold the woven fabric.",
+   "Stretch the two metal poles to their maximum length.",
+   "Put the two poles into the tunnels on both sides.",
+   "Fix the sticky hooks where you will install the gate.",
+   "Hang the woven fabric on the four hooks."
+  ],
+  "package": "1 × mesh gate",
+  "notes": []
+ },
+ "CJGY1742809": {
+  "title": "Retractable Dog Leash 3M / 5M – Automatic Pet Leash with Anti-Slip Lock for Small & Medium Dogs",
+  "keywords": [
+   "retractable dog leash",
+   "automatic dog leash",
+   "5m dog leash",
+   "tangle free leash",
+   "dog walking leash",
+   "small dog leash"
+  ],
+  "intro": "Give your dog more freedom on walks while you stay in control. The leash extends and retracts automatically and locks with one button.",
+  "highlights": [
+   [
+    "Ergonomic handle and lock",
+    "Comfortable handle with an anti-slip locking button."
+   ],
+   [
+    "Anti-tangle ribbon",
+    "Anti-fray, anti-tangle nylon ribbon adjusts automatically as your dog moves."
+   ],
+   [
+    "Always under control",
+    "An inner spring keeps slight tension on the lead."
+   ],
+   [
+    "Two lengths",
+    "Extends up to 3 m or 5 m."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Retractable pet leash"
+   ],
+   [
+    "Material",
+    "ABS, PC"
+   ],
+   [
+    "Length",
+    "3 m / 5 m"
+   ],
+   [
+    "Suitable for",
+    "Small and medium dogs"
+   ]
+  ],
+  "uses": [
+   "Daily walks",
+   "Park outings",
+   "Training with more roaming space"
+  ],
+  "package": "1 × retractable leash",
+  "notes": [
+   "Keep out of reach of small children. Never let the cord wrap around any part of your body, and keep control of your dog at all times."
+  ]
+ },
+ "CJGY1757445": {
+  "title": "Dog Finger Toothbrush – Silicone Pet Oral Care Brush for Dogs & Cats, Reusable",
+  "keywords": [
+   "dog finger toothbrush",
+   "pet toothbrush",
+   "cat toothbrush",
+   "dog teeth cleaning",
+   "pet dental care",
+   "silicone finger brush"
+  ],
+  "intro": "Brush your pet's teeth with a finger toothbrush that cleans the whole mouth with soft, elastic bristles.",
+  "highlights": [
+   [
+    "Cleans the whole mouth",
+    "The finger design reaches the entire mouth more easily than a single-finger type."
+   ],
+   [
+    "Soft on gums",
+    "Soft, elastic bristles remove plaque without hurting the gums, so pets accept it more easily."
+   ],
+   [
+    "Reusable",
+    "Just rinse with water and use again. Durable and economical."
+   ],
+   [
+    "Better oral health",
+    "Regular brushing helps freshen breath and keep teeth clean."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Pet finger toothbrush"
+   ],
+   [
+    "Material",
+    "PP + TPR"
+   ],
+   [
+    "Size",
+    "About 149 × 30 × 36 mm"
+   ],
+   [
+    "Colors",
+    "Pink, yellow, gray"
+   ]
+  ],
+  "uses": [
+   "Daily or weekly tooth brushing for dogs and cats",
+   "Pet dental care routine"
+  ],
+  "package": "1 × pet finger toothbrush",
+  "notes": [],
+  "conflicts": "productNameEn says 'Silicone'; specifications say Material: PP+TPR. Material is shown as PP + TPR."
+ },
+ "CJGY1803656": {
+  "title": "Microfiber Dog Towel – Super Absorbent Quick-Drying Pet Bath Towel for Dogs & Cats, 3 Sizes",
+  "keywords": [
+   "dog towel",
+   "quick drying pet towel",
+   "microfiber dog towel",
+   "absorbent pet bath towel",
+   "cat towel",
+   "dog drying towel"
+  ],
+  "intro": "A thick microfiber towel that absorbs water fast, shortens drying time and keeps your pet warm and comfortable after a bath.",
+  "highlights": [
+   [
+    "Super absorbent",
+    "Thickened fabric absorbs moisture quickly and shortens drying time."
+   ],
+   [
+    "Soft and safe",
+    "Soft superfine fibers that are comfortable and odorless."
+   ],
+   [
+    "Durable and washable",
+    "Firm terry that does not shed or fade easily. Machine washable with detergent."
+   ],
+   [
+    "Easy to hang",
+    "Hook design makes it easy to hang up and air-dry."
+   ],
+   [
+    "Three sizes",
+    "30 × 60 cm, 50 × 100 cm and 70 × 140 cm for small and medium cats and dogs."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Pet bath towel"
+   ],
+   [
+    "Material",
+    "Superfine fiber (microfiber)"
+   ],
+   [
+    "Sizes",
+    "M: 30 × 60 cm · L: 50 × 100 cm · XL: 70 × 140 cm"
+   ],
+   [
+    "Suitable for",
+    "Small and medium cats and dogs"
+   ]
+  ],
+  "uses": [
+   "Drying pets after a bath",
+   "After walks in the rain or swimming",
+   "Travel towel to keep in the car",
+   "Blanket or mat for kennels and cages",
+   "Protecting sofas, carpets, car seats and beds"
+  ],
+  "package": "1 × towel",
+  "notes": []
+ },
+ "CJGX1597441": {
+  "title": "Reflective AirTag Dog Collar – Nylon Pet Collar with Waterproof AirTag Holder for Dogs, Cats & Puppies",
+  "keywords": [
+   "airtag dog collar",
+   "airtag cat collar",
+   "reflective dog collar",
+   "airtag holder collar",
+   "nylon pet collar",
+   "gps tracker collar"
+  ],
+  "intro": "A nylon pet collar with a waterproof holder for an Apple AirTag, so you can keep a tracker on your dog or cat.",
+  "highlights": [
+   [
+    "AirTag holder",
+    "A waterproof protective case holds an AirTag on the collar."
+   ],
+   [
+    "Reflective",
+    "Reflective collar design."
+   ],
+   [
+    "Nylon collar",
+    "Solid-color nylon collar for cats, dogs, kittens and puppies."
+   ],
+   [
+    "All-season use",
+    "Suitable for everyday wear in any season."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Pet collar with AirTag holder"
+   ],
+   [
+    "Material",
+    "Nylon"
+   ],
+   [
+    "Colors",
+    "Red, yellow, purple, black, pink, orange, sky blue"
+   ],
+   [
+    "Suitable for",
+    "Dogs, cats, puppies and kittens"
+   ]
+  ],
+  "uses": [
+   "Keeping an AirTag on your pet",
+   "Everyday collar",
+   "Gift for pet owners"
+  ],
+  "package": "1 × collar",
+  "notes": [
+   "AirTag / locator is not included."
+  ]
+ },
+ "CJJJCWGY00032": {
+  "title": "LED Dog Collar – Light Up Glow in the Dark Nylon Safety Collar, USB Rechargeable or Battery, Adjustable XS–XL",
+  "keywords": [
+   "led dog collar",
+   "light up dog collar",
+   "glow in the dark dog collar",
+   "rechargeable dog collar",
+   "night safety collar",
+   "flashing pet collar"
+  ],
+  "intro": "Keep your dog visible on night walks. This adjustable nylon collar lights up in the collar's color, with 4 modes: steady, flash, slow flash and off.",
+  "highlights": [
+   [
+    "Night visibility",
+    "Bright fiber-optic light makes your pet easy to see in the dark or on night walks."
+   ],
+   [
+    "4 modes",
+    "Steady light, flash, slow flash and off."
+   ],
+   [
+    "Two power versions",
+    "Battery version with 2 × CR2032 batteries included (60–80 hours of light; batteries are replaceable), or USB rechargeable version with cable."
+   ],
+   [
+    "Adjustable fit",
+    "Adjustable nylon collar that is easy to put on and take off with the buckle, in 5 sizes from XS to XL."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "LED pet collar"
+   ],
+   [
+    "Material",
+    "Nylon + LED PP light"
+   ],
+   [
+    "Light modes",
+    "Steady, flash, slow flash, off"
+   ],
+   [
+    "Power",
+    "2 × CR2032 (battery version) or USB rechargeable"
+   ],
+   [
+    "LED color",
+    "Same as the collar (black collar glows white)"
+   ],
+   [
+    "Colors",
+    "Red, yellow, blue, green, orange, pink, white, seven colors"
+   ]
+  ],
+  "sizes": [
+   [
+    "Size",
+    "Neck",
+    "Width",
+    "Total length"
+   ],
+   [
+    "XS",
+    "28–38 cm",
+    "2.0 cm",
+    "41 cm"
+   ],
+   [
+    "S",
+    "34–41 cm",
+    "2.5 cm",
+    "44 cm"
+   ],
+   [
+    "M",
+    "37–46 cm",
+    "2.5 cm",
+    "50 cm"
+   ],
+   [
+    "L",
+    "41–52 cm",
+    "2.5 cm",
+    "56 cm"
+   ],
+   [
+    "XL",
+    "42–56 cm",
+    "2.5 cm",
+    "60 cm"
+   ]
+  ],
+  "uses": [
+   "Night walks",
+   "Outdoor play in low light",
+   "Making your pet visible to cars and people"
+  ],
+  "package": "Battery version: 1 × LED collar. USB version: 1 × LED collar + 1 × USB cable.",
+  "notes": [
+   "A small plastic film blocks the switch during shipping. Remove it before first use."
+  ]
+ },
+ "CJJJCWGY02126": {
+  "title": "Soft Nylon Dog Collar – Adjustable Padded Pet Collar for Cats & Dogs with Metal D-Ring, XS–L",
+  "keywords": [
+   "nylon dog collar",
+   "adjustable dog collar",
+   "padded dog collar",
+   "cat collar",
+   "soft pet collar",
+   "small dog collar"
+  ],
+  "intro": "A comfortable, durable nylon collar with a soft neoprene lining, for both cats and dogs.",
+  "highlights": [
+   [
+    "Soft padded lining",
+    "Neoprene lining for comfortable everyday wear."
+   ],
+   [
+    "Adjustable fit",
+    "Use the slide buckle to adjust the collar to your pet's neck size."
+   ],
+   [
+    "Sturdy hardware",
+    "Plastic buckle and metal D-ring for attaching a leash."
+   ],
+   [
+    "For cats and dogs",
+    "Sizes from small cats and Chihuahuas up to Labradors and Huskies."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Pet collar"
+   ],
+   [
+    "Main fabric",
+    "Nylon"
+   ],
+   [
+    "Lining",
+    "Neoprene"
+   ],
+   [
+    "Hardware",
+    "Plastic buckle, metal D-ring"
+   ],
+   [
+    "Colors",
+    "Blue, black, red, orange, green, pink"
+   ]
+  ],
+  "sizes": [
+   [
+    "Size",
+    "Width",
+    "Neck",
+    "Suitable breeds"
+   ],
+   [
+    "XS",
+    "1.0 cm",
+    "22–35 cm",
+    "Chihuahua, fox terrier, cat"
+   ],
+   [
+    "S",
+    "1.5 cm",
+    "27–43 cm",
+    "Yorkshire Terrier, Maltese"
+   ],
+   [
+    "M",
+    "2.0 cm",
+    "33–48 cm",
+    "Beagle, Shepherd"
+   ],
+   [
+    "L",
+    "2.5 cm",
+    "36–56 cm",
+    "Labrador, Rottweiler, Golden Retriever, Husky"
+   ]
+  ],
+  "howToMeasure": "Measure the widest part of your pet's neck with a soft ruler and allow an extra 2–3 cm.",
+  "uses": [
+   "Everyday collar",
+   "Attaching a leash for walks",
+   "Carrying an ID tag"
+  ],
+  "package": "1 × collar",
+  "notes": [
+   "Sizes are measured by hand and may vary by 1–2 cm."
+  ]
+ },
+ "CJJJCWGY00418": {
+  "title": "Camouflage LED Dog Collar – Light Up Flashing Nylon Pet Collar for Night Walks, S–XL",
+  "keywords": [
+   "camouflage dog collar",
+   "led dog collar",
+   "light up dog collar",
+   "flashing dog collar",
+   "night walk collar",
+   "glowing pet collar"
+  ],
+  "intro": "A camouflage-pattern nylon collar with built-in lights that keeps your pet visible when walking at night.",
+  "highlights": [
+   [
+    "3 lighting modes",
+    "Constant on, fast flash and slow flash, plus off."
+   ],
+   [
+    "Sturdy and wear-resistant",
+    "Made of nylon and plastic, durable for daily use."
+   ],
+   [
+    "Easy on and off",
+    "The buckle makes it easy and convenient to put on and take off."
+   ],
+   [
+    "Night safety",
+    "Helps keep you and your pet safe in the dark."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "LED pet collar"
+   ],
+   [
+    "Material",
+    "Nylon + plastic"
+   ],
+   [
+    "Battery",
+    "2 button batteries (included)"
+   ],
+   [
+    "Versions",
+    "Battery and charging"
+   ],
+   [
+    "Colors",
+    "Blue, green, orange, pink, red, white, yellow"
+   ]
+  ],
+  "sizes": [
+   [
+    "Size",
+    "Width",
+    "Length (min–max)",
+    "Adjustable range"
+   ],
+   [
+    "S",
+    "2.5 cm",
+    "35–43 cm",
+    "8 cm"
+   ],
+   [
+    "M",
+    "2.5 cm",
+    "40–48 cm",
+    "8 cm"
+   ],
+   [
+    "L",
+    "2.5 cm",
+    "45–52 cm",
+    "8 cm"
+   ],
+   [
+    "XL",
+    "2.5 cm",
+    "52–60 cm",
+    "8 cm"
+   ]
+  ],
+  "uses": [
+   "Night walks",
+   "Outdoor play in the dark",
+   "Gift for dog owners"
+  ],
+  "package": "1 × pet collar",
+  "notes": [
+   "Sizes are measured by hand and may vary by 2–3 cm. Colors may look slightly different on different screens."
+  ]
+ },
+ "CJJJCWGX00546": {
+  "title": "Heavy-Duty Nylon Dog Collar – Anti-Wear Padded Collar with Metal Buckle, D-Ring & Velcro Name Patch Panel",
+  "keywords": [
+   "heavy duty dog collar",
+   "nylon dog collar",
+   "padded dog collar",
+   "dog collar with patch",
+   "dog collar with velcro",
+   "anti wear dog collar"
+  ],
+  "intro": "A thick nylon collar with padded lining, metal hardware and a Velcro panel for a name, ID or military-style patch.",
+  "highlights": [
+   [
+    "Sturdy and comfortable",
+    "Thick nylon strap with thick padded lining to avoid irritation."
+   ],
+   [
+    "Velcro patch panel",
+    "Add a name patch or ID patch so your dog is easy to identify."
+   ],
+   [
+    "5 adjustment points",
+    "Adjust for a comfortable fit."
+   ],
+   [
+    "Metal hardware",
+    "Heavy metal D-ring and metal buckle for attaching a leash."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Dog collar"
+   ],
+   [
+    "Material",
+    "Nylon"
+   ],
+   [
+    "Hardware",
+    "Metal D-ring, metal buckle"
+   ],
+   [
+    "Sizes",
+    "M, L, XL"
+   ],
+   [
+    "Colors",
+    "Green, brown, black"
+   ]
+  ],
+  "uses": [
+   "Daily walks with a leash",
+   "Displaying a name or ID patch",
+   "Everyday wear for active dogs"
+  ],
+  "package": "1 × collar",
+  "notes": []
+ },
+ "CJGY1025454": {
+  "title": "Floating Dog Water Bowl 1.5L – Anti-Overflow Slow Water Feeder, No-Splash Pet Water Bowl for Dogs & Cats",
+  "keywords": [
+   "dog water bowl",
+   "no spill dog water bowl",
+   "floating water bowl",
+   "slow water feeder",
+   "anti overflow pet bowl",
+   "travel dog water bowl"
+  ],
+  "intro": "A 1.5 L water bowl with a floating plate that slows drinking and keeps your pet's mouth, and your floor, drier.",
+  "highlights": [
+   [
+    "Keeps mouths dry",
+    "Floating plate and overflow holes help prevent a wet, stained mouth."
+   ],
+   [
+    "Slow water intake",
+    "The self-adjusting floating plate slows drinking speed, helping prevent choking and vomiting."
+   ],
+   [
+    "No splash, no mess",
+    "Waterproof frame, floating plate and non-slip base help prevent overflow, even on bumpy roads."
+   ],
+   [
+    "Large capacity",
+    "1.5 L holds enough water for the whole day."
+   ],
+   [
+    "Easy to clean",
+    "Easy to take apart and put back together for weekly cleaning."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Pet floating water bowl"
+   ],
+   [
+    "Capacity",
+    "1.5 L"
+   ],
+   [
+    "Material",
+    "ABS & PP"
+   ],
+   [
+    "Colors",
+    "Grey, white, blue, pink"
+   ]
+  ],
+  "uses": [
+   "Everyday water bowl at home",
+   "Car rides and road trips",
+   "Office, studio and outdoor trips"
+  ],
+  "package": "1 × water bowl",
+  "notes": []
+ },
+ "CJGY1748465": {
+  "title": "Slow Feeder Dog Bowl – Anti-Gulping, Anti-Choking Slow Eating Pet Bowl for Dogs & Cats",
+  "keywords": [
+   "slow feeder dog bowl",
+   "slow feeder cat bowl",
+   "anti gulping dog bowl",
+   "slow eating bowl",
+   "dog puzzle bowl",
+   "pet food bowl"
+  ],
+  "intro": "Help fast eaters slow down. The raised pattern in this bowl makes pets eat more slowly and more healthily.",
+  "highlights": [
+   [
+    "Slows down eating",
+    "Helps prevent gulping, choking and vomiting."
+   ],
+   [
+    "Fun shape",
+    "Raised patterns turn mealtime into a game, even for the fastest eaters."
+   ],
+   [
+    "Food-safe material",
+    "Eco-friendly PP that meets pet food safety, resists high temperature and is bite-resistant."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Slow feeder bowl"
+   ],
+   [
+    "Material",
+    "PP"
+   ],
+   [
+    "Colors",
+    "Green, pink, orange"
+   ]
+  ],
+  "uses": [
+   "Daily meals for dogs that eat too fast",
+   "Feeding cats with a slow-feeder pattern"
+  ],
+  "package": "1 × pet bowl",
+  "notes": []
+ },
+ "CJMY1772383": {
+  "title": "Silicone Dog Lick Mat – Slow Feeder Licking Pad for Dogs & Puppies, Dental Care Food Mat",
+  "keywords": [
+   "dog lick mat",
+   "silicone licking pad",
+   "slow feeder mat",
+   "dog licking mat",
+   "puppy lick mat",
+   "dog food mat"
+  ],
+  "intro": "A silicone licking mat that works as a slow feeder. Its different textures slow down how fast your dog eats.",
+  "highlights": [
+   [
+    "Slow feeding",
+    "Different textures reduce the speed at which your pet eats."
+   ],
+   [
+    "Tongue and teeth care",
+    "Licking helps clean the tongue and supports healthier teeth and digestion."
+   ],
+   [
+    "Silicone material",
+    "Made of silicone."
+   ],
+   [
+    "Two sizes",
+    "Small 30 × 20 × 4.2 cm or large 43 × 28.8 × 4.2 cm."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Pet licking mat / slow feeder"
+   ],
+   [
+    "Material",
+    "Silicone"
+   ],
+   [
+    "Sizes",
+    "Small: 30 × 20 × 4.2 cm · Large: 43 × 28.8 × 4.2 cm"
+   ],
+   [
+    "Colors",
+    "Black, lake blue, purple, dark gray, gray, sky blue, milky white, light green"
+   ]
+  ],
+  "uses": [
+   "Slow feeding for dogs that eat too fast",
+   "Feeding puppies",
+   "Supporting tongue and teeth care during meals"
+  ],
+  "package": "1 × pet licking mat",
+  "notes": []
+ },
+ "CJMY1228721": {
+  "title": "Elevated Cat Bowl Stand – 15° Tilted Raised Cat Feeder with Transparent Bowl, Single or Double",
+  "keywords": [
+   "elevated cat bowl",
+   "tilted cat bowl",
+   "raised cat feeder",
+   "cat food bowl stand",
+   "double cat bowl",
+   "neck protection cat bowl"
+  ],
+  "intro": "A raised feeder with a 15° tilt that reduces strain on your cat's neck, with clear cat-head bowls for food and water.",
+  "highlights": [
+   [
+    "15° tilted design",
+    "The tilted, elevated design reduces neck strain."
+   ],
+   [
+    "Detachable",
+    "Bowl and stand come apart for easy cleaning."
+   ],
+   [
+    "Stable",
+    "Not easy to overturn."
+   ],
+   [
+    "Safe material",
+    "ABS + PC plastic, food-grade transparent bowl."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Elevated pet bowl with stand"
+   ],
+   [
+    "Material",
+    "ABS + PC plastic"
+   ],
+   [
+    "Bowl",
+    "Transparent cat-head bowl"
+   ],
+   [
+    "Styles",
+    "Single or double bowl, transparent / white / black / pink options"
+   ],
+   [
+    "Suitable for",
+    "Cats, dogs, puppies and other small animals"
+   ]
+  ],
+  "uses": [
+   "Food bowl",
+   "Water bowl",
+   "Feeding station for cats and small dogs"
+  ],
+  "package": "1 or 2 pet bowls + 1 base stand (depending on style)",
+  "notes": []
+ },
+ "CJGY1029541": {
+  "title": "Ceramic Cat Bowl with Tilted Mouth – Oblique Ceramic Pet Bowl for Cats & Dogs, Optional Stand",
+  "keywords": [
+   "ceramic cat bowl",
+   "tilted cat bowl",
+   "ceramic pet bowl",
+   "oblique cat bowl",
+   "cat food bowl",
+   "cat bowl with stand"
+  ],
+  "intro": "A ceramic pet bowl with a simple, unique tilted mouth and classic colors, available on its own or with a rack.",
+  "highlights": [
+   [
+    "Tilted mouth",
+    "Simple, unique oblique-mouth shape."
+   ],
+   [
+    "Ceramic",
+    "Made of ceramic."
+   ],
+   [
+    "Classic colors",
+    "Simple, elegant colors that look good in your home."
+   ],
+   [
+    "Optional rack",
+    "Choose a single bowl or a bowl with rack."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Ceramic pet bowl"
+   ],
+   [
+    "Material",
+    "Ceramic"
+   ],
+   [
+    "Colors",
+    "White, red, blue, light green"
+   ],
+   [
+    "Options",
+    "Single bowl, bowl + rack"
+   ]
+  ],
+  "uses": [
+   "Food or water bowl for cats",
+   "Food or water bowl for small dogs"
+  ],
+  "package": "1 × bowl (rack included in bowl + rack options)",
+  "notes": []
+ },
+ "CJJT1006521": {
+  "title": "Pet Cooling Mat – Ice Silk Cooling Pad for Dogs & Cats, Washable Non-Slip Summer Sleeping Mat, S/M/L",
+  "keywords": [
+   "dog cooling mat",
+   "cat cooling pad",
+   "ice silk pet mat",
+   "summer pet bed",
+   "washable cooling mat",
+   "non slip pet mat"
+  ],
+  "intro": "Help your dog or cat stay cool in summer. This ice silk mat feels cool to the touch and needs no electricity or gel.",
+  "highlights": [
+   [
+    "Cool-touch fabric",
+    "Cold silk fabric feels moist and cool, but not icy. It is softer than an ordinary rattan mat."
+   ],
+   [
+    "No power, no gel",
+    "Uses no electricity and contains no toxic gels. It wicks heat away and releases it into the air."
+   ],
+   [
+    "Comfortable filling",
+    "3D PP cotton and high-elastic sponge filling with an Oxford non-slip bottom."
+   ],
+   [
+    "Portable",
+    "Lightweight and easy to fold for beds, kennels, car seats, lawns and beaches."
+   ],
+   [
+    "Machine washable",
+    "Easy to machine wash and quick to dry."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Pet cooling pad"
+   ],
+   [
+    "Surface",
+    "Cotton-linen stripes, cool silk"
+   ],
+   [
+    "Filling",
+    "3D PP cotton, high-elastic sponge"
+   ],
+   [
+    "Bottom",
+    "Oxford non-slip"
+   ],
+   [
+    "Sizes",
+    "S, M, L"
+   ],
+   [
+    "Colors",
+    "Blue, red"
+   ],
+   [
+    "Suitable for",
+    "Small, medium and large breeds of dogs and cats"
+   ]
+  ],
+  "uses": [
+   "Summer sleeping mat",
+   "Kennel or crate mat",
+   "Car seat cover",
+   "Outdoor use on lawns and beaches"
+  ],
+  "package": "1 × cooling mat",
+  "notes": []
+ },
+ "CJJJCWGY00320": {
+  "title": "Ice Silk Pet Cooling Pad – Cold Summer Mat for Dogs & Cats with Breathable Mesh Back, Multiple Sizes",
+  "keywords": [
+   "pet cooling pad",
+   "ice silk dog mat",
+   "cat cooling mat",
+   "summer dog mat",
+   "cool pet bed",
+   "breathable pet mat"
+  ],
+  "intro": "A three-layer cooling pad with an ice silk surface that gives your pet an instant cool feeling on hot days, without water or refrigeration.",
+  "highlights": [
+   [
+    "Instant cooling",
+    "Heat-resistant fibers give a cool feeling without relying on water."
+   ],
+   [
+    "3-layer build",
+    "Cold ice silk surface, cotton middle and breathable mesh back."
+   ],
+   [
+    "Neat finish",
+    "Fine stitching and routing details."
+   ],
+   [
+    "For pets of all sizes",
+    "Sizes from 40 × 30 cm to 150 × 100 cm."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Pet cooling pad"
+   ],
+   [
+    "Layers",
+    "Ice silk surface · cotton middle · breathable mesh back"
+   ],
+   [
+    "Colors",
+    "Blue, brown, pink, gray, light blue"
+   ]
+  ],
+  "sizes": [
+   [
+    "Size",
+    "Dimensions",
+    "Weight"
+   ],
+   [
+    "S",
+    "50 × 40 cm",
+    "100 g"
+   ],
+   [
+    "M",
+    "63 × 50 cm",
+    "150 g"
+   ],
+   [
+    "L",
+    "70 × 56 cm",
+    "200 g"
+   ],
+   [
+    "XL",
+    "102 × 70 cm",
+    "320 g"
+   ]
+  ],
+  "sizesNote": "Also available in 40 × 30 cm and 150 × 100 cm.",
+  "uses": [
+   "Summer sleeping pad",
+   "Crate or bed topper",
+   "Cool spot for cats and dogs"
+  ],
+  "package": "1 × cushion",
+  "notes": [
+   "Measured by hand: size may vary by 2–3 cm and weight by 10–20 g."
+  ]
+ },
+ "CJJJCWMY00030": {
+  "title": "Double-Layer Cat Litter Mat – Waterproof Litter Trapping Mat for Litter Box, Easy Clean, Flat or Foldable",
+  "keywords": [
+   "cat litter mat",
+   "litter trapping mat",
+   "waterproof litter mat",
+   "double layer litter mat",
+   "litter box mat",
+   "cat mat"
+  ],
+  "intro": "Place this double-layer mat by the litter box to trap litter from your cat's paws and keep the floor clean.",
+  "highlights": [
+   [
+    "Traps litter",
+    "Captures litter from paws so you sweep less. Trapped litter can be reused."
+   ],
+   [
+    "Waterproof layer",
+    "A waterproof layer protects the floor."
+   ],
+   [
+    "Easy to clean",
+    "One-step cleaning, very convenient to use."
+   ],
+   [
+    "Flat or foldable",
+    "Black and gray lie flat; Foldable black and Foldable gray can be folded."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Cat litter mat"
+   ],
+   [
+    "Material",
+    "EVA"
+   ],
+   [
+    "Styles",
+    "Flat (black, gray) or foldable (black, gray)"
+   ],
+   [
+    "Sizes",
+    "XS, S, M, L (flat); 46 × 60 cm, 55 × 70 cm (foldable)"
+   ]
+  ],
+  "uses": [
+   "Under or in front of the litter box",
+   "Keeping litter off floors and carpets"
+  ],
+  "package": "1 × cat litter pad",
+  "notes": [
+   "Multi-piece options are available, e.g. S 2PC = 2 pieces of size S."
+  ],
+  "conflicts": "materialNameEn lists Cloth/Plastic; description says Material: EVA. Material is shown as EVA."
+ },
+ "CJGY2064580": {
+  "title": "Dog Cooling Mat – Ice Silk Summer Cooling Blanket for Dogs & Cats, No Electricity Needed, XS–2XL",
+  "keywords": [
+   "dog cooling mat",
+   "cooling blanket for dogs",
+   "ice silk pet mat",
+   "cat cooling pad",
+   "summer dog bed",
+   "extra large cooling mat"
+  ],
+  "intro": "A breathable ice silk cooling mat that absorbs and dissipates heat to help your pet stay comfortable on hot summer days.",
+  "highlights": [
+   [
+    "Ice silk cooling",
+    "Ice silk fabric absorbs and dissipates heat for a refreshing feel."
+   ],
+   [
+    "Breathable and comfortable",
+    "A breathable, soothing surface for dogs and cats."
+   ],
+   [
+    "No setup needed",
+    "No electricity, water or refrigeration. Just place it on the floor, in a bed or in a favorite spot."
+   ],
+   [
+    "Easy to clean",
+    "Convenient for everyday use."
+   ],
+   [
+    "6 sizes",
+    "From XS 40 × 30 cm to 2XL 150 × 100 cm."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Pet cooling mat"
+   ],
+   [
+    "Material",
+    "Nylon cold-feeling gauze, cotton, breathable mesh"
+   ],
+   [
+    "Colors",
+    "Blue edging, pink edging, brown, light blue, gray, dark gray"
+   ]
+  ],
+  "sizes": [
+   [
+    "Size",
+    "Dimensions"
+   ],
+   [
+    "XS",
+    "40 × 30 cm"
+   ],
+   [
+    "S",
+    "50 × 40 cm"
+   ],
+   [
+    "M",
+    "60 × 50 cm"
+   ],
+   [
+    "L",
+    "70 × 55 cm"
+   ],
+   [
+    "XL",
+    "100 × 70 cm"
+   ],
+   [
+    "2XL",
+    "150 × 100 cm"
+   ]
+  ],
+  "uses": [
+   "Floor mat on hot days",
+   "Topper for your pet's bed",
+   "Sofa mat",
+   "Cool resting spot for dogs and cats"
+  ],
+  "package": "1 × pet mat",
+  "notes": []
+ },
+ "CJGY1942967": {
+  "title": "Plush Dog Sofa Bed with Pillow – Washable Pet Couch Cover & Furniture Protector for Large Dogs",
+  "keywords": [
+   "dog sofa bed",
+   "pet couch cover",
+   "furniture protector for dogs",
+   "plush dog mat",
+   "washable dog bed",
+   "large dog bed"
+  ],
+  "intro": "A soft plush pad with a built-in pillow that gives your dog a warm place to curl up and protects your sofa from hair and urine.",
+  "highlights": [
+   [
+    "Curved pillow design",
+    "Gives pets a warm, safe space to curl up."
+   ],
+   [
+    "Protects furniture",
+    "Helps protect the sofa from hair, urine and damage."
+   ],
+   [
+    "Warm and soft",
+    "Soft plush keeps your dog off the cold floor."
+   ],
+   [
+    "Washable",
+    "Hand or machine washable."
+   ]
+  ],
+  "specs": [
+   [
+    "Product type",
+    "Pet sofa pad with pillow"
+   ],
+   [
+    "Material",
+    "Cloth (plush)"
+   ],
+   [
+    "Sizes",
+    "75 × 75, 75 × 120, 90 × 90, 90 × 120, 90 × 135 cm"
+   ],
+   [
+    "Colors",
+    "Light gray, dark gray, coffee, blue, beige, gray-black, red-black, gray-coffee"
+   ],
+   [
+    "Suitable for",
+    "Dogs"
+   ]
+  ],
+  "uses": [
+   "Sofa and couch cover",
+   "Dog bed on the floor",
+   "Protecting furniture from pet hair"
+  ],
+  "package": "1 × pet pad",
+  "notes": []
+ }
+}
