@@ -102,33 +102,6 @@ figure img{border-radius:12px;border:1px solid var(--border);background:#fff;asp
 figcaption{font-size:13px;color:var(--muted);margin-top:6px}
 .input-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 @media (max-width:640px){.input-row{grid-template-columns:1fr 1fr}}
-.mock{position:relative;border-radius:12px;overflow:hidden;border:1px solid var(--border);background:#fff;aspect-ratio:1/1}
-.mock > img{width:100%;height:100%;object-fit:cover;border:0;border-radius:0}
-.mock .lbl{position:absolute;top:8px;left:8px;z-index:4;font:600 11px "JetBrains Mono",monospace;background:rgba(0,0,0,.6);color:#fff;padding:3px 7px;border-radius:5px}
-/* STL_02 mock */
-.m2 > img{filter:saturate(1.05) sepia(.18) brightness(1.02)}
-.m2 .txt{position:absolute;left:0;right:0;top:0;padding:14% 8% 0;text-align:center;color:#3a2e22;z-index:2}
-.m2 .txt .t{font-weight:700;font-size:clamp(14px,3.4vw,22px);line-height:1.15;letter-spacing:-.01em}
-.m2 .txt .d{font-size:clamp(10px,1.9vw,12.5px);margin-top:6px;opacity:.85}
-.m2::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,244,228,.85),rgba(255,244,228,0) 45%);z-index:1}
-/* STL_03 mock */
-.m3 svg{position:absolute;inset:0;width:100%;height:100%;z-index:2}
-/* STL_04 mock */
-.m4{display:grid;place-items:center;background:#fff}
-.m4 .layers{position:relative;width:88%;height:70%;margin-right:18%}
-.m4 .ly{position:absolute;left:0;width:48%;height:34%;border-radius:10px;transform:skewX(-18deg);box-shadow:0 10px 18px rgba(0,0,0,.12)}
-.m4 .ly span{position:absolute;left:112%;top:40%;white-space:nowrap;transform:skewX(18deg);font:600 clamp(9px,1.7vw,11.5px) "Be Vietnam Pro",sans-serif;color:#333}
-.m4 .ly span::before{content:"";position:absolute;right:calc(100% + 4px);top:50%;width:30px;border-top:1px solid #777}
-.m4 .l1{top:0;left:0}
-.m4 .l2{top:30%;left:12%;background:repeating-linear-gradient(45deg,#f4f4f2 0 6px,#e6e6e2 6px 12px)}
-.m4 .l3{top:60%;left:24%;background:radial-gradient(circle,#9aa0a6 18%,transparent 20%) 0 0/12px 12px,#d9dcdf}
-/* STL_05 mock */
-.mock img.real{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0;border-radius:0;z-index:2;display:none;aspect-ratio:auto}
-.m5{position:relative;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:4px;padding:4px;background:#eee}
-.m5 .cell{position:relative;background:#fff;border-radius:6px;overflow:hidden;display:grid;place-items:center}
-.m5 .cell img{object-fit:contain;border:0;border-radius:0;aspect-ratio:auto;background:none}
-.m5 .badge{position:absolute;top:5px;left:5px;font:700 11px "Be Vietnam Pro",sans-serif;color:#fff;background:var(--s5);padding:2px 7px;border-radius:5px}
-.m5 .dim{position:absolute;bottom:4px;left:0;right:0;text-align:center;font:500 9.5px "JetBrains Mono",monospace;color:#444}
 
 .matrix td,.matrix th{text-align:center}
 .matrix td:first-child,.matrix th:first-child{text-align:left}
@@ -404,67 +377,29 @@ STYLE: Pure white studio background, clean commercial typography, consistent hig
 <pre class="prompt">Place the pet from <span class="v">[PET_01]</span> into the center of the product in the <span class="v">[VAR_BLUE]</span>. The pet is <span class="v">sleeping contentedly with eyes closed, curled up naturally.</span> The product is captured from a <span class="v">straight horizontal eye-level view.</span>, filling the frame from left to right edges to highlight the product's features. Background: pure white studio. Lighting: high-end 3D studio lighting with realistic soft contact shadows. Style: professional commercial catalog, 8k, crisp textures.</pre>
     <p class="small muted" style="margin-top:8px">Với variant khác (vd: Xám): chỉ thay <code>[VAR_BLUE]</code> → <code>[VAR_GREY]</code>, giữ nguyên các biến còn lại.</p>
 
-    <h3 style="margin-top:32px">Bước 3 – Kết quả 5 Style (ví dụ với Variant Xanh)</h3>
+    <h3 style="margin-top:32px">Bước 3 – Kết quả 5 Style (ảnh ví dụ)</h3>
     <p class="small muted">Ảnh chỉ để minh họa; khi làm thật, mỗi variant đều cần đủ 5 style như trên.</p>
 
     <div class="grid g5" id="set">
       <figure>
-        <div class="mock"><span class="lbl" style="z-index:4">STL_01 · ảnh ví dụ</span><img class="v-img" src="images/stl01-blue.jpg" alt="STL_01: chó con nằm trên đệm làm mát, phông trắng"></div>
-        <figcaption><span class="tag t1">STL_01</span> Hero Shot – ảnh AI đã tạo</figcaption>
+        <a href="images/stl01-blue.jpg" target="_blank"><img src="images/stl01-blue.jpg" alt="STL_01: chó con ngủ trên đệm xanh, phông trắng" loading="lazy"></a>
+        <figcaption><span class="tag t1">STL_01</span> Hero Shot – Variant Xanh</figcaption>
       </figure>
-
       <figure>
-        <div class="mock m2"><span class="lbl">STL_02 · mô phỏng</span><img class="real" data-stl="stl02" alt="STL_02 thật"><img class="v-img" src="images/stl01-blue.jpg" alt="">
-          <div class="txt"><div class="t">The Ultimate Pet Oasis</div><div class="d">Instant, durable comfort · Cold ice silk · Suitable for pets of all sizes</div></div>
-        </div>
-        <figcaption><span class="tag t2">STL_02</span> Lifestyle + Title/Description</figcaption>
+        <a href="images/stl02.jpg" target="_blank"><img src="images/stl02.jpg" alt="STL_02: The Pawfect Chill, chó con trên đệm xám" loading="lazy"></a>
+        <figcaption><span class="tag t2">STL_02</span> Lifestyle + Title/Description – Variant Xám</figcaption>
       </figure>
-
       <figure>
-        <div class="mock m3"><span class="lbl">STL_03 · mô phỏng</span><img class="real" data-stl="stl03" alt="STL_03 thật"><img class="v-img" src="images/stl01-blue.jpg" alt="">
-          <svg viewBox="0 0 100 100" aria-hidden="true">
-            <defs>
-              <filter id="glow"><feGaussianBlur stdDeviation="0.9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-              <marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#27c4ff"/></marker>
-              <marker id="ahw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#ff8a3d"/></marker>
-            </defs>
-            <g filter="url(#glow)" fill="none" stroke-width="1.1" stroke-linecap="round">
-              <path d="M16 30 q4 -4 8 0 t8 0" stroke="#27c4ff" opacity=".9"/>
-              <path d="M70 26 q4 -4 8 0 t8 0" stroke="#27c4ff" opacity=".9"/>
-              <path d="M22 60 L22 40" stroke="#ff8a3d" marker-end="url(#ahw)"/>
-              <path d="M52 44 L52 30" stroke="#ff8a3d" marker-end="url(#ahw)"/>
-              <path d="M80 60 L80 42" stroke="#ff8a3d" marker-end="url(#ahw)"/>
-              <path d="M8 74 L34 74" stroke="#27c4ff" marker-end="url(#ah)"/>
-              <path d="M92 74 L66 74" stroke="#27c4ff" marker-end="url(#ah)"/>
-            </g>
-            <g font-family="Be Vietnam Pro, sans-serif" font-size="3.6" font-weight="700" text-anchor="middle">
-              <text x="50" y="14" fill="#0b6fa8">GIẢI NHIỆT TỨC THÌ</text>
-              <text x="50" y="88" fill="#555" font-weight="500" font-size="3">Hấp thụ nhiệt ↓ · Thoát nhiệt ↑ · Thoáng khí</text>
-            </g>
-          </svg>
-        </div>
-        <figcaption><span class="tag t3">STL_03</span> Overlay công năng trên STL_01</figcaption>
+        <a href="images/stl03.jpg" target="_blank"><img src="images/stl03.jpg" alt="STL_03: mũi tên tản nhiệt trên đệm" loading="lazy"></a>
+        <figcaption><span class="tag t3">STL_03</span> Overlay công năng làm mát – Variant Xám</figcaption>
       </figure>
-
       <figure>
-        <div class="mock m4"><span class="lbl">STL_04 · mô phỏng</span><img class="real" data-stl="stl04" alt="STL_04 thật">
-          <div class="layers">
-            <div class="ly l1 v-bg" style="background:repeating-radial-gradient(circle at 20% 30%,#cfe4f3 0 5px,#b9d6ea 5px 10px)"><span>Cold Ice Silk Surface</span></div>
-            <div class="ly l2"><span>Lớp giữa · Bông chần</span></div>
-            <div class="ly l3"><span>Breathable Mesh Back</span></div>
-          </div>
-        </div>
+        <a href="images/stl04.jpg" target="_blank"><img src="images/stl04.jpg" alt="STL_04: exploded view 3 lớp đệm" loading="lazy"></a>
         <figcaption><span class="tag t4">STL_04</span> Bóc tách 3 lớp + nhãn chỉ dẫn</figcaption>
       </figure>
-
       <figure>
-        <div class="mock m5"><span class="lbl" style="left:auto;right:8px">STL_05 · mô phỏng</span><img class="real" data-stl="stl05" alt="STL_05 thật">
-          <div class="cell"><span class="badge">S</span><img class="v-img" src="images/stl01-blue.jpg" alt="" style="width:55%"><span class="dim">50 × 40 cm</span></div>
-          <div class="cell"><span class="badge">M</span><img class="v-img" src="images/stl01-blue.jpg" alt="" style="width:68%"><span class="dim">63 × 50 cm</span></div>
-          <div class="cell"><span class="badge">L</span><img class="v-img" src="images/stl01-blue.jpg" alt="" style="width:82%"><span class="dim">70 × 56 cm</span></div>
-          <div class="cell"><span class="badge">XL</span><img class="v-img" src="images/stl01-blue.jpg" alt="" style="width:96%"><span class="dim">102 × 70 cm</span></div>
-        </div>
-        <figcaption><span class="tag t5">STL_05</span> Lưới size 2×2</figcaption>
+        <a href="images/stl05.jpg" target="_blank"><img src="images/stl05.jpg" alt="STL_05: bảng size 2x2" loading="lazy"></a>
+        <figcaption><span class="tag t5">STL_05</span> Lưới size S / M / L / XL</figcaption>
       </figure>
     </div>
 
@@ -551,12 +486,6 @@ MATERIAL DATA: <span class="v">Surface: Cold Ice Silk; Middle: quilted cotton fi
   document.querySelectorAll('pre.prompt').forEach(function(p){ if(p.id !== 'p-stl01') addCopy(p); });
   render();
 
-  // Ảnh ví dụ thật (images/stl02.jpg ... stl05.jpg) thay cho bản mô phỏng nếu có file
-  document.querySelectorAll('#set img.real').forEach(function(img){
-    var lbl = img.parentNode.querySelector('.lbl');
-    img.onload = function(){ img.style.display = 'block'; lbl.textContent = img.dataset.stl.toUpperCase().replace('STL','STL_') + ' · ảnh ví dụ'; };
-    img.src = 'images/' + img.dataset.stl + '.jpg';
-  });
 })();
 </script>
 </body>
