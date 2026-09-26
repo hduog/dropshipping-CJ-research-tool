@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prompt theo Variant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f6f3; --surface:#ffffff; --surface-2:#f0eee9; --text:#1d1c1a; --muted:#6b675f;
+  --border:#e2dfd8; --accent:#2f7fb8; --accent-soft:#e3f0f9; --warm:#c9772b; --warm-soft:#fbeedf;
+  --code-bg:#1f2329; --code-text:#e6e6e6;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#15161a; --surface:#1e2025; --surface-2:#262930; --text:#ecebe8; --muted:#a19d95;
+    --border:#33363e; --accent:#6db3e6; --accent-soft:#1d3444; --warm:#e59a55; --warm-soft:#3a2a1b;
+    --code-bg:#0f1114; --code-text:#e6e6e6;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15161a; --surface:#1e2025; --surface-2:#262930; --text:#ecebe8; --muted:#a19d95;
+  --border:#33363e; --accent:#6db3e6; --accent-soft:#1d3444; --warm:#e59a55; --warm-soft:#3a2a1b;
+  --code-bg:#0f1114; --code-text:#e6e6e6;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 "Be Vietnam Pro",system-ui,sans-serif}
+img{max-width:100%;display:block}
+a{color:var(--accent)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+header.hero{padding:44px 0 26px;border-bottom:1px solid var(--border)}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1{font-size:clamp(26px,4.6vw,40px);line-height:1.15;margin:8px 0 10px;letter-spacing:-.02em}
+h2{font-size:clamp(21px,3vw,28px);margin:0 0 6px;overflow-wrap:anywhere}
+h3{font-size:18px;margin:0 0 4px}
+p{margin:0 0 10px}
+.lead{color:var(--muted);max-width:820px}
+.muted{color:var(--muted)} .small{font-size:14px}
+nav.toc{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+nav.toc .wrap{display:flex;gap:6px;overflow-x:auto;padding-top:10px;padding-bottom:10px;scrollbar-width:none}
+nav.toc a{flex:none;font-size:14px;color:var(--muted);text-decoration:none;padding:6px 12px;border-radius:999px;border:1px solid var(--border);background:var(--surface)}
+nav.toc a:hover{color:var(--text);border-color:var(--accent)}
+section{padding:36px 0;border-bottom:1px solid var(--border)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:18px}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px}
+.stat b{display:block;font-size:26px;font-variant-numeric:tabular-nums}
+.pets{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.pet{background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.pet img{aspect-ratio:1/1;object-fit:cover;width:100%}
+.pet div{padding:8px 10px;font-size:13px}
+.pet .lic{color:var(--muted);font-size:11px;word-break:break-word}
+.table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:12px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}
+th{background:var(--surface-2);font-weight:600;white-space:nowrap}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+.product{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px;margin-top:16px}
+.phead{display:grid;grid-template-columns:96px 1fr;gap:14px;align-items:start}
+.phead img{width:96px;height:96px;object-fit:cover;border-radius:10px;border:1px solid var(--border);background:#fff}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}
+.chip{font:500 12px/1 "JetBrains Mono",monospace;padding:5px 8px;border-radius:6px;background:var(--surface-2);border:1px solid var(--border)}
+.chip.on{background:var(--accent-soft);border-color:var(--accent);color:var(--text)}
+.chip.off{text-decoration:line-through;color:var(--muted)}
+.designs{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-top:14px}
+.design{border:1px solid var(--border);border-radius:12px;overflow:hidden;background:var(--bg);display:flex;flex-direction:column;min-width:0}
+.design .imgs{display:grid;grid-template-columns:1fr 64px;background:#fff}
+.design .imgs img{aspect-ratio:1/1;object-fit:contain;width:100%;background:#fff}
+.design .imgs .petimg{object-fit:cover;align-self:end;border-left:1px solid var(--border)}
+.design .body{padding:10px 12px;display:flex;flex-direction:column;gap:6px;flex:1;min-width:0}
+.design .lbl{font-weight:600}
+details{min-width:0;max-width:100%}
+.design .small{overflow-wrap:anywhere}
+details summary{cursor:pointer;font-size:14px;color:var(--accent)}
+pre.prompt{overflow-wrap:anywhere;background:var(--code-bg);color:var(--code-text);font:13px/1.55 "JetBrains Mono",monospace;padding:14px;border-radius:10px;white-space:pre-wrap;word-break:break-word;margin:8px 0 0;max-height:420px;overflow:auto}
+.btn{font:600 14px "Be Vietnam Pro",sans-serif;border:0;border-radius:9px;padding:9px 14px;cursor:pointer;background:var(--accent);color:#fff}
+.btn.ghost{background:var(--surface);color:var(--text);border:1px solid var(--border)}
+.btn:hover{filter:brightness(1.08)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.note{background:var(--warm-soft);border:1px solid var(--border);border-left:4px solid var(--warm);border-radius:10px;padding:12px 14px;font-size:14px}
+.bundles{font-size:13px;color:var(--muted);margin-top:10px}
+.bundles img{width:44px;height:44px;object-fit:cover;border-radius:6px;border:1px solid var(--border);display:inline-block;margin:2px;background:#fff}
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.filters input,.filters select{font:15px "Be Vietnam Pro",sans-serif;padding:9px 12px;border-radius:10px;border:1px solid var(--border);background:var(--surface);color:var(--text);min-width:0}
+.filters input{flex:1 1 220px}
+footer{padding:30px 0 50px;color:var(--muted);font-size:14px}
+@media (max-width:520px){.phead{grid-template-columns:64px 1fr}.phead img{width:64px;height:64px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <a href="pet-ad-workflow.html" class="small" style="text-decoration:none">← Quy trình 5 Style</a>
+    <div class="eyebrow">STL_01 · Hero Shot theo từng mẫu mã</div>
+    <h1>Prompt theo Variant</h1>
+    <p class="lead">Mỗi sản phẩm CJ được thống kê số variant. Các variant chỉ khác <b>size / chiều dài / số lượng / phích cắm</b> được gộp lại, chỉ giữ các <b>mẫu mã khác nhau</b> (màu, kiểu dáng). Mỗi mẫu mã có sẵn 1 prompt STL_01, đã gắn link ảnh variant (<code>[Base Image]</code>) và link ảnh pet (<code>[Reference Image]</code>).</p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+<nav class="toc" aria-label="Mục lục"><div class="wrap" id="toc"><a href="#pets">🐾 Pet</a><a href="#tong-hop">Tổng hợp</a></div></nav>
+<main>
+<section id="pets">
+  <div class="wrap">
+    <h2>🐾 10 nhân vật pet</h2>
+    <p class="muted small">Ảnh lấy từ Wikimedia Commons, giấy phép tự do (CC0 / Public domain / CC BY / CC BY-SA). Ảnh CC BY và CC BY-SA cần ghi công tác giả khi dùng lại ảnh gốc.</p>
+    <div class="pets" id="pet-grid"></div>
+  </div>
+</section>
+<section id="tong-hop">
+  <div class="wrap">
+    <h2>Tổng hợp variant</h2>
+    <div class="note" style="margin:10px 0 14px">
+      <b>Quy tắc:</b> nội dung prompt chỉ lấy từ dữ liệu CJ (tên, chất liệu, variantKey, ảnh variant). Cách pet tương tác được suy ra từ công dụng ghi trong tên / mô tả sản phẩm; mục "Căn cứ" trích nguyên văn đoạn dữ liệu đó. Variant combo/set (nhiều món trong 1 ảnh) không tạo prompt, chỉ liệt kê để bạn kiểm tra.
+    </div>
+    <div class="table-wrap"><table id="summary"></table></div>
+    <div class="filters">
+      <input type="search" id="q" placeholder="Lọc theo SKU, tên, màu…">
+      <select id="cat"><option value="">Tất cả danh mục</option></select>
+    </div>
+  </div>
+</section>
+<div id="cats"></div>
+</main>
+<footer><div class="wrap">Tạo tự động bởi <code>tools/variant-prompts/build.py</code> từ dữ liệu MCP CJdropshipping. Sửa pet / cách tương tác trong <code>tools/variant-prompts/products.json</code> rồi chạy lại script.</div></footer>
+
+<script>
+var DATA = /*__DATA__*/null;
+(function(){
+  var $ = function(id){ return document.getElementById(id); };
+  var esc = function(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); };
+  var pets = {}; DATA.pets.forEach(function(p){ pets[p.id] = p; });
+
+  function copy(text, btn){
+    var label = btn.dataset.label || (btn.dataset.label = btn.textContent);
+    var done = function(){ btn.textContent = '✓ Đã copy'; setTimeout(function(){ btn.textContent = label; }, 1500); };
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, done); else done();
+  }
+
+  var nProd = 0, nVar = 0, nDes = 0, nBun = 0;
+  DATA.categories.forEach(function(c){ c.products.forEach(function(p){ nProd++; nVar += p.totalVariants; nDes += p.designs.length; nBun += p.bundles.length; }); });
+  $('stats').innerHTML = [['Sản phẩm', nProd], ['Tổng variant', nVar], ['Mẫu mã có prompt', nDes], ['Variant combo/set', nBun], ['Pet', DATA.pets.length]]
+    .map(function(x){ return '<div class="stat"><span class="muted small">' + x[0] + '</span><b>' + x[1] + '</b></div>'; }).join('');
+
+  $('pet-grid').innerHTML = DATA.pets.map(function(p){
+    return '<div class="pet"><img loading="lazy" src="pets/' + esc(p.file) + '" alt="' + esc(p.name) + '"><div><b>' + esc(p.name) + '</b><br>' +
+      '<span class="lic">' + esc(p.license) + ' · ' + esc(p.author) + ' · <a href="' + esc(p.source) + '" target="_blank" rel="noopener">nguồn</a></span></div></div>';
+  }).join('');
+
+  var chips = function(p){ return p.dims.map(function(d){ return '<span class="chip ' + (d.design ? 'on' : 'off') + '">' + esc(d.name) + '</span>'; }).join(' '); };
+  var rows = '<tr><th>Danh mục</th><th>#</th><th>SKU</th><th>Chiều biến thể</th><th class="n">Tổng variant</th><th class="n">Mẫu mã</th><th class="n">Combo/Set</th><th>Pet</th></tr>';
+  DATA.categories.forEach(function(c){
+    $('toc').insertAdjacentHTML('beforeend', '<a href="#' + esc(c.folder) + '">' + esc(c.folder.replace(/^CJ_(\d+)_/, '$1 ').replace(/_/g, ' ')) + '</a>');
+    $('cat').insertAdjacentHTML('beforeend', '<option value="' + esc(c.folder) + '">' + esc(c.folder) + '</option>');
+    c.products.forEach(function(p){
+      rows += '<tr><td>' + esc(c.folder) + '</td><td>' + esc(p.rank) + '</td><td><a href="#p-' + esc(p.sku) + '">' + esc(p.sku) + '</a></td><td>' + chips(p) +
+        '</td><td class="n">' + p.totalVariants + '</td><td class="n"><b>' + p.designs.length + '</b></td><td class="n">' + p.bundles.length + '</td><td>' + esc(pets[p.pet].name) + '</td></tr>';
+    });
+  });
+  $('summary').innerHTML = rows;
+
+  var html = '';
+  DATA.categories.forEach(function(c){
+    html += '<section id="' + esc(c.folder) + '" data-cat="' + esc(c.folder) + '"><div class="wrap"><h2>' + esc(c.folder.replace(/_/g, ' ')) + '</h2>';
+    c.products.forEach(function(p){
+      var pet = pets[p.pet];
+      var hay = [p.sku, p.nameEn, p.product].concat(p.designs.map(function(g){ return g.label; })).join(' ').toLowerCase();
+      html += '<div class="product" id="p-' + esc(p.sku) + '" data-hay="' + esc(hay) + '">' +
+        '<div class="phead"><img loading="lazy" src="' + esc(p.bigImage) + '" alt=""><div>' +
+        '<h3>#' + esc(p.rank) + ' · ' + esc(p.sku) + ' · ' + esc(p.product) + '</h3>' +
+        '<p class="small muted" style="margin:0">' + esc(p.nameEn) + '</p>' +
+        '<div class="chips"><span class="chip">' + p.totalVariants + ' variant</span><span class="chip on">' + p.designs.length + ' mẫu mã</span>' +
+        (p.bundles.length ? '<span class="chip">' + p.bundles.length + ' combo/set</span>' : '') + chips(p) + '</div>' +
+        '<p class="small" style="margin:0">Pet: <b>' + esc(pet.name) + '</b> · Căn cứ: <span class="muted">' + esc(p.basis) + '</span></p>' +
+        '<div class="row" style="margin-top:8px"><button class="btn ghost" type="button" data-copyall="' + esc(p.sku) + '">📋 Copy ' + p.designs.length + ' prompt</button>' +
+        (p.url ? '<a class="small" href="' + esc(p.url) + '" target="_blank" rel="noopener">Trang CJ ↗</a>' : '') + '</div>' +
+        '</div></div><div class="designs">';
+      p.designs.forEach(function(g, i){
+        html += '<div class="design"><div class="imgs"><img loading="lazy" src="' + esc(g.images[0] || p.bigImage) + '" alt="' + esc(g.label) + '">' +
+          '<img class="petimg" loading="lazy" src="pets/' + esc(pet.file) + '" alt="' + esc(pet.name) + '"></div>' +
+          '<div class="body"><div class="lbl">' + esc(g.label) + '</div>' +
+          '<div class="small muted">' + g.variants.length + ' variant: ' + esc(g.variants.map(function(v){ return v.variantKey; }).join(', ')) + '</div>' +
+          '<div class="row"><button class="btn" type="button" data-copy="' + esc(p.sku) + ':' + i + '">Copy prompt</button></div>' +
+          '<details><summary>Xem prompt</summary><pre class="prompt">' + esc(g.prompt) + '</pre></details></div></div>';
+      });
+      html += '</div>';
+      if (p.bundles.length) {
+        html += '<div class="bundles"><b>Combo/Set bỏ qua:</b> ' + esc(p.bundles.map(function(b){ return b.variantKey; }).join(', ')) + '<br>' +
+          p.bundles.filter(function(b){ return b.image; }).map(function(b){ return '<a href="' + esc(b.image) + '" target="_blank" rel="noopener" title="' + esc(b.variantKey) + '"><img loading="lazy" src="' + esc(b.image) + '" alt="' + esc(b.variantKey) + '"></a>'; }).join('') + '</div>';
+      }
+      p.excluded.forEach(function(e){ html += '<div class="bundles"><b>Bỏ ' + esc(e.variantKey) + ':</b> ' + esc(e.reason) + '</div>'; });
+      html += '</div>';
+    });
+    html += '</div></section>';
+  });
+  $('cats').innerHTML = html;
+
+  var bySku = {};
+  DATA.categories.forEach(function(c){ c.products.forEach(function(p){ bySku[p.sku] = p; }); });
+  document.addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    if (b.dataset.copy) {
+      var k = b.dataset.copy.split(':'); copy(bySku[k[0]].designs[+k[1]].prompt, b);
+    } else if (b.dataset.copyall) {
+      var p = bySku[b.dataset.copyall];
+      copy(p.designs.map(function(g){ return '===== ' + p.sku + ' · ' + g.label + ' =====\n' + g.prompt; }).join('\n\n'), b);
+    }
+  });
+
+  function filter(){
+    var q = $('q').value.trim().toLowerCase(), cat = $('cat').value;
+    document.querySelectorAll('#cats section').forEach(function(s){
+      var any = false;
+      s.querySelectorAll('.product').forEach(function(el){
+        var ok = (!cat || s.dataset.cat === cat) && (!q || el.dataset.hay.indexOf(q) >= 0);
+        el.hidden = !ok; any = any || ok;
+      });
+      s.hidden = !any;
+    });
+  }
+  $('q').addEventListener('input', filter); $('cat').addEventListener('change', filter);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+{
+  "_readme": [
+    "Cấu hình thủ công cho từng SKU. Chỉ chứa những gì KHÔNG có sẵn dạng ngắn gọn trong dữ liệu CJ:",
+    "- product: tên loại sản phẩm ngắn (tiếng Anh), rút gọn từ productNameEn.",
+    "- pet: id pet trong pet-ad-workflow/pets/pets.json, chọn theo đối tượng ghi trong productNameEn / description (Dog / Cat / Large Dogs ...).",
+    "- use: cách pet tương tác với sản phẩm, suy ra từ công dụng sản phẩm trong productNameEn / description.",
+    "- action, angle: lấy theo các lựa chọn của MAKE PROMPT (STL_01).",
+    "- basis: đoạn trích từ dữ liệu CJ làm căn cứ cho product/pet/use.",
+    "- excludeDesigns: variantKey (sau chuẩn hoá) cần bỏ, kèm lý do."
+  ],
+  "CJGY1281703": {
+    "product": "silicone pet bath massage brush",
+    "pet": "corgi",
+    "use": "sitting right behind the product, which stands upright in the foreground",
+    "action": "sitting upright, looking directly at the camera with a happy panting expression",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Silicone Dog Bath Massage Gloves Brush Pet Cat Bathroom Cleaning Tool\""
+  },
+  "CJGY1035039": {
+    "product": "reusable pet hair remover roller brush",
+    "pet": "ragdoll",
+    "use": "lying beside the product, which rests in the foreground",
+    "action": "lying down with paws tucked, tilting its head curiously at the camera",
+    "angle": "45-degree isometric studio angle",
+    "basis": "productNameEn: \"2-1 Reusable Pet Hair Remover Brush Lint Roller\"; description: \"remove fur and fluff anywhere\""
+  },
+  "CJGY1739674": {
+    "product": "pet hair massage comb brush",
+    "pet": "british-shorthair",
+    "use": "sitting right behind the product, which lies in the foreground",
+    "action": "sitting upright, looking directly at the camera with a happy panting expression",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"New Pet Cat Dog Hair Brush Hair Massage Comb\"; description: \"Size: 18 * 9.5cm\""
+  },
+  "CJMY1752960": {
+    "product": "smart pet hair dryer comb",
+    "pet": "golden-retriever-puppy",
+    "use": "sitting next to the product, which stands upright beside it",
+    "action": "sitting upright, looking directly at the camera with a happy panting expression",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Smart Pet Hair Dryer Dog Golden Retriever Cat Grooming\"; description: \"Product size: 260 * 95 * 95mm\""
+  },
+  "CJYD2332008": {
+    "product": "pet hair remover grooming glove",
+    "pet": "shiba-inu",
+    "use": "sitting right behind the product, which lies flat in the foreground",
+    "action": "sitting upright, looking directly at the camera with a happy panting expression",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Pet Hair Remover Mitt ... Deshedding Brush Glove\"; description: \"pet grooming gloves ... removes loose fur\""
+  },
+  "CJMY1870790": {
+    "product": "remote control interactive cat car toy",
+    "pet": "orange-tabby-kitten",
+    "use": "crouching playfully right behind the product with its eyes fixed on it, ready to pounce",
+    "action": "crouched low in a playful hunting pose",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Remote Control Interactive Cat Car Toy\"; description: \"mouse-like movements ... hunting, chasing\""
+  },
+  "CJGY1703014": {
+    "product": "dog bone chew toy",
+    "pet": "french-bulldog",
+    "use": "lying down holding the product between its front paws",
+    "action": "lying down with paws tucked, tilting its head curiously at the camera",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Dog Chew Toy Dog Bone Type ... TPR Bone\""
+  },
+  "CJYD2058496": {
+    "product": "cooling water play mat for cats",
+    "pet": "scottish-fold",
+    "use": "sitting on the product, pawing curiously at the printed design",
+    "action": "sitting on the mat, looking down curiously at the pattern",
+    "angle": "high-angle top-down view",
+    "basis": "productNameEn: \"Summer Cooling Pet Water Bed Cushion Ice Pad\"; description: \"water playmat features a fish design ... for cats\"",
+    "excludeDesigns": {
+      "random color pump": "phụ kiện bơm nước, không phải mẫu mã thảm"
+    }
+  },
+  "CJMY1700579": {
+    "product": "2-in-1 cat turntable toy with feather",
+    "pet": "orange-tabby-kitten",
+    "use": "sitting next to the product, reaching one paw toward it",
+    "action": "sitting next to the toy, one paw raised playfully",
+    "angle": "45-degree isometric studio angle",
+    "basis": "productNameEn: \"2 In 1 Pet Cat Toy With Feather For Self-play Cat Turntable\"; description: \"Color: orange-blue, yellow-green\""
+  },
+  "CJGY1157230": {
+    "product": "silicone flying disc dog toy",
+    "pet": "corgi",
+    "use": "sitting right behind the product, which stands upright in the foreground",
+    "action": "sitting upright, looking directly at the camera with a happy panting expression",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Silicone Flying Saucer ... Dog Game Flying Discs\"; description: \"diameter 20cm ... Applicable to: Dog ... color shipped randomly\""
+  },
+  "CJJJCWGY04596": {
+    "product": "hands-free dog leash with waist belt",
+    "pet": "golden-retriever-puppy",
+    "use": "sitting next to the product, with the bungee leash clipped to its collar",
+    "action": "sitting upright, looking directly at the camera with a happy panting expression",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Hands Free Dog Leash Pet Walking And Training Belt With Shock Absorbing Bungee Leash For Up To 180lbs Large Dogs\""
+  },
+  "CJGY1548160": {
+    "product": "portable mesh pet safety gate",
+    "pet": "corgi",
+    "use": "standing behind the product, peeking over the top of the mesh",
+    "action": "standing on its hind legs with front paws on the top edge, looking at the camera",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Pets Dog Cat Baby Safety Gate Mesh Fence Magic Portable Guard Net Stairs Doors\""
+  },
+  "CJGY1742809": {
+    "product": "retractable dog leash",
+    "pet": "pomeranian",
+    "use": "sitting next to the product, with the leash clipped to its collar and the handle lying in front of it",
+    "action": "sitting upright, looking directly at the camera with a happy panting expression",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Automatic Explore Retractable Dog Leash ... Small Medium Dogs\""
+  },
+  "CJGY1757445": {
+    "product": "silicone finger toothbrush for pets",
+    "pet": "samoyed",
+    "use": "sitting right behind the product, which lies in the foreground",
+    "action": "sitting upright with a big open-mouth smile showing clean white teeth",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Dog Tooth Cleaning Brush Care Finger Wrap Cat Dog Oral Cleaning Toothbrush\""
+  },
+  "CJGY1803656": {
+    "product": "microfiber pet drying towel",
+    "pet": "shiba-inu",
+    "use": "wrapped snugly in the product",
+    "action": "sitting upright, looking directly at the camera with a happy panting expression",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Dog Towels For Drying Dogs ... Towels Robe Super Absorbent Quick Drying Soft Microfiber Pet Towel\""
+  },
+  "CJGX1597441": {
+    "product": "reflective nylon collar with AirTag holder",
+    "pet": "british-shorthair",
+    "use": "wearing the product around its neck",
+    "action": "sitting upright, looking directly at the camera",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Reflective Collar Waterproof Holder Case For Airtag ... Cat Dog Kitten Puppy Nylon Collar\""
+  },
+  "CJJJCWGY00032": {
+    "product": "LED light-up nylon dog collar",
+    "pet": "pomeranian",
+    "use": "wearing the product around its neck, the LED collar glowing softly",
+    "action": "sitting upright, looking directly at the camera with a happy panting expression",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Nylon LED Pet Dog Luminous Collar Night Safety Flashing Glow in Dark Dog Cat\""
+  },
+  "CJJJCWGY02126": {
+    "product": "soft nylon pet collar",
+    "pet": "corgi",
+    "use": "wearing the product exactly as shown in [Base Image]",
+    "action": "sitting upright, looking directly at the camera with a happy panting expression",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"New Pet Collar\"; description: \"Name: Soft nylon pet collar ... General for cats and dogs\""
+  },
+  "CJJJCWGY00418": {
+    "product": "camouflage light-up dog collar",
+    "pet": "shiba-inu",
+    "use": "wearing the product around its neck, the collar light glowing softly",
+    "action": "sitting upright, looking directly at the camera with a happy panting expression",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Camouflage pet supplies luminous dog collar\"; description: \"3 adjustable lighting modes\""
+  },
+  "CJJJCWGX00546": {
+    "product": "padded nylon dog collar",
+    "pet": "golden-retriever-puppy",
+    "use": "wearing the product around its neck",
+    "action": "sitting upright, looking directly at the camera with a happy panting expression",
+    "angle": "straight horizontal eye-level view",
+    "basis": "productNameEn: \"Nylon Anti-grind Dog Leash Collar\"; description: \"thick nylon straps and thick padded lining\""
+  },
+  "CJGY1025454": {
+    "product": "anti-overflow floating pet water bowl",
+    "pet": "samoyed",
+    "use": "drinking from the product",
+    "action": "lowering its head to drink calmly",
+    "angle": "45-degree isometric studio angle",
+    "basis": "productNameEn: \"1.5L Cat Dog Water Bowl Carried Floating Bowl Anti-Overflow Slow Water Feeder\""
+  },
+  "CJGY1748465": {
+    "product": "slow feeder pet bowl",
+    "pet": "corgi",
+    "use": "eating from the product",
+    "action": "lowering its head to eat happily",
+    "angle": "45-degree isometric studio angle",
+    "basis": "productNameEn: \"Pet Dog Cat Slow Feeder Bowls Anti Choking Slow Feeder Dish Bowl\""
+  },
+  "CJMY1772383": {
+    "product": "silicone pet licking mat",
+    "pet": "pomeranian",
+    "use": "licking the product with its tongue out",
+    "action": "lying down with its tongue out, licking happily",
+    "angle": "45-degree isometric studio angle",
+    "basis": "productNameEn: \"Dog Silicone Licking Pad Pet Licking Mat\"; description: \"The licking mat is a unique form of pet slow-feeder\""
+  },
+  "CJMY1228721": {
+    "product": "elevated cat feeder stand with transparent bowl",
+    "pet": "ragdoll",
+    "use": "eating from the product",
+    "action": "sitting and eating calmly",
+    "angle": "45-degree isometric studio angle",
+    "basis": "productNameEn: \"Cat Elevated Feeder Stand With Transparent Bowl\""
+  },
+  "CJGY1029541": {
+    "product": "ceramic tilted pet bowl",
+    "pet": "british-shorthair",
+    "use": "eating from the product",
+    "action": "sitting and eating calmly",
+    "angle": "45-degree isometric studio angle",
+    "basis": "productNameEn: \"Pet Supplies Bowl Ceramic Cat Bowl Dog Bowl Oblique Mouth\"; description: \"Material: Ceramic\"; description: \"Specifications: Single bowl (...), bowl + rack (...)\" → variant \"…set\" = bát + giá đỡ",
+    "setIsDesign": true,
+    "rename": {
+      "redset": "Red bowl + rack",
+      "greenset": "Green bowl + rack",
+      "whiteset": "White bowl + rack",
+      "light greenset": "Light green bowl + rack"
+    }
+  },
+  "CJJT1006521": {
+    "product": "ice silk pet cooling mat",
+    "pet": "golden-retriever-puppy",
+    "use": "lying in the center of the product",
+    "action": "sleeping contentedly with eyes closed, curled up naturally",
+    "angle": "45-degree isometric studio angle",
+    "basis": "productNameEn: \"Pet Cooling Pad Bed For Dogs Cats ... Ice Silk Material\""
+  },
+  "CJJJCWGY00320": {
+    "product": "ice silk pet cooling pad",
+    "pet": "orange-tabby-kitten",
+    "use": "lying in the center of the product",
+    "action": "sprawled out comfortably, looking relaxed and pampered",
+    "angle": "45-degree isometric studio angle",
+    "basis": "productNameEn: \"Pet Dog Cat Ice Silk Cold Nest Pad For Cooling In Summer\""
+  },
+  "CJJJCWMY00030": {
+    "product": "double layer cat litter mat",
+    "pet": "scottish-fold",
+    "use": "sitting in the center of the product",
+    "action": "sitting upright, looking directly at the camera",
+    "angle": "high-angle top-down view",
+    "basis": "productNameEn: \"Double Layer Litter Cat Bed Pads Pet Cat Litter Mat Trapping\"; description: \"Foldable black and Foldable gray can be folded\""
+  },
+  "CJGY2064580": {
+    "product": "ice silk dog cooling mat",
+    "pet": "samoyed",
+    "use": "lying in the center of the product",
+    "action": "sprawled out comfortably, looking relaxed and pampered",
+    "angle": "45-degree isometric studio angle",
+    "basis": "productNameEn: \"Dog Cooling Mat Summer Pets Cold Bed Extra Large For Small Big Dogs\"; description: \"ice silk fabric\""
+  },
+  "CJGY1942967": {
+    "product": "plush dog sofa bed cushion",
+    "pet": "golden-retriever-puppy",
+    "use": "curled up in the center of the product",
+    "action": "sleeping contentedly with eyes closed, curled up naturally",
+    "angle": "45-degree isometric studio angle",
+    "basis": "productNameEn: \"Pet Dog Sofa Bed Dog Beds For Large Dogs Cushion Warm\"; description: \"unique curved design ... to curl up\""
+  }
+}
