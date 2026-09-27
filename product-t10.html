@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pet Bedding T10</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f6f3; --surface:#ffffff; --surface-2:#f0eee9; --text:#1d1c1a; --muted:#6b675f;
+  --border:#e2dfd8; --accent:#2f7fb8; --accent-soft:#e3f0f9; --warm:#c9772b; --warm-soft:#fbeedf;
+  --good:#2f7a4b; --good-soft:#e2f2e8;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#15161a; --surface:#1e2025; --surface-2:#262930; --text:#ecebe8; --muted:#a19d95;
+    --border:#33363e; --accent:#6db3e6; --accent-soft:#1d3444; --warm:#e59a55; --warm-soft:#3a2a1b;
+    --good:#6cc28f; --good-soft:#1c3226;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15161a; --surface:#1e2025; --surface-2:#262930; --text:#ecebe8; --muted:#a19d95;
+  --border:#33363e; --accent:#6db3e6; --accent-soft:#1d3444; --warm:#e59a55; --warm-soft:#3a2a1b;
+  --good:#6cc28f; --good-soft:#1c3226;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.6 "Be Vietnam Pro",system-ui,sans-serif}
+img{max-width:100%;display:block}
+a{color:var(--accent)}
+code{font:12px/1.4 "JetBrains Mono",monospace;color:var(--muted);overflow-wrap:anywhere}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+header.hero{padding:40px 0 24px;border-bottom:1px solid var(--border)}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.back{font-size:14px;text-decoration:none}
+h1{font-size:clamp(26px,4.4vw,38px);line-height:1.15;margin:8px 0 10px;letter-spacing:-.02em}
+h2{font-size:clamp(19px,2.6vw,24px);margin:2px 0 2px;line-height:1.25}
+h3{font-size:14px;margin:0 0 6px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+p{margin:0 0 8px}
+.lead{color:var(--muted);max-width:820px}
+.muted{color:var(--muted)} .small{font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:18px}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 14px}
+.stat b{display:block;font-size:22px;font-variant-numeric:tabular-nums}
+.stat span{font-size:13px;color:var(--muted)}
+.rules{margin-top:16px;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 18px;font-size:14px}
+.rules ul{margin:4px 0 0;padding-left:18px}
+nav.toc{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+nav.toc .wrap{display:flex;gap:6px;overflow-x:auto;padding-top:10px;padding-bottom:10px;scrollbar-width:none}
+nav.toc a{flex:none;font-size:13px;color:var(--muted);text-decoration:none;padding:5px 11px;border-radius:999px;border:1px solid var(--border);background:var(--surface)}
+nav.toc a:hover{color:var(--text);border-color:var(--accent)}
+main{padding:8px 0 48px}
+.product{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px;margin-top:18px;scroll-margin-top:64px}
+.phead{display:grid;grid-template-columns:104px 1fr;gap:16px;align-items:start}
+.phead img{width:104px;height:104px;object-fit:cover;border-radius:10px;border:1px solid var(--border);background:#fff}
+.num{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.en{font-size:13px;color:var(--muted);margin:0 0 2px}
+.tag{font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px}
+.tag.test{background:var(--warm-soft);color:var(--warm)}
+.tag.high{background:var(--good-soft);color:var(--good)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0}
+.cols ul{margin:0;padding-left:18px;font-size:14px}
+.cols li{margin:2px 0}
+.note{background:var(--warm-soft);border-radius:10px;padding:10px 14px}
+.note h3{color:var(--warm)}
+.table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--border);text-align:left;vertical-align:middle}
+th{background:var(--surface-2);font-weight:600;white-space:nowrap;font-size:13px}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td img{width:52px;height:52px;object-fit:cover;border-radius:8px;border:1px solid var(--border);background:#fff}
+tr:last-child td{border-bottom:0}
+tr.orig td{background:var(--accent-soft)}
+.vl{font-weight:500;min-width:170px}
+.star{color:var(--warm)}
+td.price{font-weight:700;color:var(--good);font-size:15px}
+footer{padding:24px 0 40px;color:var(--muted);font-size:13px}
+@media (max-width:720px){
+  .cols{grid-template-columns:1fr}
+  .phead{grid-template-columns:72px 1fr}
+  .phead img{width:72px;height:72px}
+}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <a class="back" href="index.html">← CJ Research Hub</a>
+  <div class="eyebrow" style="margin-top:14px">Pet Supplies › Pet Bedding · Thị trường US</div>
+  <h1>13 sản phẩm Pet Bedding: variant và giá bán</h1>
+  <p class="lead">Mỗi sản phẩm có tối đa 5 variant, ưu tiên variant có đủ thông tin (cỡ, cân nặng). Toàn bộ thông tin lấy từ CJ, không tự thêm. Dòng tô xanh ★ là SKU gốc bạn gửi.</p>
+  <div class="stats">
+    <div class="stat"><b>13</b><span>sản phẩm</span></div>
+    <div class="stat"><b>65</b><span>variant</span></div>
+    <div class="stat"><b>$12.99–$98.99</b><span>khoảng giá bán</span></div>
+    <div class="stat"><b>35–46%</b><span>lãi sau ~5% phí</span></div>
+  </div>
+  <div class="rules">
+    <b>Cách tính</b>
+    <ul>
+      <li><b>Ship US</b>: tuyến rẻ nhất giao tối đa 15 ngày (LuWei Ordinary US hoặc YunExpress Ordinary), 1 cái. Không dùng CJPacket Eub (12–50 ngày).</li>
+      <li><b>Landed</b> = giá vốn CJ + ship. Khách được <b>miễn phí ship</b>.</li>
+      <li><b>Giá bán</b> = landed ÷ 0.60, làm tròn lên .99. Riêng #12 và #13: landed ÷ 0.50 (đã đồng ý nâng giá lên $49–59).</li>
+      <li><b>Lãi</b> = (giá bán × 95% − landed) ÷ giá bán. 5% là phí cổng thanh toán ước tính.</li>
+    </ul>
+  </div>
+</div></header>
+<nav class="toc"><div class="wrap"><a href="#p1">#1 Nệm tròn lông dài cho mèo/chó</a><a href="#p2">#2 Ổ nệm lông tròn (Plush pet nest)</a><a href="#p3">#3 Chăn/thảm lông san hô in hình</a><a href="#p4">#4 Giường chó (Dog Bed)</a><a href="#p5">#5 Ổ thú cưng hình ếch xanh</a><a href="#p6">#6 Ổ nệm 2 trong 1 lông dài</a><a href="#p7">#7 Ổ nửa kín ghép vải, xách tay được</a><a href="#p8">#8 Giường sofa lông xù cho chó</a><a href="#p9">#9 Ổ mèo hình cây thông Noel</a><a href="#p10">#10 Nệm lụa lạnh mùa hè</a><a href="#p11">#11 Thảm silicone chống nước</a><a href="#p12">#12 Thảm tự giữ ấm (self-warming)</a><a href="#p13">#13 Nệm sofa bảo vệ nội thất (có gối)</a></div></nav>
+<main><div class="wrap">
+<article class="product" id="p1">
+  <div class="phead">
+    <img src="https://cf.cjdropshipping.com/20190904/2987374076020.png" alt="Nệm tròn lông dài cho mèo/chó" loading="lazy">
+    <div>
+      <div class="num">#1 · <code>CJJJCWMY00276</code> </div>
+      <h2>Nệm tròn lông dài cho mèo/chó</h2>
+      <p class="en">Round Long Hairy Autumn And Winter Nest Pad Cat Mattress</p>
+      <p class="small muted">Pet Supplies &gt; Pet Bedding &gt; Pet Nests · <a href="https://www.cjdropshipping.com/product/round-long-hairy-autumn-and-winter-nest-pad-cat-mattress-p-31E793E4-F497-4C75-B5D4-DAF0B695CCBF.html" target="_blank" rel="noopener">Xem trên CJ ↗</a></p>
+    </div>
+  </div>
+  <div class="cols">
+    <div><h3>Thông tin từ CJ</h3><ul><li>Chất liệu: vải plush siêu mềm, ruột bông PP; lông dày 4 cm</li><li>Đáy có chấm keo chống trượt</li><li>Giặt máy hoặc giặt tay</li><li>CJ: phù hợp từ mèo tới chó lớn</li><li>Đường kính ngoài 40–110 cm</li></ul></div>
+    <div class="note"><h3>Ghi chú</h3><ul><li>Cùng cỡ 60cm nhưng giá vốn khác nhau: A green $4.11, các màu khác $6.59.</li></ul></div>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ảnh</th><th>Variant / SKU</th><th class="n">Giá vốn</th><th class="n">Nặng</th><th class="n">Ship US</th><th class="n">Landed</th><th class="n">CJ gợi ý</th><th class="n">Giá bán</th><th class="n">Lãi</th></tr></thead>
+    <tbody><tr class="orig"><td><img loading="lazy" src="https://cf.cjdropshipping.com/20200827/3629829723334.jpg" alt=""></td><td><div class="vl">A green-60cm <span class="star" title="SKU gốc bạn gửi">★</span></div><code>CJJJCWMY00276-A green-60cm</code></td><td class="n">$4.11</td><td class="n">1.15 kg</td><td class="n">$17.77</td><td class="n">$21.88</td><td class="n muted">$19.57</td><td class="n price">$36.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/20200827/3629829723334.jpg" alt=""></td><td><div class="vl">A green-70cm</div><code>CJJJCWMY00276-A green-70cm</code></td><td class="n">$5.26</td><td class="n">1.66 kg</td><td class="n">$24.37</td><td class="n">$29.63</td><td class="n muted">$25.04</td><td class="n price">$49.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/20190904/811767197913.png" alt=""></td><td><div class="vl">Grey-60cm</div><code>CJJJCWMY00276-Grey-60cm</code></td><td class="n">$6.59</td><td class="n">1.15 kg</td><td class="n">$17.77</td><td class="n">$24.36</td><td class="n muted">$31.58</td><td class="n price">$40.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/20190904/961179790704.png" alt=""></td><td><div class="vl">Beige brown-60cm</div><code>CJJJCWMY00276-Beige brown-60cm</code></td><td class="n">$6.59</td><td class="n">1.15 kg</td><td class="n">$17.77</td><td class="n">$24.36</td><td class="n muted">$31.37</td><td class="n price">$40.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/20190904/1932844171627.png" alt=""></td><td><div class="vl">Light coffee-60cm</div><code>CJJJCWMY00276-Light coffee-60cm</code></td><td class="n">$6.59</td><td class="n">1.15 kg</td><td class="n">$17.77</td><td class="n">$24.36</td><td class="n muted">$31.37</td><td class="n price">$40.99</td><td class="n">36%</td></tr></tbody>
+  </table></div>
+</article>
+<article class="product" id="p2">
+  <div class="phead">
+    <img src="https://cf.cjdropshipping.com/203109/853250835432557.jpg" alt="Ổ nệm lông tròn (Plush pet nest)" loading="lazy">
+    <div>
+      <div class="num">#2 · <code>CJJJCWGY03748</code> <span class="tag test">Test</span></div>
+      <h2>Ổ nệm lông tròn (Plush pet nest)</h2>
+      <p class="en">Plush pet nest</p>
+      <p class="small muted">Pet Supplies &gt; Pet Bedding &gt; Pet Nests · <a href="https://www.cjdropshipping.com/product/plush-pet-nest-p-B98913C0-CE31-4652-9593-BC02AAA9AA1A.html" target="_blank" rel="noopener">Xem trên CJ ↗</a></p>
+    </div>
+  </div>
+  <div class="cols">
+    <div><h3>Thông tin từ CJ</h3><ul><li>Chất liệu: vải (Cloth)</li><li>Đường kính ngoài 40 / 50 / 60 / 70 / 80 / 100 cm</li><li>13 màu theo mô tả CJ</li></ul></div>
+    <div class="note"><h3>Ghi chú</h3><ul><li>Giữ lại để test (theo yêu cầu).</li><li>Cỡ 100cm nặng 3.55 kg nên phí ship US cao ($47.52), giá bán sẽ cao.</li><li>CJ ghi cân nặng 70cm (1.00 kg) nhẹ hơn 60cm (1.55 kg), nên ship 70cm rẻ hơn 60cm. Nên hỏi lại CJ.</li></ul></div>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ảnh</th><th>Variant / SKU</th><th class="n">Giá vốn</th><th class="n">Nặng</th><th class="n">Ship US</th><th class="n">Landed</th><th class="n">CJ gợi ý</th><th class="n">Giá bán</th><th class="n">Lãi</th></tr></thead>
+    <tbody><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/203109/6711653581248.jpg" alt=""></td><td><div class="vl">Apricot-40cm</div><code>CJJJCWGY03748-Apricot-40cm</code></td><td class="n">$2.57</td><td class="n">0.62 kg</td><td class="n">$11.77</td><td class="n">$14.34</td><td class="n muted">$12.24</td><td class="n price">$23.99</td><td class="n">35%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/203109/6711653581248.jpg" alt=""></td><td><div class="vl">Apricot-50cm</div><code>CJJJCWGY03748-Apricot-50cm</code></td><td class="n">$3.28</td><td class="n">1.05 kg</td><td class="n">$16.43</td><td class="n">$19.71</td><td class="n muted">$15.62</td><td class="n price">$32.99</td><td class="n">35%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/203109/6711653581248.jpg" alt=""></td><td><div class="vl">Apricot-60cm</div><code>CJJJCWGY03748-Apricot-60cm</code></td><td class="n">$4.64</td><td class="n">1.55 kg</td><td class="n">$22.91</td><td class="n">$27.55</td><td class="n muted">$22.09</td><td class="n price">$45.99</td><td class="n">35%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/203109/6711653581248.jpg" alt=""></td><td><div class="vl">Apricot-70cm</div><code>CJJJCWGY03748-Apricot-70cm</code></td><td class="n">$5.99</td><td class="n">1.00 kg</td><td class="n">$15.77</td><td class="n">$21.76</td><td class="n muted">$28.52</td><td class="n price">$36.99</td><td class="n">36%</td></tr><tr class="orig"><td><img loading="lazy" src="https://cf.cjdropshipping.com/203109/6711653581248.jpg" alt=""></td><td><div class="vl">Apricot-100cm <span class="star" title="SKU gốc bạn gửi">★</span></div><code>CJJJCWGY03748-Apricot-100cm</code></td><td class="n">$11.52</td><td class="n">3.55 kg</td><td class="n">$47.52</td><td class="n">$59.04</td><td class="n muted">$54.84</td><td class="n price">$98.99</td><td class="n">35%</td></tr></tbody>
+  </table></div>
+</article>
+<article class="product" id="p3">
+  <div class="phead">
+    <img src="https://cf.cjdropshipping.com/15095520/4857111028_1699879893.400x400.jpg" alt="Chăn/thảm lông san hô in hình" loading="lazy">
+    <div>
+      <div class="num">#3 · <code>CJJJCWGY00331</code> </div>
+      <h2>Chăn/thảm lông san hô in hình</h2>
+      <p class="en">Cute Cat Blankets Dog Pet Mat</p>
+      <p class="small muted">Pet Supplies &gt; Pet Bedding &gt; Pet Blankets &amp; Quilts · <a href="https://www.cjdropshipping.com/product/cute-cat-blankets-dog-pet-mat-p-C316FC1C-93CE-4D51-BFDE-303BBC0CF4D8.html" target="_blank" rel="noopener">Xem trên CJ ↗</a></p>
+    </div>
+  </div>
+  <div class="cols">
+    <div><h3>Thông tin từ CJ</h3><ul><li>Chất liệu: coral cashmere (lông san hô)</li><li>In nhuộm hoạt tính, dễ giặt, khó xù lông</li><li>Gồm 1 chăn/thảm</li></ul></div>
+    <div class="note"><h3>Ghi chú</h3><ul><li>Cỡ trong mô tả (S 50×40, M 50×50, L 80×55, XL 100×75) không khớp tên variant (S 50×30, M 55×45, L 70×55). Bảng dùng tên variant.</li></ul></div>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ảnh</th><th>Variant / SKU</th><th class="n">Giá vốn</th><th class="n">Nặng</th><th class="n">Ship US</th><th class="n">Landed</th><th class="n">CJ gợi ý</th><th class="n">Giá bán</th><th class="n">Lãi</th></tr></thead>
+    <tbody><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/2041/1790497646663.png" alt=""></td><td><div class="vl">Blue bone-S50x30</div><code>CJJJCWGY00331-Blue bone-S50x30</code></td><td class="n">$1.18</td><td class="n">0.15 kg</td><td class="n">$6.18</td><td class="n">$7.36</td><td class="n muted">$4.54</td><td class="n price">$12.99</td><td class="n">38%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/2041/1790497646663.png" alt=""></td><td><div class="vl">Blue bone-M55x45</div><code>CJJJCWGY00331-Blue bone-M55x45</code></td><td class="n">$1.45</td><td class="n">0.38 kg</td><td class="n">$8.62</td><td class="n">$10.07</td><td class="n muted">$5.57</td><td class="n price">$16.99</td><td class="n">36%</td></tr><tr class="orig"><td><img loading="lazy" src="https://cf.cjdropshipping.com/2041/1790497646663.png" alt=""></td><td><div class="vl">Blue bone-L70x55 <span class="star" title="SKU gốc bạn gửi">★</span></div><code>CJJJCWGY00331-Blue bone-L70x55</code></td><td class="n">$2.32</td><td class="n">0.29 kg</td><td class="n">$7.48</td><td class="n">$9.80</td><td class="n muted">$8.91</td><td class="n price">$16.99</td><td class="n">37%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/2041/1790497646663.png" alt=""></td><td><div class="vl">Blue bone-XL100x75</div><code>CJJJCWGY00331-Blue bone-XL100x75</code></td><td class="n">$3.25</td><td class="n">0.60 kg</td><td class="n">$11.56</td><td class="n">$14.81</td><td class="n muted">$12.48</td><td class="n price">$24.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/2041/1248886992605.png" alt=""></td><td><div class="vl">Cute cat-L70x55</div><code>CJJJCWGY00331-Cute cat-L70x55</code></td><td class="n">$2.25</td><td class="n">0.29 kg</td><td class="n">$7.48</td><td class="n">$9.73</td><td class="n muted">$8.64</td><td class="n price">$16.99</td><td class="n">38%</td></tr></tbody>
+  </table></div>
+</article>
+<article class="product" id="p4">
+  <div class="phead">
+    <img src="https://oss-cf.cjdropshipping.com/product/2026/01/26/03/b3ad9b11-8bf3-4ce6-942a-f4416665bb84_trans.jpeg" alt="Giường chó (Dog Bed)" loading="lazy">
+    <div>
+      <div class="num">#4 · <code>CJGY1636313</code> </div>
+      <h2>Giường chó (Dog Bed)</h2>
+      <p class="en">Dog Bed</p>
+      <p class="small muted">Pet Supplies &gt; Pet Bedding &gt; Pet Nests · <a href="https://www.cjdropshipping.com/product/dog-bed-p-1602233277266538496.html" target="_blank" rel="noopener">Xem trên CJ ↗</a></p>
+    </div>
+  </div>
+  <div class="cols">
+    <div><h3>Thông tin từ CJ</h3><ul><li>CJ chỉ ghi &quot;Dog Bed&quot;, không có mô tả chi tiết</li><li>Chất liệu: vải (Cloth)</li><li>Màu Grey / Light Grey, cỡ S / M / L</li></ul></div>
+    <div class="note"><h3>Ghi chú</h3><ul><li>Mô tả CJ rất ít thông tin, cần hỏi thêm kích thước thật trước khi đăng bán.</li></ul></div>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ảnh</th><th>Variant / SKU</th><th class="n">Giá vốn</th><th class="n">Nặng</th><th class="n">Ship US</th><th class="n">Landed</th><th class="n">CJ gợi ý</th><th class="n">Giá bán</th><th class="n">Lãi</th></tr></thead>
+    <tbody><tr><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2026/01/26/03/48238b67-2c6a-465d-9d76-372cf639f410_trans.jpeg" alt=""></td><td><div class="vl">Grey-S</div><code>CJGY163631304DW</code></td><td class="n">$5.99</td><td class="n">1.00 kg</td><td class="n">$15.77</td><td class="n">$21.76</td><td class="n muted">$28.52</td><td class="n price">$36.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2026/01/26/03/48238b67-2c6a-465d-9d76-372cf639f410_trans.jpeg" alt=""></td><td><div class="vl">Grey-M</div><code>CJGY163631305EV</code></td><td class="n">$6.77</td><td class="n">1.20 kg</td><td class="n">$18.37</td><td class="n">$25.14</td><td class="n muted">$32.23</td><td class="n price">$41.99</td><td class="n">35%</td></tr><tr class="orig"><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2026/01/26/03/48238b67-2c6a-465d-9d76-372cf639f410_trans.jpeg" alt=""></td><td><div class="vl">Grey-L <span class="star" title="SKU gốc bạn gửi">★</span></div><code>CJGY163631306FU</code></td><td class="n">$7.40</td><td class="n">1.40 kg</td><td class="n">$20.97</td><td class="n">$28.37</td><td class="n muted">$35.23</td><td class="n price">$47.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2026/01/26/03/bc06e4b0-4676-4360-9436-cbc37ea06c90.jpg" alt=""></td><td><div class="vl">Light Grey-M</div><code>CJGY163631302BY</code></td><td class="n">$6.77</td><td class="n">1.20 kg</td><td class="n">$18.37</td><td class="n">$25.14</td><td class="n muted">$32.23</td><td class="n price">$41.99</td><td class="n">35%</td></tr><tr><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2026/01/26/03/bc06e4b0-4676-4360-9436-cbc37ea06c90.jpg" alt=""></td><td><div class="vl">Light Grey-L</div><code>CJGY163631303CX</code></td><td class="n">$7.40</td><td class="n">1.40 kg</td><td class="n">$20.97</td><td class="n">$28.37</td><td class="n muted">$35.23</td><td class="n price">$47.99</td><td class="n">36%</td></tr></tbody>
+  </table></div>
+</article>
+<article class="product" id="p5">
+  <div class="phead">
+    <img src="https://cf.cjdropshipping.com/cf74c7e1-684d-401a-b3dc-63bf4e40dbba.png" alt="Ổ thú cưng hình ếch xanh" loading="lazy">
+    <div>
+      <div class="num">#5 · <code>CJGY1838725</code> </div>
+      <h2>Ổ thú cưng hình ếch xanh</h2>
+      <p class="en">Pet Cat Dog Nest Little Frog Series Warm Plush Mat Autumn Winter Pet House Full Package Nest For Small Cats Dogs Within 5KG</p>
+      <p class="small muted">Pet Supplies &gt; Pet Bedding &gt; Pet Nests · <a href="https://www.cjdropshipping.com/product/pet-cat-dog-nest-little-frog-series-warm-plush-mat-autumn-winter-pet-house-full-package-nest-for-small-cats-dogs-within-5kg-p-1698622022336647168.html" target="_blank" rel="noopener">Xem trên CJ ↗</a></p>
+    </div>
+  </div>
+  <div class="cols">
+    <div><h3>Thông tin từ CJ</h3><ul><li>Hình ếch hoạt hình; kiểu nửa mái (half shed) và kiểu tròn</li><li>Ruột bông PP, vỏ plush bubble velvet</li><li>Đáy có hạt cao su chống trượt</li><li>CJ: cho chó mèo nhỏ ≤5 kg</li></ul></div>
+    
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ảnh</th><th>Variant / SKU</th><th class="n">Giá vốn</th><th class="n">Nặng</th><th class="n">Ship US</th><th class="n">Landed</th><th class="n">CJ gợi ý</th><th class="n">Giá bán</th><th class="n">Lãi</th></tr></thead>
+    <tbody><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/fa66d096-c6ce-4744-83c0-540141e3ca76_trans.jpeg" alt=""></td><td><div class="vl">Green Frog Half Shed Nest-S</div><code>CJGY183872503CX</code></td><td class="n">$4.17</td><td class="n">0.57 kg</td><td class="n">$11.13</td><td class="n">$15.30</td><td class="n muted">$25.13</td><td class="n price">$25.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/fa66d096-c6ce-4744-83c0-540141e3ca76_trans.jpeg" alt=""></td><td><div class="vl">Green Frog Half Shed Nest-M</div><code>CJGY183872504DW</code></td><td class="n">$5.56</td><td class="n">0.90 kg</td><td class="n">$14.44</td><td class="n">$20.00</td><td class="n muted">$26.47</td><td class="n price">$33.99</td><td class="n">36%</td></tr><tr class="orig"><td><img loading="lazy" src="https://cf.cjdropshipping.com/fa66d096-c6ce-4744-83c0-540141e3ca76_trans.jpeg" alt=""></td><td><div class="vl">Green Frog Half Shed Nest-L <span class="star" title="SKU gốc bạn gửi">★</span></div><code>CJGY183872507GT</code></td><td class="n">$7.88</td><td class="n">0.77 kg</td><td class="n">$12.79</td><td class="n">$20.67</td><td class="n muted">$37.51</td><td class="n price">$34.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/bd055063-7ca0-4e64-a358-b4137fff50a4_trans.jpeg" alt=""></td><td><div class="vl">Green Frog Round Nest-M</div><code>CJGY183872501AZ</code></td><td class="n">$3.55</td><td class="n">0.67 kg</td><td class="n">$12.42</td><td class="n">$15.97</td><td class="n muted">$24.68</td><td class="n price">$26.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/bd055063-7ca0-4e64-a358-b4137fff50a4_trans.jpeg" alt=""></td><td><div class="vl">Green Frog Round Nest-L</div><code>CJGY183872502BY</code></td><td class="n">$4.66</td><td class="n">0.77 kg</td><td class="n">$12.79</td><td class="n">$17.45</td><td class="n muted">$27.94</td><td class="n price">$29.99</td><td class="n">37%</td></tr></tbody>
+  </table></div>
+</article>
+<article class="product" id="p6">
+  <div class="phead">
+    <img src="https://cf.cjdropshipping.com/1619317245589.jpg" alt="Ổ nệm 2 trong 1 lông dài" loading="lazy">
+    <div>
+      <div class="num">#6 · <code>CJJJCWMY01390</code> </div>
+      <h2>Ổ nệm 2 trong 1 lông dài</h2>
+      <p class="en">2 In 1 Dog And Cat Bed Pet Winter Bed Round Plush Warm Bed House Soft Long Plush Pets Bed Pet Products</p>
+      <p class="small muted">Pet Supplies &gt; Pet Bedding &gt; Pet Nests · <a href="https://www.cjdropshipping.com/product/2-in-1-dog-and-cat-bed-pet-winter-bed-round-plush-warm-bed-house-soft-long-plush-pets-bed-pet-products-p-4BB39C1C-2AF0-4CC3-9D66-BAA427505625.html" target="_blank" rel="noopener">Xem trên CJ ↗</a></p>
+    </div>
+  </div>
+  <div class="cols">
+    <div><h3>Thông tin từ CJ</h3><ul><li>Chất liệu: bông PP ấm, plush, crystal velvet</li><li>Cỡ 40 / 50 / 65 cm, cao 2 cm</li><li>Dùng cho mèo và chó</li></ul></div>
+    <div class="note"><h3>Ghi chú</h3><ul><li>Đã bỏ variant gốc &quot;Brown&quot; (không ghi cỡ) theo yêu cầu. Thay bằng các variant có ghi rõ cỡ.</li></ul></div>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ảnh</th><th>Variant / SKU</th><th class="n">Giá vốn</th><th class="n">Nặng</th><th class="n">Ship US</th><th class="n">Landed</th><th class="n">CJ gợi ý</th><th class="n">Giá bán</th><th class="n">Lãi</th></tr></thead>
+    <tbody><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/b0300b9a-0193-4b58-8632-5c80433d9675.jpg?bid=1794273993680232448" alt=""></td><td><div class="vl">Grey 40cm</div><code>CJJJCWMY01390-Grey 40cm</code></td><td class="n">$4.78</td><td class="n">1.08 kg</td><td class="n">$16.88</td><td class="n">$21.66</td><td class="n muted">$22.76</td><td class="n price">$36.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/20210111/1735649042138.jpg?bid=1794274002458910720" alt=""></td><td><div class="vl">Grey50cm</div><code>CJJJCWMY01390-Grey50cm</code></td><td class="n">$5.61</td><td class="n">1.09 kg</td><td class="n">$16.94</td><td class="n">$22.55</td><td class="n muted">$45.08</td><td class="n price">$37.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/203206/2870801248799.jpg?bid=1794274013880000512" alt=""></td><td><div class="vl">Grey 65cm</div><code>CJJJCWMY01390-Grey 65cm</code></td><td class="n">$8.79</td><td class="n">1.52 kg</td><td class="n">$22.53</td><td class="n">$31.32</td><td class="n muted">$47.94</td><td class="n price">$52.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/20210111/1372075009180.jpg?bid=1794274028144828416" alt=""></td><td><div class="vl">Brown50cm</div><code>CJJJCWMY01390-Brown50cm</code></td><td class="n">$5.61</td><td class="n">1.09 kg</td><td class="n">$16.94</td><td class="n">$22.55</td><td class="n muted">$38.80</td><td class="n price">$37.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/203206/2176570652.jpg?bid=1794273979956473856" alt=""></td><td><div class="vl">Brown 65cm</div><code>CJJJCWMY01390-Brown 65cm</code></td><td class="n">$8.79</td><td class="n">1.52 kg</td><td class="n">$22.53</td><td class="n">$31.32</td><td class="n muted">$47.94</td><td class="n price">$52.99</td><td class="n">36%</td></tr></tbody>
+  </table></div>
+</article>
+<article class="product" id="p7">
+  <div class="phead">
+    <img src="https://cf.cjdropshipping.com/54515931-cdc0-4a89-a6cb-bc7ea2c0e81c_trans.jpeg" alt="Ổ nửa kín ghép vải, xách tay được" loading="lazy">
+    <div>
+      <div class="num">#7 · <code>CJGY1848160</code> </div>
+      <h2>Ổ nửa kín ghép vải, xách tay được</h2>
+      <p class="en">New Splice Portable Pet Nest Portable Autumn And Winter Warm Dog Nest Moisture-proof Long Fur Cat Nest Cross Border Pet Nest</p>
+      <p class="small muted">Pet Supplies &gt; Pet Bedding &gt; Pet Nests · <a href="https://www.cjdropshipping.com/product/new-splice-portable-pet-nest-portable-autumn-and-winter-warm-dog-nest-moisture-proof-long-fur-cat-nest-cross-border-pet-nest-p-1702619567194910720.html" target="_blank" rel="noopener">Xem trên CJ ↗</a></p>
+    </div>
+  </div>
+  <div class="cols">
+    <div><h3>Thông tin từ CJ</h3><ul><li>Chất liệu: plush sọc</li><li>Kiểu nửa kín, có riêng tư, dễ vệ sinh (giũ/lau)</li><li>M 40×30×28 cm: thú &lt;10 cân TQ (≈5 kg)</li><li>L 50×40×34 cm: thú &lt;20 cân TQ (≈10 kg)</li></ul></div>
+    
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ảnh</th><th>Variant / SKU</th><th class="n">Giá vốn</th><th class="n">Nặng</th><th class="n">Ship US</th><th class="n">Landed</th><th class="n">CJ gợi ý</th><th class="n">Giá bán</th><th class="n">Lãi</th></tr></thead>
+    <tbody><tr><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2025/04/11/08/2f078ba9-f04b-4837-b268-3aa07a70fab9.jpg" alt=""></td><td><div class="vl">Brown with stickers-M</div><code>CJGY184816008HS</code></td><td class="n">$5.47</td><td class="n">0.56 kg</td><td class="n">$11.00</td><td class="n">$16.47</td><td class="n muted">$26.04</td><td class="n price">$27.99</td><td class="n">36%</td></tr><tr class="orig"><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2025/04/11/08/2f078ba9-f04b-4837-b268-3aa07a70fab9.jpg" alt=""></td><td><div class="vl">Brown with stickers-L <span class="star" title="SKU gốc bạn gửi">★</span></div><code>CJGY184816007GT</code></td><td class="n">$7.13</td><td class="n">0.80 kg</td><td class="n">$13.17</td><td class="n">$20.30</td><td class="n muted">$33.94</td><td class="n price">$33.99</td><td class="n">35%</td></tr><tr><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2025/04/11/08/e9adfed1-7212-408c-a712-1e6b6f14a980.jpg" alt=""></td><td><div class="vl">Grey with stickers-M</div><code>CJGY184816010JQ</code></td><td class="n">$5.47</td><td class="n">0.56 kg</td><td class="n">$10.93</td><td class="n">$16.40</td><td class="n muted">$26.04</td><td class="n price">$27.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2025/04/11/08/e9adfed1-7212-408c-a712-1e6b6f14a980.jpg" alt=""></td><td><div class="vl">Grey with stickers-L</div><code>CJGY184816009IR</code></td><td class="n">$7.13</td><td class="n">0.79 kg</td><td class="n">$13.05</td><td class="n">$20.18</td><td class="n muted">$33.94</td><td class="n price">$33.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2025/04/11/08/b79d782f-2976-4c28-a509-0665292b0269.jpg" alt=""></td><td><div class="vl">Pink with stickers-L</div><code>CJGY184816011KP</code></td><td class="n">$7.13</td><td class="n">0.80 kg</td><td class="n">$13.15</td><td class="n">$20.28</td><td class="n muted">$33.94</td><td class="n price">$33.99</td><td class="n">35%</td></tr></tbody>
+  </table></div>
+</article>
+<article class="product" id="p8">
+  <div class="phead">
+    <img src="https://cf.cjdropshipping.com/ad9a42e7-05f8-4048-a56b-401153dfcae9.jpg" alt="Giường sofa lông xù cho chó" loading="lazy">
+    <div>
+      <div class="num">#8 · <code>CJYD1646434</code> <span class="tag test">Test</span></div>
+      <h2>Giường sofa lông xù cho chó</h2>
+      <p class="en">Fluffy Dog Bed Winter Warm Large Pet Products Small Sofa Baskets Pets Kennel Mat Puppy Cats Supplies Basket Blanket Accessories Pets Supplies</p>
+      <p class="small muted">Pet Supplies &gt; Pet Bedding &gt; Pet Nests · <a href="https://www.cjdropshipping.com/product/fluffy-dog-bed-winter-warm-large-pet-products-small-sofa-baskets-pets-kennel-mat-puppy-cats-supplies-basket-blanket-accessories-pets-supplies-p-1606130832807309312.html" target="_blank" rel="noopener">Xem trên CJ ↗</a></p>
+    </div>
+  </div>
+  <div class="cols">
+    <div><h3>Thông tin từ CJ</h3><ul><li>Chất liệu: vải; danh sách hàng: Sofa Mattress ×1</li><li>CJ ghi &quot;Felt random color&quot;</li><li>Cỡ theo đường kính + cân nặng thú (xem bảng)</li></ul></div>
+    <div class="note"><h3>Ghi chú</h3><ul><li>Giữ lại để test (theo yêu cầu).</li><li>Tên là dog bed nhưng CJ ghi &quot;Applicable object: Cat&quot;. Dùng cỡ và cân nặng thú của CJ để chọn cỡ.</li><li>CJ ghi 3XL &quot;within 100 jin&quot; (≈50 kg), thấp hơn mức 60 kg của 2XL. Có thể CJ ghi nhầm, nên hỏi lại.</li></ul></div>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ảnh</th><th>Variant / SKU</th><th class="n">Giá vốn</th><th class="n">Nặng</th><th class="n">Ship US</th><th class="n">Landed</th><th class="n">CJ gợi ý</th><th class="n">Giá bán</th><th class="n">Lãi</th></tr></thead>
+    <tbody><tr><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2026/05/13/02/431c5ebf-6a84-43d1-aeca-1419ee6614f2.jpg" alt=""></td><td><div class="vl">Dark Coffee · M Ø50cm · <b>thú ≤10 kg</b></div><code>CJYD164643410JQ</code></td><td class="n">$4.78</td><td class="n">0.68 kg</td><td class="n">$19.15</td><td class="n">$23.93</td><td class="n muted">$25.60</td><td class="n price">$39.99</td><td class="n">35%</td></tr><tr><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2026/05/13/02/431c5ebf-6a84-43d1-aeca-1419ee6614f2.jpg" alt=""></td><td><div class="vl">Dark Coffee · L Ø60cm · <b>thú ≤20 kg</b></div><code>CJYD164643409IR</code></td><td class="n">$6.38</td><td class="n">1.03 kg</td><td class="n">$19.15</td><td class="n">$25.53</td><td class="n muted">$30.87</td><td class="n price">$42.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2026/05/13/02/431c5ebf-6a84-43d1-aeca-1419ee6614f2.jpg" alt=""></td><td><div class="vl">Dark Coffee · XL Ø70cm · <b>thú ≤30 kg</b></div><code>CJYD164643411KP</code></td><td class="n">$8.66</td><td class="n">1.38 kg</td><td class="n">$20.70</td><td class="n">$29.36</td><td class="n muted">$41.23</td><td class="n price">$48.99</td><td class="n">35%</td></tr><tr class="orig"><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2026/05/13/02/431c5ebf-6a84-43d1-aeca-1419ee6614f2.jpg" alt=""></td><td><div class="vl">Dark Coffee · 2XL Ø90cm · <b>thú ≤60 kg</b> <span class="star" title="SKU gốc bạn gửi">★</span></div><code>CJYD164643433GT</code></td><td class="n">$11.34</td><td class="n">2.37 kg</td><td class="n">$32.48</td><td class="n">$43.82</td><td class="n muted">$59.29</td><td class="n price">$73.99</td><td class="n">36%</td></tr><tr><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2026/05/13/02/431c5ebf-6a84-43d1-aeca-1419ee6614f2.jpg" alt=""></td><td><div class="vl">Dark Coffee · 3XL Ø110cm · <b>≤100 cân TQ (≈50 kg)</b></div><code>CJYD164643408HS</code></td><td class="n">$15.39</td><td class="n">2.80 kg</td><td class="n">$38.02</td><td class="n">$53.41</td><td class="n muted">$80.79</td><td class="n price">$89.99</td><td class="n">36%</td></tr></tbody>
+  </table></div>
+</article>
+<article class="product" id="p9">
+  <div class="phead">
+    <img src="https://cf.cjdropshipping.com/2056/22202652292242.jpg" alt="Ổ mèo hình cây thông Noel" loading="lazy">
+    <div>
+      <div class="num">#9 · <code>CJJJCWMY01435</code> </div>
+      <h2>Ổ mèo hình cây thông Noel</h2>
+      <p class="en">Christmas tree cat litter</p>
+      <p class="small muted">Pet Supplies &gt; Pet Bedding &gt; Pet Nests · <a href="https://www.cjdropshipping.com/product/christmas-tree-cat-litter-p-E43A6BD6-8BB6-463D-8B7B-F19C34F6DDB3.html" target="_blank" rel="noopener">Xem trên CJ ↗</a></p>
+    </div>
+  </div>
+  <div class="cols">
+    <div><h3>Thông tin từ CJ</h3><ul><li>Mút đàn hồi cao nén, bông PP, lông ngắn</li><li>Mẫu: mũ đỏ / cây xanh / ngôi sao</li><li>Dùng cho mèo và chó nhỏ</li></ul></div>
+    <div class="note"><h3>Ghi chú</h3><ul><li>Hàng theo mùa (Noel). Nên đăng bán từ tháng 10 tới tháng 12.</li></ul></div>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ảnh</th><th>Variant / SKU</th><th class="n">Giá vốn</th><th class="n">Nặng</th><th class="n">Ship US</th><th class="n">Landed</th><th class="n">CJ gợi ý</th><th class="n">Giá bán</th><th class="n">Lãi</th></tr></thead>
+    <tbody><tr class="orig"><td><img loading="lazy" src="https://cf.cjdropshipping.com/2056/1921720992773.jpg" alt=""></td><td><div class="vl">Red-35X35X45cm <span class="star" title="SKU gốc bạn gửi">★</span></div><code>CJJJCWMY01435-Red-35X35X45cm</code></td><td class="n">$4.97</td><td class="n">0.55 kg</td><td class="n">$10.79</td><td class="n">$15.76</td><td class="n muted">$23.66</td><td class="n price">$26.99</td><td class="n">37%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/2056/1921720992773.jpg" alt=""></td><td><div class="vl">Red-43X43X50cm</div><code>CJJJCWMY01435-Red-43X43X50cm</code></td><td class="n">$6.89</td><td class="n">0.66 kg</td><td class="n">$12.23</td><td class="n">$19.12</td><td class="n muted">$32.80</td><td class="n price">$31.99</td><td class="n">35%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/2056/1921720992773.jpg" alt=""></td><td><div class="vl">Red-50X50X55cm</div><code>CJJJCWMY01435-Red-50X50X55cm</code></td><td class="n">$10.66</td><td class="n">0.77 kg</td><td class="n">$12.72</td><td class="n">$23.38</td><td class="n muted">$50.75</td><td class="n price">$38.99</td><td class="n">35%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/2056/22202652292242.jpg" alt=""></td><td><div class="vl">Star models-35X35X45cm</div><code>CJJJCWMY01435-Star models-35X35X45cm</code></td><td class="n">$4.97</td><td class="n">0.55 kg</td><td class="n">$10.79</td><td class="n">$15.76</td><td class="n muted">$23.66</td><td class="n price">$26.99</td><td class="n">37%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/2056/22202652292242.jpg" alt=""></td><td><div class="vl">Star models-43X43X50cm</div><code>CJJJCWMY01435-Star models-43X43X50cm</code></td><td class="n">$6.89</td><td class="n">0.66 kg</td><td class="n">$12.23</td><td class="n">$19.12</td><td class="n muted">$32.80</td><td class="n price">$31.99</td><td class="n">35%</td></tr></tbody>
+  </table></div>
+</article>
+<article class="product" id="p10">
+  <div class="phead">
+    <img src="https://cf.cjdropshipping.com/15409152/2439998508340.jpg" alt="Nệm lụa lạnh mùa hè" loading="lazy">
+    <div>
+      <div class="num">#10 · <code>CJJJCWGY00320</code> </div>
+      <h2>Nệm lụa lạnh mùa hè</h2>
+      <p class="en">Pet Dog Cat Ice Silk Cold Nest Pad For Cooling In Summer</p>
+      <p class="small muted">Pet Supplies &gt; Pet Bedding &gt; Pet Mats · <a href="https://www.cjdropshipping.com/product/pet-dog-cat-ice-silk-cold-nest-pad-for-cooling-in-summer-p-2EC85C14-D684-4845-8917-AB9D4E5CE301.html" target="_blank" rel="noopener">Xem trên CJ ↗</a></p>
+    </div>
+  </div>
+  <div class="cols">
+    <div><h3>Thông tin từ CJ</h3><ul><li>Mặt lụa lạnh (ice silk), giữa bông, đáy lưới thoáng khí</li><li>S 50×40, M 63×50, L 70×56, XL 102×70 cm</li><li>Nặng: S 100 g, M 150 g, L 200 g, XL 320 g</li></ul></div>
+    <div class="note"><h3>Ghi chú</h3><ul><li>Variant &quot;2pcs&quot; = 2 cái (theo quyết định của bạn). Cân nặng 428 g ≈ 2 × 220 g của cỡ 70×56 nên khớp.</li></ul></div>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ảnh</th><th>Variant / SKU</th><th class="n">Giá vốn</th><th class="n">Nặng</th><th class="n">Ship US</th><th class="n">Landed</th><th class="n">CJ gợi ý</th><th class="n">Giá bán</th><th class="n">Lãi</th></tr></thead>
+    <tbody><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/15409152/1023724984832.jpg" alt=""></td><td><div class="vl">Blue-50x40cm</div><code>CJJJCWGY00320-Blue-50x40cm</code></td><td class="n">$1.74</td><td class="n">0.12 kg</td><td class="n">$5.75</td><td class="n">$7.49</td><td class="n muted">$16.43</td><td class="n price">$12.99</td><td class="n">37%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/15409152/1023724984832.jpg" alt=""></td><td><div class="vl">Blue-63x50cm</div><code>CJJJCWGY00320-Blue-63x50cm</code></td><td class="n">$2.55</td><td class="n">0.17 kg</td><td class="n">$6.46</td><td class="n">$9.01</td><td class="n muted">$25.61</td><td class="n price">$15.99</td><td class="n">39%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/15409152/1023724984832.jpg" alt=""></td><td><div class="vl">Blue-70x56cm</div><code>CJJJCWGY00320-Blue-70x56cm</code></td><td class="n">$3.07</td><td class="n">0.22 kg</td><td class="n">$6.57</td><td class="n">$9.64</td><td class="n muted">$28.99</td><td class="n price">$16.99</td><td class="n">38%</td></tr><tr class="orig"><td><img loading="lazy" src="https://oss-cf.cjdropshipping.com/product/2026/07/03/05/847cfa92-d8b8-4f36-956d-a9a2fccc182a.jpg" alt=""></td><td><div class="vl">Blue · <b>2 cái</b> · 70×56cm <span class="star" title="SKU gốc bạn gửi">★</span></div><code>CJJJCWGY00320-Blue 2pcs-70X56CM</code></td><td class="n">$5.86</td><td class="n">0.43 kg</td><td class="n">$9.27</td><td class="n">$15.13</td><td class="n muted">$55.32</td><td class="n price">$25.99</td><td class="n">37%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/6a73db9f-b8af-4d01-b42b-a2c80d1b1857.png" alt=""></td><td><div class="vl">Blue-102x70cm</div><code>CJJJCWGY00320-Blue-102x70cm</code></td><td class="n">$4.39</td><td class="n">0.32 kg</td><td class="n">$7.87</td><td class="n">$12.26</td><td class="n muted">$41.45</td><td class="n price">$20.99</td><td class="n">37%</td></tr></tbody>
+  </table></div>
+</article>
+<article class="product" id="p11">
+  <div class="phead">
+    <img src="https://cf.cjdropshipping.com/1619673833101.jpg" alt="Thảm silicone chống nước" loading="lazy">
+    <div>
+      <div class="num">#11 · <code>CJGY1105631</code> </div>
+      <h2>Thảm silicone chống nước</h2>
+      <p class="en">Spot Pet Mat, Waterproof And Easy To Clean Silicone Dog Mat, Cat Mat, Square Pet Placemat, Pet Supplies</p>
+      <p class="small muted">Pet Supplies &gt; Pet Bedding &gt; Pet Mats · <a href="https://www.cjdropshipping.com/product/spot-pet-mat-waterproof-and-easy-to-clean-silicone-dog-mat-cat-mat-square-pet-placemat-pet-supplies-p-1387639463303319552.html" target="_blank" rel="noopener">Xem trên CJ ↗</a></p>
+    </div>
+  </div>
+  <div class="cols">
+    <div><h3>Thông tin từ CJ</h3><ul><li>Silicone chống nước, dễ lau chùi</li><li>Small 48×30 cm, Large 60.5×40.5 cm</li><li>Gồm 1 thảm; CJ ghi hãng nakabayashi, mã SPET-012</li></ul></div>
+    <div class="note"><h3>Ghi chú</h3><ul><li>Có thể dùng làm thảm lót bát ăn (CJ đặt tên &quot;Placemat&quot;).</li></ul></div>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ảnh</th><th>Variant / SKU</th><th class="n">Giá vốn</th><th class="n">Nặng</th><th class="n">Ship US</th><th class="n">Landed</th><th class="n">CJ gợi ý</th><th class="n">Giá bán</th><th class="n">Lãi</th></tr></thead>
+    <tbody><tr class="orig"><td><img loading="lazy" src="https://cf.cjdropshipping.com/c2e10407-680f-42e1-b933-7f42a60524da.jpg" alt=""></td><td><div class="vl">Beige-Small <span class="star" title="SKU gốc bạn gửi">★</span></div><code>CJGY110563113MN</code></td><td class="n">$2.56</td><td class="n">0.28 kg</td><td class="n">$7.35</td><td class="n">$9.91</td><td class="n muted">$24.17</td><td class="n price">$16.99</td><td class="n">37%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/c2e10407-680f-42e1-b933-7f42a60524da.jpg" alt=""></td><td><div class="vl">Beige-large</div><code>CJGY110563114NM</code></td><td class="n">$3.99</td><td class="n">0.52 kg</td><td class="n">$10.47</td><td class="n">$14.46</td><td class="n muted">$37.67</td><td class="n price">$24.99</td><td class="n">37%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/f5d435ea-c92a-441d-b70c-496679d0bd87.jpg" alt=""></td><td><div class="vl">Grey-Small</div><code>CJGY110563107GT</code></td><td class="n">$2.56</td><td class="n">0.28 kg</td><td class="n">$7.35</td><td class="n">$9.91</td><td class="n muted">$24.17</td><td class="n price">$16.99</td><td class="n">37%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/f5d435ea-c92a-441d-b70c-496679d0bd87.jpg" alt=""></td><td><div class="vl">Grey-large</div><code>CJGY110563108HS</code></td><td class="n">$3.99</td><td class="n">0.52 kg</td><td class="n">$10.47</td><td class="n">$14.46</td><td class="n muted">$37.67</td><td class="n price">$24.99</td><td class="n">37%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/b3aa5b67-1b5c-4843-aa6c-ccac1db17519.jpg" alt=""></td><td><div class="vl">Pink-Small</div><code>CJGY110563109IR</code></td><td class="n">$2.56</td><td class="n">0.28 kg</td><td class="n">$7.35</td><td class="n">$9.91</td><td class="n muted">$24.17</td><td class="n price">$16.99</td><td class="n">37%</td></tr></tbody>
+  </table></div>
+</article>
+<article class="product" id="p12">
+  <div class="phead">
+    <img src="https://cf.cjdropshipping.com/88ab0631-1567-4a28-96bd-ead3eb847a18.jpg" alt="Thảm tự giữ ấm (self-warming)" loading="lazy">
+    <div>
+      <div class="num">#12 · <code>CJPM2197269</code> <span class="tag high">Giá $49–59</span></div>
+      <h2>Thảm tự giữ ấm (self-warming)</h2>
+      <p class="en">Self-Warming Pet Mat Cozy Warm Soft Thick Corduroy Fleece</p>
+      <p class="small muted">Pet Supplies/Pet Bedding/Pet Mats · <a href="https://www.cjdropshipping.com/product/self-warming-pet-mat-cozy-warm-soft-thick-corduroy-fleece-p-1857612148038848512.html" target="_blank" rel="noopener">Xem trên CJ ↗</a></p>
+    </div>
+  </div>
+  <div class="cols">
+    <div><h3>Thông tin từ CJ</h3><ul><li>Lớp mylar tự giữ nhiệt, không cần điện, không tiếng ồn</li><li>Vải nhung tăm corduroy + fleece</li><li>Đáy chống trượt</li></ul></div>
+    <div class="note"><h3>Ghi chú</h3><ul><li>Markup cao hơn (giá = landed ÷ 0.50) theo đồng ý nâng giá lên $49–59. Cỡ nhỏ vẫn dưới $49.</li></ul></div>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ảnh</th><th>Variant / SKU</th><th class="n">Giá vốn</th><th class="n">Nặng</th><th class="n">Ship US</th><th class="n">Landed</th><th class="n">CJ gợi ý</th><th class="n">Giá bán</th><th class="n">Lãi</th></tr></thead>
+    <tbody><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/a3b94e5d-8a03-42dc-9c99-144e2181cfe7.jpg" alt=""></td><td><div class="vl">Brown-61x45cm</div><code>CJPM219726901AZ</code></td><td class="n">$3.95</td><td class="n">0.35 kg</td><td class="n">$8.26</td><td class="n">$12.21</td><td class="n muted">$37.29</td><td class="n price">$24.99</td><td class="n">46%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/a3b94e5d-8a03-42dc-9c99-144e2181cfe7.jpg" alt=""></td><td><div class="vl">Brown-76x51cm</div><code>CJPM219726902BY</code></td><td class="n">$5.53</td><td class="n">0.50 kg</td><td class="n">$10.22</td><td class="n">$15.75</td><td class="n muted">$52.21</td><td class="n price">$31.99</td><td class="n">46%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/a3b94e5d-8a03-42dc-9c99-144e2181cfe7.jpg" alt=""></td><td><div class="vl">Brown-89x58cm</div><code>CJPM219726903CX</code></td><td class="n">$7.11</td><td class="n">0.75 kg</td><td class="n">$12.53</td><td class="n">$19.64</td><td class="n muted">$67.12</td><td class="n price">$39.99</td><td class="n">46%</td></tr><tr class="orig"><td><img loading="lazy" src="https://cf.cjdropshipping.com/a3b94e5d-8a03-42dc-9c99-144e2181cfe7.jpg" alt=""></td><td><div class="vl">Brown-104x73cm <span class="star" title="SKU gốc bạn gửi">★</span></div><code>CJPM219726904DW</code></td><td class="n">$8.69</td><td class="n">1.08 kg</td><td class="n">$16.82</td><td class="n">$25.51</td><td class="n muted">$82.04</td><td class="n price">$51.99</td><td class="n">46%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/88ab0631-1567-4a28-96bd-ead3eb847a18.jpg" alt=""></td><td><div class="vl">Light gray-104x73cm</div><code>CJPM219726908HS</code></td><td class="n">$8.69</td><td class="n">1.08 kg</td><td class="n">$16.82</td><td class="n">$25.51</td><td class="n muted">$82.04</td><td class="n price">$51.99</td><td class="n">46%</td></tr></tbody>
+  </table></div>
+</article>
+<article class="product" id="p13">
+  <div class="phead">
+    <img src="https://oss-cf.cjdropshipping.com/product/2024/02/26/05/ec37b2eb-4bd1-49c3-a49a-fb2f6047edcf.jpg" alt="Nệm sofa bảo vệ nội thất (có gối)" loading="lazy">
+    <div>
+      <div class="num">#13 · <code>CJGY1942967</code> <span class="tag high">Giá $49–59</span></div>
+      <h2>Nệm sofa bảo vệ nội thất (có gối)</h2>
+      <p class="en">Pet Dog Sofa Bed Dog Beds For Large Dogs Cushion Warm Cat Beds Mat Furniture Protector Dog Sofa</p>
+      <p class="small muted">Pet Supplies &gt; Pet Bedding &gt; Pet Mats · <a href="https://www.cjdropshipping.com/product/pet-dog-sofa-bed-dog-beds-for-large-dogs-cushion-warm-cat-beds-mat-furniture-protector-dog-sofa-p-1744342631724888064.html" target="_blank" rel="noopener">Xem trên CJ ↗</a></p>
+    </div>
+  </div>
+  <div class="cols">
+    <div><h3>Thông tin từ CJ</h3><ul><li>Thiết kế cong, bảo vệ sofa khỏi lông và nước tiểu</li><li>Tháo rời được, giặt tay hoặc giặt máy</li><li>Cỡ 75×75 tới 90×135 cm; cho chó</li></ul></div>
+    <div class="note"><h3>Ghi chú</h3><ul><li>Markup cao hơn (giá = landed ÷ 0.50) theo đồng ý nâng giá lên $49–59. Cỡ 90×135 sẽ trên $59.</li></ul></div>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ảnh</th><th>Variant / SKU</th><th class="n">Giá vốn</th><th class="n">Nặng</th><th class="n">Ship US</th><th class="n">Landed</th><th class="n">CJ gợi ý</th><th class="n">Giá bán</th><th class="n">Lãi</th></tr></thead>
+    <tbody><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/quick/product/0367f604-997b-4cac-a763-a0d5055e9da6.jpg" alt=""></td><td><div class="vl">Pet Pad Beige With Pillow-75x75cm</div><code>CJGY194296705EV</code></td><td class="n">$5.80</td><td class="n">0.75 kg</td><td class="n">$12.53</td><td class="n">$18.33</td><td class="n muted">$54.76</td><td class="n price">$36.99</td><td class="n">45%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/quick/product/0367f604-997b-4cac-a763-a0d5055e9da6.jpg" alt=""></td><td><div class="vl">Pet Pad Beige With Pillow-90x90cm</div><code>CJGY194296702BY</code></td><td class="n">$7.46</td><td class="n">0.95 kg</td><td class="n">$15.13</td><td class="n">$22.59</td><td class="n muted">$70.43</td><td class="n price">$45.99</td><td class="n">46%</td></tr><tr class="orig"><td><img loading="lazy" src="https://cf.cjdropshipping.com/quick/product/0367f604-997b-4cac-a763-a0d5055e9da6.jpg" alt=""></td><td><div class="vl">Pet Pad Beige With Pillow-75x120cm <span class="star" title="SKU gốc bạn gửi">★</span></div><code>CJGY194296706FU</code></td><td class="n">$9.12</td><td class="n">1.13 kg</td><td class="n">$17.48</td><td class="n">$26.60</td><td class="n muted">$86.10</td><td class="n price">$53.99</td><td class="n">46%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/quick/product/0367f604-997b-4cac-a763-a0d5055e9da6.jpg" alt=""></td><td><div class="vl">Pet Pad Beige With Pillow-90x120cm</div><code>CJGY194296704DW</code></td><td class="n">$11.28</td><td class="n">1.13 kg</td><td class="n">$17.46</td><td class="n">$28.74</td><td class="n muted">$106.49</td><td class="n price">$57.99</td><td class="n">45%</td></tr><tr><td><img loading="lazy" src="https://cf.cjdropshipping.com/quick/product/0367f604-997b-4cac-a763-a0d5055e9da6.jpg" alt=""></td><td><div class="vl">Pet Pad Beige With Pillow-90x135cm</div><code>CJGY194296703CX</code></td><td class="n">$12.44</td><td class="n">1.18 kg</td><td class="n">$18.12</td><td class="n">$30.56</td><td class="n muted">$117.44</td><td class="n price">$61.99</td><td class="n">46%</td></tr></tbody>
+  </table></div>
+</article></div></main>
+<footer><div class="wrap">Dữ liệu: CJ Dropshipping API (giá vốn, cân nặng, mô tả) và tính phí ship US. Giá và phí ship có thể thay đổi, nên kiểm tra lại trước khi đăng bán.</div></footer>
+</body>
+</html>
