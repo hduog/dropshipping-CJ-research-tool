@@ -2,7 +2,8 @@
 """Chèn bảng đối chiếu Store (Shopify) ↔ CJ vào product-t10.html.
 
 Nguồn:
-  - shopify-products.json: snapshot sản phẩm ACTIVE trên store (title, link, variant, SKU, giá).
+  - shopify-products.json: snapshot sản phẩm ACTIVE trên store (title, link, variant, SKU, giá, ảnh variant;
+    variant không có ảnh riêng thì dùng ảnh đại diện sản phẩm - featuredImage).
   - product-t10.html: tên, link CJ và SKU từng variant CJ (bảng giá của mỗi sản phẩm).
 
 Mapping theo SKU: SKU variant trên Shopify phải trùng đúng SKU variant CJ trên trang.
@@ -91,9 +92,12 @@ def build():
         body = []
         for i, (v, cs) in enumerate(rows, 1):
             img = cs[0]["img"] if cs and cs[0]["img"] else ""
+            simg_url = v.get("image") or sp.get("featuredImage")
+            simg = (f'<img loading="lazy" src="{esc(simg_url + ("&" if "?" in simg_url else "?") + "width=160")}" alt="">'
+                    if simg_url else "")
             cj_lbl = "<br>".join(f'<div class="vl">{esc(c["label"])}</div><code>{esc(c["sku"])}</code>' for c in cs) or '<span class="warn">Không tìm thấy trên CJ</span>'
             body.append(f'<tr><td class="n muted">{i}</td><td><div class="vl">{esc(v["title"])}</div><code>{esc(v["sku"])}</code></td>'
-                        f'<td class="n price">${esc(v["price"])}</td><td>{img}</td><td>{cj_lbl}</td></tr>')
+                        f'<td class="n price">${esc(v["price"])}</td><td>{simg}</td><td>{img}</td><td>{cj_lbl}</td></tr>')
         miss = ""
         if missing:
             miss = (f'<p class="small muted" style="margin-top:8px">{len(missing)} variant CJ chưa đăng lên store: '
@@ -106,7 +110,7 @@ def build():
             f'<span class="muted small">Store {date}</span></summary><div class="secbody">'
             f'<div class="maphead"><div><h3>Trên store (Shopify)</h3><a href="{esc(sp["onlineStoreUrl"])}" target="_blank" rel="noopener"><b>{esc(sp["title"])}</b> ↗</a></div>'
             f'<div><h3>Trên CJ</h3>{cj_names}</div></div>{note}'
-            f'<div class="table-wrap"><table><thead><tr><th class="n">#</th><th>Variant trên store / SKU</th><th class="n">Giá store</th><th>Ảnh CJ</th><th>Variant CJ / SKU</th></tr></thead>'
+            f'<div class="table-wrap"><table><thead><tr><th class="n">#</th><th>Variant trên store / SKU</th><th class="n">Giá store</th><th>Ảnh store</th><th>Ảnh CJ</th><th>Variant CJ / SKU</th></tr></thead>'
             f'<tbody>{"".join(body)}</tbody></table></div>{miss}</div></details><!--/store-map-->\n')
         overview.append((int(main["num"]), sp, main, ok, len(rows), len(main["variants"]), bundle))
 

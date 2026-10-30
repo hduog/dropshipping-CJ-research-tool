@@ -17,50 +17,60 @@
      {
       "title": "Brown / XS",
       "sku": "CJGD170075901AZ",
-      "price": "26.99"
+      "price": "26.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_0a0bc0a2-b1e1-4285-b59e-055a878262d6.jpg?v=1791017940"
      },
      {
       "title": "Brown / M",
       "sku": "CJGD170075903CX",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_0a0bc0a2-b1e1-4285-b59e-055a878262d6.jpg?v=1791017940"
      },
      {
       "title": "Brown / L",
       "sku": "CJGD170075904DW",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_0a0bc0a2-b1e1-4285-b59e-055a878262d6.jpg?v=1791017940"
      },
      {
       "title": "Brown / XL",
       "sku": "CJGD170075905EV",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_0a0bc0a2-b1e1-4285-b59e-055a878262d6.jpg?v=1791017940"
      },
      {
       "title": "Brown / 2XL",
       "sku": "CJGD170075906FU",
-      "price": "28.99"
+      "price": "28.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_0a0bc0a2-b1e1-4285-b59e-055a878262d6.jpg?v=1791017940"
      },
      {
       "title": "Beige / M",
       "sku": "CJGD170075902BY",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_1b9b8cea-7314-4faa-8a81-9036f380e1f7.jpg?v=1791017940"
      },
      {
       "title": "Beige / L",
       "sku": "CJGD170075910JQ",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_1b9b8cea-7314-4faa-8a81-9036f380e1f7.jpg?v=1791017940"
      },
      {
       "title": "Beige / XL",
       "sku": "CJGD170075911KP",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_1b9b8cea-7314-4faa-8a81-9036f380e1f7.jpg?v=1791017940"
      },
      {
       "title": "Beige / 2XL",
       "sku": "CJGD170075912LO",
-      "price": "28.99"
+      "price": "28.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_1b9b8cea-7314-4faa-8a81-9036f380e1f7.jpg?v=1791017940"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_0a0bc0a2-b1e1-4285-b59e-055a878262d6.jpg?v=1791017940"
   },
   {
    "id": "gid://shopify/Product/10193633083648",
@@ -78,35 +88,42 @@
      {
       "title": "Set (Robe + Eye Mask + Slippers) / S",
       "sku": "CJGD162634115OL",
-      "price": "40.99"
+      "price": "40.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bathrobe.jpg?v=1791017942"
      },
      {
       "title": "Set (Robe + Eye Mask + Slippers) / M",
       "sku": "CJGD162634113MN",
-      "price": "40.99"
+      "price": "40.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bathrobe.jpg?v=1791017942"
      },
      {
       "title": "Bathrobe / S",
       "sku": "CJGD162634106FU",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bathrobe.jpg?v=1791017942"
      },
      {
       "title": "Bathrobe / M",
       "sku": "CJGD162634105EV",
-      "price": "28.99"
+      "price": "28.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bathrobe.jpg?v=1791017942"
      },
      {
       "title": "Eye Mask / One Size",
       "sku": "CJGD162634107GT",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Eye_mask.jpg?v=1791017942"
      },
      {
       "title": "Slippers / One Size",
       "sku": "CJGD162634108HS",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Slippers.jpg?v=1791017943"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bathrobe.jpg?v=1791017942"
   },
   {
    "id": "gid://shopify/Product/10193633149184",
@@ -124,65 +141,78 @@
      {
       "title": "Grey / S",
       "sku": "CJJJCWGD00666-Grey-S",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_56ad3602-1c5b-4cca-a7a7-ee784b180c13.jpg?v=1791017944"
      },
      {
       "title": "Grey / M",
       "sku": "CJJJCWGD00666-Grey-M",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_56ad3602-1c5b-4cca-a7a7-ee784b180c13.jpg?v=1791017944"
      },
      {
       "title": "Grey / L",
       "sku": "CJJJCWGD00666-Grey-L",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_56ad3602-1c5b-4cca-a7a7-ee784b180c13.jpg?v=1791017944"
      },
      {
       "title": "Red / S",
       "sku": "CJJJCWGD00666-Red-S",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_50718264-588c-4f2f-8d79-b94d67fc64d7.jpg?v=1791017944"
      },
      {
       "title": "Red / M",
       "sku": "CJJJCWGD00666-Red-M",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_50718264-588c-4f2f-8d79-b94d67fc64d7.jpg?v=1791017944"
      },
      {
       "title": "Red / L",
       "sku": "CJJJCWGD00666-Red-L",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_50718264-588c-4f2f-8d79-b94d67fc64d7.jpg?v=1791017944"
      },
      {
       "title": "Coffee / S",
       "sku": "CJJJCWGD00666-Coffee-S",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Coffee.jpg?v=1791017944"
      },
      {
       "title": "Coffee / M",
       "sku": "CJJJCWGD00666-Coffee-M",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Coffee.jpg?v=1791017944"
      },
      {
       "title": "Coffee / L",
       "sku": "CJJJCWGD00666-Coffee-L",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Coffee.jpg?v=1791017944"
      },
      {
       "title": "Green / S",
       "sku": "CJJJCWGD00666-Green-S",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_d7d92008-ea3a-4f93-878c-00b713833aab.jpg?v=1791017944"
      },
      {
       "title": "Green / M",
       "sku": "CJJJCWGD00666-Green-M",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_d7d92008-ea3a-4f93-878c-00b713833aab.jpg?v=1791017944"
      },
      {
       "title": "Green / L",
       "sku": "CJJJCWGD00666-Green-L",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_d7d92008-ea3a-4f93-878c-00b713833aab.jpg?v=1791017944"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_56ad3602-1c5b-4cca-a7a7-ee784b180c13.jpg?v=1791017944"
   },
   {
    "id": "gid://shopify/Product/10193633214720",
@@ -200,190 +230,228 @@
      {
       "title": "Green Tree Cloak / S",
       "sku": "CJMY128213601AZ",
-      "price": "21.99"
+      "price": "21.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_326d42ec-78f5-4fef-ae59-40a52f036e8d.jpg?v=1791017947"
      },
      {
       "title": "Green Tree Cloak / M",
       "sku": "CJMY128213602BY",
-      "price": "22.99"
+      "price": "22.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_326d42ec-78f5-4fef-ae59-40a52f036e8d.jpg?v=1791017947"
      },
      {
       "title": "Green Tree Cloak / L",
       "sku": "CJMY128213603CX",
-      "price": "22.99"
+      "price": "22.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_326d42ec-78f5-4fef-ae59-40a52f036e8d.jpg?v=1791017947"
      },
      {
       "title": "Red Star Cloak / S",
       "sku": "CJMY128213604DW",
-      "price": "21.99"
+      "price": "21.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_6638dd74-b4db-428a-8474-40721f4deefb.jpg?v=1791017947"
      },
      {
       "title": "Red Star Cloak / M",
       "sku": "CJMY128213605EV",
-      "price": "22.99"
+      "price": "22.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_6638dd74-b4db-428a-8474-40721f4deefb.jpg?v=1791017947"
      },
      {
       "title": "Red Star Cloak / L",
       "sku": "CJMY128213606FU",
-      "price": "22.99"
+      "price": "22.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_6638dd74-b4db-428a-8474-40721f4deefb.jpg?v=1791017947"
      },
      {
       "title": "Fur-Trim Cloak / S",
       "sku": "CJMY128213627AZ",
-      "price": "19.99"
+      "price": "19.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cloak.jpg?v=1791017947"
      },
      {
       "title": "Fur-Trim Cloak / M",
       "sku": "CJMY128213626ZA",
-      "price": "19.99"
+      "price": "19.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cloak.jpg?v=1791017947"
      },
      {
       "title": "Fur-Trim Cloak / L",
       "sku": "CJMY128213625YB",
-      "price": "19.99"
+      "price": "19.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cloak.jpg?v=1791017947"
      },
      {
       "title": "Red Cloak / S",
       "sku": "CJMY128213631EV",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_cloak.jpg?v=1791017947"
      },
      {
       "title": "Red Cloak / M",
       "sku": "CJMY128213630DW",
-      "price": "21.99"
+      "price": "21.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_cloak.jpg?v=1791017947"
      },
      {
       "title": "Red Cloak / L",
       "sku": "CJMY128213629CX",
-      "price": "21.99"
+      "price": "21.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_cloak.jpg?v=1791017947"
      },
      {
       "title": "Red Cape / S",
       "sku": "CJMY128213651YB",
-      "price": "23.99"
+      "price": "23.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cape_red.jpg?v=1791017947"
      },
      {
       "title": "Red Cape / M",
       "sku": "CJMY128213650XC",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cape_red.jpg?v=1791017947"
      },
      {
       "title": "Red Cape / L",
       "sku": "CJMY128213649WD",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cape_red.jpg?v=1791017947"
      },
      {
       "title": "Green Cape / S",
       "sku": "CJMY128213655CX",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cape_green.jpg?v=1791017947"
      },
      {
       "title": "Green Cape / M",
       "sku": "CJMY128213654BY",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cape_green.jpg?v=1791017947"
      },
      {
       "title": "Green Cape / L",
       "sku": "CJMY128213653AZ",
-      "price": "23.99"
+      "price": "23.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cape_green.jpg?v=1791017947"
      },
      {
       "title": "Santa Claus Style / S",
       "sku": "CJMY128213647UF",
-      "price": "19.99"
+      "price": "19.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Santa_Claus_style.jpg?v=1791017946"
      },
      {
       "title": "Santa Claus Style / M",
       "sku": "CJMY128213646TG",
-      "price": "19.99"
+      "price": "19.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Santa_Claus_style.jpg?v=1791017946"
      },
      {
       "title": "Red & White Scarf / S",
       "sku": "CJMY128213639MN",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Scarf_red-white.jpg?v=1791017947"
      },
      {
       "title": "Red & White Scarf / M",
       "sku": "CJMY128213638LO",
-      "price": "19.99"
+      "price": "19.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Scarf_red-white.jpg?v=1791017947"
      },
      {
       "title": "Red & White Scarf / L",
       "sku": "CJMY128213637KP",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Scarf_red-white.jpg?v=1791017947"
      },
      {
       "title": "White & Green Scarf / S",
       "sku": "CJMY128213643QJ",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Scarf_white-green.jpg?v=1791017947"
      },
      {
       "title": "White & Green Scarf / M",
       "sku": "CJMY128213642PK",
-      "price": "19.99"
+      "price": "19.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Scarf_white-green.jpg?v=1791017947"
      },
      {
       "title": "White & Green Scarf / L",
       "sku": "CJMY128213641OL",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Scarf_white-green.jpg?v=1791017947"
      },
      {
       "title": "Christmas Snood / S",
       "sku": "CJMY128213623WD",
-      "price": "16.99"
+      "price": "16.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Christmas_snood.jpg?v=1791017947"
      },
      {
       "title": "Christmas Snood / M",
       "sku": "CJMY128213622VE",
-      "price": "16.99"
+      "price": "16.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Christmas_snood.jpg?v=1791017947"
      },
      {
       "title": "Christmas Snood / L",
       "sku": "CJMY128213621UF",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Christmas_snood.jpg?v=1791017947"
      },
      {
       "title": "Bell Collar / S",
       "sku": "CJMY128213660HS",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bell_style.jpg?v=1791017947"
      },
      {
       "title": "Bell Collar / M",
       "sku": "CJMY128213659GT",
-      "price": "19.99"
+      "price": "19.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bell_style.jpg?v=1791017947"
      },
      {
       "title": "Bell Collar / L",
       "sku": "CJMY128213658FU",
-      "price": "19.99"
+      "price": "19.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bell_style.jpg?v=1791017947"
      },
      {
       "title": "Bell Collar / One Size",
       "sku": "CJMY128213657EV",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bell_style.jpg?v=1791017947"
      },
      {
       "title": "Christmas Hat / One Size",
       "sku": "CJMY128213620TG",
-      "price": "15.99"
+      "price": "15.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Christmas_hat.jpg?v=1791017946"
      },
      {
       "title": "Brown Hat / One Size",
       "sku": "CJMY128213616PK",
-      "price": "16.99"
+      "price": "16.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_hat.jpg?v=1791017947"
      },
      {
       "title": "Elk Headband / One Size",
       "sku": "CJMY128213612LO",
-      "price": "16.99"
+      "price": "16.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Elk_headband.jpg?v=1791017947"
      },
      {
       "title": "Red Crown / One Size",
       "sku": "CJMY128213636JQ",
-      "price": "16.99"
+      "price": "16.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_crown.jpg?v=1791017947"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_326d42ec-78f5-4fef-ae59-40a52f036e8d.jpg?v=1791017947"
   },
   {
    "id": "gid://shopify/Product/10193633345792",
@@ -401,65 +469,78 @@
      {
       "title": "Blue / S",
       "sku": "CJYD236747001AZ",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_3a249dad-cf0a-4362-bb71-f847aade71b5.jpg?v=1791017949"
      },
      {
       "title": "Blue / M",
       "sku": "CJYD236747002BY",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_3a249dad-cf0a-4362-bb71-f847aade71b5.jpg?v=1791017949"
      },
      {
       "title": "Blue / L",
       "sku": "CJYD236747003CX",
-      "price": "22.99"
+      "price": "22.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_3a249dad-cf0a-4362-bb71-f847aade71b5.jpg?v=1791017949"
      },
      {
       "title": "Yellow / S",
       "sku": "CJYD236747004DW",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Yellow_3bb73b31-ab94-4f23-982d-58c5ab3d21c9.jpg?v=1791017949"
      },
      {
       "title": "Yellow / M",
       "sku": "CJYD236747005EV",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Yellow_3bb73b31-ab94-4f23-982d-58c5ab3d21c9.jpg?v=1791017949"
      },
      {
       "title": "Yellow / L",
       "sku": "CJYD236747006FU",
-      "price": "22.99"
+      "price": "22.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Yellow_3bb73b31-ab94-4f23-982d-58c5ab3d21c9.jpg?v=1791017949"
      },
      {
       "title": "Pink / S",
       "sku": "CJYD236747007GT",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_aecb01d6-39cd-48de-b57c-f8253282418f.jpg?v=1791017949"
      },
      {
       "title": "Pink / M",
       "sku": "CJYD236747008HS",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_aecb01d6-39cd-48de-b57c-f8253282418f.jpg?v=1791017949"
      },
      {
       "title": "Pink / L",
       "sku": "CJYD236747009IR",
-      "price": "22.99"
+      "price": "22.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_aecb01d6-39cd-48de-b57c-f8253282418f.jpg?v=1791017949"
      },
      {
       "title": "White / S",
       "sku": "CJYD236747010JQ",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White_7df2e1c8-187c-478e-bcc7-9416f122f1bc.jpg?v=1791017949"
      },
      {
       "title": "White / M",
       "sku": "CJYD236747011KP",
-      "price": "20.99"
+      "price": "20.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White_7df2e1c8-187c-478e-bcc7-9416f122f1bc.jpg?v=1791017949"
      },
      {
       "title": "White / L",
       "sku": "CJYD236747012LO",
-      "price": "22.99"
+      "price": "22.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White_7df2e1c8-187c-478e-bcc7-9416f122f1bc.jpg?v=1791017949"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_3a249dad-cf0a-4362-bb71-f847aade71b5.jpg?v=1791017949"
   },
   {
    "id": "gid://shopify/Product/10193633411328",
@@ -477,25 +558,30 @@
      {
       "title": "S",
       "sku": "CJSH246281504DW",
-      "price": "31.99"
+      "price": "31.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_Santa.jpg?v=1791017951"
      },
      {
       "title": "M",
       "sku": "CJSH246281503CX",
-      "price": "31.99"
+      "price": "31.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_Santa.jpg?v=1791017951"
      },
      {
       "title": "L",
       "sku": "CJSH246281502BY",
-      "price": "31.99"
+      "price": "31.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_Santa.jpg?v=1791017951"
      },
      {
       "title": "XL",
       "sku": "CJSH246281501AZ",
-      "price": "31.99"
+      "price": "31.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_Santa.jpg?v=1791017951"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_Santa.jpg?v=1791017951"
   },
   {
    "id": "gid://shopify/Product/10193633542400",
@@ -513,215 +599,258 @@
      {
       "title": "Apple / XS",
       "sku": "CJGD117239401AZ",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_1_Style.jpg?v=1791017954"
      },
      {
       "title": "Apple / S",
       "sku": "CJGD117239402BY",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_1_Style.jpg?v=1791017954"
      },
      {
       "title": "Apple / M",
       "sku": "CJGD117239403CX",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_1_Style.jpg?v=1791017954"
      },
      {
       "title": "Apple / L",
       "sku": "CJGD117239404DW",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_1_Style.jpg?v=1791017954"
      },
      {
       "title": "Apple / XL",
       "sku": "CJGD117239405EV",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_1_Style.jpg?v=1791017954"
      },
      {
       "title": "Apple / 2XL",
       "sku": "CJGD117239406FU",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_1_Style.jpg?v=1791017954"
      },
      {
       "title": "Heart / XS",
       "sku": "CJGD117239407GT",
-      "price": "16.99"
+      "price": "16.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_2_Style.jpg?v=1791017954"
      },
      {
       "title": "Heart / S",
       "sku": "CJGD117239408HS",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_2_Style.jpg?v=1791017954"
      },
      {
       "title": "Heart / M",
       "sku": "CJGD117239409IR",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_2_Style.jpg?v=1791017954"
      },
      {
       "title": "Heart / L",
       "sku": "CJGD117239410JQ",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_2_Style.jpg?v=1791017954"
      },
      {
       "title": "Heart / XL",
       "sku": "CJGD117239411KP",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_2_Style.jpg?v=1791017954"
      },
      {
       "title": "Heart / 2XL",
       "sku": "CJGD117239412LO",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_2_Style.jpg?v=1791017954"
      },
      {
       "title": "Carrot / XS",
       "sku": "CJGD117239413MN",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_3_Style.jpg?v=1791017955"
      },
      {
       "title": "Carrot / S",
       "sku": "CJGD117239414NM",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_3_Style.jpg?v=1791017955"
      },
      {
       "title": "Carrot / M",
       "sku": "CJGD117239415OL",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_3_Style.jpg?v=1791017955"
      },
      {
       "title": "Carrot / L",
       "sku": "CJGD117239416PK",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_3_Style.jpg?v=1791017955"
      },
      {
       "title": "Carrot / XL",
       "sku": "CJGD117239417QJ",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_3_Style.jpg?v=1791017955"
      },
      {
       "title": "Carrot / 2XL",
       "sku": "CJGD117239418RI",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_3_Style.jpg?v=1791017955"
      },
      {
       "title": "White Radish / XS",
       "sku": "CJGD117239419SH",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_4_Style.jpg?v=1791017954"
      },
      {
       "title": "White Radish / S",
       "sku": "CJGD117239420TG",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_4_Style.jpg?v=1791017954"
      },
      {
       "title": "White Radish / M",
       "sku": "CJGD117239421UF",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_4_Style.jpg?v=1791017954"
      },
      {
       "title": "White Radish / L",
       "sku": "CJGD117239422VE",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_4_Style.jpg?v=1791017954"
      },
      {
       "title": "White Radish / XL",
       "sku": "CJGD117239423WD",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_4_Style.jpg?v=1791017954"
      },
      {
       "title": "White Radish / 2XL",
       "sku": "CJGD117239424XC",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_4_Style.jpg?v=1791017954"
      },
      {
       "title": "Frog / XS",
       "sku": "CJGD117239425YB",
-      "price": "16.99"
+      "price": "16.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_5_Style.jpg?v=1791017954"
      },
      {
       "title": "Frog / S",
       "sku": "CJGD117239426ZA",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_5_Style.jpg?v=1791017954"
      },
      {
       "title": "Frog / M",
       "sku": "CJGD117239427AZ",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_5_Style.jpg?v=1791017954"
      },
      {
       "title": "Frog / L",
       "sku": "CJGD117239428BY",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_5_Style.jpg?v=1791017954"
      },
      {
       "title": "Frog / XL",
       "sku": "CJGD117239429CX",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_5_Style.jpg?v=1791017954"
      },
      {
       "title": "Frog / 2XL",
       "sku": "CJGD117239430DW",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_5_Style.jpg?v=1791017954"
      },
      {
       "title": "Reindeer / XS",
       "sku": "CJGD117239431EV",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_6_Style.jpg?v=1791017954"
      },
      {
       "title": "Reindeer / S",
       "sku": "CJGD117239432FU",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_6_Style.jpg?v=1791017954"
      },
      {
       "title": "Reindeer / M",
       "sku": "CJGD117239433GT",
-      "price": "19.99"
+      "price": "19.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_6_Style.jpg?v=1791017954"
      },
      {
       "title": "Reindeer / L",
       "sku": "CJGD117239434HS",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_6_Style.jpg?v=1791017954"
      },
      {
       "title": "Reindeer / XL",
       "sku": "CJGD117239435IR",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_6_Style.jpg?v=1791017954"
      },
      {
       "title": "Reindeer / 2XL",
       "sku": "CJGD117239436JQ",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_6_Style.jpg?v=1791017954"
      },
      {
       "title": "Banana / XS",
       "sku": "CJGD117239437KP",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_7_Style.jpg?v=1791017954"
      },
      {
       "title": "Banana / S",
       "sku": "CJGD117239438LO",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_7_Style.jpg?v=1791017954"
      },
      {
       "title": "Banana / M",
       "sku": "CJGD117239439MN",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_7_Style.jpg?v=1791017954"
      },
      {
       "title": "Banana / L",
       "sku": "CJGD117239440NM",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_7_Style.jpg?v=1791017954"
      },
      {
       "title": "Banana / XL",
       "sku": "CJGD117239441OL",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_7_Style.jpg?v=1791017954"
      },
      {
       "title": "Banana / 2XL",
       "sku": "CJGD117239442PK",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_7_Style.jpg?v=1791017954"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_1_Style.jpg?v=1791017954"
   },
   {
    "id": "gid://shopify/Product/10193633607936",
@@ -739,105 +868,126 @@
      {
       "title": "Milk White / S",
       "sku": "CJGD142611101AZ",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Milk.jpg?v=1791017956"
      },
      {
       "title": "Milk White / M",
       "sku": "CJGD142611102BY",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Milk.jpg?v=1791017956"
      },
      {
       "title": "Milk White / L",
       "sku": "CJGD142611103CX",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Milk.jpg?v=1791017956"
      },
      {
       "title": "Milk White / XL",
       "sku": "CJGD142611104DW",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Milk.jpg?v=1791017956"
      },
      {
       "title": "Milk White / 2XL",
       "sku": "CJGD142611105EV",
-      "price": "26.99"
+      "price": "26.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Milk.jpg?v=1791017956"
      },
      {
       "title": "Milk White / 3XL",
       "sku": "CJGD142611106FU",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Milk.jpg?v=1791017956"
      },
      {
       "title": "Pink Beauty / S",
       "sku": "CJGD142611107GT",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_beauty.jpg?v=1791017956"
      },
      {
       "title": "Pink Beauty / M",
       "sku": "CJGD142611108HS",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_beauty.jpg?v=1791017956"
      },
      {
       "title": "Pink Beauty / 2XL",
       "sku": "CJGD142611111KP",
-      "price": "28.99"
+      "price": "28.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_beauty.jpg?v=1791017956"
      },
      {
       "title": "Red Cow / S",
       "sku": "CJGD142611113MN",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_cow.jpg?v=1791017956"
      },
      {
       "title": "Red Cow / L",
       "sku": "CJGD142611115OL",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_cow.jpg?v=1791017956"
      },
      {
       "title": "Red Cow / XL",
       "sku": "CJGD142611116PK",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_cow.jpg?v=1791017956"
      },
      {
       "title": "Red Cow / 2XL",
       "sku": "CJGD142611117QJ",
-      "price": "26.99"
+      "price": "26.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_cow.jpg?v=1791017956"
      },
      {
       "title": "Red Cow / 3XL",
       "sku": "CJGD142611118RI",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_cow.jpg?v=1791017956"
      },
      {
       "title": "Dark Green Cow / S",
       "sku": "CJGD142611119SH",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_green_cow.jpg?v=1791017956"
      },
      {
       "title": "Dark Green Cow / M",
       "sku": "CJGD142611120TG",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_green_cow.jpg?v=1791017956"
      },
      {
       "title": "Dark Green Cow / L",
       "sku": "CJGD142611121UF",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_green_cow.jpg?v=1791017956"
      },
      {
       "title": "Dark Green Cow / XL",
       "sku": "CJGD142611122VE",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_green_cow.jpg?v=1791017956"
      },
      {
       "title": "Dark Green Cow / 2XL",
       "sku": "CJGD142611123WD",
-      "price": "28.99"
+      "price": "28.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_green_cow.jpg?v=1791017956"
      },
      {
       "title": "Dark Green Cow / 3XL",
       "sku": "CJGD142611124XC",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_green_cow.jpg?v=1791017956"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Milk.jpg?v=1791017956"
   },
   {
    "id": "gid://shopify/Product/10193633706240",
@@ -855,55 +1005,66 @@
      {
       "title": "Light Brown / S",
       "sku": "CJJJCWGD00094-Light brown-S",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_brown.jpg?v=1791017958"
      },
      {
       "title": "Light Brown / M",
       "sku": "CJJJCWGD00094-Light brown-M",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_brown.jpg?v=1791017958"
      },
      {
       "title": "Light Brown / L",
       "sku": "CJJJCWGD00094-Light brown-L",
-      "price": "26.99"
+      "price": "26.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_brown.jpg?v=1791017958"
      },
      {
       "title": "Light Brown / XL",
       "sku": "CJJJCWGD00094-Light brown-XL",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_brown.jpg?v=1791017958"
      },
      {
       "title": "Light Brown / XXL",
       "sku": "CJJJCWGD00094-Light brown-XXL",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_brown.jpg?v=1791017958"
      },
      {
       "title": "Dark Grey / S",
       "sku": "CJJJCWGD00094-Dark grey-S",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_grey.jpg?v=1791017958"
      },
      {
       "title": "Dark Grey / M",
       "sku": "CJJJCWGD00094-Dark grey-M",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_grey.jpg?v=1791017958"
      },
      {
       "title": "Dark Grey / L",
       "sku": "CJJJCWGD00094-Dark grey-L",
-      "price": "26.99"
+      "price": "26.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_grey.jpg?v=1791017958"
      },
      {
       "title": "Dark Grey / XL",
       "sku": "CJJJCWGD00094-Dark grey-XL",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_grey.jpg?v=1791017958"
      },
      {
       "title": "Dark Grey / XXL",
       "sku": "CJJJCWGD00094-Dark grey-XXL",
-      "price": "28.99"
+      "price": "28.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_grey.jpg?v=1791017958"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_brown.jpg?v=1791017958"
   },
   {
    "id": "gid://shopify/Product/10193633771776",
@@ -921,205 +1082,246 @@
      {
       "title": "Beige / 75 × 75 cm",
       "sku": "CJGY194296705EV",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Beige_With_Pillow.jpg?v=1791017961"
      },
      {
       "title": "Beige / 75 × 120 cm",
       "sku": "CJGY194296706FU",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Beige_With_Pillow.jpg?v=1791017961"
      },
      {
       "title": "Beige / 90 × 90 cm",
       "sku": "CJGY194296702BY",
-      "price": "45.99"
+      "price": "45.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Beige_With_Pillow.jpg?v=1791017961"
      },
      {
       "title": "Beige / 90 × 120 cm",
       "sku": "CJGY194296704DW",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Beige_With_Pillow.jpg?v=1791017961"
      },
      {
       "title": "Beige / 90 × 135 cm",
       "sku": "CJGY194296703CX",
-      "price": "61.99"
+      "price": "61.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Beige_With_Pillow.jpg?v=1791017961"
      },
      {
       "title": "Blue / 75 × 75 cm",
       "sku": "CJGY194296710JQ",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Blue_With_Pillow.jpg?v=1791017961"
      },
      {
       "title": "Blue / 75 × 120 cm",
       "sku": "CJGY194296711KP",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Blue_With_Pillow.jpg?v=1791017961"
      },
      {
       "title": "Blue / 90 × 90 cm",
       "sku": "CJGY194296707GT",
-      "price": "45.99"
+      "price": "45.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Blue_With_Pillow.jpg?v=1791017961"
      },
      {
       "title": "Blue / 90 × 120 cm",
       "sku": "CJGY194296709IR",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Blue_With_Pillow.jpg?v=1791017961"
      },
      {
       "title": "Blue / 90 × 135 cm",
       "sku": "CJGY194296708HS",
-      "price": "61.99"
+      "price": "61.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Blue_With_Pillow.jpg?v=1791017961"
      },
      {
       "title": "Coffee / 75 × 75 cm",
       "sku": "CJGY194296715OL",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Coffee_With_Pillow.jpg?v=1791017960"
      },
      {
       "title": "Coffee / 75 × 120 cm",
       "sku": "CJGY194296716PK",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Coffee_With_Pillow.jpg?v=1791017960"
      },
      {
       "title": "Coffee / 90 × 90 cm",
       "sku": "CJGY194296712LO",
-      "price": "45.99"
+      "price": "45.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Coffee_With_Pillow.jpg?v=1791017960"
      },
      {
       "title": "Coffee / 90 × 120 cm",
       "sku": "CJGY194296714NM",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Coffee_With_Pillow.jpg?v=1791017960"
      },
      {
       "title": "Coffee / 90 × 135 cm",
       "sku": "CJGY194296713MN",
-      "price": "61.99"
+      "price": "61.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Coffee_With_Pillow.jpg?v=1791017960"
      },
      {
       "title": "Light Gray / 75 × 75 cm",
       "sku": "CJGY194296740NM",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_With_Pillow_Pet_Pad_Light_Gray.jpg?v=1791017961"
      },
      {
       "title": "Light Gray / 75 × 120 cm",
       "sku": "CJGY194296741OL",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_With_Pillow_Pet_Pad_Light_Gray.jpg?v=1791017961"
      },
      {
       "title": "Light Gray / 90 × 90 cm",
       "sku": "CJGY194296737KP",
-      "price": "45.99"
+      "price": "45.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_With_Pillow_Pet_Pad_Light_Gray.jpg?v=1791017961"
      },
      {
       "title": "Light Gray / 90 × 120 cm",
       "sku": "CJGY194296739MN",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_With_Pillow_Pet_Pad_Light_Gray.jpg?v=1791017961"
      },
      {
       "title": "Light Gray / 90 × 135 cm",
       "sku": "CJGY194296738LO",
-      "price": "61.99"
+      "price": "61.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_With_Pillow_Pet_Pad_Light_Gray.jpg?v=1791017961"
      },
      {
       "title": "Dark Gray / 75 × 75 cm",
       "sku": "CJGY194296735IR",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_With_Pillow_Pet_Pad_Dark_Gray.jpg?v=1791017961"
      },
      {
       "title": "Dark Gray / 75 × 120 cm",
       "sku": "CJGY194296736JQ",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_With_Pillow_Pet_Pad_Dark_Gray.jpg?v=1791017961"
      },
      {
       "title": "Dark Gray / 90 × 90 cm",
       "sku": "CJGY194296732FU",
-      "price": "45.99"
+      "price": "45.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_With_Pillow_Pet_Pad_Dark_Gray.jpg?v=1791017961"
      },
      {
       "title": "Dark Gray / 90 × 120 cm",
       "sku": "CJGY194296734HS",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_With_Pillow_Pet_Pad_Dark_Gray.jpg?v=1791017961"
      },
      {
       "title": "Dark Gray / 90 × 135 cm",
       "sku": "CJGY194296733GT",
-      "price": "61.99"
+      "price": "61.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_With_Pillow_Pet_Pad_Dark_Gray.jpg?v=1791017961"
      },
      {
       "title": "Gray Black / 75 × 75 cm",
       "sku": "CJGY194296720TG",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Gray_And_Black.jpg?v=1791017960"
      },
      {
       "title": "Gray Black / 75 × 120 cm",
       "sku": "CJGY194296721UF",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Gray_And_Black.jpg?v=1791017960"
      },
      {
       "title": "Gray Black / 90 × 90 cm",
       "sku": "CJGY194296717QJ",
-      "price": "45.99"
+      "price": "45.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Gray_And_Black.jpg?v=1791017960"
      },
      {
       "title": "Gray Black / 90 × 120 cm",
       "sku": "CJGY194296719SH",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Gray_And_Black.jpg?v=1791017960"
      },
      {
       "title": "Gray Black / 90 × 135 cm",
       "sku": "CJGY194296718RI",
-      "price": "61.99"
+      "price": "61.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Gray_And_Black.jpg?v=1791017960"
      },
      {
       "title": "Gray Coffee / 75 × 75 cm",
       "sku": "CJGY194296725YB",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Gray_Coffee.jpg?v=1791017961"
      },
      {
       "title": "Gray Coffee / 75 × 120 cm",
       "sku": "CJGY194296726ZA",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Gray_Coffee.jpg?v=1791017961"
      },
      {
       "title": "Gray Coffee / 90 × 90 cm",
       "sku": "CJGY194296722VE",
-      "price": "45.99"
+      "price": "45.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Gray_Coffee.jpg?v=1791017961"
      },
      {
       "title": "Gray Coffee / 90 × 120 cm",
       "sku": "CJGY194296724XC",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Gray_Coffee.jpg?v=1791017961"
      },
      {
       "title": "Gray Coffee / 90 × 135 cm",
       "sku": "CJGY194296723WD",
-      "price": "61.99"
+      "price": "61.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Gray_Coffee.jpg?v=1791017961"
      },
      {
       "title": "Red Black / 75 × 75 cm",
       "sku": "CJGY194296730DW",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Red_And_Black.jpg?v=1791017960"
      },
      {
       "title": "Red Black / 75 × 120 cm",
       "sku": "CJGY194296731EV",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Red_And_Black.jpg?v=1791017960"
      },
      {
       "title": "Red Black / 90 × 90 cm",
       "sku": "CJGY194296727AZ",
-      "price": "45.99"
+      "price": "45.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Red_And_Black.jpg?v=1791017960"
      },
      {
       "title": "Red Black / 90 × 120 cm",
       "sku": "CJGY194296729CX",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Red_And_Black.jpg?v=1791017960"
      },
      {
       "title": "Red Black / 90 × 135 cm",
       "sku": "CJGY194296728BY",
-      "price": "61.99"
+      "price": "61.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Red_And_Black.jpg?v=1791017960"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pet_Pad_Beige_With_Pillow.jpg?v=1791017961"
   },
   {
    "id": "gid://shopify/Product/10193633870080",
@@ -1137,260 +1339,312 @@
      {
       "title": "Blue / 40 × 30 cm / Single",
       "sku": "CJJJCWGY00320-Blue-40x30cm",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
      },
      {
       "title": "Blue / 50 × 40 cm / Single",
       "sku": "CJJJCWGY00320-Blue-50x40cm",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
      },
      {
       "title": "Blue / 63 × 50 cm / Single",
       "sku": "CJJJCWGY00320-Blue-63x50cm",
-      "price": "22.99"
+      "price": "22.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
      },
      {
       "title": "Blue / 70 × 56 cm / Single",
       "sku": "CJJJCWGY00320-Blue-70x56cm",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
      },
      {
       "title": "Blue / 70 × 56 cm / 2 pcs",
       "sku": "CJJJCWGY00320-Blue 2pcs-70X56CM",
-      "price": "37.99"
+      "price": "37.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
      },
      {
       "title": "Blue / 70 × 56 cm / 3 pcs",
       "sku": "CJJJCWGY00320-Blue 3PCS-70X56CM",
-      "price": "52.99"
+      "price": "52.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
      },
      {
       "title": "Blue / 102 × 70 cm / Single",
       "sku": "CJJJCWGY00320-Blue-102x70cm",
-      "price": "30.99"
+      "price": "30.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
      },
      {
       "title": "Blue / 150 × 100 cm / Single",
       "sku": "CJJJCWGY00320-Blue-150x100cm",
-      "price": "48.99"
+      "price": "48.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
      },
      {
       "title": "Brown / 40 × 30 cm / Single",
       "sku": "CJJJCWGY00320-Brown-40x30cm",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_b0011523-d359-4fdc-a662-3473ea70c651.jpg?v=1791017963"
      },
      {
       "title": "Brown / 50 × 40 cm / Single",
       "sku": "CJJJCWGY00320-Brown-50x40cm",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_b0011523-d359-4fdc-a662-3473ea70c651.jpg?v=1791017963"
      },
      {
       "title": "Brown / 63 × 50 cm / Single",
       "sku": "CJJJCWGY00320-Brown-63x50cm",
-      "price": "22.99"
+      "price": "22.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_b0011523-d359-4fdc-a662-3473ea70c651.jpg?v=1791017963"
      },
      {
       "title": "Brown / 70 × 56 cm / Single",
       "sku": "CJJJCWGY00320-Brown-70x56cm",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_b0011523-d359-4fdc-a662-3473ea70c651.jpg?v=1791017963"
      },
      {
       "title": "Brown / 102 × 70 cm / Single",
       "sku": "CJJJCWGY00320-Brown-102x70cm",
-      "price": "30.99"
+      "price": "30.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_b0011523-d359-4fdc-a662-3473ea70c651.jpg?v=1791017963"
      },
      {
       "title": "Brown / 150 × 100 cm / Single",
       "sku": "CJJJCWGY00320-Brown-150x100cm",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_b0011523-d359-4fdc-a662-3473ea70c651.jpg?v=1791017963"
      },
      {
       "title": "Pink / 40 × 30 cm / Single",
       "sku": "CJJJCWGY00320-Pink-40x30cm",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_1b95ec9c-c5ac-4dcf-aa84-32108cfdcaa7.jpg?v=1791017963"
      },
      {
       "title": "Pink / 50 × 40 cm / Single",
       "sku": "CJJJCWGY00320-Pink-50x40cm",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_1b95ec9c-c5ac-4dcf-aa84-32108cfdcaa7.jpg?v=1791017963"
      },
      {
       "title": "Pink / 63 × 50 cm / Single",
       "sku": "CJJJCWGY00320-Pink-63x50cm",
-      "price": "22.99"
+      "price": "22.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_1b95ec9c-c5ac-4dcf-aa84-32108cfdcaa7.jpg?v=1791017963"
      },
      {
       "title": "Pink / 70 × 56 cm / Single",
       "sku": "CJJJCWGY00320-Pink-70x56cm",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_1b95ec9c-c5ac-4dcf-aa84-32108cfdcaa7.jpg?v=1791017963"
      },
      {
       "title": "Pink / 102 × 70 cm / Single",
       "sku": "CJJJCWGY00320-Pink-102x70cm",
-      "price": "30.99"
+      "price": "30.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_1b95ec9c-c5ac-4dcf-aa84-32108cfdcaa7.jpg?v=1791017963"
      },
      {
       "title": "Pink / 150 × 100 cm / Single",
       "sku": "CJJJCWGY00320-Pink-150x100cm",
-      "price": "51.99"
+      "price": "51.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_1b95ec9c-c5ac-4dcf-aa84-32108cfdcaa7.jpg?v=1791017963"
      },
      {
       "title": "Gray / 40 × 30 cm / Single",
       "sku": "CJJJCWGY00320-Gray-40x30cm",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Gray.jpg?v=1791017963"
      },
      {
       "title": "Gray / 50 × 40 cm / Single",
       "sku": "CJJJCWGY00320-Gray-50x40cm",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Gray.jpg?v=1791017963"
      },
      {
       "title": "Gray / 63 × 50 cm / Single",
       "sku": "CJJJCWGY00320-Gray-63x50cm",
-      "price": "22.99"
+      "price": "22.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Gray.jpg?v=1791017963"
      },
      {
       "title": "Gray / 70 × 56 cm / Single",
       "sku": "CJJJCWGY00320-Gray-70x56cm",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Gray.jpg?v=1791017963"
      },
      {
       "title": "Gray / 102 × 70 cm / Single",
       "sku": "CJJJCWGY00320-Gray-102X70cm",
-      "price": "31.99"
+      "price": "31.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Gray.jpg?v=1791017963"
      },
      {
       "title": "Gray / 150 × 100 cm / Single",
       "sku": "CJJJCWGY00320-Gray-150x100cm",
-      "price": "48.99"
+      "price": "48.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Gray.jpg?v=1791017963"
      },
      {
       "title": "Light Blue / 40 × 30 cm / Single",
       "sku": "CJJJCWGY00320-Light blue-40x30cm",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_blue.jpg?v=1791017963"
      },
      {
       "title": "Light Blue / 50 × 40 cm / Single",
       "sku": "CJJJCWGY00320-Light blue-50x40cm",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_blue.jpg?v=1791017963"
      },
      {
       "title": "Light Blue / 70 × 56 cm / Single",
       "sku": "CJJJCWGY00320-Light blue-70x56cm",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_blue.jpg?v=1791017963"
      },
      {
       "title": "Light Blue / 102 × 70 cm / Single",
       "sku": "CJJJCWGY00320-Light blue-102x70cm",
-      "price": "30.99"
+      "price": "30.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_blue.jpg?v=1791017963"
      },
      {
       "title": "Blue / 50 × 40 cm / Set",
       "sku": "CJJJCWGY00320-Blue set-50x40cm",
-      "price": "21.99"
+      "price": "21.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
      },
      {
       "title": "Pink / 50 × 40 cm / Set",
       "sku": "CJJJCWGY00320-Pink set-50x40cm",
-      "price": "21.99"
+      "price": "21.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_1b95ec9c-c5ac-4dcf-aa84-32108cfdcaa7.jpg?v=1791017963"
      },
      {
       "title": "Brown / 50 × 40 cm / Set",
       "sku": "CJJJCWGY00320-Brown set-50x40cm",
-      "price": "21.99"
+      "price": "21.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_b0011523-d359-4fdc-a662-3473ea70c651.jpg?v=1791017963"
      },
      {
       "title": "Gray / 50 × 40 cm / Set",
       "sku": "CJJJCWGY00320-Gray set-50x40cm",
-      "price": "21.99"
+      "price": "21.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Gray.jpg?v=1791017963"
      },
      {
       "title": "Light Blue / 50 × 40 cm / Set",
       "sku": "CJJJCWGY00320-Light blue set-50x40cm",
-      "price": "21.99"
+      "price": "21.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_blue.jpg?v=1791017963"
      },
      {
       "title": "Blue / 63 × 50 cm / Set",
       "sku": "CJJJCWGY00320-Blue set-63x50cm",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
      },
      {
       "title": "Pink / 63 × 50 cm / Set",
       "sku": "CJJJCWGY00320-Pink set-63x50cm",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_1b95ec9c-c5ac-4dcf-aa84-32108cfdcaa7.jpg?v=1791017963"
      },
      {
       "title": "Brown / 63 × 50 cm / Set",
       "sku": "CJJJCWGY00320-Brown set-63x50cm",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_b0011523-d359-4fdc-a662-3473ea70c651.jpg?v=1791017963"
      },
      {
       "title": "Gray / 63 × 50 cm / Set",
       "sku": "CJJJCWGY00320-Gray set-63x50cm",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Gray.jpg?v=1791017963"
      },
      {
       "title": "Blue / 70 × 56 cm / Set",
       "sku": "CJJJCWGY00320-Blue set-70x56cm",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
      },
      {
       "title": "Pink / 70 × 56 cm / Set",
       "sku": "CJJJCWGY00320-Pink set-70x56cm",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_1b95ec9c-c5ac-4dcf-aa84-32108cfdcaa7.jpg?v=1791017963"
      },
      {
       "title": "Brown / 70 × 56 cm / Set",
       "sku": "CJJJCWGY00320-Brown set-70x56cm",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_b0011523-d359-4fdc-a662-3473ea70c651.jpg?v=1791017963"
      },
      {
       "title": "Gray / 70 × 56 cm / Set",
       "sku": "CJJJCWGY00320-Gray set-70x56cm",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Gray.jpg?v=1791017963"
      },
      {
       "title": "Light Blue / 70 × 56 cm / Set",
       "sku": "CJJJCWGY00320-Light blue set-70x56cm",
-      "price": "27.99"
+      "price": "27.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_blue.jpg?v=1791017963"
      },
      {
       "title": "Blue / 102 × 70 cm / Set",
       "sku": "CJJJCWGY00320-Blue set-102x70cm",
-      "price": "33.99"
+      "price": "33.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
      },
      {
       "title": "Pink / 102 × 70 cm / Set",
       "sku": "CJJJCWGY00320-Pink set-102x70cm",
-      "price": "34.99"
+      "price": "34.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_1b95ec9c-c5ac-4dcf-aa84-32108cfdcaa7.jpg?v=1791017963"
      },
      {
       "title": "Brown / 102 × 70 cm / Set",
       "sku": "CJJJCWGY00320-Brown set-102x70cm",
-      "price": "33.99"
+      "price": "33.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_b0011523-d359-4fdc-a662-3473ea70c651.jpg?v=1791017963"
      },
      {
       "title": "Blue / 150 × 100 cm / Set",
       "sku": "CJJJCWGY00320-Blue set-150x100cm",
-      "price": "51.99"
+      "price": "51.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
      },
      {
       "title": "Pink / 150 × 100 cm / Set",
       "sku": "CJJJCWGY00320-Pink set-150x100cm",
-      "price": "52.99"
+      "price": "52.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_1b95ec9c-c5ac-4dcf-aa84-32108cfdcaa7.jpg?v=1791017963"
      },
      {
       "title": "Brown / 150 × 100 cm / Set",
       "sku": "CJJJCWGY00320-Brown set-150x100cm",
-      "price": "52.99"
+      "price": "52.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_b0011523-d359-4fdc-a662-3473ea70c651.jpg?v=1791017963"
      },
      {
       "title": "Gray / 150 × 100 cm / Set",
       "sku": "CJJJCWGY00320-Gray set-150x100cm",
-      "price": "51.99"
+      "price": "51.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Gray.jpg?v=1791017963"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_2c286fc3-5341-41b0-a79f-a882d76ece9a.jpg?v=1791017963"
   },
   {
    "id": "gid://shopify/Product/10193633935616",
@@ -1408,130 +1662,156 @@
      {
       "title": "Dark Coffee / M (Ø50 cm)",
       "sku": "CJYD164643410JQ",
-      "price": "59.99"
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_Coffee_Color.jpg?v=1791017966"
      },
      {
       "title": "Dark Coffee / L (Ø60 cm)",
       "sku": "CJYD164643409IR",
-      "price": "63.99"
+      "price": "63.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_Coffee_Color.jpg?v=1791017966"
      },
      {
       "title": "Dark Coffee / XL (Ø70 cm)",
       "sku": "CJYD164643411KP",
-      "price": "73.99"
+      "price": "73.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_Coffee_Color.jpg?v=1791017966"
      },
      {
       "title": "Dark Coffee / 2XL (Ø90 cm)",
       "sku": "CJYD164643433GT",
-      "price": "109.99"
+      "price": "109.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_Coffee_Color.jpg?v=1791017966"
      },
      {
       "title": "Dark Coffee / 3XL (Ø110 cm)",
       "sku": "CJYD164643408HS",
-      "price": "133.99"
+      "price": "133.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_Coffee_Color.jpg?v=1791017966"
      },
      {
       "title": "Light Gray / M (Ø50 cm)",
       "sku": "CJYD164643415OL",
-      "price": "59.99"
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Gray_67e2bd67-749c-4ec1-b560-52e85842e054.jpg?v=1791017966"
      },
      {
       "title": "Light Gray / L (Ø60 cm)",
       "sku": "CJYD164643414NM",
-      "price": "63.99"
+      "price": "63.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Gray_67e2bd67-749c-4ec1-b560-52e85842e054.jpg?v=1791017966"
      },
      {
       "title": "Light Gray / XL (Ø70 cm)",
       "sku": "CJYD164643416PK",
-      "price": "73.99"
+      "price": "73.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Gray_67e2bd67-749c-4ec1-b560-52e85842e054.jpg?v=1791017966"
      },
      {
       "title": "Light Gray / 2XL (Ø90 cm)",
       "sku": "CJYD164643432FU",
-      "price": "109.99"
+      "price": "109.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Gray_67e2bd67-749c-4ec1-b560-52e85842e054.jpg?v=1791017966"
      },
      {
       "title": "Light Gray / 3XL (Ø110 cm)",
       "sku": "CJYD164643413MN",
-      "price": "133.99"
+      "price": "133.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Gray_67e2bd67-749c-4ec1-b560-52e85842e054.jpg?v=1791017966"
      },
      {
       "title": "Pink / M (Ø50 cm)",
       "sku": "CJYD164643425YB",
-      "price": "59.99"
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_520bacd4-316c-4548-9988-6d9a7da20bc2.jpg?v=1791017966"
      },
      {
       "title": "Pink / L (Ø60 cm)",
       "sku": "CJYD164643424XC",
-      "price": "65.99"
+      "price": "65.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_520bacd4-316c-4548-9988-6d9a7da20bc2.jpg?v=1791017966"
      },
      {
       "title": "Pink / XL (Ø70 cm)",
       "sku": "CJYD164643426ZA",
-      "price": "73.99"
+      "price": "73.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_520bacd4-316c-4548-9988-6d9a7da20bc2.jpg?v=1791017966"
      },
      {
       "title": "Pink / 2XL (Ø90 cm)",
       "sku": "CJYD164643434HS",
-      "price": "109.99"
+      "price": "109.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_520bacd4-316c-4548-9988-6d9a7da20bc2.jpg?v=1791017966"
      },
      {
       "title": "Pink / 3XL (Ø110 cm)",
       "sku": "CJYD164643423WD",
-      "price": "133.99"
+      "price": "133.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_520bacd4-316c-4548-9988-6d9a7da20bc2.jpg?v=1791017966"
      },
      {
       "title": "Double Silk Coffee / M (Ø50 cm)",
       "sku": "CJYD164643441OL",
-      "price": "63.99"
+      "price": "63.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Double_Silk_Coffee.jpg?v=1791017966"
      },
      {
       "title": "Double Silk Coffee / L (Ø60 cm)",
       "sku": "CJYD164643440NM",
-      "price": "69.99"
+      "price": "69.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Double_Silk_Coffee.jpg?v=1791017966"
      },
      {
       "title": "Double Silk Coffee / XL (Ø70 cm)",
       "sku": "CJYD164643442PK",
-      "price": "73.99"
+      "price": "73.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Double_Silk_Coffee.jpg?v=1791017966"
      },
      {
       "title": "Double Silk Coffee / 2XL (Ø90 cm)",
       "sku": "CJYD164643438LO",
-      "price": "109.99"
+      "price": "109.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Double_Silk_Coffee.jpg?v=1791017966"
      },
      {
       "title": "Double Silk Coffee / 3XL (Ø110 cm)",
       "sku": "CJYD164643439MN",
-      "price": "126.99"
+      "price": "126.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Double_Silk_Coffee.jpg?v=1791017966"
      },
      {
       "title": "Double Silk Red / M (Ø50 cm)",
       "sku": "CJYD164643447UF",
-      "price": "58.99"
+      "price": "58.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Double_Silk_Red.jpg?v=1791017966"
      },
      {
       "title": "Double Silk Red / L (Ø60 cm)",
       "sku": "CJYD164643446TG",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Double_Silk_Red.jpg?v=1791017966"
      },
      {
       "title": "Double Silk Red / XL (Ø70 cm)",
       "sku": "CJYD164643448VE",
-      "price": "67.99"
+      "price": "67.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Double_Silk_Red.jpg?v=1791017966"
      },
      {
       "title": "Double Silk Red / 2XL (Ø90 cm)",
       "sku": "CJYD164643444RI",
-      "price": "103.99"
+      "price": "103.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Double_Silk_Red.jpg?v=1791017966"
      },
      {
       "title": "Double Silk Red / 3XL (Ø110 cm)",
       "sku": "CJYD164643445SH",
-      "price": "126.99"
+      "price": "126.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Double_Silk_Red.jpg?v=1791017966"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_Coffee_Color.jpg?v=1791017966"
   },
   {
    "id": "gid://shopify/Product/10193634001152",
@@ -1549,80 +1829,96 @@
      {
       "title": "Blue / Small",
       "sku": "CJGY110563101AZ",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue.jpg?v=1791017968"
      },
      {
       "title": "Black / Small",
       "sku": "CJGY110563103CX",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Black.jpg?v=1791017967"
      },
      {
       "title": "Black / Large",
       "sku": "CJGY110563104DW",
-      "price": "37.99"
+      "price": "37.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Black.jpg?v=1791017967"
      },
      {
       "title": "Green / Small",
       "sku": "CJGY110563105EV",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green.jpg?v=1791017968"
      },
      {
       "title": "Green / Large",
       "sku": "CJGY110563106FU",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green.jpg?v=1791017968"
      },
      {
       "title": "Grey / Small",
       "sku": "CJGY110563107GT",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_90ca0e58-edef-4151-9733-3e7b604a8357.jpg?v=1791017968"
      },
      {
       "title": "Grey / Large",
       "sku": "CJGY110563108HS",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_90ca0e58-edef-4151-9733-3e7b604a8357.jpg?v=1791017968"
      },
      {
       "title": "Pink / Small",
       "sku": "CJGY110563109IR",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_57691963-fe96-42fc-874a-71f13a72740c.jpg?v=1791017968"
      },
      {
       "title": "Pink / Large",
       "sku": "CJGY110563110JQ",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_57691963-fe96-42fc-874a-71f13a72740c.jpg?v=1791017968"
      },
      {
       "title": "Cream / Small",
       "sku": "CJGY110563111KP",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cream_color.jpg?v=1791017968"
      },
      {
       "title": "Cream / Large",
       "sku": "CJGY110563112LO",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cream_color.jpg?v=1791017968"
      },
      {
       "title": "Beige / Small",
       "sku": "CJGY110563113MN",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige.jpg?v=1791017968"
      },
      {
       "title": "Beige / Large",
       "sku": "CJGY110563114NM",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige.jpg?v=1791017968"
      },
      {
       "title": "Yellow / Small",
       "sku": "CJGY110563115OL",
-      "price": "33.99"
+      "price": "33.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Yellow.jpg?v=1791017968"
      },
      {
       "title": "Yellow / Large",
       "sku": "CJGY110563116PK",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Yellow.jpg?v=1791017968"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige.jpg?v=1791017968"
   },
   {
    "id": "gid://shopify/Product/10193634099456",
@@ -1640,65 +1936,78 @@
      {
       "title": "Brown / 61 × 45 cm",
       "sku": "CJPM219726901AZ",
-      "price": "30.99"
+      "price": "30.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_ada805c8-d0fb-4f5c-9d82-9bc0e2b0e751.jpg?v=1791017970"
      },
      {
       "title": "Brown / 76 × 51 cm",
       "sku": "CJPM219726902BY",
-      "price": "39.99"
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_ada805c8-d0fb-4f5c-9d82-9bc0e2b0e751.jpg?v=1791017970"
      },
      {
       "title": "Brown / 89 × 58 cm",
       "sku": "CJPM219726903CX",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_ada805c8-d0fb-4f5c-9d82-9bc0e2b0e751.jpg?v=1791017970"
      },
      {
       "title": "Brown / 104 × 73 cm",
       "sku": "CJPM219726904DW",
-      "price": "63.99"
+      "price": "63.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_ada805c8-d0fb-4f5c-9d82-9bc0e2b0e751.jpg?v=1791017970"
      },
      {
       "title": "Light Gray / 61 × 45 cm",
       "sku": "CJPM219726905EV",
-      "price": "30.99"
+      "price": "30.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_gray.jpg?v=1791017970"
      },
      {
       "title": "Light Gray / 76 × 51 cm",
       "sku": "CJPM219726906FU",
-      "price": "39.99"
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_gray.jpg?v=1791017970"
      },
      {
       "title": "Light Gray / 89 × 58 cm",
       "sku": "CJPM219726907GT",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_gray.jpg?v=1791017970"
      },
      {
       "title": "Light Gray / 104 × 73 cm",
       "sku": "CJPM219726908HS",
-      "price": "63.99"
+      "price": "63.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_gray.jpg?v=1791017970"
      },
      {
       "title": "White / 61 × 45 cm",
       "sku": "CJPM219726909IR",
-      "price": "30.99"
+      "price": "30.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White.jpg?v=1791017970"
      },
      {
       "title": "White / 76 × 51 cm",
       "sku": "CJPM219726910JQ",
-      "price": "39.99"
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White.jpg?v=1791017970"
      },
      {
       "title": "White / 89 × 58 cm",
       "sku": "CJPM219726911KP",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White.jpg?v=1791017970"
      },
      {
       "title": "White / 104 × 73 cm",
       "sku": "CJPM219726912LO",
-      "price": "63.99"
+      "price": "63.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White.jpg?v=1791017970"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_ada805c8-d0fb-4f5c-9d82-9bc0e2b0e751.jpg?v=1791017970"
   },
   {
    "id": "gid://shopify/Product/10193634197760",
@@ -1716,35 +2025,42 @@
      {
       "title": "Star Pattern / 35 × 35 × 45 cm",
       "sku": "CJJJCWMY01435-Star models-35X35X45cm",
-      "price": "39.99"
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Star_models.jpg?v=1791017972"
      },
      {
       "title": "Star Pattern / 43 × 43 × 50 cm",
       "sku": "CJJJCWMY01435-Star models-43X43X50cm",
-      "price": "47.99"
+      "price": "47.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Star_models.jpg?v=1791017972"
      },
      {
       "title": "Star Pattern / 50 × 50 × 55 cm",
       "sku": "CJJJCWMY01435-Star models-50X50X55cm",
-      "price": "58.99"
+      "price": "58.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Star_models.jpg?v=1791017972"
      },
      {
       "title": "Red / 35 × 35 × 45 cm",
       "sku": "CJJJCWMY01435-Red-35X35X45cm",
-      "price": "39.99"
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red.jpg?v=1791017972"
      },
      {
       "title": "Red / 43 × 43 × 50 cm",
       "sku": "CJJJCWMY01435-Red-43X43X50cm",
-      "price": "47.99"
+      "price": "47.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red.jpg?v=1791017972"
      },
      {
       "title": "Red / 50 × 50 × 55 cm",
       "sku": "CJJJCWMY01435-Red-50X50X55cm",
-      "price": "58.99"
+      "price": "58.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red.jpg?v=1791017972"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red.jpg?v=1791017972"
   },
   {
    "id": "gid://shopify/Product/10193634263296",
@@ -1762,65 +2078,78 @@
      {
       "title": "Pink Patchwork / M",
       "sku": "CJGY184816001AZ",
-      "price": "45.99"
+      "price": "45.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Splicing_Portable_Pink.jpg?v=1791017974"
      },
      {
       "title": "Pink Patchwork / L",
       "sku": "CJGY184816002BY",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Splicing_Portable_Pink.jpg?v=1791017974"
      },
      {
       "title": "Gray Patchwork / M",
       "sku": "CJGY184816003CX",
-      "price": "39.99"
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Splicing_Portable_Gray.jpg?v=1791017975"
      },
      {
       "title": "Gray Patchwork / L",
       "sku": "CJGY184816004DW",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Splicing_Portable_Gray.jpg?v=1791017975"
      },
      {
       "title": "Brown Patchwork / M",
       "sku": "CJGY184816005EV",
-      "price": "39.99"
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Splicing_Portable_Brown.jpg?v=1791017974"
      },
      {
       "title": "Brown Patchwork / L",
       "sku": "CJGY184816006FU",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Splicing_Portable_Brown.jpg?v=1791017974"
      },
      {
       "title": "Brown With Stickers / M",
       "sku": "CJGY184816008HS",
-      "price": "41.99"
+      "price": "41.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_with_stickers.jpg?v=1791017974"
      },
      {
       "title": "Brown With Stickers / L",
       "sku": "CJGY184816007GT",
-      "price": "50.99"
+      "price": "50.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_with_stickers.jpg?v=1791017974"
      },
      {
       "title": "Grey With Stickers / M",
       "sku": "CJGY184816010JQ",
-      "price": "41.99"
+      "price": "41.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_with_stickers.jpg?v=1791017974"
      },
      {
       "title": "Grey With Stickers / L",
       "sku": "CJGY184816009IR",
-      "price": "50.99"
+      "price": "50.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_with_stickers.jpg?v=1791017974"
      },
      {
       "title": "Pink With Stickers / M",
       "sku": "CJGY184816012LO",
-      "price": "43.99"
+      "price": "43.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_with_stickers.jpg?v=1791017974"
      },
      {
       "title": "Pink With Stickers / L",
       "sku": "CJGY184816011KP",
-      "price": "50.99"
+      "price": "50.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_with_stickers.jpg?v=1791017974"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown_with_stickers.jpg?v=1791017974"
   },
   {
    "id": "gid://shopify/Product/10193634328832",
@@ -1838,345 +2167,414 @@
      {
       "title": "Olive Green / 40 cm / Standard",
       "sku": "CJJJCWMY01390-Olive green 40cm",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Olive_green.jpg?v=1791017977"
      },
      {
       "title": "Olive Green / 50 cm / Standard",
       "sku": "CJJJCWMY01390-Olive green 50cm",
-      "price": "56.99"
+      "price": "56.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Olive_green.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Brown / 40 cm / Standard",
       "sku": "CJJJCWMY01390-Hair Brown 40cm",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Brown.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Brown / 50 cm / Standard",
       "sku": "CJJJCWMY01390-Hair Brown50cm",
-      "price": "56.99"
+      "price": "56.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Brown.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Brown / 65 cm / Standard",
       "sku": "CJJJCWMY01390-Hair Brown65cm",
-      "price": "78.99"
+      "price": "78.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Brown.jpg?v=1791017977"
      },
      {
       "title": "Pink / 40 cm / Standard",
       "sku": "CJJJCWMY01390-Pink 40cm",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.jpg?v=1791017977"
      },
      {
       "title": "Pink / 50 cm / Standard",
       "sku": "CJJJCWMY01390-Pink50cm",
-      "price": "56.99"
+      "price": "56.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.jpg?v=1791017977"
      },
      {
       "title": "Pink / 60 cm / Standard",
       "sku": "CJJJCWMY01390-Pink60cm",
-      "price": "41.99"
+      "price": "41.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.jpg?v=1791017977"
      },
      {
       "title": "Pink / 65 cm / Standard",
       "sku": "CJJJCWMY01390-Pink 65cm",
-      "price": "78.99"
+      "price": "78.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.jpg?v=1791017977"
      },
      {
       "title": "Pink / 80 cm / Standard",
       "sku": "CJJJCWMY01390-Pink80cm",
-      "price": "93.99"
+      "price": "93.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.jpg?v=1791017977"
      },
      {
       "title": "Pink / 100 cm / Standard",
       "sku": "CJJJCWMY01390-Pink100cm",
-      "price": "77.99"
+      "price": "77.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 40 cm / Standard",
       "sku": "CJJJCWMY01390-Hair Pink 40cm",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 50 cm / Standard",
       "sku": "CJJJCWMY01390-Hair Pink50cm",
-      "price": "56.99"
+      "price": "56.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 65 cm / Standard",
       "sku": "CJJJCWMY01390-Hair Pink 65cm",
-      "price": "78.99"
+      "price": "78.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Pink Plush / 80 cm / Standard",
       "sku": "CJJJCWMY01390-Pink plush 80cm",
-      "price": "83.99"
+      "price": "83.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_plush.jpg?v=1791017977"
      },
      {
       "title": "Grey Plush / 80 cm / Standard",
       "sku": "CJJJCWMY01390-Grey plush 80cm",
-      "price": "95.99"
+      "price": "95.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_plush.jpg?v=1791017977"
      },
      {
       "title": "Coffee Plush / 80 cm / Standard",
       "sku": "CJJJCWMY01390-Coffee plush 80cm",
-      "price": "99.99"
+      "price": "99.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Coffee_plush.jpg?v=1791017977"
      },
      {
       "title": "Pink Short Plush / 80 cm / Standard",
       "sku": "CJJJCWMY01390-Pink short plush80cm",
-      "price": "83.99"
+      "price": "83.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_short_plush.jpg?v=1791017977"
      },
      {
       "title": "Grey / 40 cm / Standard",
       "sku": "CJJJCWMY01390-Grey 40cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 50 cm / Standard",
       "sku": "CJJJCWMY01390-Grey50cm",
-      "price": "56.99"
+      "price": "56.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 60 cm / Standard",
       "sku": "CJJJCWMY01390-Grey60cm",
-      "price": "41.99"
+      "price": "41.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 65 cm / Standard",
       "sku": "CJJJCWMY01390-Grey 65cm",
-      "price": "78.99"
+      "price": "78.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 80 cm / Standard",
       "sku": "CJJJCWMY01390-Grey80cm",
-      "price": "56.99"
+      "price": "56.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 100 cm / Standard",
       "sku": "CJJJCWMY01390-Grey100cm",
-      "price": "148.99"
+      "price": "148.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Brown / 40 cm / Standard",
       "sku": "CJJJCWMY01390-Brown 40cm",
-      "price": "33.99"
+      "price": "33.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Brown / 50 cm / Standard",
       "sku": "CJJJCWMY01390-Brown50cm",
-      "price": "56.99"
+      "price": "56.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Brown / 65 cm / Standard",
       "sku": "CJJJCWMY01390-Brown 65cm",
-      "price": "78.99"
+      "price": "78.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Olive Green / 40 cm / Standard",
       "sku": "CJJJCWMY01390-Hair Olive green 40cm",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Olive_green.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Olive Green / 50 cm / Standard",
       "sku": "CJJJCWMY01390-Hair Olive green 50cm",
-      "price": "56.99"
+      "price": "56.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Olive_green.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Grey / 40 cm / Standard",
       "sku": "CJJJCWMY01390-Hair Grey 40cm",
-      "price": "53.99"
+      "price": "53.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Grey.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Grey / 50 cm / Standard",
       "sku": "CJJJCWMY01390-Hair Grey50cm",
-      "price": "56.99"
+      "price": "56.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Grey.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Grey / 65 cm / Standard",
       "sku": "CJJJCWMY01390-Hair Grey 65cm",
-      "price": "78.99"
+      "price": "78.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Grey.jpg?v=1791017977"
      },
      {
       "title": "Brown / 40 cm / Set A",
       "sku": "CJJJCWMY01390-Brown 40cm setA",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Brown / 40 cm / Set B",
       "sku": "CJJJCWMY01390-Brown 40cm setB",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Brown / 40 cm / Set C",
       "sku": "CJJJCWMY01390-Brown 40cm setC",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Brown / 40 cm / Set D",
       "sku": "CJJJCWMY01390-Brown 40cm setD",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Grey / 40 cm / Set A",
       "sku": "CJJJCWMY01390-Grey 40cm SetA",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 40 cm / Set B",
       "sku": "CJJJCWMY01390-Grey 40cm SetB",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 40 cm / Set C",
       "sku": "CJJJCWMY01390-Grey 40cm SetC",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 40 cm / Set D",
       "sku": "CJJJCWMY01390-Grey 40cm SetD",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 40 cm / Set A",
       "sku": "CJJJCWMY01390-Hair Pink 40cm SetA",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 40 cm / Set B",
       "sku": "CJJJCWMY01390-Hair Pink 40cm SetB",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 40 cm / Set C",
       "sku": "CJJJCWMY01390-Hair Pink 40cm SetC",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 40 cm / Set D",
       "sku": "CJJJCWMY01390-Hair Pink 40cm SetD",
-      "price": "57.99"
+      "price": "57.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Brown / 50 cm / Set A",
       "sku": "CJJJCWMY01390-Brown50cm SetA",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Brown / 50 cm / Set B",
       "sku": "CJJJCWMY01390-Brown50cm SetB",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Brown / 50 cm / Set C",
       "sku": "CJJJCWMY01390-Brown50cm SetC",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Brown / 50 cm / Set D",
       "sku": "CJJJCWMY01390-Brown50cm SetD",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Grey / 50 cm / Set A",
       "sku": "CJJJCWMY01390-Grey50cm SetA",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 50 cm / Set B",
       "sku": "CJJJCWMY01390-Grey50cm SetB",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 50 cm / Set C",
       "sku": "CJJJCWMY01390-Grey50cm SetC",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 50 cm / Set D",
       "sku": "CJJJCWMY01390-Grey50cm SetD",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 50 cm / Set A",
       "sku": "CJJJCWMY01390-Hair Pink 50cm SetA",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 50 cm / Set B",
       "sku": "CJJJCWMY01390-Hair Pink 50cm SetB",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 50 cm / Set C",
       "sku": "CJJJCWMY01390-Hair Pink 50cm SetC",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 50 cm / Set D",
       "sku": "CJJJCWMY01390-Hair Pink 50cm SetD",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Brown / 65 cm / Set A",
       "sku": "CJJJCWMY01390-Brown 65cm SetA",
-      "price": "80.99"
+      "price": "80.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Brown / 65 cm / Set B",
       "sku": "CJJJCWMY01390-Brown 65cm SetB",
-      "price": "80.99"
+      "price": "80.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Brown / 65 cm / Set C",
       "sku": "CJJJCWMY01390-Brown 65cm SetC",
-      "price": "81.99"
+      "price": "81.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Brown / 65 cm / Set D",
       "sku": "CJJJCWMY01390-Brown 65cm SetD",
-      "price": "80.99"
+      "price": "80.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Brown.jpg?v=1791017977"
      },
      {
       "title": "Grey / 65 cm / Set A",
       "sku": "CJJJCWMY01390-Grey65cm SetA",
-      "price": "80.99"
+      "price": "80.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 65 cm / Set B",
       "sku": "CJJJCWMY01390-Grey65cm SetB",
-      "price": "80.99"
+      "price": "80.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 65 cm / Set C",
       "sku": "CJJJCWMY01390-Grey65cm SetC",
-      "price": "81.99"
+      "price": "81.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Grey / 65 cm / Set D",
       "sku": "CJJJCWMY01390-Grey65cm SetD",
-      "price": "80.99"
+      "price": "80.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_e56cdba9-dc7e-4930-8aad-113b5ad7a9f4.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 65 cm / Set A",
       "sku": "CJJJCWMY01390-Hair Pink 65cm SetA",
-      "price": "80.99"
+      "price": "80.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 65 cm / Set B",
       "sku": "CJJJCWMY01390-Hair Pink 65cm SetB",
-      "price": "80.99"
+      "price": "80.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 65 cm / Set C",
       "sku": "CJJJCWMY01390-Hair Pink 65cm SetC",
-      "price": "81.99"
+      "price": "81.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      },
      {
       "title": "Fluffy Pink / 65 cm / Set D",
       "sku": "CJJJCWMY01390-Hair Pink 65cm SetD",
-      "price": "80.99"
+      "price": "80.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Hair_Pink.jpg?v=1791017977"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.jpg?v=1791017977"
   },
   {
    "id": "gid://shopify/Product/10193634427136",
@@ -2194,45 +2592,54 @@
      {
       "title": "Frog Round Nest / M",
       "sku": "CJGY183872501AZ",
-      "price": "39.99"
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_Frog_Round_Nest.jpg?v=1791017979"
      },
      {
       "title": "Frog Round Nest / L",
       "sku": "CJGY183872502BY",
-      "price": "43.99"
+      "price": "43.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_Frog_Round_Nest.jpg?v=1791017979"
      },
      {
       "title": "Frog Round Nest / XL",
       "sku": "CJGY183872510JQ",
-      "price": "48.99"
+      "price": "48.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_Frog_Round_Nest.jpg?v=1791017979"
      },
      {
       "title": "Frog Half-Covered Nest / S",
       "sku": "CJGY183872503CX",
-      "price": "38.99"
+      "price": "38.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_Frog_Half_Shed_Nest.jpg?v=1791017979"
      },
      {
       "title": "Frog Half-Covered Nest / M",
       "sku": "CJGY183872504DW",
-      "price": "50.99"
+      "price": "50.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_Frog_Half_Shed_Nest.jpg?v=1791017979"
      },
      {
       "title": "Frog Half-Covered Nest / L",
       "sku": "CJGY183872507GT",
-      "price": "51.99"
+      "price": "51.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_Frog_Half_Shed_Nest.jpg?v=1791017979"
      },
      {
       "title": "Green Round Nest / S",
       "sku": "CJGY183872505EV",
-      "price": "42.99"
+      "price": "42.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_Nest.jpg?v=1791017979"
      },
      {
       "title": "Green Round Nest / M",
       "sku": "CJGY183872506FU",
-      "price": "52.99"
+      "price": "52.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_Nest.jpg?v=1791017979"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green_Frog_Half_Shed_Nest.jpg?v=1791017979"
   },
   {
    "id": "gid://shopify/Product/10193634492672",
@@ -2250,35 +2657,42 @@
      {
       "title": "Light Grey / S",
       "sku": "CJGY163631301AZ",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Grey.jpg?v=1791017981"
      },
      {
       "title": "Light Grey / M",
       "sku": "CJGY163631302BY",
-      "price": "62.99"
+      "price": "62.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Grey.jpg?v=1791017981"
      },
      {
       "title": "Light Grey / L",
       "sku": "CJGY163631303CX",
-      "price": "70.99"
+      "price": "70.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Grey.jpg?v=1791017981"
      },
      {
       "title": "Grey / S",
       "sku": "CJGY163631304DW",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey.jpg?v=1791017981"
      },
      {
       "title": "Grey / M",
       "sku": "CJGY163631305EV",
-      "price": "62.99"
+      "price": "62.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey.jpg?v=1791017981"
      },
      {
       "title": "Grey / L",
       "sku": "CJGY163631306FU",
-      "price": "70.99"
+      "price": "70.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey.jpg?v=1791017981"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey.jpg?v=1791017981"
   },
   {
    "id": "gid://shopify/Product/10193634558208",
@@ -2296,150 +2710,180 @@
      {
       "title": "Cute Cat / S 50x30 cm",
       "sku": "CJJJCWGY00331-Cute cat-S50x30",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cute_cat.jpg?v=1791017983"
      },
      {
       "title": "Cute Cat / M 55x45 cm",
       "sku": "CJJJCWGY00331-Cute cat-M55x45",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cute_cat.jpg?v=1791017983"
      },
      {
       "title": "Cute Cat / L 70x55 cm",
       "sku": "CJJJCWGY00331-Cute cat-L70x55",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cute_cat.jpg?v=1791017983"
      },
      {
       "title": "Cute Cat / XL 100x75 cm",
       "sku": "CJJJCWGY00331-Cute cat-XL100x75",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Cute_cat.jpg?v=1791017983"
      },
      {
       "title": "Beige Starry Sky / S 50x30 cm",
       "sku": "CJJJCWGY00331-Beige starry sky-S50x30",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Beige Starry Sky / M 55x45 cm",
       "sku": "CJJJCWGY00331-Beige starry sky-M55x45",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Beige Starry Sky / L 70x55 cm",
       "sku": "CJJJCWGY00331-Beige starry sky-L70x55",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Beige Starry Sky / XL 100x75 cm",
       "sku": "CJJJCWGY00331-Beige starry sky-XL100x75",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Blue Starry Sky / 30x40 cm",
       "sku": "CJJJCWGY00331-Blue starry sky-30x40",
-      "price": "17.99"
+      "price": "17.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Blue Starry Sky / 50x40 cm",
       "sku": "CJJJCWGY00331-Blue starry sky-50x40",
-      "price": "19.99"
+      "price": "19.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Blue Starry Sky / 50x50 cm",
       "sku": "CJJJCWGY00331-Blue starry sky-50x50",
-      "price": "21.99"
+      "price": "21.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Blue Starry Sky / 50x80 cm",
       "sku": "CJJJCWGY00331-Blue starry sky-50x80",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Blue Starry Sky / 80x100 cm",
       "sku": "CJJJCWGY00331-Blue starry sky-80x100",
-      "price": "34.99"
+      "price": "34.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Geometric Patterns / 100x75 cm",
       "sku": "CJJJCWGY00331-Geometric patterns-100x75",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Geometric_patterns.jpg?v=1791017983"
      },
      {
       "title": "Geometric Patterns / S 50x30 cm",
       "sku": "CJJJCWGY00331-Geometric patterns-S50x30",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Geometric_patterns.jpg?v=1791017983"
      },
      {
       "title": "Geometric Patterns / M 55x45 cm",
       "sku": "CJJJCWGY00331-Geometric patterns-M55x45",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Geometric_patterns.jpg?v=1791017983"
      },
      {
       "title": "Geometric Patterns / L 70x55 cm",
       "sku": "CJJJCWGY00331-Geometric patterns-L70x55",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Geometric_patterns.jpg?v=1791017983"
      },
      {
       "title": "Blue Bone / S 50x30 cm",
       "sku": "CJJJCWGY00331-Blue bone-S50x30",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_bone.jpg?v=1791017983"
      },
      {
       "title": "Blue Bone / M 55x45 cm",
       "sku": "CJJJCWGY00331-Blue bone-M55x45",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_bone.jpg?v=1791017983"
      },
      {
       "title": "Blue Bone / L 70x55 cm",
       "sku": "CJJJCWGY00331-Blue bone-L70x55",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_bone.jpg?v=1791017983"
      },
      {
       "title": "Blue Bone / XL 100x75 cm",
       "sku": "CJJJCWGY00331-Blue bone-XL100x75",
-      "price": "37.99"
+      "price": "37.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_bone.jpg?v=1791017983"
      },
      {
       "title": "Pink Starry Sky / S 50x30 cm",
       "sku": "CJJJCWGY00331-Pink starry sky-S50x30",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Pink Starry Sky / M 55x45 cm",
       "sku": "CJJJCWGY00331-Pink starry sky-M55x45",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Pink Starry Sky / L 70x55 cm",
       "sku": "CJJJCWGY00331-Pink starry sky-L70x55",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Pink Starry Sky / XL 100x75 cm",
       "sku": "CJJJCWGY00331-Pink starry sky-XL100x75",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Dark Grey Starry Sky / 100x75 cm",
       "sku": "CJJJCWGY00331-Dark GY starry sky-100x75",
-      "price": "36.99"
+      "price": "36.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_GY_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Dark Grey Starry Sky / S 50x30 cm",
       "sku": "CJJJCWGY00331-Dark GY starry sky-S50x30",
-      "price": "18.99"
+      "price": "18.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_GY_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Dark Grey Starry Sky / M 55x45 cm",
       "sku": "CJJJCWGY00331-Dark GY starry sky-M55x45",
-      "price": "25.99"
+      "price": "25.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_GY_starry_sky.jpg?v=1791017983"
      },
      {
       "title": "Dark Grey Starry Sky / L 70x55 cm",
       "sku": "CJJJCWGY00331-Dark GY starry sky-L70x55",
-      "price": "24.99"
+      "price": "24.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_GY_starry_sky.jpg?v=1791017983"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Blue_bone.jpg?v=1791017983"
   },
   {
    "id": "gid://shopify/Product/10193634689280",
@@ -2457,425 +2901,510 @@
      {
       "title": "Apricot / 40 cm",
       "sku": "CJJJCWGY03748-Apricot-40cm",
-      "price": "35.99"
+      "price": "35.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot_addb5010-12b0-4c09-859d-d8d1e6c3607c.png?v=1791017986"
      },
      {
       "title": "Apricot / 50 cm",
       "sku": "CJJJCWGY03748-Apricot-50cm",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot_addb5010-12b0-4c09-859d-d8d1e6c3607c.png?v=1791017986"
      },
      {
       "title": "Apricot / 60 cm",
       "sku": "CJJJCWGY03748-Apricot-60cm",
-      "price": "68.99"
+      "price": "68.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot_addb5010-12b0-4c09-859d-d8d1e6c3607c.png?v=1791017986"
      },
      {
       "title": "Apricot / 70 cm",
       "sku": "CJJJCWGY03748-Apricot-70cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot_addb5010-12b0-4c09-859d-d8d1e6c3607c.png?v=1791017986"
      },
      {
       "title": "Apricot / 80 cm",
       "sku": "CJJJCWGY03748-Apricot-80cm",
-      "price": "106.99"
+      "price": "106.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot_addb5010-12b0-4c09-859d-d8d1e6c3607c.png?v=1791017986"
      },
      {
       "title": "Apricot / 100 cm",
       "sku": "CJJJCWGY03748-Apricot-100cm",
-      "price": "147.99"
+      "price": "147.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot_addb5010-12b0-4c09-859d-d8d1e6c3607c.png?v=1791017986"
      },
      {
       "title": "Apricot / 120 cm",
       "sku": "CJJJCWGY03748-Apricot-120cm",
-      "price": "192.99"
+      "price": "192.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot_addb5010-12b0-4c09-859d-d8d1e6c3607c.png?v=1791017986"
      },
      {
       "title": "Pink / 40 cm",
       "sku": "CJJJCWGY03748-Pink-40cm",
-      "price": "35.99"
+      "price": "35.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_e4774710-a5e4-4655-b6be-3b65fbb7c88f.png?v=1791017986"
      },
      {
       "title": "Pink / 50 cm",
       "sku": "CJJJCWGY03748-Pink-50cm",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_e4774710-a5e4-4655-b6be-3b65fbb7c88f.png?v=1791017986"
      },
      {
       "title": "Pink / 60 cm",
       "sku": "CJJJCWGY03748-Pink-60cm",
-      "price": "68.99"
+      "price": "68.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_e4774710-a5e4-4655-b6be-3b65fbb7c88f.png?v=1791017986"
      },
      {
       "title": "Pink / 70 cm",
       "sku": "CJJJCWGY03748-Pink-70cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_e4774710-a5e4-4655-b6be-3b65fbb7c88f.png?v=1791017986"
      },
      {
       "title": "Pink / 80 cm",
       "sku": "CJJJCWGY03748-Pink-80cm",
-      "price": "106.99"
+      "price": "106.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_e4774710-a5e4-4655-b6be-3b65fbb7c88f.png?v=1791017986"
      },
      {
       "title": "Pink / 100 cm",
       "sku": "CJJJCWGY03748-Pink-100cm",
-      "price": "147.99"
+      "price": "147.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_e4774710-a5e4-4655-b6be-3b65fbb7c88f.png?v=1791017986"
      },
      {
       "title": "Pink / 120 cm",
       "sku": "CJJJCWGY03748-Pink-120cm",
-      "price": "192.99"
+      "price": "192.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink_e4774710-a5e4-4655-b6be-3b65fbb7c88f.png?v=1791017986"
      },
      {
       "title": "Dark Green / 40 cm",
       "sku": "CJJJCWGY03748-Dark green-40cm",
-      "price": "35.99"
+      "price": "35.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_green.png?v=1791017986"
      },
      {
       "title": "Dark Green / 50 cm",
       "sku": "CJJJCWGY03748-Dark green-50cm",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_green.png?v=1791017986"
      },
      {
       "title": "Dark Green / 60 cm",
       "sku": "CJJJCWGY03748-Dark green-60cm",
-      "price": "69.99"
+      "price": "69.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_green.png?v=1791017986"
      },
      {
       "title": "Dark Green / 70 cm",
       "sku": "CJJJCWGY03748-Dark green-70cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_green.png?v=1791017986"
      },
      {
       "title": "Dark Green / 80 cm",
       "sku": "CJJJCWGY03748-Dark green-80cm",
-      "price": "106.99"
+      "price": "106.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_green.png?v=1791017986"
      },
      {
       "title": "Dark Green / 100 cm",
       "sku": "CJJJCWGY03748-Dark green-100cm",
-      "price": "147.99"
+      "price": "147.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_green.png?v=1791017986"
      },
      {
       "title": "Dark Green / 120 cm",
       "sku": "CJJJCWGY03748-Dark green-120cm",
-      "price": "192.99"
+      "price": "192.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_green.png?v=1791017986"
      },
      {
       "title": "Beige Pink / 40 cm",
       "sku": "CJJJCWGY03748-Beige pink-40cm",
-      "price": "35.99"
+      "price": "35.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_pink.png?v=1791017986"
      },
      {
       "title": "Beige Pink / 50 cm",
       "sku": "CJJJCWGY03748-Beige pink-50cm",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_pink.png?v=1791017986"
      },
      {
       "title": "Beige Pink / 60 cm",
       "sku": "CJJJCWGY03748-Beige pink-60cm",
-      "price": "68.99"
+      "price": "68.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_pink.png?v=1791017986"
      },
      {
       "title": "Beige Pink / 70 cm",
       "sku": "CJJJCWGY03748-Beige pink-70cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_pink.png?v=1791017986"
      },
      {
       "title": "Beige Pink / 80 cm",
       "sku": "CJJJCWGY03748-Beige pink-80cm",
-      "price": "106.99"
+      "price": "106.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_pink.png?v=1791017986"
      },
      {
       "title": "Beige Pink / 100 cm",
       "sku": "CJJJCWGY03748-Beige pink-100cm",
-      "price": "147.99"
+      "price": "147.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_pink.png?v=1791017986"
      },
      {
       "title": "Beige Pink / 120 cm",
       "sku": "CJJJCWGY03748-Beige pink-120cm",
-      "price": "192.99"
+      "price": "192.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_pink.png?v=1791017986"
      },
      {
       "title": "Beige Brown / 40 cm",
       "sku": "CJJJCWGY03748-Beige brown-40cm",
-      "price": "35.99"
+      "price": "35.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown_98547c61-2007-459a-aa59-626a009e40e0.png?v=1791017986"
      },
      {
       "title": "Beige Brown / 50 cm",
       "sku": "CJJJCWGY03748-Beige brown-50cm",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown_98547c61-2007-459a-aa59-626a009e40e0.png?v=1791017986"
      },
      {
       "title": "Beige Brown / 60 cm",
       "sku": "CJJJCWGY03748-Beige brown-60cm",
-      "price": "68.99"
+      "price": "68.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown_98547c61-2007-459a-aa59-626a009e40e0.png?v=1791017986"
      },
      {
       "title": "Beige Brown / 70 cm",
       "sku": "CJJJCWGY03748-Beige brown-70cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown_98547c61-2007-459a-aa59-626a009e40e0.png?v=1791017986"
      },
      {
       "title": "Beige Brown / 80 cm",
       "sku": "CJJJCWGY03748-Beige brown-80cm",
-      "price": "106.99"
+      "price": "106.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown_98547c61-2007-459a-aa59-626a009e40e0.png?v=1791017986"
      },
      {
       "title": "Beige Brown / 100 cm",
       "sku": "CJJJCWGY03748-Beige brown-100cm",
-      "price": "147.99"
+      "price": "147.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown_98547c61-2007-459a-aa59-626a009e40e0.png?v=1791017986"
      },
      {
       "title": "Beige Brown / 120 cm",
       "sku": "CJJJCWGY03748-Beige brown-120cm",
-      "price": "192.99"
+      "price": "192.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown_98547c61-2007-459a-aa59-626a009e40e0.png?v=1791017986"
      },
      {
       "title": "Multicolor / 40 cm",
       "sku": "CJJJCWGY03748-Multicolor-40cm",
-      "price": "35.99"
+      "price": "35.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Multicolor.png?v=1791017986"
      },
      {
       "title": "Multicolor / 50 cm",
       "sku": "CJJJCWGY03748-Multicolor-50cm",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Multicolor.png?v=1791017986"
      },
      {
       "title": "Multicolor / 60 cm",
       "sku": "CJJJCWGY03748-Multicolor-60cm",
-      "price": "69.99"
+      "price": "69.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Multicolor.png?v=1791017986"
      },
      {
       "title": "Multicolor / 70 cm",
       "sku": "CJJJCWGY03748-Multicolor-70cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Multicolor.png?v=1791017986"
      },
      {
       "title": "Multicolor / 80 cm",
       "sku": "CJJJCWGY03748-Multicolor-80cm",
-      "price": "106.99"
+      "price": "106.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Multicolor.png?v=1791017986"
      },
      {
       "title": "Multicolor / 100 cm",
       "sku": "CJJJCWGY03748-Multicolor-100cm",
-      "price": "147.99"
+      "price": "147.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Multicolor.png?v=1791017986"
      },
      {
       "title": "Multicolor / 120 cm",
       "sku": "CJJJCWGY03748-Multicolor-120cm",
-      "price": "192.99"
+      "price": "192.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Multicolor.png?v=1791017986"
      },
      {
       "title": "Light Grey / 40 cm",
       "sku": "CJJJCWGY03748-Light Grey-40cm",
-      "price": "35.99"
+      "price": "35.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Grey_f3ac26ed-bbc0-4f85-8170-a4e2a152d4b0.png?v=1791017986"
      },
      {
       "title": "Light Grey / 50 cm",
       "sku": "CJJJCWGY03748-Light Grey-50cm",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Grey_f3ac26ed-bbc0-4f85-8170-a4e2a152d4b0.png?v=1791017986"
      },
      {
       "title": "Light Grey / 60 cm",
       "sku": "CJJJCWGY03748-Light Grey-60cm",
-      "price": "68.99"
+      "price": "68.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Grey_f3ac26ed-bbc0-4f85-8170-a4e2a152d4b0.png?v=1791017986"
      },
      {
       "title": "Light Grey / 70 cm",
       "sku": "CJJJCWGY03748-Light Grey-70cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Grey_f3ac26ed-bbc0-4f85-8170-a4e2a152d4b0.png?v=1791017986"
      },
      {
       "title": "Light Grey / 80 cm",
       "sku": "CJJJCWGY03748-Light Grey-80cm",
-      "price": "106.99"
+      "price": "106.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Grey_f3ac26ed-bbc0-4f85-8170-a4e2a152d4b0.png?v=1791017986"
      },
      {
       "title": "Light Grey / 100 cm",
       "sku": "CJJJCWGY03748-Light Grey-100cm",
-      "price": "147.99"
+      "price": "147.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Grey_f3ac26ed-bbc0-4f85-8170-a4e2a152d4b0.png?v=1791017986"
      },
      {
       "title": "Light Grey / 120 cm",
       "sku": "CJJJCWGY03748-Light Grey-120cm",
-      "price": "193.99"
+      "price": "193.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_Grey_f3ac26ed-bbc0-4f85-8170-a4e2a152d4b0.png?v=1791017986"
      },
      {
       "title": "Red / 40 cm",
       "sku": "CJJJCWGY03748-Red-40cm",
-      "price": "35.99"
+      "price": "35.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_61ebde60-9f5e-48b4-ba11-12ffc4f31520.png?v=1791017986"
      },
      {
       "title": "Red / 50 cm",
       "sku": "CJJJCWGY03748-Red-50cm",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_61ebde60-9f5e-48b4-ba11-12ffc4f31520.png?v=1791017986"
      },
      {
       "title": "Red / 60 cm",
       "sku": "CJJJCWGY03748-Red-60cm",
-      "price": "68.99"
+      "price": "68.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_61ebde60-9f5e-48b4-ba11-12ffc4f31520.png?v=1791017986"
      },
      {
       "title": "Red / 70 cm",
       "sku": "CJJJCWGY03748-Red-70cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_61ebde60-9f5e-48b4-ba11-12ffc4f31520.png?v=1791017986"
      },
      {
       "title": "Red / 80 cm",
       "sku": "CJJJCWGY03748-Red-80cm",
-      "price": "106.99"
+      "price": "106.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_61ebde60-9f5e-48b4-ba11-12ffc4f31520.png?v=1791017986"
      },
      {
       "title": "Red / 100 cm",
       "sku": "CJJJCWGY03748-Red-100cm",
-      "price": "147.99"
+      "price": "147.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_61ebde60-9f5e-48b4-ba11-12ffc4f31520.png?v=1791017986"
      },
      {
       "title": "Red / 120 cm",
       "sku": "CJJJCWGY03748-Red-120cm",
-      "price": "192.99"
+      "price": "192.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red_61ebde60-9f5e-48b4-ba11-12ffc4f31520.png?v=1791017986"
      },
      {
       "title": "White / 40 cm",
       "sku": "CJJJCWGY03748-White-40cm",
-      "price": "35.99"
+      "price": "35.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White_a8b66013-dafb-4417-8a81-75e06f88cacf.png?v=1791017986"
      },
      {
       "title": "White / 50 cm",
       "sku": "CJJJCWGY03748-White-50cm",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White_a8b66013-dafb-4417-8a81-75e06f88cacf.png?v=1791017986"
      },
      {
       "title": "White / 60 cm",
       "sku": "CJJJCWGY03748-White-60cm",
-      "price": "68.99"
+      "price": "68.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White_a8b66013-dafb-4417-8a81-75e06f88cacf.png?v=1791017986"
      },
      {
       "title": "White / 70 cm",
       "sku": "CJJJCWGY03748-White-70cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White_a8b66013-dafb-4417-8a81-75e06f88cacf.png?v=1791017986"
      },
      {
       "title": "White / 80 cm",
       "sku": "CJJJCWGY03748-White-80cm",
-      "price": "106.99"
+      "price": "106.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White_a8b66013-dafb-4417-8a81-75e06f88cacf.png?v=1791017986"
      },
      {
       "title": "White / 100 cm",
       "sku": "CJJJCWGY03748-White-100cm",
-      "price": "134.99"
+      "price": "134.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White_a8b66013-dafb-4417-8a81-75e06f88cacf.png?v=1791017986"
      },
      {
       "title": "White / 120 cm",
       "sku": "CJJJCWGY03748-White-120cm",
-      "price": "192.99"
+      "price": "192.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White_a8b66013-dafb-4417-8a81-75e06f88cacf.png?v=1791017986"
      },
      {
       "title": "Dark Grey / 40 cm",
       "sku": "CJJJCWGY03748-Dark Grey-40cm",
-      "price": "35.99"
+      "price": "35.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_Grey.png?v=1791017986"
      },
      {
       "title": "Dark Grey / 50 cm",
       "sku": "CJJJCWGY03748-Dark Grey-50cm",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_Grey.png?v=1791017986"
      },
      {
       "title": "Dark Grey / 60 cm",
       "sku": "CJJJCWGY03748-Dark Grey-60cm",
-      "price": "69.99"
+      "price": "69.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_Grey.png?v=1791017986"
      },
      {
       "title": "Dark Grey / 70 cm",
       "sku": "CJJJCWGY03748-Dark Grey-70cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_Grey.png?v=1791017986"
      },
      {
       "title": "Dark Grey / 80 cm",
       "sku": "CJJJCWGY03748-Dark Grey-80cm",
-      "price": "106.99"
+      "price": "106.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_Grey.png?v=1791017986"
      },
      {
       "title": "Dark Grey / 100 cm",
       "sku": "CJJJCWGY03748-Dark Grey-100cm",
-      "price": "147.99"
+      "price": "147.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_Grey.png?v=1791017986"
      },
      {
       "title": "Dark Grey / 120 cm",
       "sku": "CJJJCWGY03748-Dark Grey-120cm",
-      "price": "192.99"
+      "price": "192.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Dark_Grey.png?v=1791017986"
      },
      {
       "title": "Rubber Pink / 40 cm",
       "sku": "CJJJCWGY03748-Rubber-40cm",
-      "price": "35.99"
+      "price": "35.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber.png?v=1791017986"
      },
      {
       "title": "Rubber Pink / 50 cm",
       "sku": "CJJJCWGY03748-Rubber-50cm",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber.png?v=1791017986"
      },
      {
       "title": "Rubber Pink / 60 cm",
       "sku": "CJJJCWGY03748-Rubber-60cm",
-      "price": "68.99"
+      "price": "68.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber.png?v=1791017986"
      },
      {
       "title": "Rubber Pink / 70 cm",
       "sku": "CJJJCWGY03748-Rubber-70cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber.png?v=1791017986"
      },
      {
       "title": "Rubber Pink / 80 cm",
       "sku": "CJJJCWGY03748-Rubber-80cm",
-      "price": "106.99"
+      "price": "106.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber.png?v=1791017986"
      },
      {
       "title": "Rubber Pink / 100 cm",
       "sku": "CJJJCWGY03748-Rubber-100cm",
-      "price": "147.99"
+      "price": "147.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber.png?v=1791017986"
      },
      {
       "title": "Rubber Pink / 120 cm",
       "sku": "CJJJCWGY03748-Rubber-120cm",
-      "price": "192.99"
+      "price": "192.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber.png?v=1791017986"
      },
      {
       "title": "Coffee / 40 cm",
       "sku": "CJJJCWGY03748-Coffee-40cm",
-      "price": "35.99"
+      "price": "35.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Coffee.png?v=1791017986"
      },
      {
       "title": "Coffee / 50 cm",
       "sku": "CJJJCWGY03748-Coffee-50cm",
-      "price": "49.99"
+      "price": "49.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Coffee.png?v=1791017986"
      },
      {
       "title": "Coffee / 60 cm",
       "sku": "CJJJCWGY03748-Coffee-60cm",
-      "price": "68.99"
+      "price": "68.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Coffee.png?v=1791017986"
      },
      {
       "title": "Coffee / 70 cm",
       "sku": "CJJJCWGY03748-Coffee-70cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Coffee.png?v=1791017986"
      },
      {
       "title": "Coffee / 80 cm",
       "sku": "CJJJCWGY03748-Coffee-80cm",
-      "price": "105.99"
+      "price": "105.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Coffee.png?v=1791017986"
      },
      {
       "title": "Coffee / 100 cm",
       "sku": "CJJJCWGY03748-Coffee-100cm",
-      "price": "147.99"
+      "price": "147.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Coffee.png?v=1791017986"
      },
      {
       "title": "Coffee / 120 cm",
       "sku": "CJJJCWGY03748-Coffee-120cm",
-      "price": "192.99"
+      "price": "192.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Coffee.png?v=1791017986"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot_addb5010-12b0-4c09-859d-d8d1e6c3607c.png?v=1791017986"
   },
   {
    "id": "gid://shopify/Product/10193634787584",
@@ -2893,490 +3422,588 @@
      {
       "title": "Pink / 40 cm",
       "sku": "CJJJCWMY00276-Pink-40cm",
-      "price": "38.99"
+      "price": "38.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.png?v=1791017990"
      },
      {
       "title": "Pink / 50 cm",
       "sku": "CJJJCWMY00276-Pink-50cm",
-      "price": "43.99"
+      "price": "43.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.png?v=1791017990"
      },
      {
       "title": "Pink / 60 cm",
       "sku": "CJJJCWMY00276-Pink-60cm",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.png?v=1791017990"
      },
      {
       "title": "Pink / 70 cm",
       "sku": "CJJJCWMY00276-Pink-70cm",
-      "price": "81.99"
+      "price": "81.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.png?v=1791017990"
      },
      {
       "title": "Pink / 80 cm",
       "sku": "CJJJCWMY00276-Pink-80cm",
-      "price": "83.99"
+      "price": "83.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.png?v=1791017990"
      },
      {
       "title": "Pink / 100 cm",
       "sku": "CJJJCWMY00276-Pink-100cm",
-      "price": "118.99"
+      "price": "118.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.png?v=1791017990"
      },
      {
       "title": "Pink / 110 cm",
       "sku": "CJJJCWMY00276-Pink-110cm",
-      "price": "130.99"
+      "price": "130.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.png?v=1791017990"
      },
      {
       "title": "Pink / 120 cm",
       "sku": "CJJJCWMY00276-Pink-120cm",
-      "price": "158.99"
+      "price": "158.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.png?v=1791017990"
      },
      {
       "title": "Green / 40 cm",
       "sku": "CJJJCWMY00276-Green-40cm",
-      "price": "38.99"
+      "price": "38.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green.png?v=1791017991"
      },
      {
       "title": "Green / 50 cm",
       "sku": "CJJJCWMY00276-Green-50cm",
-      "price": "43.99"
+      "price": "43.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green.png?v=1791017991"
      },
      {
       "title": "Green / 60 cm",
       "sku": "CJJJCWMY00276-Green-60cm",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green.png?v=1791017991"
      },
      {
       "title": "Green / 70 cm",
       "sku": "CJJJCWMY00276-Green-70cm",
-      "price": "81.99"
+      "price": "81.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green.png?v=1791017991"
      },
      {
       "title": "Green / 80 cm",
       "sku": "CJJJCWMY00276-Green-80cm",
-      "price": "83.99"
+      "price": "83.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green.png?v=1791017991"
      },
      {
       "title": "Green / 100 cm",
       "sku": "CJJJCWMY00276-Green-100cm",
-      "price": "118.99"
+      "price": "118.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green.png?v=1791017991"
      },
      {
       "title": "Green / 110 cm",
       "sku": "CJJJCWMY00276-Green-110cm",
-      "price": "130.99"
+      "price": "130.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green.png?v=1791017991"
      },
      {
       "title": "Green / 120 cm",
       "sku": "CJJJCWMY00276-Green-120cm",
-      "price": "158.99"
+      "price": "158.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Green.png?v=1791017991"
      },
      {
       "title": "Sage Green / 60 cm",
       "sku": "CJJJCWMY00276-A green-60cm",
-      "price": "54.99"
+      "price": "54.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_A_green.png?v=1791017990"
      },
      {
       "title": "Sage Green / 70 cm",
       "sku": "CJJJCWMY00276-A green-70cm",
-      "price": "74.99"
+      "price": "74.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_A_green.png?v=1791017990"
      },
      {
       "title": "Red / 40 cm",
       "sku": "CJJJCWMY00276-Red-40cm",
-      "price": "38.99"
+      "price": "38.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red.png?v=1791017990"
      },
      {
       "title": "Red / 50 cm",
       "sku": "CJJJCWMY00276-Red-50cm",
-      "price": "43.99"
+      "price": "43.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red.png?v=1791017990"
      },
      {
       "title": "Red / 60 cm",
       "sku": "CJJJCWMY00276-Red-60cm",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red.png?v=1791017990"
      },
      {
       "title": "Red / 70 cm",
       "sku": "CJJJCWMY00276-Red-70cm",
-      "price": "81.99"
+      "price": "81.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red.png?v=1791017990"
      },
      {
       "title": "Red / 80 cm",
       "sku": "CJJJCWMY00276-Red-80cm",
-      "price": "83.99"
+      "price": "83.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red.png?v=1791017990"
      },
      {
       "title": "Red / 100 cm",
       "sku": "CJJJCWMY00276-Red-100cm",
-      "price": "118.99"
+      "price": "118.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red.png?v=1791017990"
      },
      {
       "title": "Red / 110 cm",
       "sku": "CJJJCWMY00276-Red-110cm",
-      "price": "130.99"
+      "price": "130.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red.png?v=1791017990"
      },
      {
       "title": "Red / 120 cm",
       "sku": "CJJJCWMY00276-Red-120cm",
-      "price": "158.99"
+      "price": "158.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Red.png?v=1791017990"
      },
      {
       "title": "Light Coffee / 40 cm",
       "sku": "CJJJCWMY00276-Light coffee-40cm",
-      "price": "38.99"
+      "price": "38.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_coffee.png?v=1791017991"
      },
      {
       "title": "Light Coffee / 50 cm",
       "sku": "CJJJCWMY00276-Light coffee-50cm",
-      "price": "43.99"
+      "price": "43.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_coffee.png?v=1791017991"
      },
      {
       "title": "Light Coffee / 60 cm",
       "sku": "CJJJCWMY00276-Light coffee-60cm",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_coffee.png?v=1791017991"
      },
      {
       "title": "Light Coffee / 70 cm",
       "sku": "CJJJCWMY00276-Light coffee-70cm",
-      "price": "81.99"
+      "price": "81.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_coffee.png?v=1791017991"
      },
      {
       "title": "Light Coffee / 80 cm",
       "sku": "CJJJCWMY00276-Light coffee-80cm",
-      "price": "83.99"
+      "price": "83.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_coffee.png?v=1791017991"
      },
      {
       "title": "Light Coffee / 100 cm",
       "sku": "CJJJCWMY00276-Light coffee-100cm",
-      "price": "118.99"
+      "price": "118.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_coffee.png?v=1791017991"
      },
      {
       "title": "Light Coffee / 110 cm",
       "sku": "CJJJCWMY00276-Light coffee-110cm",
-      "price": "130.99"
+      "price": "130.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_coffee.png?v=1791017991"
      },
      {
       "title": "Light Coffee / 120 cm",
       "sku": "CJJJCWMY00276-Light coffee-120cm",
-      "price": "158.99"
+      "price": "158.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_coffee.png?v=1791017991"
      },
      {
       "title": "Apricot / 40 cm",
       "sku": "CJJJCWMY00276-Apricot-40cm",
-      "price": "38.99"
+      "price": "38.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot.png?v=1791017990"
      },
      {
       "title": "Apricot / 50 cm",
       "sku": "CJJJCWMY00276-Apricot-50cm",
-      "price": "43.99"
+      "price": "43.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot.png?v=1791017990"
      },
      {
       "title": "Apricot / 60 cm",
       "sku": "CJJJCWMY00276-Apricot-60cm",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot.png?v=1791017990"
      },
      {
       "title": "Apricot / 70 cm",
       "sku": "CJJJCWMY00276-Apricot-70cm",
-      "price": "81.99"
+      "price": "81.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot.png?v=1791017990"
      },
      {
       "title": "Apricot / 80 cm",
       "sku": "CJJJCWMY00276-Apricot-80cm",
-      "price": "83.99"
+      "price": "83.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot.png?v=1791017990"
      },
      {
       "title": "Apricot / 100 cm",
       "sku": "CJJJCWMY00276-Apricot-100cm",
-      "price": "118.99"
+      "price": "118.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot.png?v=1791017990"
      },
      {
       "title": "Apricot / 110 cm",
       "sku": "CJJJCWMY00276-Apricot-110cm",
-      "price": "130.99"
+      "price": "130.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot.png?v=1791017990"
      },
      {
       "title": "Apricot / 120 cm",
       "sku": "CJJJCWMY00276-Apricot-120cm",
-      "price": "158.99"
+      "price": "158.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Apricot.png?v=1791017990"
      },
      {
       "title": "Rice Pink / 50 cm",
       "sku": "CJJJCWMY00276-Rice pink-50cm",
-      "price": "41.99"
+      "price": "41.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rice_pink.png?v=1791017990"
      },
      {
       "title": "Rice Pink / 60 cm",
       "sku": "CJJJCWMY00276-Rice pink-60cm",
-      "price": "59.99"
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rice_pink.png?v=1791017990"
      },
      {
       "title": "Rice Pink / 70 cm",
       "sku": "CJJJCWMY00276-Rice pink-70cm",
-      "price": "80.99"
+      "price": "80.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rice_pink.png?v=1791017990"
      },
      {
       "title": "Rice Pink / 80 cm",
       "sku": "CJJJCWMY00276-Rice pink-80cm",
-      "price": "82.99"
+      "price": "82.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rice_pink.png?v=1791017990"
      },
      {
       "title": "Rice Pink / 100 cm",
       "sku": "CJJJCWMY00276-Rice pink-100cm",
-      "price": "117.99"
+      "price": "117.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rice_pink.png?v=1791017990"
      },
      {
       "title": "Beige Brown / 40 cm",
       "sku": "CJJJCWMY00276-Beige brown-40cm",
-      "price": "38.99"
+      "price": "38.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown.png?v=1791017990"
      },
      {
       "title": "Beige Brown / 50 cm",
       "sku": "CJJJCWMY00276-Beige brown-50cm",
-      "price": "43.99"
+      "price": "43.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown.png?v=1791017990"
      },
      {
       "title": "Beige Brown / 60 cm",
       "sku": "CJJJCWMY00276-Beige brown-60cm",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown.png?v=1791017990"
      },
      {
       "title": "Beige Brown / 70 cm",
       "sku": "CJJJCWMY00276-Beige brown-70cm",
-      "price": "81.99"
+      "price": "81.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown.png?v=1791017990"
      },
      {
       "title": "Beige Brown / 80 cm",
       "sku": "CJJJCWMY00276-Beige brown-80cm",
-      "price": "83.99"
+      "price": "83.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown.png?v=1791017990"
      },
      {
       "title": "Beige Brown / 100 cm",
       "sku": "CJJJCWMY00276-Beige brown-100cm",
-      "price": "118.99"
+      "price": "118.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown.png?v=1791017990"
      },
      {
       "title": "Beige Brown / 110 cm",
       "sku": "CJJJCWMY00276-Beige brown-110cm",
-      "price": "130.99"
+      "price": "130.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown.png?v=1791017990"
      },
      {
       "title": "Beige Brown / 120 cm",
       "sku": "CJJJCWMY00276-Beige brown-120cm",
-      "price": "158.99"
+      "price": "158.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Beige_brown.png?v=1791017990"
      },
      {
       "title": "Rubber Pink / 40 cm",
       "sku": "CJJJCWMY00276-Rubber color-40cm",
-      "price": "38.99"
+      "price": "38.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber_color.png?v=1791017990"
      },
      {
       "title": "Rubber Pink / 50 cm",
       "sku": "CJJJCWMY00276-Rubber color-50cm",
-      "price": "43.99"
+      "price": "43.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber_color.png?v=1791017990"
      },
      {
       "title": "Rubber Pink / 60 cm",
       "sku": "CJJJCWMY00276-Rubber color-60cm",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber_color.png?v=1791017990"
      },
      {
       "title": "Rubber Pink / 70 cm",
       "sku": "CJJJCWMY00276-Rubber color-70cm",
-      "price": "81.99"
+      "price": "81.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber_color.png?v=1791017990"
      },
      {
       "title": "Rubber Pink / 80 cm",
       "sku": "CJJJCWMY00276-Rubber color-80cm",
-      "price": "83.99"
+      "price": "83.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber_color.png?v=1791017990"
      },
      {
       "title": "Rubber Pink / 100 cm",
       "sku": "CJJJCWMY00276-Rubber color-100cm",
-      "price": "118.99"
+      "price": "118.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber_color.png?v=1791017990"
      },
      {
       "title": "Rubber Pink / 110 cm",
       "sku": "CJJJCWMY00276-Rubber color-110cm",
-      "price": "130.99"
+      "price": "130.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Rubber_color.png?v=1791017990"
      },
      {
       "title": "Gradient Coffee / 100 cm",
       "sku": "CJJJCWMY00276-Gradient coffee-100cm",
-      "price": "101.99"
+      "price": "101.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Gradient_coffee.png?v=1791017990"
      },
      {
       "title": "Dark Brown / 70 cm",
       "sku": "CJJJCWMY00276-DarkBrown-70cm",
-      "price": "74.99"
+      "price": "74.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_DarkBrown.png?v=1791017991"
      },
      {
       "title": "Dark Brown / 80 cm",
       "sku": "CJJJCWMY00276-DarkBrown-80cm",
-      "price": "73.99"
+      "price": "73.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_DarkBrown.png?v=1791017991"
      },
      {
       "title": "White / 40 cm",
       "sku": "CJJJCWMY00276-White-40cm",
-      "price": "38.99"
+      "price": "38.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White.png?v=1791017990"
      },
      {
       "title": "White / 50 cm",
       "sku": "CJJJCWMY00276-White-50cm",
-      "price": "48.99"
+      "price": "48.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White.png?v=1791017990"
      },
      {
       "title": "White / 60 cm",
       "sku": "CJJJCWMY00276-White-60cm",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White.png?v=1791017990"
      },
      {
       "title": "White / 70 cm",
       "sku": "CJJJCWMY00276-White-70cm",
-      "price": "81.99"
+      "price": "81.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White.png?v=1791017990"
      },
      {
       "title": "White / 80 cm",
       "sku": "CJJJCWMY00276-White-80cm",
-      "price": "83.99"
+      "price": "83.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White.png?v=1791017990"
      },
      {
       "title": "White / 100 cm",
       "sku": "CJJJCWMY00276-White-100cm",
-      "price": "118.99"
+      "price": "118.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White.png?v=1791017990"
      },
      {
       "title": "White / 110 cm",
       "sku": "CJJJCWMY00276-White-110cm",
-      "price": "130.99"
+      "price": "130.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White.png?v=1791017990"
      },
      {
       "title": "White / 120 cm",
       "sku": "CJJJCWMY00276-White-120cm",
-      "price": "158.99"
+      "price": "158.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_White.png?v=1791017990"
      },
      {
       "title": "Grey / 40 cm",
       "sku": "CJJJCWMY00276-Grey-40cm",
-      "price": "38.99"
+      "price": "38.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey.png?v=1791017990"
      },
      {
       "title": "Grey / 50 cm",
       "sku": "CJJJCWMY00276-Grey-50cm",
-      "price": "43.99"
+      "price": "43.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey.png?v=1791017990"
      },
      {
       "title": "Grey / 60 cm",
       "sku": "CJJJCWMY00276-Grey-60cm",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey.png?v=1791017990"
      },
      {
       "title": "Grey / 70 cm",
       "sku": "CJJJCWMY00276-Grey-70cm",
-      "price": "81.99"
+      "price": "81.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey.png?v=1791017990"
      },
      {
       "title": "Grey / 80 cm",
       "sku": "CJJJCWMY00276-Grey-80cm",
-      "price": "83.99"
+      "price": "83.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey.png?v=1791017990"
      },
      {
       "title": "Grey / 100 cm",
       "sku": "CJJJCWMY00276-Grey-100cm",
-      "price": "118.99"
+      "price": "118.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey.png?v=1791017990"
      },
      {
       "title": "Grey / 110 cm",
       "sku": "CJJJCWMY00276-Grey-110cm",
-      "price": "130.99"
+      "price": "130.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey.png?v=1791017990"
      },
      {
       "title": "Grey / 120 cm",
       "sku": "CJJJCWMY00276-Grey-120cm",
-      "price": "147.99"
+      "price": "147.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey.png?v=1791017990"
      },
      {
       "title": "Light Grey / 40 cm",
       "sku": "CJJJCWMY00276-Light grey-40cm",
-      "price": "34.99"
+      "price": "34.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_grey.png?v=1791017990"
      },
      {
       "title": "Light Grey / 50 cm",
       "sku": "CJJJCWMY00276-Light grey-50cm",
-      "price": "42.99"
+      "price": "42.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_grey.png?v=1791017990"
      },
      {
       "title": "Light Grey / 60 cm",
       "sku": "CJJJCWMY00276-Light grey-60cm",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_grey.png?v=1791017990"
      },
      {
       "title": "Light Grey / 70 cm",
       "sku": "CJJJCWMY00276-Light grey-70cm",
-      "price": "84.99"
+      "price": "84.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_grey.png?v=1791017990"
      },
      {
       "title": "Light Grey / 80 cm",
       "sku": "CJJJCWMY00276-Light grey-80cm",
-      "price": "83.99"
+      "price": "83.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_grey.png?v=1791017990"
      },
      {
       "title": "Light Grey / 100 cm",
       "sku": "CJJJCWMY00276-Light grey-100cm",
-      "price": "119.99"
+      "price": "119.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_grey.png?v=1791017990"
      },
      {
       "title": "Light Grey / 110 cm",
       "sku": "CJJJCWMY00276-Light grey-110cm",
-      "price": "131.99"
+      "price": "131.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_grey.png?v=1791017990"
      },
      {
       "title": "Light Grey / 120 cm",
       "sku": "CJJJCWMY00276-Light grey-120cm",
-      "price": "158.99"
+      "price": "158.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Light_grey.png?v=1791017990"
      },
      {
       "title": "Bright Pink / 40 cm",
       "sku": "CJJJCWMY00276-Bright powder-40cm",
-      "price": "38.99"
+      "price": "38.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bright_powder.png?v=1791017990"
      },
      {
       "title": "Bright Pink / 50 cm",
       "sku": "CJJJCWMY00276-Bright powder-50cm",
-      "price": "43.99"
+      "price": "43.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bright_powder.png?v=1791017990"
      },
      {
       "title": "Bright Pink / 60 cm",
       "sku": "CJJJCWMY00276-Bright powder-60cm",
-      "price": "60.99"
+      "price": "60.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bright_powder.png?v=1791017990"
      },
      {
       "title": "Bright Pink / 70 cm",
       "sku": "CJJJCWMY00276-Bright powder-70cm",
-      "price": "81.99"
+      "price": "81.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bright_powder.png?v=1791017990"
      },
      {
       "title": "Bright Pink / 80 cm",
       "sku": "CJJJCWMY00276-Bright powder-80cm",
-      "price": "83.99"
+      "price": "83.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bright_powder.png?v=1791017990"
      },
      {
       "title": "Bright Pink / 100 cm",
       "sku": "CJJJCWMY00276-Bright powder-100cm",
-      "price": "118.99"
+      "price": "118.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bright_powder.png?v=1791017990"
      },
      {
       "title": "Bright Pink / 110 cm",
       "sku": "CJJJCWMY00276-Bright powder-110cm",
-      "price": "130.99"
+      "price": "130.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bright_powder.png?v=1791017990"
      },
      {
       "title": "Bright Pink / 120 cm",
       "sku": "CJJJCWMY00276-Bright powder-120cm",
-      "price": "158.99"
+      "price": "158.99",
+      "image": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Bright_powder.png?v=1791017990"
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Pink.png?v=1791017990"
   },
   {
    "id": "gid://shopify/Product/10264537694464",
@@ -3394,25 +4021,30 @@
      {
       "title": "S",
       "sku": "BUNDLE-ELK-BOW-S",
-      "price": "22.99"
+      "price": "22.99",
+      "image": null
      },
      {
       "title": "M",
       "sku": "BUNDLE-ELK-BOW-M",
-      "price": "21.99"
+      "price": "21.99",
+      "image": null
      },
      {
       "title": "L",
       "sku": "BUNDLE-ELK-BOW-L",
-      "price": "21.99"
+      "price": "21.99",
+      "image": null
      },
      {
       "title": "XL",
       "sku": "BUNDLE-ELK-BOW-XL",
-      "price": "22.99"
+      "price": "22.99",
+      "image": null
      }
     ]
-   }
+   },
+   "featuredImage": "https://cdn.shopify.com/s/files/1/0861/8305/1520/files/STL_01_Grey_6640d407-3135-48b5-a73e-65899fe81cc2.jpg?v=1791017952"
   }
  ]
 }
